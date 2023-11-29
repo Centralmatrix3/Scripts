@@ -1,0 +1,17 @@
+# 代理软件
+# Quantumult X
+DOMAIN-SUFFIX,quantumult.app
+
+# Surge
+DOMAIN,surge.mitsea.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,surge-activation.com
+
+# Stash
+DOMAIN-SUFFIX,stash.ws
+DOMAIN-SUFFIX,stash.wiki
+DOMAIN-SUFFIX,stash-activation.com
+
+# Loon
+
+# Shadowrocket
