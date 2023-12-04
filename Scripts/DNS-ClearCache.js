@@ -1,4 +1,4 @@
-// @author = 佚名
+// @author = crossutility
 
 const message = {
     action: "dns_clear_cache"
