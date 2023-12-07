@@ -1,9 +1,0 @@
-#!name = 追书神器
-#!desc = 追书神器去广告
-#!author = fmz200
-
-[Map Local]
-^https?:\/\/adx-cn\.anythinktech\.com\/bid data="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/reject-200.txt"
-
-[MITM]
-hostname = %APPEND% adx-cn.anythinktech.com
