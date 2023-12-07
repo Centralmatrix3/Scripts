@@ -1,6 +1,6 @@
 #!name = AcFun
 #!desc = AcFun去广告
-#!author = ddgksf2013
+#!author = fmz200
 
 [URL Rewrite]
 ^https?:\/\/api-new\.app\.acfun\.cn\/rest\/app\/flash\/screen\/ - reject
