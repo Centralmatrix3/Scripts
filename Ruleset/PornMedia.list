@@ -1,0 +1,49 @@
+# 规则名称:PornMedia
+# 更新日期:202312082051
+
+# 网站地址:hanime1.me
+# 规则统计:2
+DOMAIN-SUFFIX,hanime1.me
+DOMAIN-SUFFIX,hembed.com
+
+# 网站地址:pornhub.com
+# 规则统计:4
+DOMAIN-SUFFIX,phncdn.com
+DOMAIN-SUFFIX,phprcdn.com
+DOMAIN-SUFFIX,pornhub.com
+DOMAIN-SUFFIX,pornhubpremium.com
+
+# 网站地址:stripchat.com
+# 规则统计:3
+DOMAIN-SUFFIX,doppiocdn.com
+DOMAIN-SUFFIX,strpst.com
+DOMAIN-SUFFIX,stripchat.com
+
+# 网站地址:missav.com
+# 规则统计:2
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,avdocker.com
+
+# 网站地址:netflav5.com
+# 规则统计:5
+DOMAIN-SUFFIX,netflav5.com
+# 播放器(MM)
+DOMAIN-SUFFIX,lions-vidcdn.com
+DOMAIN-SUFFIX,sw-cdnstream.com
+# 播放器(EM)
+DOMAIN-SUFFIX,subtitlecloud.one
+# 播放器(DO)
+DOMAIN-SUFFIX,video-delivery.net
+
+# 网站地址:jable.tv
+# 规则统计:2
+DOMAIN-SUFFIX,jable.tv
+DOMAIN-SUFFIX,mushroomtrack.com
+
+# 网站地址: rouman5.com
+# 规则统计:5
+DOMAIN-SUFFIX,rouman5.com
+DOMAIN-SUFFIX,rmcdn1.xyz
+DOMAIN-SUFFIX,rmcdn2.xyz
+DOMAIN-SUFFIX,rmcdn3.xyz
+DOMAIN-SUFFIX,rmcdn4.xyz
