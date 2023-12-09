@@ -1,7 +1,8 @@
-# Telegram
+HOST,api.mixpanel.com,Telegram
 HOST-SUFFIX,comments.app,Telegram
 HOST-SUFFIX,contest.com,Telegram
 HOST-SUFFIX,graph.org,Telegram
+HOST-SUFFIX,imem.app,Telegram
 HOST-SUFFIX,mbrx.app,Telegram
 HOST-SUFFIX,quiz.directory,Telegram
 HOST-SUFFIX,stel.com,Telegram
@@ -9,16 +10,18 @@ HOST-SUFFIX,t.me,Telegram
 HOST-SUFFIX,tdesktop.com,Telegram
 HOST-SUFFIX,telega.one,Telegram
 HOST-SUFFIX,telegra.ph,Telegram
-HOST-SUFFIX,telegram-cdn.org,Telegram
 HOST-SUFFIX,telegram.dog,Telegram
 HOST-SUFFIX,telegram.me,Telegram
 HOST-SUFFIX,telegram.org,Telegram
 HOST-SUFFIX,telegram.space,Telegram
+HOST-SUFFIX,telegram-cdn.org,Telegram
 HOST-SUFFIX,telegramdownload.com,Telegram
 HOST-SUFFIX,telesco.pe,Telegram
 HOST-SUFFIX,tg.dev,Telegram
 HOST-SUFFIX,tx.me,Telegram
 HOST-SUFFIX,usercontent.dev,Telegram
+HOST-KEYWORD,nicegram,Telegram
+HOST-KEYWORD,swiftgram,Telegram
 HOST-KEYWORD,telegram,Telegram
 IP-CIDR,109.239.140.0/24,Telegram
 IP-CIDR,149.154.160.0/20,Telegram
@@ -31,10 +34,3 @@ IP6-CIDR,2001:67c:4e8::/48,Telegram
 IP6-CIDR,2001:b28:f23c::/47,Telegram
 IP6-CIDR,2001:b28:f23f::/48,Telegram
 IP6-CIDR,2a0a:f280::/32,Telegram
-# Nicegram
-HOST-KEYWORD,nicegram,Telegram
-# Swiftgram
-HOST-KEYWORD,swiftgram,Telegram
-# IMe
-HOST,api.mixpanel.com,Telegram
-HOST-SUFFIX,imem.app,Telegram
