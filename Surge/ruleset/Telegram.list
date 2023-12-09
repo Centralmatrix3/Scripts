@@ -1,3 +1,4 @@
+# Telegram
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
@@ -18,7 +19,7 @@ DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,usercontent.dev
-DOMAIN-KEYWORD,nicegram
+DOMAIN-KEYWORD,telegram
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,5.28.195.163/32,no-resolve
@@ -30,3 +31,10 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
+# Nicegram
+DOMAIN-KEYWORD,nicegram
+# Swiftgram
+DOMAIN-KEYWORD,swiftgram
+# IMe
+DOMAIN,api.mixpanel.com
+DOMAIN-SUFFIX,imem.app
