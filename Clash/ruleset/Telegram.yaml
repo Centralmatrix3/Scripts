@@ -1,7 +1,9 @@
 payload:
+  - DOMAIN,api.mixpanel.com
   - DOMAIN-SUFFIX,comments.app
   - DOMAIN-SUFFIX,contest.com
   - DOMAIN-SUFFIX,graph.org
+  - DOMAIN-SUFFIX,imem.app
   - DOMAIN-SUFFIX,mbrx.app
   - DOMAIN-SUFFIX,quiz.directory
   - DOMAIN-SUFFIX,stel.com
@@ -9,17 +11,19 @@ payload:
   - DOMAIN-SUFFIX,tdesktop.com
   - DOMAIN-SUFFIX,telega.one
   - DOMAIN-SUFFIX,telegra.ph
-  - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,telegram.dog
   - DOMAIN-SUFFIX,telegram.me
   - DOMAIN-SUFFIX,telegram.org
   - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,telegram-cdn.org
   - DOMAIN-SUFFIX,telegramdownload.com
   - DOMAIN-SUFFIX,telesco.pe
   - DOMAIN-SUFFIX,tg.dev
   - DOMAIN-SUFFIX,tx.me
   - DOMAIN-SUFFIX,usercontent.dev
   - DOMAIN-KEYWORD,nicegram
+  - DOMAIN-KEYWORD,swiftgram
+  - DOMAIN-KEYWORD,telegram
   - IP-CIDR,109.239.140.0/24,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
   - IP-CIDR,5.28.195.163/32,no-resolve

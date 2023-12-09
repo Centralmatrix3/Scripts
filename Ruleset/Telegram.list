@@ -1,0 +1,36 @@
+# 规则名称:Telegram
+# 规则统计:22
+
+# 规则名称:Telegram
+# 规则统计:18
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-KEYWORD,telegram
+IP-CIDR,91.108.0.0/16,no-resolve
+IP-CIDR,109.239.140.0/24,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-ASN,44907,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,62041,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,211157,no-resolve
+
+# 规则名称:Nicegram
+# 规则统计:1
+DOMAIN-KEYWORD,nicegram
+
+# 规则名称:Swiftgram
+# 规则统计:1
+DOMAIN-KEYWORD,swiftgram
+
+# 规则名称:IMe
+# 规则统计:2
+DOMAIN,api.mixpanel.com
+DOMAIN-SUFFIX,imem.app
