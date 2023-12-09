@@ -35,6 +35,11 @@ IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
+IP-ASN,44907,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,62041,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,211157,no-resolve
 
 # 规则名称:Nicegram
 # 规则统计:1
