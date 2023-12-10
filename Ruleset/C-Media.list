@@ -1,6 +1,6 @@
 # 规则名称:国内媒体
-# 规则统计:125
-# 更新日期:202311191408
+# 规则统计:133
+# 更新日期:202312102324
 
 # 规则名称:AcFun
 # 规则统计:4
@@ -46,6 +46,14 @@ DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
+
+# 规则名称:斗鱼直播
+# 规则统计:5
+DOMAIN-SUFFIX,douyu.com
+DOMAIN-SUFFIX,douyu.tv
+DOMAIN-SUFFIX,douyucdn.cn
+DOMAIN-SUFFIX,douyucdn2.cn
+DOMAIN-SUFFIX,douyutv.com
 
 # 规则名称:爱奇艺
 # 规则统计:22
@@ -165,8 +173,14 @@ IP-CIDR,223.252.199.66/31,no-resolve
 IP-CIDR,223.252.199.66/32,no-resolve
 IP-CIDR,223.252.199.67/32,no-resolve
 
+# 规则名称:喜马拉雅
+# 规则统计:2
+DOMAIN-SUFFIX,ximalaya.com
+DOMAIN-SUFFIX,xmcdn.com
+
 # 规则名称:西瓜视频
-# 规则统计:3
+# 规则统计:4
+DOMAIN-SUFFIX,bdxiguaimg.com
 DOMAIN-SUFFIX,bdxiguavod.com
 DOMAIN-SUFFIX,bdxiguastatic.com
 DOMAIN-SUFFIX,ixigua.com
