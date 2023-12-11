@@ -1,6 +1,6 @@
 # 规则名称:国内媒体
-# 规则统计:133
-# 更新日期:202312102324
+# 规则统计:135
+# 更新日期:202312111050
 
 # 规则名称:AcFun
 # 规则统计:4
@@ -84,6 +84,11 @@ IP-CIDR,223.119.62.225/28,no-resolve
 # 规则统计:2
 DOMAIN-SUFFIX,kowo.cn
 DOMAIN-SUFFIX,kugou.com
+
+# 规则名称:快手
+# 规则统计:2
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,yximgs.com
 
 # 规则名称:乐视视频
 # 规则统计:2
