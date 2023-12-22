@@ -1,0 +1,19 @@
+# 规则名称:代理工具
+# 规则统计:7
+# 更新日期:202312121311
+
+# 规则名称:QuantumultX
+# 规则统计:1
+DOMAIN-SUFFIX,quantumult.app
+
+# 规则名称:Surge
+# 规则统计:3
+DOMAIN,surge.mitsea.com
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,surge-activation.com
+
+# 规则名称:Stash
+# 规则统计:3
+DOMAIN-SUFFIX,stash.ws
+DOMAIN-SUFFIX,stash.wiki
+DOMAIN-SUFFIX,stash-activation.com
