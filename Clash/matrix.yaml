@@ -1,6 +1,7 @@
 # 配置名称: Stash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 23-12-08 23:55
+# 更新时间: 23-12-26 14:10
+# https://github.com/Centralmatrix3
 
 # 订阅信息
 subscribe-url: 订阅链接 # 🧸
@@ -247,7 +248,7 @@ rule-providers:
   广告拦截:
     behavior: domain
     interval: 86400
-    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Clash/ruleset/AdBlock.yaml
 
   国际媒体:
     behavior: classical
