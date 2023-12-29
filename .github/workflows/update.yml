@@ -1,0 +1,90 @@
+name: update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 3 * * *"
+  
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.0
+      with:
+        repository: Centralmatrix3/Scripts
+        path: Scripts-repo
+
+    - name: Clash/AdBlock.yaml
+      run: |
+        mkdir -p Scripts-repo/Clash/ruleset
+        curl -L -o Scripts-repo/Clash/ruleset/AdBlock.yaml "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+
+    - name: Clash/AdBlock.yaml
+      run: |
+        cd Scripts-repo/Clash/ruleset
+        for file in AdBlock.yaml; do
+          if [ -f "$file" ]; then
+          # 删除第一至第六行
+          sed -i '1d;2d;3d;4d;5d;6d' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: QuantumultX/AdBlock.list
+      run: |
+        mkdir -p Scripts-repo/QuantumultX/ruleset
+        curl -L -o Scripts-repo/QuantumultX/ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-quanx.txt"
+
+    - name: QuantumultX/AdBlock.list
+      run: |
+        cd Scripts-repo/QuantumultX/ruleset
+        for file in AdBlock.list; do
+          if [ -f "$file" ]; then
+          # 删除第一至第四行
+          sed -i '1d;2d;3d;4d' "$file"
+
+          # 修改规则内大小写
+          sed -i -e 's/host,/HOST,/g' -e 's/host-/HOST-/g'  -e 's/suffix/SUFFIX/g' -e 's/-keyword/-KEYWORD/g' -e 's/,reject/,REJECT/g' -e 's/ip-cidr/IP-CIDR/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Surge/AdBlock.list
+      run: |
+        mkdir -p Scripts-repo/Surge/ruleset
+        curl -L -o Scripts-repo/Surge/ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+
+    - name: Surge/AdBlock.list
+      run: |
+        cd Scripts-repo/Surge/ruleset
+        for file in AdBlock.list; do
+          if [ -f "$file" ]; then
+          # 删除第一至第四行
+          sed -i '1d;2d;3d;4d' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: ADD RULESET
+      run: |
+        cd Scripts-repo
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "matrix"
+          git push origin master
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2
