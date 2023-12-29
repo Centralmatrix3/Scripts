@@ -1,7 +1,6 @@
 # 配置名称: Stash 配置
 # 配置作者: Centralmatrix3
 # 更新时间: 23-12-26 14:10
-# https://github.com/Centralmatrix3
 
 # 订阅信息
 subscribe-url: 订阅链接 # 🧸
@@ -88,10 +87,6 @@ proxy-groups:
       - 自动选择
       - 香港节点
       - 台湾节点
-      - 日本节点
-      - 韩国节点
-      - 狮城节点
-      - 美国节点
 
   - name: 国内媒体
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/StreamingCN.png
@@ -102,10 +97,6 @@ proxy-groups:
       - 自动选择
       - 香港节点
       - 台湾节点
-      - 日本节点
-      - 韩国节点
-      - 狮城节点
-      - 美国节点
 
   - name: 国际媒体
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/Streaming.png
@@ -160,7 +151,7 @@ proxy-groups:
     hidden: null
 
   - name: 香港节点
-    filter: "香港|港|HK|(?i)HongKong"
+    filter: "香港|港|🇭🇰|HK|(?i)Hong"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/HK.png
     interval: 120
     lazy: true
@@ -171,7 +162,7 @@ proxy-groups:
     hidden: null
 
   - name: 台湾节点
-    filter: "台湾|台|TW|(?i)Taiwan"
+    filter: "台湾|台|🇹🇼|TW|(?i)Taiwan"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/TW.png
     interval: 120
     lazy: true
@@ -182,7 +173,7 @@ proxy-groups:
     hidden: null
 
   - name: 日本节点
-    filter: "日本|日|JP|(?i)Japan"
+    filter: "日本|日|🇯🇵|JP|(?i)Japan"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/JP.png
     interval: 120
     lazy: true
@@ -193,7 +184,7 @@ proxy-groups:
     hidden: null
 
   - name: 韩国节点
-    filter: "韩国|韩|KR|(?i)SouthKorea"
+    filter: "韩国|韩|🇰🇷|KR|(?i)Korea"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
     interval: 120
     lazy: true
@@ -204,7 +195,7 @@ proxy-groups:
     hidden: null
 
   - name: 狮城节点
-    filter: "新加坡|新|SG|(?i)Singapore"
+    filter: "新加坡|新|🇸🇬|SG|(?i)Singapore"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/SG.png
     interval: 120
     lazy: true
@@ -215,7 +206,7 @@ proxy-groups:
     hidden: null
 
   - name: 美国节点
-    filter: "美国|美|US|(?i)UnitedStates"
+    filter: "美国|美|🇺🇸|US|(?i)United States"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
     interval: 120
     lazy: true
