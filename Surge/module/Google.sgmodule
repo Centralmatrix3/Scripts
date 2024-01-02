@@ -1,0 +1,9 @@
+#!name = Google
+#!desc = Google重定向
+#!author = DivineEngine
+
+[URL Rewrite]
+^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+[MITM]
+hostname = %APPEND% www.google.cn
