@@ -1,6 +1,6 @@
 # 规则名称:国际媒体
-# 规则统计:423
-# 更新时间:202311192150
+# 规则统计:428
+# 更新时间:202401051932
 
 # 规则名称:ABC
 # 规则统计:3
@@ -125,6 +125,11 @@ DOMAIN-SUFFIX,cnn.it
 DOMAIN-SUFFIX,cnnarabic.com
 DOMAIN-SUFFIX,cnnlabs.com
 DOMAIN-SUFFIX,cnnmoney.ch
+
+# 规则名称:Copilot
+# 规则统计:2
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,copilot.microsoft.com
 
 # 规则名称:DAZN
 # 规则统计:11
@@ -452,9 +457,11 @@ DOMAIN-SUFFIX,olevodtv.com
 DOMAIN-KEYWORD,olevod
 
 # 规则名称:OpenAI
-# 规则统计:15
+# 规则统计:18
+DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
@@ -467,6 +474,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openai
 
 # 规则名称:Overcast
