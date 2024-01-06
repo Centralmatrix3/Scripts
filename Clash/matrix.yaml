@@ -1,6 +1,6 @@
 # 配置名称: Stash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 23-12-29 15:30
+# 更新时间: 24-01-07 01:10
 
 # 订阅信息
 subscribe-url: 订阅链接 # 🧸
@@ -206,7 +206,7 @@ proxy-groups:
     hidden: null
 
   - name: 美国节点
-    filter: "美国|美|🇺🇸|US|(?i)United States"
+    filter: "美国|美|🇺🇸|US|(?i)States"
     icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/US.png
     interval: 120
     lazy: true
@@ -216,7 +216,7 @@ proxy-groups:
     include-all: true
     hidden: null
 
-# 分流规则
+# 本地规则
 rules:
   - RULE-SET, 规则修正, DIRECT
   - RULE-SET, 广告拦截, REJECT
