@@ -1,0 +1,103 @@
+name: update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,12 * * *"
+  
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.0
+      with:
+        repository: Centralmatrix3/Scripts
+        path: Scripts-repo
+
+    - name: Clash/AdBlock.yaml
+      run: |
+        mkdir -p Scripts-repo/Clash/ruleset
+        curl -L -o Scripts-repo/Clash/ruleset/AdBlock.yaml "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+
+    - name: Clash/AdBlock.yaml
+      run: |
+        cd Scripts-repo/Clash/ruleset
+        for file in AdBlock.yaml; do
+          if [ -f "$file" ]; then
+          # 删除第二行/第三行/第六行
+          sed -i '2d;3d;6d' "$file"
+          # 修改规则名称  
+          sed -i 's/^\#TITLE=anti-AD/# 规则名称:AdBlock/g' "$file"
+          # 修改规则统计
+          sed -i 's/^\#TOTAL_LINES=/# 规则统计:/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: QuantumultX/AdBlock.list
+      run: |
+        mkdir -p Scripts-repo/QuantumultX/ruleset
+        curl -L -o Scripts-repo/QuantumultX/ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-quanx.txt"
+
+    - name: QuantumultX/AdBlock.list
+      run: |
+        cd Scripts-repo/QuantumultX/ruleset
+        for file in AdBlock.list; do
+          if [ -f "$file" ]; then
+          # 删除第二行/第三行
+          sed -i '2d;3d' "$file"
+          # 修改规则名称
+          sed -i 's/^\#TITLE=anti-AD/# 规则名称:AdBlock/g' "$file"
+          # 修改规则统计
+          sed -i 's/^\#TOTAL_LINES=/# 规则统计:/g' "$file"
+          # 第三行加空行
+          sed -i '2a\\' "$file"
+          # 修改大小写
+          sed -i -e 's/host-suffix,/HOST-SUFFIX,/g' -e 's/,reject/,REJECT/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Surge/AdBlock.list
+      run: |
+        mkdir -p Scripts-repo/Surge/ruleset
+        curl -L -o Scripts-repo/Surge/ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+
+    - name: Surge/AdBlock.list
+      run: |
+        cd Scripts-repo/Surge/ruleset
+        for file in AdBlock.list; do
+          if [ -f "$file" ]; then
+          # 删除第二行/第三行
+          sed -i '2d;3d' "$file"
+          # 修改规则名称
+          sed -i 's/^\#TITLE=anti-AD/# 规则名称:AdBlock/g' "$file"
+          # 修改规则统计
+          sed -i 's/^\#TOTAL_LINES=/# 规则统计:/g' "$file"
+          # 第三行加空行
+          sed -i '2a\\' "$file"
+            echo "$file not found."
+          fi
+        done
+
+    - name: ADD RULESET
+      run: |
+        cd Scripts-repo
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update"
+          git push origin master
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2

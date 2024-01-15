@@ -1,0 +1,10 @@
+name: Google
+desc: Google重定向
+author: DivineEngine
+
+http:
+  url-rewrite:
+    - ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
+
+  mitm:
+    - "www.google.cn"
