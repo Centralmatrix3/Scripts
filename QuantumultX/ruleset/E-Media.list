@@ -1,0 +1,14 @@
+# 规则名称:E-Media 港台番剧
+# 规则统计:11
+
+HOST,api.biliapi.com,E-Media
+HOST,api.biliapi.net,E-Media
+HOST,api.bilibili.com,E-Media
+HOST,app.biliapi.com,E-Media
+HOST,app.biliapi.net,E-Media
+HOST,app.bilibili.com,E-Media
+HOST,grpc.biliapi.net,E-Media
+HOST,m.bilibili.com,E-Media
+HOST,upos-hz-mirrorakam.akamaized.net,E-Media
+HOST,www.bilibili.com,E-Media
+HOST-KEYWORD,cn-hk-eq-bcache-,E-Media
