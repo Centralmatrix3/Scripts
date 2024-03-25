@@ -1,5 +1,5 @@
 # 规则名称:AdBlock
-# 规则统计:9203
+# 规则统计:9202
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -378,7 +378,6 @@ DOMAIN,track.tiara.kakao.com
 DOMAIN,tracking.intl.miui.com
 DOMAIN,tracklog.58.com
 DOMAIN,tunion-api.m.taobao.com
-DOMAIN,tysdk.95516.com
 DOMAIN,u1.img.mobile.sina.cn
 DOMAIN,ulog.imap.baidu.com
 DOMAIN,ups.ksmobile.net
