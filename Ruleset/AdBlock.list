@@ -1,5 +1,5 @@
 # 规则名称:AdBlock
-# 规则统计:9207
+# 规则统计:9205
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -196,8 +196,6 @@ DOMAIN,ems.youku.com
 DOMAIN,encounter.bz.mgtv.com
 DOMAIN,etl.xlmc.sandai.net
 DOMAIN,exp.360in.com
-DOMAIN,finderks.video.qq.com
-DOMAIN,finderv1.video.qq.com
 DOMAIN,flash.sec.miui.com
 DOMAIN,floor.bz.mgtv.com
 DOMAIN,g.koowo.com
