@@ -1,0 +1,281 @@
+name: update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,12 * * *"
+  
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    env:
+      TZ: 'Asia/Shanghai'
+    steps: 
+    - name: Checkout target repository
+      uses: actions/checkout@v4.1.3
+      with:
+        repository: Centralmatrix3/Scripts
+        path: Scripts-repo
+
+    - name: Ruleset/Special/Global
+      run: |
+        mkdir -p Scripts-repo/Ruleset/Special
+        { 
+            curl -L "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/Hackl0us/SS-Rule-Snippet/main/Rulesets/Surge/Basic/foreign.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Proxy.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/sve1r/Rules-For-Quantumult-X/develop/Rules/Region/Global.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/GeQ1an/Rules/master/QuantumultX/Filter/Outside.list"
+        } | tee Scripts-repo/Ruleset/Special/Global-A.list Scripts-repo/Ruleset/Special/Global-B.list
+
+    - name: Ruleset\Special\Global
+      run: |
+       cd Scripts-repo/Ruleset/Special
+       for file in Global-A.list; do
+         if [ -f "$file" ]; then
+           # 修改规则的类型
+           sed -i 's/HOST,\|host,\|DOMAIN,\|HOST-SUFFIX,\|host-suffix,/DOMAIN-SUFFIX,/I; s/HOST-KEYWORD,\|host-keyword,/DOMAIN-KEYWORD,/I; s/IP-CIDR,\|ip-cidr,/IP-CIDR,/I; s/IP6-CIDR,\|ip6-cidr,/IP-CIDR6,/I; s/user-agent,/USER-AGENT,/I' "$file"
+           # 删除不要的内容
+           sed -i -e '/^\s*[#;]/d' -e '/PROCESS-NAME\|URL-REGEX\|USER-AGENT/d' "$file"
+           # 删除策略和字段
+           sed -i -e 's/,\(Outside\|OutSide\|force-remote-dns\)//g' "$file"
+           # 添加不解析字段
+           awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 分流规则的排序
+           sort -o "$file" "$file"
+           awk '
+             /^DOMAIN,/ { domain[++n] = $0; next }
+             /^DOMAIN-SUFFIX,/ { suffix[++m] = $0; next }
+             /^DOMAIN-KEYWORD,/ { keyword[++p] = $0; next }
+             /^IP-CIDR,/ { cidr[++q] = $0; next }
+             /^IP-CIDR6,/ { cidr6[++r] = $0; next }
+             END {
+                 for (i = 1; i <= n; i++) print domain[i]
+                 for (i = 1; i <= m; i++) print suffix[i]
+                 for (i = 1; i <= p; i++) print keyword[i]
+                 for (i = 1; i <= q; i++) print cidr[i]
+                 for (i = 1; i <= r; i++) print cidr6[i]
+             }
+           ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+           # 删除重复的规则
+           awk '!seen[$0]++' "$file" > temp && mv temp "$file"
+           # 添加规则的名称
+           awk 'NR==1 {print "# 规则名称:Global-A"} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 添加规则的统计
+           awk 'NR==2 {print "# 规则统计:00000"} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 添加与删除空行
+           sed -i '2a\\' "$file"
+           sed -i '3!{/^[[:space:]]*$/d}' "$file"
+           # 输出规则的数量
+           line_count=$(tail -n +4 "$file" | wc -l)
+           sed -i "2s/[0-9]\+/$line_count/" "$file"
+         else
+           echo "$file not found."
+         fi
+       done
+
+       for file in Global-B.list; do
+         if [ -f "$file" ]; then
+           # 修改规则的类型
+           sed -i 's/HOST,\|host,/DOMAIN,/I; s/HOST-SUFFIX,\|host-suffix,/DOMAIN-SUFFIX,/I; s/HOST-KEYWORD,\|host-keyword,/DOMAIN-KEYWORD,/I; s/IP-CIDR,\|ip-cidr,/IP-CIDR,/I; s/IP6-CIDR,\|ip6-cidr,/IP-CIDR6,/I; s/user-agent,/USER-AGENT,/I' "$file"
+           # 删除不要的内容
+           sed -i -e '/^\s*[#;]/d' -e '/PROCESS-NAME\|URL-REGEX\|USER-AGENT/d' "$file"
+           # 删除策略和字段
+           sed -i -e 's/,\(Outside\|OutSide\|force-remote-dns\)//g' "$file"
+           # 添加不解析字段
+           awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 分流规则的排序
+           sort -o "$file" "$file"
+           awk '
+             /^DOMAIN,/ { domain[++n] = $0; next }
+             /^DOMAIN-SUFFIX,/ { suffix[++m] = $0; next }
+             /^DOMAIN-KEYWORD,/ { keyword[++p] = $0; next }
+             /^IP-CIDR,/ { cidr[++q] = $0; next }
+             /^IP-CIDR6,/ { cidr6[++r] = $0; next }
+             END {
+                 for (i = 1; i <= n; i++) print domain[i]
+                 for (i = 1; i <= m; i++) print suffix[i]
+                 for (i = 1; i <= p; i++) print keyword[i]
+                 for (i = 1; i <= q; i++) print cidr[i]
+                 for (i = 1; i <= r; i++) print cidr6[i]
+             }
+           ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+           # 删除重复的规则
+           awk '!seen[$0]++' "$file" > temp && mv temp "$file"
+           # 添加规则的名称
+           awk 'NR==1 {print "# 规则名称:Global-B"} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 添加规则的统计
+           awk 'NR==2 {print "# 规则统计:00000"} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 添加与删除空行
+           sed -i '2a\\' "$file"
+           sed -i '3!{/^[[:space:]]*$/d}' "$file"
+           # 输出规则的数量
+           line_count=$(tail -n +4 "$file" | wc -l)
+           sed -i "2s/[0-9]\+/$line_count/" "$file"
+         else
+           echo "$file not found."
+         fi
+       done
+
+    - name: Ruleset/AdBlock
+      run: |
+        mkdir -p Scripts-repo/Ruleset
+        { 
+            curl -L "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Hijacking.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
+            echo ""
+            curl -L "https://raw.githubusercontent.com/RuCu6/QuanX/main/Rules/MyBlockAds.list"
+        } > Scripts-repo/Ruleset/AdBlock.list
+
+    - name: Ruleset\AdBlock
+      run: |
+       cd Scripts-repo/Ruleset
+       for file in AdBlock.list; do
+         if [ -f "$file" ]; then
+           # 删除不要的内容
+           sed -i -e 's/, reject//g' -e 's/, REJECT//g' -e '/^\s*#/d' -e '/^\s*;/d' -e '/PROCESS-NAME/d' -e '/URL-REGEX/d' -e '/USER-AGENT/d' -e '/AND/d' "$file"
+           # 修改规则的类型
+           sed -i 's/, /,/I' "$file"
+           sed -i 's/HOST,/DOMAIN,/I; s/HOST-SUFFIX,/DOMAIN-SUFFIX,/I; s/HOST-KEYWORD,/DOMAIN-KEYWORD,/I; s/IP-CIDR,/IP-CIDR,/I; s/IP6-CIDR,/IP-CIDR6,/I' "$file"
+           # 添加不解析字段
+           awk '/^IP-/ && !/,no-resolve/ {print $0",no-resolve"; next} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 分流规则的排序
+           sort -o "$file" "$file"
+           awk '
+             /^DOMAIN,/ { domain[++n] = $0; next }
+             /^DOMAIN-SUFFIX,/ { suffix[++m] = $0; next }
+             /^DOMAIN-KEYWORD,/ { keyword[++p] = $0; next }
+             /^IP-CIDR,/ { cidr[++q] = $0; next }
+             /^IP-CIDR6,/ { cidr6[++r] = $0; next }
+             END {
+                 for (i = 1; i <= n; i++) print domain[i]
+                 for (i = 1; i <= m; i++) print suffix[i]
+                 for (i = 1; i <= p; i++) print keyword[i]
+                 for (i = 1; i <= q; i++) print cidr[i]
+                 for (i = 1; i <= r; i++) print cidr6[i]
+             }
+           ' "$file" > "$file.tmp" && mv "$file.tmp" "$file"
+           # 删除重复的规则
+           awk '!seen[$0]++' "$file" > temp && mv temp "$file"
+           # 添加规则的名称
+           awk 'NR==1 {print "# 规则名称:AdBlock"} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 添加规则的统计
+           awk 'NR==2 {print "# 规则统计:00000"} {print}' "$file" > tmpfile
+           mv tmpfile "$file"
+           # 第三行添加空行
+           sed -i '2a\\' "$file"
+           # 需删除的空白行
+           sed -i '3!{/^[[:space:]]*$/d}' "$file"
+           # 输出规则的数量
+           line_count=$(tail -n +4 "$file" | wc -l)
+           sed -i "2s/[0-9]\+/$line_count/" "$file"
+         else
+           echo "$file not found."
+         fi
+       done
+
+    - name: QuantumultX/AdBlock.list
+      run: |
+        mkdir -p Scripts-repo/QuantumultX/ruleset
+        curl -L -o Scripts-repo/QuantumultX/ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-quanx.txt"
+
+    - name: QuantumultX\AdBlock.list
+      run: |
+        cd Scripts-repo/QuantumultX/ruleset
+        for file in AdBlock.list; do
+          if [ -f "$file" ]; then
+          # 删除第二行/第三行
+          sed -i '2d;3d' "$file"
+          # 修改规则名称
+          sed -i 's/^\#TITLE=anti-AD/# 规则名称:AdBlock/g' "$file"
+          # 修改规则统计
+          sed -i 's/^\#TOTAL_LINES=/# 规则统计:/g' "$file"
+          # 第三行加空行
+          sed -i '2a\\' "$file"
+          # 修改大小写
+          sed -i -e 's/host-suffix,/HOST-SUFFIX,/g' -e 's/,reject/,REJECT/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Stash/AdBlock.yaml
+      run: |
+        mkdir -p Scripts-repo/Stash/ruleset
+        curl -L -o Scripts-repo/Stash/ruleset/AdBlock.yaml "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+
+    - name: Stash\AdBlock.yaml
+      run: |
+        cd Scripts-repo/Stash/ruleset
+        for file in AdBlock.yaml; do
+          if [ -f "$file" ]; then
+          # 删除第二行/第三行/第六行
+          sed -i '2d;3d;6d' "$file"
+          # 修改规则名称  
+          sed -i 's/^\#TITLE=anti-AD/# 规则名称:AdBlock/g' "$file"
+          # 修改规则统计
+          sed -i 's/^\#TOTAL_LINES=/# 规则统计:/g' "$file"
+          else
+            echo "$file not found."
+          fi
+        done
+
+    - name: Surge/AdBlock.list
+      run: |
+        mkdir -p Scripts-repo/Surge/ruleset
+        curl -L -o Scripts-repo/Surge/ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+
+    - name: Surge\AdBlock.list
+      run: |
+        cd Scripts-repo/Surge/ruleset
+        for file in AdBlock.list; do
+          if [ -f "$file" ]; then
+          # 删除第二行/第三行
+          sed -i '2d;3d' "$file"
+          # 修改规则名称
+          sed -i 's/^\#TITLE=anti-AD/# 规则名称:AdBlock/g' "$file"
+          # 修改规则统计
+          sed -i 's/^\#TOTAL_LINES=/# 规则统计:/g' "$file"
+          # 第三行加空行
+          sed -i '2a\\' "$file"
+            echo "$file not found."
+          fi
+        done
+
+    - name: Update Ruleset
+      run: |
+        cd Scripts-repo
+        if [[ -n $(git status -s) ]]; then
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M')"
+          git push origin master
+        else
+          echo "No changes to commit."
+        fi
+
+    - name: Cleanup Workflow
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+        retain_days: 0
+        keep_minimum_runs: 2
