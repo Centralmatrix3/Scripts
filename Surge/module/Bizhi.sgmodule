@@ -1,0 +1,9 @@
+#!name = 壁纸APP
+#!desc = 壁纸APP解锁VIP
+#!author = chxm1023
+
+[Script]
+壁纸 = type=http-response, pattern=^https?:\/\/leancloud\.emotionwp\.com\/.+\/(classes|batch\/save), script-path=https://raw.githubusercontent.com/chxm1023/Rewrite/main/bizhi.js, requires-body=true, max-size=-1, timeout=60
+
+[MITM]
+hostname = %APPEND% leancloud.emotionwp.com
