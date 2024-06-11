@@ -16,5 +16,5 @@ http:
 
 script-providers:
   TestFlight:
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/TestFlight.js
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/TestFlightD.js
     interval: 86400
