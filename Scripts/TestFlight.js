@@ -1,4 +1,4 @@
-// @author = NobyDa
+// author = NobyDa
 
 let app = JSON.parse($request.body);
 app.storefrontId = '143441-19,29';

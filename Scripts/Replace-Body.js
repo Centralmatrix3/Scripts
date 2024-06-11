@@ -1,14 +1,12 @@
 /*
- * @name = Replace-Body
- * @desc = Replace-Body
- * @author = mieqq
+author = mieqq
 ----------------------------------------
 实现QuantumultX的response-body和request-body重写类型
   
 如QuantumultX:
 https://service.ilovepdf.com/v1/user url response-body false response-body true
    
-可改写为 Surge:
+可改写为Surge:
 [Script] 
 test = type=http-response,pattern=https://service.ilovepdf.com/v1/user,requires-body=1,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Replace-Body.js,argument=false->true
 

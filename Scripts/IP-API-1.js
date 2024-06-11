@@ -1,4 +1,4 @@
-// @author = crossutility
+// author = crossutility
 
 if ($response.statusCode != 200) {
   $done(Null);

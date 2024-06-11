@@ -1,14 +1,14 @@
 /*
- * @author = githubdulong
+author = githubdulong
 ----------------------------------------
- * @QuantumultX
+QuantumultX
 [rewrite_local]
 https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/JD-Price.js
 
 [mitm]
 hostname = api.m.jd.com
 
- * @Surge
+Surge
 [Script] 
 京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/JD-Price.js,requires-body=true,timeout=120
 
