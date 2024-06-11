@@ -1,6 +1,5 @@
 // author = KOP-XIAO
 
-
 const messageTraffic = {
     action: "get_traffic_statistics"
 };
