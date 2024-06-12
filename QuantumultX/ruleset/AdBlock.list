@@ -1,5 +1,5 @@
 # 规则名称:AdBlock
-# 规则统计:100319
+# 规则统计:100317
 
 HOST-SUFFIX,0008d6ba2e.com,REJECT
 HOST-SUFFIX,000dn.com,REJECT
@@ -11078,7 +11078,6 @@ HOST-SUFFIX,kstj.baidu.com,REJECT
 HOST-SUFFIX,log.music.baidu.com,REJECT
 HOST-SUFFIX,lxbjs.baidu.com,REJECT
 HOST-SUFFIX,miao.baidu.com,REJECT
-HOST-SUFFIX,mime.baidu.com,REJECT
 HOST-SUFFIX,mine.baidu.com,REJECT
 HOST-SUFFIX,mipengine.baidu.com,REJECT
 HOST-SUFFIX,mobads-logs.baidu.com,REJECT
@@ -12001,7 +12000,6 @@ HOST-SUFFIX,gg88.bj.bcebos.com,REJECT
 HOST-SUFFIX,mobads-pre-config.cdn.bcebos.com,REJECT
 HOST-SUFFIX,qwe0231141.bj.bcebos.com,REJECT
 HOST-SUFFIX,shijuezhongguo.cdn.bcebos.com,REJECT
-HOST-SUFFIX,staticsns.cdn.bcebos.com,REJECT
 HOST-SUFFIX,wzjs.cdn.bcebos.com,REJECT
 HOST-SUFFIX,wzjs2.cdn.bcebos.com,REJECT
 HOST-SUFFIX,ys2000.cdn.bcebos.com,REJECT
