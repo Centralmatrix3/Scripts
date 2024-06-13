@@ -12,7 +12,7 @@ jobs:
       TZ: 'Asia/Shanghai'
     steps: 
     - name: Checkout target repository
-      uses: actions/checkout@v4.1.6
+      uses: actions/checkout@v4.1.7
       with:
         repository: Centralmatrix3/Scripts
         path: Scripts-repo
