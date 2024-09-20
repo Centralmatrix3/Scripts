@@ -1,0 +1,36 @@
+#!name = AdBlock
+#!desc = AdBlock合集
+
+[URL Rewrite]
+# 名称:皮皮虾 作者:Liquor030
+app_name=super&([\S]*)aid=\d+ app_name=super_pro&$1aid=1412 header
+
+[Map Local]
+# 名称:驾考宝典 作者:可莉🅥
+^https:\/\/cheyouquan\.kakamobi\.com\/api\/open\/group\/recommend-subscribe-tag\.htm data-type=text data="{}" status-code=200
+^https:\/\/jiakao-misc\.kakamobi\.cn\/api\/open\/my-tab-config\/banner-list\.htm data-type=text data="{}" status-code=200
+^https:\/\/jiakao-misc\.kakamobi\.cn\/api\/open\/my-tab-config\/selection-list\.htm data-type=text data="{}" status-code=200
+^https:\/\/jiaxiao-awd\.kakamobi\.cn\/api\/h5\/v4\/home-lead-advertise\/abtest\.htm data-type=text data="{}" status-code=200
+^https:\/\/mcbd\.maiche\.com\/api\/open\/v2\/jiakao-business\/get-naben-advert\.htm data-type=text data="{}" status-code=200
+^https:\/\/mcbd\.maiche\.com\/api\/open\/v3\/user\/get-popup-window\.htm data-type=text data="{}" status-code=200
+^https:\/\/monkey\.kakamobi\.cn\/api\/open\/live\/get-recommend-live-protocol\.htm data-type=text data="{}" status-code=200
+^https:\/\/monkey\.kakamobi\.cn\/api\/open\/live-room\/get-resource\.htm data-type=text data="{}" status-code=200
+^https:\/\/scs\.kakamobi\.cn\/api\/open\/v3\/advert-sdk\/ data-type=text data="{}" status-code=200
+^https:\/\/squirrel\.kakamobi\.cn\/api\/open\/recommend-goods\/get-my-page-banner\.htm data-type=text data="{}" status-code=200
+^https:\/\/swallow\.kakamobi\.cn\/api\/open\/config\/get-config\.htm data-type=text data="{}" status-code=200
+
+# 名称:美团 作者:ddgksf2013
+^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) data-type=text data=" " status-code=200
+^https?:\/\/img\.meituan\.net\/(adunion|display|midas)\/\w+\.(gif|jpg|jpg\.webp)$ data-type=text data=" " status-code=200
+^https?:\/\/p\d\.meituan\.net\/(bizad|wmbanner)\/\w+\.jpg data-type=text data=" " status-code=200
+^https?:\/\/p\d\.meituan\.net\/movie\/\w+\.jpg\?may_covertWebp data-type=text data=" " status-code=200
+^https?:\/\/peisongapi\.meituan\.com\/client\/getInitiateImage data-type=text data=" " status-code=200
+
+# 名称:美团外卖 作者:ddgksf2013
+^http:\/\/s3plus\.meituan\.net\/.*\/brandcpt-vedio\/.*\?time data-type=text data=" " status-code=200
+^https?:\/\/.*\.meituan\.com\/api\/v\d\/(openscreen\?ad|appstatus\?ad|loadInfo\?|startpicture) data-type=text data=" " status-code=200
+^https?:\/\/capi.mwee.cn\/app-api\/V12\/app\/getstartad data-type=text data=" " status-code=200
+^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) data-type=text data=" " status-code=200
+
+[MITM]
+hostname = %APPEND% *.pipix.com, *.kakamobi.com, *.kakamobi.cn, *.meituan.net

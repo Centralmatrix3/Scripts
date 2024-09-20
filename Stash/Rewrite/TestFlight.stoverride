@@ -1,0 +1,20 @@
+name: TestFlight
+desc: TestFlight下载修正
+author: NobyDa
+
+http:
+  script:
+    - match: ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$
+      name: TestFlight
+      type: request
+      require-body: true
+      max-size: -1
+      timeout: 60
+
+  mitm:
+    - "testflight.apple.com"
+
+script-providers:
+  TestFlight:
+    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/TestFlightD.js
+    interval: 86400
