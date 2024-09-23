@@ -44,7 +44,9 @@ curl -L -o Scripts-repo/Ruleset/ChinaASN.list "https://raw.githubusercontent.com
 curl -L -o Scripts-repo/Ruleset/ChinaIPBGP.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
 curl -L -o Scripts-repo/Ruleset/ChinaIPMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
 curl -L -o Scripts-repo/Ruleset/ChinaMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+curl -L -o Scripts-repo/Ruleset/ChinaMediaMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list"
 curl -L -o Scripts-repo/Ruleset/GlobalMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+curl -L -o Scripts-repo/Ruleset/GlobalMediaMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
 
 curl -L -o Scripts-repo/Ruleset/CNCIDR.list "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt"
 curl -L -o Scripts-repo/Ruleset/DIRECT.list "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt"

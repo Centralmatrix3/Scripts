@@ -1,5 +1,5 @@
 # 规则名称: 港澳台剧
-# 规则统计: 16(16)
+# 规则统计: 19(19)
 
 # 规则名称: BiliBili
 # 规则统计: 11
@@ -25,3 +25,9 @@ IP-CIDR,116.211.202.216/32,no-resolve
 # 规则统计: 2
 DOMAIN,mobileso.bz.mgtv.com
 DOMAIN-SUFFIX,api.mgtv.com
+
+# 规则名称: WeTV
+# 规则统计: 3
+DOMAIN-SUFFIX,wetv.vip
+DOMAIN-SUFFIX,wetvinfo.com
+IP-CIDR,150.109.28.51/32,no-resolve
