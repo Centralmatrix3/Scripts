@@ -1,5 +1,5 @@
 # 规则名称: AdBlockLite
-# 规则统计: 14454
+# 规则统计: 14457
 
 DOMAIN,118.89.204.198
 DOMAIN,a.wkanx.com
@@ -220,6 +220,7 @@ DOMAIN,miniapp.bilibili.com
 DOMAIN,miui-fxcse.avlyun.com
 DOMAIN,mobad.ijinshan.com
 DOMAIN,mobads-logs.baidu.com
+DOMAIN,mobads-pre-config.cdn.bcebos.com
 DOMAIN,mobads.baidu.com
 DOMAIN,mobilead.kuwo.cn
 DOMAIN,mobileads.msn.com
@@ -1769,6 +1770,7 @@ DOMAIN-SUFFIX,adinfo.aol.com
 DOMAIN-SUFFIX,adinfo.ra1.xlmc.sec.miui.com
 DOMAIN-SUFFIX,adinfuse.com
 DOMAIN-SUFFIX,adingo.jp.eimg.jp
+DOMAIN-SUFFIX,adintl.cn
 DOMAIN-SUFFIX,adirects.com
 DOMAIN-SUFFIX,adition.com
 DOMAIN-SUFFIX,adjb.5nd.com
@@ -2902,6 +2904,7 @@ DOMAIN-SUFFIX,behvgsik.icu
 DOMAIN-SUFFIX,beijing.buzhi5.com
 DOMAIN-SUFFIX,beilamusi.com
 DOMAIN-SUFFIX,beintoo.com
+DOMAIN-SUFFIX,beizi.biz
 DOMAIN-SUFFIX,bekmhvbb.xyz
 DOMAIN-SUFFIX,bellessb.com
 DOMAIN-SUFFIX,benpsbp.com
