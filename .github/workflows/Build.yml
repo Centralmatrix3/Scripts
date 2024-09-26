@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Checkout Repository
-      uses: actions/checkout@v4.1.7
+      uses: actions/checkout@v4.2.0
       with:
         repository: Centralmatrix3/Scripts
         path: Scripts-repo
