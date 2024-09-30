@@ -1,0 +1,11 @@
+#!name = Ali-DNS
+#!desc = Ali-DNS DoH JSON API
+#!author = Maasea
+#!arguments = 阿里DNS:223.5.5.5, 脚本引擎:jsc, 请求域名:*, 请求类型:1, Device ID:IOS, Account ID, AccessKey ID, AccessKey Secret
+#!arguments-desc = - 脚本引擎：auto, jsc, webview \n- 相关参数说明查阅阿里云DoH JSON API 文档
+
+[Host]
+{{{请求域名}}}= script:Ali-DNS
+
+[Script]
+Ali-DNS = type=dns,engine={{{脚本引擎}}},script-path=https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Tools/alidns.js,argument="{"HOST":"{{{阿里DNS}}}","UID":"{{{Account ID}}}","ID":"{{{AccessKey ID}}}","SECRET":"{{{AccessKey Secret}}}","DID":"{{{Device ID}}}","TYPE":"{{{请求类型}}}"}"
