@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 90319
+# 规则统计: 90328
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -8731,6 +8731,7 @@ DOMAIN-SUFFIX,aaayun.com
 DOMAIN-SUFFIX,aabooo.com
 DOMAIN-SUFFIX,aabux.com
 DOMAIN-SUFFIX,aad5.com
+DOMAIN-SUFFIX,aadcloud.com
 DOMAIN-SUFFIX,aadongman.com
 DOMAIN-SUFFIX,aads-cng.net
 DOMAIN-SUFFIX,aafxw.com
@@ -23953,10 +23954,8 @@ DOMAIN-SUFFIX,dky.cc
 DOMAIN-SUFFIX,dkybpc.com
 DOMAIN-SUFFIX,dkzt.com
 DOMAIN-SUFFIX,dl-huahong.com
-DOMAIN-SUFFIX,dl-origin.ubnt.com
 DOMAIN-SUFFIX,dl-rc.com
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
-DOMAIN-SUFFIX,dl.ubnt.com
 DOMAIN-SUFFIX,dl0728.com
 DOMAIN-SUFFIX,dl158.net
 DOMAIN-SUFFIX,dl2link.com
@@ -39092,6 +39091,7 @@ DOMAIN-SUFFIX,huaweiapaas.com
 DOMAIN-SUFFIX,huaweicloud-dns.com
 DOMAIN-SUFFIX,huaweicloud-dns.net
 DOMAIN-SUFFIX,huaweicloud-dns.org
+DOMAIN-SUFFIX,huaweicloud-idme.com
 DOMAIN-SUFFIX,huaweicloud-smn.com
 DOMAIN-SUFFIX,huaweicloud-smn.net
 DOMAIN-SUFFIX,huaweicloud.com
@@ -39777,6 +39777,7 @@ DOMAIN-SUFFIX,hwcpb.com
 DOMAIN-SUFFIX,hwcrazy.com
 DOMAIN-SUFFIX,hwehs.com
 DOMAIN-SUFFIX,hweimall.com
+DOMAIN-SUFFIX,hweventgrid.com
 DOMAIN-SUFFIX,hwfcw.com
 DOMAIN-SUFFIX,hwhidc.com
 DOMAIN-SUFFIX,hwht.com
@@ -40849,6 +40850,7 @@ DOMAIN-SUFFIX,idongde.com
 DOMAIN-SUFFIX,idongdong.com
 DOMAIN-SUFFIX,idongmai.com
 DOMAIN-SUFFIX,idongniu.com
+DOMAIN-SUFFIX,idonguapi.com
 DOMAIN-SUFFIX,idooshu.com
 DOMAIN-SUFFIX,idosend.com
 DOMAIN-SUFFIX,idotools.com
@@ -41631,6 +41633,7 @@ DOMAIN-SUFFIX,in955.com
 DOMAIN-SUFFIX,in9ni.com
 DOMAIN-SUFFIX,inabr.com
 DOMAIN-SUFFIX,inad.com
+DOMAIN-SUFFIX,inanguapi.com
 DOMAIN-SUFFIX,inanrenbang.com
 DOMAIN-SUFFIX,inbeing.net
 DOMAIN-SUFFIX,inbilin.com
@@ -42684,6 +42687,7 @@ DOMAIN-SUFFIX,ixiaochengxu.cc
 DOMAIN-SUFFIX,ixiatxt.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,ixiguan.com
+DOMAIN-SUFFIX,ixiguapi.com
 DOMAIN-SUFFIX,ixiguavideo.com
 DOMAIN-SUFFIX,iximo.com
 DOMAIN-SUFFIX,ixingfei.com
@@ -54222,6 +54226,7 @@ DOMAIN-SUFFIX,modao.io
 DOMAIN-SUFFIX,modashi.net
 DOMAIN-SUFFIX,modb.cc
 DOMAIN-SUFFIX,modb.pro
+DOMAIN-SUFFIX,modelarts-infer.com
 DOMAIN-SUFFIX,modelevel.com
 DOMAIN-SUFFIX,modelwhale.com
 DOMAIN-SUFFIX,modeng178.com
@@ -55162,6 +55167,9 @@ DOMAIN-SUFFIX,myhomeok.com
 DOMAIN-SUFFIX,myhongzuan.com
 DOMAIN-SUFFIX,myhostadmin.net
 DOMAIN-SUFFIX,myhscodes.com
+DOMAIN-SUFFIX,myhuaweicloud-custom.com
+DOMAIN-SUFFIX,myhuaweicloud-koodrive.com
+DOMAIN-SUFFIX,myhuaweicloud-obs.com
 DOMAIN-SUFFIX,myhuaweicloud.com
 DOMAIN-SUFFIX,myhuilv.com
 DOMAIN-SUFFIX,myhwcdn.com
@@ -59279,7 +59287,6 @@ DOMAIN-SUFFIX,pinestoneasset.com
 DOMAIN-SUFFIX,pinfangw.com
 DOMAIN-SUFFIX,ping-jia.net
 DOMAIN-SUFFIX,ping-qu.com
-DOMAIN-SUFFIX,ping.ubnt.com
 DOMAIN-SUFFIX,ping99.com
 DOMAIN-SUFFIX,pingan.com
 DOMAIN-SUFFIX,pingan.com.hk
@@ -73598,6 +73605,7 @@ DOMAIN-SUFFIX,ubixioe.com
 DOMAIN-SUFFIX,ubja.vip
 DOMAIN-SUFFIX,ublese.com
 DOMAIN-SUFFIX,ubmconlinereg.com
+DOMAIN-SUFFIX,ubnt.com
 DOMAIN-SUFFIX,uboat100.com
 DOMAIN-SUFFIX,uboxol.com
 DOMAIN-SUFFIX,ubs001.com
@@ -74368,6 +74376,7 @@ DOMAIN-SUFFIX,uwa4d.com
 DOMAIN-SUFFIX,uwan.com
 DOMAIN-SUFFIX,uweitui.com
 DOMAIN-SUFFIX,uwenku.com
+DOMAIN-SUFFIX,uwn.com
 DOMAIN-SUFFIX,uworter.com
 DOMAIN-SUFFIX,ux18.com
 DOMAIN-SUFFIX,ux6.com

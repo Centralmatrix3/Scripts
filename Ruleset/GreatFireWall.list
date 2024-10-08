@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6193
+# 规则统计: 6196
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -1663,6 +1663,7 @@ DOMAIN-SUFFIX,f8.com
 DOMAIN-SUFFIX,fa.gov.tw
 DOMAIN-SUFFIX,facebook.br
 DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.de
 DOMAIN-SUFFIX,facebook.design
 DOMAIN-SUFFIX,facebook.hu
 DOMAIN-SUFFIX,facebook.in
@@ -3394,6 +3395,7 @@ DOMAIN-SUFFIX,merit-times.com.tw
 DOMAIN-SUFFIX,meshrep.com
 DOMAIN-SUFFIX,mesotw.com
 DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,metacafe.com
 DOMAIN-SUFFIX,metafilter.com
 DOMAIN-SUFFIX,metart.com
@@ -5201,6 +5203,7 @@ DOMAIN-SUFFIX,torrentprivacy.com
 DOMAIN-SUFFIX,torrentproject.se
 DOMAIN-SUFFIX,torrenty.org
 DOMAIN-SUFFIX,torrentz.eu
+DOMAIN-SUFFIX,tortoisesvn.net
 DOMAIN-SUFFIX,torvpn.com
 DOMAIN-SUFFIX,tosh.comedycentral.com
 DOMAIN-SUFFIX,totalvpn.com
