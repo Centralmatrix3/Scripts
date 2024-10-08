@@ -4,6 +4,8 @@ author: RuCu6、Keywos
 
 http:
   url-rewrite:
+    - ^https:\/\/interface\d\.music\.163\.com\/eapi\/my\/podcast\/tab\/recommend - reject-dict
+
     - ^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ - reject-dict
 
     - ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resource\/comments?\/musiciansaid\/|user\/sub\/artist) - reject-dict

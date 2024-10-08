@@ -3,6 +3,8 @@
 #!author = RuCu6、Keywos
 
 [Map Local]
+^https:\/\/interface\d\.music\.163\.com\/eapi\/my\/podcast\/tab\/recommend data-type=text data="{}" status-code=200
+
 ^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ data-type=text data="{}" status-code=200
 
 ^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resource\/comments?\/musiciansaid\/|user\/sub\/artist) data-type=text data="{}" status-code=200
