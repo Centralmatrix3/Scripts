@@ -1,5 +1,5 @@
 # 规则名称:BiliBili
-# 规则统计:18
+# 规则统计:20
 
 DOMAIN,apiintl.biliapi.net
 DOMAIN,upos-hz-mirrorakam.akamaized.net
@@ -10,10 +10,12 @@ DOMAIN-SUFFIX,bigfun.cn
 DOMAIN-SUFFIX,bigfunapp.cn
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.co
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,bilibili.tv
 DOMAIN-SUFFIX,biligame.com
 DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,biliintl.co
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-SUFFIX,hdslb.com

@@ -1,7 +1,10 @@
 # 规则名称:DouYin
-# 规则统计:11
+# 规则统计:14
 
+HOST,lf3-static.bytednsdoc.com,DouYin
+HOST,v5-dy-o-abtest.zjcdn.com,DouYin
 HOST-SUFFIX,amemv.com,DouYin
+HOST-SUFFIX,douyin.com,DouYin
 HOST-SUFFIX,douyincdn.com,DouYin
 HOST-SUFFIX,douyinpic.com,DouYin
 HOST-SUFFIX,douyinstatic.com,DouYin

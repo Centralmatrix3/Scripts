@@ -1,5 +1,5 @@
 # 规则名称:Global
-# 规则统计:6774
+# 规则统计:6778
 
 HOST-SUFFIX,000webhost.com,Global
 HOST-SUFFIX,030buy.com,Global
@@ -342,7 +342,6 @@ HOST-SUFFIX,api-verify.recaptcha.net,Global
 HOST-SUFFIX,api.ai,Global
 HOST-SUFFIX,api.dropboxapi.com,Global
 HOST-SUFFIX,api.linksalpha.com,Global
-HOST-SUFFIX,api.proxlet.com,Global
 HOST-SUFFIX,api.pureapk.com,Global
 HOST-SUFFIX,api.recaptcha.net,Global
 HOST-SUFFIX,apiary.io,Global
@@ -657,7 +656,6 @@ HOST-SUFFIX,blog.lester850.info,Global
 HOST-SUFFIX,blog.martinoei.com,Global
 HOST-SUFFIX,blog.pathtosharepoint.com,Global
 HOST-SUFFIX,blog.pentalogic.net,Global
-HOST-SUFFIX,blog.qooza.hk,Global
 HOST-SUFFIX,blog.ranxiang.com,Global
 HOST-SUFFIX,blog.sina.com.tw,Global
 HOST-SUFFIX,blog.sogoo.org,Global
@@ -1768,6 +1766,7 @@ HOST-SUFFIX,f8.com,Global
 HOST-SUFFIX,fa.gov.tw,Global
 HOST-SUFFIX,facebook.br,Global
 HOST-SUFFIX,facebook.com,Global
+HOST-SUFFIX,facebook.de,Global
 HOST-SUFFIX,facebook.design,Global
 HOST-SUFFIX,facebook.hu,Global
 HOST-SUFFIX,facebook.in,Global
@@ -3107,6 +3106,7 @@ HOST-SUFFIX,iuhrdf.org,Global
 HOST-SUFFIX,iuksky.com,Global
 HOST-SUFFIX,ivacy.com,Global
 HOST-SUFFIX,iverycd.com,Global
+HOST-SUFFIX,ivonblog.com,Global
 HOST-SUFFIX,ivpn.net,Global
 HOST-SUFFIX,iwara.tv,Global
 HOST-SUFFIX,ixquick.com,Global
@@ -3124,6 +3124,7 @@ HOST-SUFFIX,jackjia.com,Global
 HOST-SUFFIX,jamaat.org,Global
 HOST-SUFFIX,jamestown.org,Global
 HOST-SUFFIX,jamyangnorbu.com,Global
+HOST-SUFFIX,jan.ai,Global
 HOST-SUFFIX,jandyx.com,Global
 HOST-SUFFIX,janwongphoto.com,Global
 HOST-SUFFIX,japan-whores.com,Global
@@ -3630,6 +3631,7 @@ HOST-SUFFIX,merit-times.com.tw,Global
 HOST-SUFFIX,meshrep.com,Global
 HOST-SUFFIX,mesotw.com,Global
 HOST-SUFFIX,messenger.com,Global
+HOST-SUFFIX,meta.com,Global
 HOST-SUFFIX,metacafe.com,Global
 HOST-SUFFIX,metafilter.com,Global
 HOST-SUFFIX,metart.com,Global
@@ -4291,6 +4293,7 @@ HOST-SUFFIX,partycasino.com,Global
 HOST-SUFFIX,partypoker.com,Global
 HOST-SUFFIX,passion.com,Global
 HOST-SUFFIX,passiontimes.hk,Global
+HOST-SUFFIX,passwords.google,Global
 HOST-SUFFIX,paste.ee,Global
 HOST-SUFFIX,pastebin.com,Global
 HOST-SUFFIX,pastie.org,Global
@@ -5538,6 +5541,7 @@ HOST-SUFFIX,tibetwrites.org,Global
 HOST-SUFFIX,ticket.com.tw,Global
 HOST-SUFFIX,tigervpn.com,Global
 HOST-SUFFIX,tiktok.com,Global
+HOST-SUFFIX,tiktokv.com,Global
 HOST-SUFFIX,tiltbrush.com,Global
 HOST-SUFFIX,timdir.com,Global
 HOST-SUFFIX,time.com,Global
@@ -5605,6 +5609,7 @@ HOST-SUFFIX,torrentprivacy.com,Global
 HOST-SUFFIX,torrentproject.se,Global
 HOST-SUFFIX,torrenty.org,Global
 HOST-SUFFIX,torrentz.eu,Global
+HOST-SUFFIX,tortoisesvn.net,Global
 HOST-SUFFIX,torvpn.com,Global
 HOST-SUFFIX,tosh.comedycentral.com,Global
 HOST-SUFFIX,totalvpn.com,Global
@@ -5904,7 +5909,6 @@ HOST-SUFFIX,us,Global
 HOST-SUFFIX,us.to,Global
 HOST-SUFFIX,usacn.com,Global
 HOST-SUFFIX,usaip.eu,Global
-HOST-SUFFIX,usc.edu,Global
 HOST-SUFFIX,uscardforum.com,Global
 HOST-SUFFIX,uscnpm.org,Global
 HOST-SUFFIX,usembassy.gov,Global

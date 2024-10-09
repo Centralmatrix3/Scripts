@@ -1,5 +1,5 @@
 # 规则名称:Global
-# 规则统计:6774
+# 规则统计:6778
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -342,7 +342,6 @@ DOMAIN-SUFFIX,api-verify.recaptcha.net
 DOMAIN-SUFFIX,api.ai
 DOMAIN-SUFFIX,api.dropboxapi.com
 DOMAIN-SUFFIX,api.linksalpha.com
-DOMAIN-SUFFIX,api.proxlet.com
 DOMAIN-SUFFIX,api.pureapk.com
 DOMAIN-SUFFIX,api.recaptcha.net
 DOMAIN-SUFFIX,apiary.io
@@ -657,7 +656,6 @@ DOMAIN-SUFFIX,blog.lester850.info
 DOMAIN-SUFFIX,blog.martinoei.com
 DOMAIN-SUFFIX,blog.pathtosharepoint.com
 DOMAIN-SUFFIX,blog.pentalogic.net
-DOMAIN-SUFFIX,blog.qooza.hk
 DOMAIN-SUFFIX,blog.ranxiang.com
 DOMAIN-SUFFIX,blog.sina.com.tw
 DOMAIN-SUFFIX,blog.sogoo.org
@@ -1768,6 +1766,7 @@ DOMAIN-SUFFIX,f8.com
 DOMAIN-SUFFIX,fa.gov.tw
 DOMAIN-SUFFIX,facebook.br
 DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.de
 DOMAIN-SUFFIX,facebook.design
 DOMAIN-SUFFIX,facebook.hu
 DOMAIN-SUFFIX,facebook.in
@@ -3107,6 +3106,7 @@ DOMAIN-SUFFIX,iuhrdf.org
 DOMAIN-SUFFIX,iuksky.com
 DOMAIN-SUFFIX,ivacy.com
 DOMAIN-SUFFIX,iverycd.com
+DOMAIN-SUFFIX,ivonblog.com
 DOMAIN-SUFFIX,ivpn.net
 DOMAIN-SUFFIX,iwara.tv
 DOMAIN-SUFFIX,ixquick.com
@@ -3124,6 +3124,7 @@ DOMAIN-SUFFIX,jackjia.com
 DOMAIN-SUFFIX,jamaat.org
 DOMAIN-SUFFIX,jamestown.org
 DOMAIN-SUFFIX,jamyangnorbu.com
+DOMAIN-SUFFIX,jan.ai
 DOMAIN-SUFFIX,jandyx.com
 DOMAIN-SUFFIX,janwongphoto.com
 DOMAIN-SUFFIX,japan-whores.com
@@ -3630,6 +3631,7 @@ DOMAIN-SUFFIX,merit-times.com.tw
 DOMAIN-SUFFIX,meshrep.com
 DOMAIN-SUFFIX,mesotw.com
 DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,metacafe.com
 DOMAIN-SUFFIX,metafilter.com
 DOMAIN-SUFFIX,metart.com
@@ -4291,6 +4293,7 @@ DOMAIN-SUFFIX,partycasino.com
 DOMAIN-SUFFIX,partypoker.com
 DOMAIN-SUFFIX,passion.com
 DOMAIN-SUFFIX,passiontimes.hk
+DOMAIN-SUFFIX,passwords.google
 DOMAIN-SUFFIX,paste.ee
 DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,pastie.org
@@ -5538,6 +5541,7 @@ DOMAIN-SUFFIX,tibetwrites.org
 DOMAIN-SUFFIX,ticket.com.tw
 DOMAIN-SUFFIX,tigervpn.com
 DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,timdir.com
 DOMAIN-SUFFIX,time.com
@@ -5605,6 +5609,7 @@ DOMAIN-SUFFIX,torrentprivacy.com
 DOMAIN-SUFFIX,torrentproject.se
 DOMAIN-SUFFIX,torrenty.org
 DOMAIN-SUFFIX,torrentz.eu
+DOMAIN-SUFFIX,tortoisesvn.net
 DOMAIN-SUFFIX,torvpn.com
 DOMAIN-SUFFIX,tosh.comedycentral.com
 DOMAIN-SUFFIX,totalvpn.com
@@ -5904,7 +5909,6 @@ DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,us.to
 DOMAIN-SUFFIX,usacn.com
 DOMAIN-SUFFIX,usaip.eu
-DOMAIN-SUFFIX,usc.edu
 DOMAIN-SUFFIX,uscardforum.com
 DOMAIN-SUFFIX,uscnpm.org
 DOMAIN-SUFFIX,usembassy.gov
