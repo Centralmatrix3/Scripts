@@ -177,6 +177,54 @@
     {
       "name":"Nintendo",
       "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Nintendo.png"
+    },
+    {
+      "name":"Gmail",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Gmail.png"
+    },
+    {
+      "name":"Adblock",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Adblock.png"
+    },
+    {
+      "name":"WeTV",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/WeTV.png"
+    },
+    {
+      "name":"DIRECT",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/DIRECT.png"
+    },
+    {
+      "name":"PROXY",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/PROXY.png"
+    },
+    {
+      "name":"REJECT",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/REJECT.png"
+    },
+    {
+      "name":"Pornhub",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Pornhub.png"
+    },
+    {
+      "name":"TikTok-2",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TikTok-2.png"
+    },
+    {
+      "name":"Notion",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Notion.png"
+    },
+    {
+      "name":"Cydia",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Cydia.png"
+    },
+    {
+      "name":"Emby",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Emby.png"
+    },
+    {
+      "name":"OneDrive",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OneDrive.png"
     }
   ]
 }
