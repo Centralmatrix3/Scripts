@@ -1,6 +1,6 @@
 # 配置名称: Stash 配置
 # 配置作者: Centralmatrix3
-# 更新时间: 24-10-01 00:00
+# 更新时间: 24-10-12 00:00
 
 # [订阅链接]
 subscribe-url: 订阅链接 # 订阅信息
@@ -9,11 +9,11 @@ proxy-providers:
     url: 订阅链接       # 订阅节点
     interval: 600
 
-# [全局配置]
+# [通用设置]
 mode: rule      # 运行模式
 log-level: info # 日志级别
 
-# [DNS配置]
+# [DNS设置]
 dns:
   default-nameserver:
     - 223.5.5.5
