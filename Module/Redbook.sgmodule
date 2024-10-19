@@ -2,6 +2,9 @@
 #!desc = 小红书去广告
 #!author = RuCu6、fmz200
 
+[Rule]
+AND,((DEST-PORT,443),(PROTOCOL,UDP)),REJECT
+
 [Map Local]
 ^https:\/\/edith\.xiaohongshu\.com\/api\/sns\/(?:v2\/guide\/user_banner|v3\/note\/guide) data-type=text data="{}" status-code=200
 
