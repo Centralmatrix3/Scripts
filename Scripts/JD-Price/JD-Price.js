@@ -1,36 +1,7 @@
 /*
- * @name = JD.Price
- * @tool = Stash Surge QuantumultX
+ * @name = JD-Price
+ * @desc = JD-Price
  * @author = yichahucha
-----------------------------------------
-http:
-  script:
-    - match: ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig)
-      name: 京东比价
-      type: response
-      require-body: true
-      timeout: 120
-
-  mitm:
-    - "api.m.jd.com"
-
-script-providers:
-  京东比价:
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/JD-Price.js
-    interval: 86400
-----------------------------------------
-[Script] 
-京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/JD-Price.js,requires-body=true,timeout=120
-
-[MITM]
-hostname = %APPEND% api.m.jd.com
-----------------------------------------
-[rewrite_local]
-^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/JD-Price.js
-
-[mitm]
-hostname = api.m.jd.com
-----------------------------------------
 */
 
 const path1 = "serverConfig";

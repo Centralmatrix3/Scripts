@@ -1,46 +1,7 @@
 /*
- * @name = TB.Price
- * @tool = Stash Surge QuantumultX
+ * @name = TB-Price
+ * @desc = TB-Price
  * @author = yichahucha
-----------------------------------------
-http:
-  script:
-    - match: ^http://.+/amdc/mobileDispatch
-      name: 淘宝比价
-      type: response
-      require-body: true
-      timeout: 120
-
-    - match: ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail
-      name: 淘宝比价
-      type: response
-      require-body: true
-      timeout: 120
-
-  mitm:
-    - "trade-acs.m.taobao.com"
-
-script-providers:
-  淘宝比价:
-    url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/TB-Price.js
-    interval: 86400
-----------------------------------------
-[Script] 
-淘宝比价 = type=http-response,pattern=^http://.+/amdc/mobileDispatch,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/TB-Price.js,requires-body=true,timeout=120
-
-淘宝比价 = type=http-response,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/TB-Price.js,requires-body=true,timeout=120
-
-[MITM]
-hostname = %APPEND% trade-acs.m.taobao.com
-----------------------------------------
-[rewrite_local]
-^http://.+/amdc/mobileDispatch url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/TB-Price.js
-
-^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Compare/TB-Price.js
-
-[mitm]
-hostname = trade-acs.m.taobao.com
-----------------------------------------
 */
 
 const $tool = new Tool()
