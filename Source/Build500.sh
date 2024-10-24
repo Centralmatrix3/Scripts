@@ -423,8 +423,8 @@ for dir in Clash Egern Stash; do
 done
 for dir in Loon QuantumultX Shadowrocket Surge; do
     curl -L -o Matrix-io-repo/$dir/Ruleset/ChinaASN.list "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/ChinaASN.list"
-# done
-curl -L -o Matrix-io-repo/Sing-box/Ruleset/ChinaASN.json "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/ChinaASN.list"
+done
+# curl -L -o Matrix-io-repo/Sing-box/Ruleset/ChinaASN.json "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/ChinaASN.list"
 
 # 规则名称:ChinaIPBGP
 for dir in Clash Egern Stash; do
@@ -882,8 +882,8 @@ for dir in Clash Egern Stash; do
 done
 for dir in Loon QuantumultX Shadowrocket Surge; do
     curl -L -o Matrix-io-repo/$dir/Ruleset/GEOIPCN.list "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/GEOIPCN.list"
-# done
-curl -L -o Matrix-io-repo/Sing-box/Ruleset/GEOIPCN.json "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/GEOIPCN.list"
+done
+# curl -L -o Matrix-io-repo/Sing-box/Ruleset/GEOIPCN.json "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/GEOIPCN.list"
 
 # 规则名称:Garena
 for dir in Clash Egern Stash; do
