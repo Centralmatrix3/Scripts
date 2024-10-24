@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# 目录
+# 规则目录:Scripts
 mkdir -p Scripts/Ruleset
 mkdir -p Scripts/{QuantumultX,Stash,Surge}/Ruleset
 
-# 合并
+# 规则名称:null
 {
     curl -L "https://raw.githubusercontent.com/dler-io/Rules/main/Surge/Surge%203/Provider/Reject.list"
     echo ""
@@ -20,13 +20,15 @@ mkdir -p Scripts/{QuantumultX,Stash,Surge}/Ruleset
     echo ""
     curl -L "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
 } > Scripts-repo/Ruleset/AdBlockLite.list
+
+# 规则名称:null
 {
     curl -L "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
     echo ""
     curl -L "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
 } > Scripts-repo/Ruleset/Global.list
 
-# 独立
+# 规则名称:null
 curl -L -o Scripts-repo/Ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 curl -L -o Scripts-repo/Ruleset/Advertising.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Scripts-repo/Ruleset/CNCIDR4.list "https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
@@ -36,6 +38,7 @@ curl -L -o Scripts-repo/Ruleset/BiliBili.list "https://raw.githubusercontent.com
 curl -L -o Scripts-repo/Ruleset/Netflix.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
 curl -L -o Scripts-repo/Ruleset/PrivateTracker.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
 
+# 规则名称:null
 curl -L -o Scripts-repo/Ruleset/AmazonIP.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
 curl -L -o Scripts-repo/Ruleset/China.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
 curl -L -o Scripts-repo/Ruleset/ChinaIPv4.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
@@ -45,6 +48,7 @@ curl -L -o Scripts-repo/Ruleset/Google.list "https://raw.githubusercontent.com/A
 curl -L -o Scripts-repo/Ruleset/Microsoft.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
 curl -L -o Scripts-repo/Ruleset/Privacy.list "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
 
+# 规则名称:null
 curl -L -o Scripts-repo/Ruleset/ChinaASN.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list"
 curl -L -o Scripts-repo/Ruleset/ChinaIPBGP.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
 curl -L -o Scripts-repo/Ruleset/ChinaIPMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
@@ -54,6 +58,7 @@ curl -L -o Scripts-repo/Ruleset/Game.list "https://raw.githubusercontent.com/bla
 curl -L -o Scripts-repo/Ruleset/GlobalMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
 curl -L -o Scripts-repo/Ruleset/GlobalMediaMax.list "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
 
+# 规则名称:null
 curl -L -o Scripts-repo/Ruleset/CNCIDR.list "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt"
 curl -L -o Scripts-repo/Ruleset/DIRECT.list "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt"
 curl -L -o Scripts-repo/Ruleset/GreatFire.list "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt"
@@ -63,11 +68,12 @@ curl -L -o Scripts-repo/Ruleset/Private.list "https://raw.githubusercontent.com/
 curl -L -o Scripts-repo/Ruleset/REJECT.list "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
 curl -L -o Scripts-repo/Ruleset/Tld-Not-CN.list "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
 
-# 独立
+# 规则名称:null
 curl -L -o Scripts-repo/QuantumultX/Ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 curl -L -o Scripts-repo/Stash/Ruleset/AdBlock.yaml "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 curl -L -o Scripts-repo/Surge/Ruleset/AdBlock.list "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
 
+# 规则名称:null
 curl -L -o Scripts-repo/QuantumultX/Ruleset/Advertising.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Scripts-repo/Stash/Ruleset/Advertising.yaml "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
 curl -L -o Scripts-repo/Surge/Ruleset/Advertising.list "https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
