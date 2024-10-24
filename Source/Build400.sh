@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# 创建规则目录: Matrix-io
+# 规则目录: Matrix-io
 mkdir -p Matrix-io/{Clash,Egern,Loon,QuantumultX,Shadowrocket,Sing-box,Stash,Surge}/Ruleset
 
 # 规则名称: ABC
