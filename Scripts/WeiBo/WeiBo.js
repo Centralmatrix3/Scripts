@@ -691,13 +691,13 @@ if (url.includes("/interface/sdk/sdkad.php")) {
             // 19热议等tab 22商业推广 118横版广告图片 206,249横版视频广告 208实况热聊 217错过了热词 236微博趋势 261奥运滚动横幅
             if ([19, 22, 118, 206, 208, 217, 236, 249, 261]?.includes(item?.data?.card_type)) {
               continue;
-            } else if (item?.data?.card_type === 86 && item?.data?.itemid === "ads_slide") {
+            } else if (item?.data?.itemid === "ads_slide") {
               // 商业推广 主图 附图
               continue;
-            } else if (item?.data?.card_type === 101 && item?.data?.cate_id === "1114") {
+            } else if (item?.data?.cate_id === "1114") {
               // 微博趋势标题
               continue;
-            } else if (item?.data?.card_type === 196 && item?.data.hasOwnProperty("rank")) {
+            } else if (item?.data.hasOwnProperty("rank")) {
               // 奥运等排行榜
               continue;
             } else {
@@ -710,8 +710,11 @@ if (url.includes("/interface/sdk/sdkad.php")) {
             if (item?.items?.length > 0) {
               let newII = [];
               for (let ii of item.items) {
-                // 118横版广告图片 182热议话题 217错过了热词 247横版视频广告
-                if ([118, 182, 217, 247]?.includes(ii?.data?.card_type)) {
+                // 118横版广告图片 182热议话题 217错过了热词 247横版视频广告 264微博趋势
+                if ([118, 182, 192, 217, 247, 264]?.includes(ii?.data?.card_type)) {
+                  continue;
+                } else if (ii?.data?.cate_id === "1114") {
+                  // 微博趋势
                   continue;
                 } else {
                   newII.push(ii);
@@ -756,13 +759,13 @@ if (url.includes("/interface/sdk/sdkad.php")) {
                     // 19热议等tab 22商业推广 118横版广告图片 206,249横版视频广告 208实况热聊 217错过了热词 236微博趋势 261奥运滚动横幅
                     if ([19, 22, 118, 206, 208, 217, 236, 249, 261]?.includes(item?.data?.card_type)) {
                       continue;
-                    } else if (item?.data?.card_type === 86 && item?.data?.itemid === "ads_slide") {
+                    } else if (item?.data?.itemid === "ads_slide") {
                       // 商业推广 主图 附图
                       continue;
-                    } else if (item?.data?.card_type === 101 && item?.data?.cate_id === "1114") {
+                    } else if (item?.data?.cate_id === "1114") {
                       // 微博趋势标题
                       continue;
-                    } else if (item?.data?.card_type === 196 && item?.data.hasOwnProperty("rank")) {
+                    } else if (item?.data.hasOwnProperty("rank")) {
                       // 奥运等排行榜
                       continue;
                     } else {
@@ -775,8 +778,11 @@ if (url.includes("/interface/sdk/sdkad.php")) {
                     if (item?.items?.length > 0) {
                       let newII = [];
                       for (let ii of item.items) {
-                        // 118横版广告图片 182热议话题 192横版好看视频 217错过了热词 247横版视频广告
-                        if ([118, 182, 192, 217, 247]?.includes(ii?.data?.card_type)) {
+                        // 118横版广告图片 182热议话题 192横版好看视频 217错过了热词 247横版视频广告 264微博趋势
+                        if ([118, 182, 192, 217, 247, 264]?.includes(ii?.data?.card_type)) {
+                          continue;
+                        } else if (ii?.data?.cate_id === "1114") {
+                          // 微博趋势
                           continue;
                         } else {
                           newII.push(ii);
