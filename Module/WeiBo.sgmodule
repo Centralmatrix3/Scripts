@@ -27,6 +27,8 @@
 
 ^https:\/\/api\.weibo\.cn\/2\/video\/redpacket\? data-type=text data="{}" status-code=200
 
+^https:\/\/api\.weibo\.cn\/2\/video\/tiny_video_info_show\? data-type=text data="{}" status-code=200
+
 ^https:\/\/api\.weibo\.cn\/2\/vote\/get_vote_detail\? data-type=text data="{}" status-code=200
 
 ^https:\/\/bootrealtime\.uve\.weibo\.com\/v[23]\/ad\/realtime data-type=text data="{}" status-code=200
@@ -68,7 +70,7 @@
 
 微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/statuses\/(?:extend|show),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/WeiBo/WeiBo.js,requires-body=true,timeout=30
 
-微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/video\/tiny_stream_video_list\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/WeiBo/WeiBo.js,requires-body=true,timeout=30
+微博 = type=http-response,pattern=^https:\/\/api\.weibo\.cn\/2\/video\/(?:full_screen_stream|tiny_stream_video_list)\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/WeiBo/WeiBo.js,requires-body=true,timeout=30
 
 微博 = type=http-response,pattern=^https:\/\/bootpreload\.uve\.weibo\.com\/v[12]\/ad\/preload,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/WeiBo/WeiBo.js,requires-body=true,timeout=30
 
