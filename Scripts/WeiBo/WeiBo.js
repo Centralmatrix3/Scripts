@@ -359,11 +359,11 @@ if (url.includes("/interface/sdk/sdkad.php")) {
       obj.cards = obj.cards.filter(
         (i) =>
           !(
-            i.itemid?.includes("feed_-_invite") || // 超话里的好友
-            i.itemid?.includes("infeed_friends_recommend") || // 好友关注
-            i.itemid?.includes("infeed_may_interest_in") || // 你可能感兴趣的超话
-            i.itemid?.includes("infeed_pagemanual3") || // 手动区域3
-            i.itemid?.includes("infeed_weibo_mall") || // 微博小店
+            i?.itemid?.includes("feed_-_invite") || // 超话里的好友
+            i?.itemid?.includes("infeed_friends_recommend") || // 好友关注
+            i?.itemid?.includes("infeed_may_interest_in") || // 你可能感兴趣的超话
+            i?.itemid?.includes("infeed_pagemanual3") || // 手动区域3
+            i?.itemid?.includes("infeed_weibo_mall") || // 微博小店
             i?.mblog?.mblogtypename?.includes("广告")
           )
       );
@@ -511,14 +511,14 @@ if (url.includes("/interface/sdk/sdkad.php")) {
           if (item?.items?.length > 0) {
             item.items = item.items.filter(
               (i) =>
-                i.itemId === "100505_-_album" || // 我的相册
-                i.itemId === "100505_-_like" || // 赞/收藏
-                i.itemId === "100505_-_watchhistory" || // 浏览记录
-                i.itemId === "100505_-_draft" // 草稿箱
-              // i.itemId === "100505_-_pay" || // 我的钱包
-              // i.itemId === "100505_-_ordercenter" || // 我的订单
-              // i.itemId === "100505_-_productcenter" || // 创作中心
-              // i.itemId === "100505_-_promote" || // 广告中心
+                i?.itemId === "100505_-_album" || // 我的相册
+                i?.itemId === "100505_-_like" || // 赞/收藏
+                i?.itemId === "100505_-_watchhistory" || // 浏览记录
+                i?.itemId === "100505_-_draft" // 草稿箱
+              // i?.itemId === "100505_-_pay" || // 我的钱包
+              // i?.itemId === "100505_-_ordercenter" || // 我的订单
+              // i?.itemId === "100505_-_productcenter" || // 创作中心
+              // i?.itemId === "100505_-_promote" || // 广告中心
             );
           }
           newItems.push(item);
@@ -1220,10 +1220,26 @@ if (url.includes("/interface/sdk/sdkad.php")) {
     }
     // 投票窗口
     removeVoteInfo(obj);
+  } else if (url.includes("/2/video/full_screen_stream")) {
+    // 视频页
+    if (obj?.statuses?.length > 0) {
+      let newStatuses = [];
+      for (let item of obj.statuses) {
+        if (!isAd(item)) {
+          removeAvatar(item);
+          if (item?.video_info?.tags?.length > 0) {
+            // 投票
+            item.video_info.tags = [];
+          }
+          newStatuses.push(item);
+        }
+      }
+      obj.statuses = newStatuses;
+    }
   } else if (url.includes("/2/video/tiny_stream_video_list")) {
     if (obj?.statuses?.length > 0) {
       obj.statuses = []; // 移除视频自动连播
-      // obj.statuses = obj.statuses.filter((m) => !(m.mblogtypename === "广告"));
+      // obj.statuses = obj.statuses.filter((m) => !(m?.mblogtypename === "广告"));
     }
     if (obj?.tab_list?.length > 0) {
       obj.tab_list = [];
@@ -1234,7 +1250,7 @@ if (url.includes("/interface/sdk/sdkad.php")) {
     }
     // 广场页
     if (obj?.channelInfo?.channel_list?.length > 0) {
-      obj.channelInfo.channel_list = obj.channelInfo.channel_list.filter((t) => t.title !== "广场");
+      obj.channelInfo.channel_list = obj.channelInfo.channel_list.filter((t) => t?.title !== "广场");
     }
   } else if (url.includes("/aj/appicon/list")) {
     if (obj?.data?.list?.length > 0) {
@@ -1282,6 +1298,9 @@ function isAd(data) {
     return true;
   }
   if (data?.mblogtypename === "热推") {
+    return true;
+  }
+  if (data?.readtimetype === "adMblog") {
     return true;
   }
   if (data?.promotion?.recommend === "广告") {
