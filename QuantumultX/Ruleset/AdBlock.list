@@ -1,5 +1,5 @@
 # 规则名称:AdBlock
-# 规则统计:89422
+# 规则统计:89424
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -87855,6 +87855,8 @@ HOST-SUFFIX,yeyemo4.com,AdBlock
 HOST-SUFFIX,yezilm.com,AdBlock
 HOST-SUFFIX,yezztf.pinkelephant.co.kr,AdBlock
 HOST-SUFFIX,yf5.voyage-prive.at,AdBlock
+HOST-SUFFIX,yfanads.cn,AdBlock
+HOST-SUFFIX,yfanads.com,AdBlock
 HOST-SUFFIX,yfaqgk.xyz,AdBlock
 HOST-SUFFIX,yfasjfk.icu,AdBlock
 HOST-SUFFIX,yfaygn.natureetdecouvertes.com,AdBlock

@@ -1,5 +1,5 @@
 # 规则名称:AdBlock
-# 规则统计:89422
+# 规则统计:89424
 
 payload:
   - '+.0.myikas.com'
@@ -87856,6 +87856,8 @@ payload:
   - '+.yezilm.com'
   - '+.yezztf.pinkelephant.co.kr'
   - '+.yf5.voyage-prive.at'
+  - '+.yfanads.cn'
+  - '+.yfanads.com'
   - '+.yfaqgk.xyz'
   - '+.yfasjfk.icu'
   - '+.yfaygn.natureetdecouvertes.com'
