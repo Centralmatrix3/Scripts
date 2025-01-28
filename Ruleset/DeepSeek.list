@@ -1,6 +1,8 @@
-规则名称: DeepSeek
-规则统计: 3
+# 规则名称: DeepSeek
+# 规则统计: 5
 
 DOMAIN-SUFFIX,deepseek.com
 DOMAIN-SUFFIX,fengkongcloud.com
 DOMAIN-SUFFIX,volces.com
+规则名称: DeepSeek
+规则统计: 3
