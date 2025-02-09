@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31118
+# 规则统计: 31123
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -5705,6 +5705,7 @@ DOMAIN-SUFFIX,cccu.ac.uk
 DOMAIN-SUFFIX,ccdc.ac.uk
 DOMAIN-SUFFIX,ccdtr.org
 DOMAIN-SUFFIX,ccesd.ac.uk
+DOMAIN-SUFFIX,ccfd.org.tw
 DOMAIN-SUFFIX,ccfe.ac.uk
 DOMAIN-SUFFIX,cch.ac.uk
 DOMAIN-SUFFIX,cchere.com
@@ -12137,6 +12138,7 @@ DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grcb.ac.uk
 DOMAIN-SUFFIX,gre.ac.uk
 DOMAIN-SUFFIX,greasespot.net
+DOMAIN-SUFFIX,greasyfork.org
 DOMAIN-SUFFIX,great-firewall.com
 DOMAIN-SUFFIX,great-roc.org
 DOMAIN-SUFFIX,greatapedictionary.ac.uk
@@ -14647,6 +14649,7 @@ DOMAIN-SUFFIX,ipadmini.lk
 DOMAIN-SUFFIX,ipadpro.buzz
 DOMAIN-SUFFIX,ipalter.com
 DOMAIN-SUFFIX,ipcc-wg3.ac.uk
+DOMAIN-SUFFIX,ipdefenseforum.com
 DOMAIN-SUFFIX,ipem.ac.uk
 DOMAIN-SUFFIX,ipfire.org
 DOMAIN-SUFFIX,ipforesightforum.ac.uk
@@ -19744,6 +19747,7 @@ DOMAIN-SUFFIX,nocn.ac.uk
 DOMAIN-SUFFIX,nocs.ac.uk
 DOMAIN-SUFFIX,nodejs.org
 DOMAIN-SUFFIX,nodes.ac.uk
+DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nodesnoop.com
 DOMAIN-SUFFIX,nodesource.com
 DOMAIN-SUFFIX,nofile.io
@@ -20737,6 +20741,7 @@ DOMAIN-SUFFIX,packagist.org
 DOMAIN-SUFFIX,packer.io
 DOMAIN-SUFFIX,packetix.net
 DOMAIN-SUFFIX,pacloudflare.com
+DOMAIN-SUFFIX,pacom.mil
 DOMAIN-SUFFIX,pacopacomama.com
 DOMAIN-SUFFIX,pact.ac.uk
 DOMAIN-SUFFIX,paddle.com
