@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 89927
+# 规则统计: 89930
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -5159,6 +5159,7 @@ HOST-SUFFIX,adalso.com,AdBlock
 HOST-SUFFIX,adalyser.com,AdBlock
 HOST-SUFFIX,adamantsnail.com,AdBlock
 HOST-SUFFIX,adamatic.co,AdBlock
+HOST-SUFFIX,adanxing.com,AdBlock
 HOST-SUFFIX,adaos-ads.net,AdBlock
 HOST-SUFFIX,adap.tv,AdBlock
 HOST-SUFFIX,adapd.com,AdBlock
@@ -9194,6 +9195,7 @@ HOST-SUFFIX,api.pingstart.com,AdBlock
 HOST-SUFFIX,api.poll.aiseet.atianqi.com,AdBlock
 HOST-SUFFIX,api.primecaster.net,AdBlock
 HOST-SUFFIX,api.push.le.com,AdBlock
+HOST-SUFFIX,api.qttunion.com,AdBlock
 HOST-SUFFIX,api.qvpublish.com,AdBlock
 HOST-SUFFIX,api.rees46.com,AdBlock
 HOST-SUFFIX,api.rideraid.net,AdBlock
@@ -59580,6 +59582,7 @@ HOST-SUFFIX,promos.trustedtours.com,AdBlock
 HOST-SUFFIX,promoshq.wildfireapp.com,AdBlock
 HOST-SUFFIX,promote.biz.weibo.cn,AdBlock
 HOST-SUFFIX,promote.caixin.com,AdBlock
+HOST-SUFFIX,promotion-partner.kuaishou.com,AdBlock
 HOST-SUFFIX,promotion.gomlab.com,AdBlock
 HOST-SUFFIX,promotion.lginnotek.com,AdBlock
 HOST-SUFFIX,promotion.lindt.az,AdBlock

@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 89927
+# 规则统计: 89930
 
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com
@@ -5159,6 +5159,7 @@ DOMAIN-SUFFIX,adalso.com
 DOMAIN-SUFFIX,adalyser.com
 DOMAIN-SUFFIX,adamantsnail.com
 DOMAIN-SUFFIX,adamatic.co
+DOMAIN-SUFFIX,adanxing.com
 DOMAIN-SUFFIX,adaos-ads.net
 DOMAIN-SUFFIX,adap.tv
 DOMAIN-SUFFIX,adapd.com
@@ -9194,6 +9195,7 @@ DOMAIN-SUFFIX,api.pingstart.com
 DOMAIN-SUFFIX,api.poll.aiseet.atianqi.com
 DOMAIN-SUFFIX,api.primecaster.net
 DOMAIN-SUFFIX,api.push.le.com
+DOMAIN-SUFFIX,api.qttunion.com
 DOMAIN-SUFFIX,api.qvpublish.com
 DOMAIN-SUFFIX,api.rees46.com
 DOMAIN-SUFFIX,api.rideraid.net
@@ -59580,6 +59582,7 @@ DOMAIN-SUFFIX,promos.trustedtours.com
 DOMAIN-SUFFIX,promoshq.wildfireapp.com
 DOMAIN-SUFFIX,promote.biz.weibo.cn
 DOMAIN-SUFFIX,promote.caixin.com
+DOMAIN-SUFFIX,promotion-partner.kuaishou.com
 DOMAIN-SUFFIX,promotion.gomlab.com
 DOMAIN-SUFFIX,promotion.lginnotek.com
 DOMAIN-SUFFIX,promotion.lindt.az

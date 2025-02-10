@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 89927
+# 规则统计: 89930
 
 payload:
   - '+.0.myikas.com'
@@ -5160,6 +5160,7 @@ payload:
   - '+.adalyser.com'
   - '+.adamantsnail.com'
   - '+.adamatic.co'
+  - '+.adanxing.com'
   - '+.adaos-ads.net'
   - '+.adap.tv'
   - '+.adapd.com'
@@ -9195,6 +9196,7 @@ payload:
   - '+.api.poll.aiseet.atianqi.com'
   - '+.api.primecaster.net'
   - '+.api.push.le.com'
+  - '+.api.qttunion.com'
   - '+.api.qvpublish.com'
   - '+.api.rees46.com'
   - '+.api.rideraid.net'
@@ -59581,6 +59583,7 @@ payload:
   - '+.promoshq.wildfireapp.com'
   - '+.promote.biz.weibo.cn'
   - '+.promote.caixin.com'
+  - '+.promotion-partner.kuaishou.com'
   - '+.promotion.gomlab.com'
   - '+.promotion.lginnotek.com'
   - '+.promotion.lindt.az'
