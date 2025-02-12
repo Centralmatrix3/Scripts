@@ -308,7 +308,7 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         # [Kugou]="Kugou.list"
         # [Kuwo]="Kuwo.list"
         [LAN]="LAN.list"
-        [LANCIDR]="LANCIDR.list"
+        # [LANCIDR]="LANCIDR.list"
         # [LZY]="LZY.list"
         # [Landian]="Landian.list"
         # [Lanzou]="Lanzou.list"
