@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 89624
+# 规则统计: 89625
 
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com
@@ -87431,6 +87431,7 @@ DOMAIN-SUFFIX,xls.ilovechenyuqian.xyz
 DOMAIN-SUFFIX,xls.jzgcmh.mobi
 DOMAIN-SUFFIX,xls.suxun368.cc
 DOMAIN-SUFFIX,xls.yeschool.info
+DOMAIN-SUFFIX,xlstat.izuiyou.com
 DOMAIN-SUFFIX,xludzt.alfastrah.ru
 DOMAIN-SUFFIX,xlviiirdr.com
 DOMAIN-SUFFIX,xlviirdr.com

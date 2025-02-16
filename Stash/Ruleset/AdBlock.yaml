@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 89624
+# 规则统计: 89625
 
 payload:
   - '+.0.myikas.com'
@@ -87432,6 +87432,7 @@ payload:
   - '+.xls.jzgcmh.mobi'
   - '+.xls.suxun368.cc'
   - '+.xls.yeschool.info'
+  - '+.xlstat.izuiyou.com'
   - '+.xludzt.alfastrah.ru'
   - '+.xlviiirdr.com'
   - '+.xlviirdr.com'
