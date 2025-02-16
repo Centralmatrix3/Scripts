@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31122
+# 规则统计: 31126
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -15830,6 +15830,7 @@ DOMAIN-SUFFIX,kpinsurances.com
 DOMAIN-SUFFIX,kpptoto.info
 DOMAIN-SUFFIX,kqes.net
 DOMAIN-SUFFIX,kraken.com
+DOMAIN-SUFFIX,kraken.onl
 DOMAIN-SUFFIX,krakenjs.com
 DOMAIN-SUFFIX,krhentai.com
 DOMAIN-SUFFIX,kristenbjorn.com
@@ -26294,6 +26295,7 @@ DOMAIN-SUFFIX,thetibetpost.com
 DOMAIN-SUFFIX,thetimes.co.uk
 DOMAIN-SUFFIX,thetimes.ie
 DOMAIN-SUFFIX,thetinhat.com
+DOMAIN-SUFFIX,thetrackernetwork.com
 DOMAIN-SUFFIX,thetranny.com
 DOMAIN-SUFFIX,thetread.com
 DOMAIN-SUFFIX,thetrotskymovie.com
@@ -26733,6 +26735,8 @@ DOMAIN-SUFFIX,tr.com
 DOMAIN-SUFFIX,trac.ac.uk
 DOMAIN-SUFFIX,tracfone.com
 DOMAIN-SUFFIX,tracingnetworks.ac.uk
+DOMAIN-SUFFIX,tracker.gg
+DOMAIN-SUFFIX,tracker.network
 DOMAIN-SUFFIX,tracking-location.com
 DOMAIN-SUFFIX,tradevip1.com
 DOMAIN-SUFFIX,tradingview.com
