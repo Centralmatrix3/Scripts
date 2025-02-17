@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31085
+# 规则统计: 31090
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -18881,7 +18881,12 @@ DOMAIN-SUFFIX,mwhentai.net
 DOMAIN-SUFFIX,mwrc.ac.uk
 DOMAIN-SUFFIX,mx.hao123.com
 DOMAIN-SUFFIX,mx981.com
+DOMAIN-SUFFIX,mxlogin.com
 DOMAIN-SUFFIX,mxmcdn.net
+DOMAIN-SUFFIX,mxroute.com
+DOMAIN-SUFFIX,mxroutedocs.com
+DOMAIN-SUFFIX,mxroutehelp.com
+DOMAIN-SUFFIX,mxrouting.net
 DOMAIN-SUFFIX,mxshm.site
 DOMAIN-SUFFIX,my-enema.com
 DOMAIN-SUFFIX,my-formosa.com

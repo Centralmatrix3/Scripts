@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31126
+# 规则统计: 31129
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -914,6 +914,7 @@ DOMAIN-SUFFIX,adaptivecards.io
 DOMAIN-SUFFIX,adas.ac.uk
 DOMAIN-SUFFIX,adbecrsl.com
 DOMAIN-SUFFIX,adbkm.com
+DOMAIN-SUFFIX,adblockcdn.com
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adcex.com
 DOMAIN-SUFFIX,adcommerce.tv
@@ -30451,6 +30452,8 @@ DOMAIN-SUFFIX,youpornxvideos.net
 DOMAIN-SUFFIX,your-freedom.net
 DOMAIN-SUFFIX,your-objectstorage.com
 DOMAIN-SUFFIX,your-server.de
+DOMAIN-SUFFIX,your-storagebox.de
+DOMAIN-SUFFIX,your-storageshare.de
 DOMAIN-SUFFIX,youramateurporn.com
 DOMAIN-SUFFIX,yourassbig.com
 DOMAIN-SUFFIX,yourbrain.com
