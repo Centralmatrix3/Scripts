@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31092
+# 规则统计: 31093
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -13121,6 +13121,7 @@ DOMAIN-SUFFIX,hentaivideoworld.com
 DOMAIN-SUFFIX,hentaivn.de
 DOMAIN-SUFFIX,hentaivn.la
 DOMAIN-SUFFIX,hentaivn.net
+DOMAIN-SUFFIX,hentaivox.com
 DOMAIN-SUFFIX,hentaivvz.com
 DOMAIN-SUFFIX,hentaiworld.eu
 DOMAIN-SUFFIX,hentaiworld.tv
