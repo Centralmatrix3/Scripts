@@ -1,39 +1,37 @@
 #!name = 网易云音乐
 #!desc = 网易云音乐去广告
-#!author = RuCu6、Keywos
-
-[Header Rewrite]
-http-request ^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(?:batch|v2\/resource\/comment\/floor\/get|homepage\/block\/page|link\/home\/framework\/tab|link\/page\/rcmd\/block\/resource\/multi\/refresh|link\/page\/rcmd\/resource\/show|user\/follow\/users\/mixed\/get) header-replace 'x-aeapi' 'false'
-
-http-request ^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|default\/|rcmd\/keyword\/|specialkeyword\/)) header-del 'x-aeapi'
+#!author = Keywos、RuCu6、kokoryh
+#!arguments= 隐藏底部标签开关:--, 隐藏首页卡片开关:--, 发现:0, 漫游:1, 笔记:0, 问候语:1, 每日推荐:0, 推荐歌单:0, 最近常听:0, 雷达歌单:1, 排行榜:0, 音乐合伙人:0, 推荐专属歌单:1, 你的专属歌单:1
 
 [Map Local]
-^https:\/\/interface\d\.music\.163\.com\/eapi\/my\/podcast\/tab\/recommend data-type=text data="{}" status-code=200
-
 ^https?:\/\/(ipv4|interface\d?)\.music\.163.com\/e?api\/ad data-type=text data="{}" status-code=200
 
-^https?:\/\/interface\d?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163.com\/eapi\/(?:mlivestream\/entrance\/playpage|link\/(position\/show\/strategy|scene\/show)|ios\/version|v\d\/content\/exposure\/comment\/banner) data-type=text data="{}" status-code=200
 
-^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resource\/comments?\/musiciansaid\/|user\/sub\/artist) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163.com\/w?e?api\/(?:search\/(chart|rcmd\/keyword|specialkeyword)|resource-exposure\/|activity\/bonus\/playpage\/time\/query) data-type=text data="{}" status-code=200
 
-^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:delivery\/(batch-)?deliver|moment\/tab\/info\/|side-bar\/mini-program\/music-service\/account|yunbei\/account\/entrance\/) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163.com\/w?e?api\/search\/default data-type=text data="{}" status-code=200
 
-^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:resource\/comments?\/musiciansaid|community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) data-type=text data="{}" status-code=200
 
-^https?:\/\/interface\d?\.music\.163\.com\/w?eapi\/(?:activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(?:chart\/|default\/|rcmd\/keyword\/|specialkeyword\/)) data-type=text data="{}" status-code=200
+^https?:\/\/interface\d?\.music\.163\.com\/w?e?api\/(?:side-bar\/mini-program\/music-service\/account|delivery\/(batch-deliver|deliver)|moment\/tab\/info\/get|yunbei\/account\/entrance\/get) data-type=text data="{}" status-code=200
 
 [Script]
-网易云音乐 = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:batch|v2\/resource\/comment\/floor\/get),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(batch|v\d\/resource\/comment\/floor\/get),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
 
-网易云音乐 = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/(?:homepage\/block\/page|link\/page\/rcmd\/(?:block\/resource\/multi\/refresh|resource\/show)),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(homepage\/block\/page|link\/page\/rcmd\/(resource\/show|block\/resource\/multi\/refresh)),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30, argument="{"PRGG":"{{{问候语}}}","PRDRD":"{{{每日推荐}}}","PRSCVPT":"{{{推荐歌单}}}","PRST":"{{{最近常听}}}","PRRR":"{{{雷达歌单}}}","PRRK":"{{{排行榜}}}","HMPR":"{{{音乐合伙人}}}","PRMST":"{{{推荐专属歌单}}}","PRCN":"{{{你的专属歌单}}}"}"
 
-网易云音乐 = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/home\/framework\/tab,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/(music-vip-membership\/client\/vip\/info|vipnewcenter\/app\/resource\/newaccountpage),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
 
-网易云音乐 = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/home\/framework\/tab,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30, argument="{"FX":"{{{发现}}}","MY":"{{{漫游}}}","DT":"{{{笔记}}}"}"
 
-网易云音乐 = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/link\/position\/show\/resource,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/page\/discovery\/resource\/show,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
 
-网易云音乐 = type=http-response,pattern=^https?:\/\/interface\d?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/get,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/link\/position\/show\/resource,requires-body=1,max-size=0,timeout=20,binary-body-mode=1,script-path=script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/song\/play\/more\/list\/v\d,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
+
+网易云音乐 = type=http-response,pattern=^https?:\/\/(ipv4|interface\d?)\.music\.163\.com\/e?api\/user\/follow\/users\/mixed\/get,requires-body=1,max-size=0,timeout=20,binary-body-mode=1,script-path=script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/NetEaseMusic/NetEaseMusic.js,requires-body=true,binary-body-mode=true,timeout=30
 
 [MITM]
-hostname = %APPEND% interface*.music.163.com, ipv4.music.163.com
+hostname = %APPEND% ipv4.music.163.com, interface*.music.163.com
