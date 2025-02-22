@@ -495,6 +495,7 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         [Wikimedia]="Wikimedia.list"
         [Wikipedia]="Wikipedia.list"
         # [Woolite]="Woolite.list"
+        # [X-AI]="X-AI.list"
         # [XNXX]="XNXX.list"
         [XianYu]="XianYu.list"
         [Xiaomi]="Xiaomi.list"
