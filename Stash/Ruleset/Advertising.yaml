@@ -1,5 +1,5 @@
 # 规则名称: Advertising
-# 规则统计: 110760
+# 规则统计: 110763
 
 payload:
   - '+.0.101tubeporn.com'
@@ -86372,6 +86372,7 @@ payload:
   - '+.splsgi.coco-gourmet.com'
   - '+.spmyma.moscowfresh.ru'
   - '+.spo-play.live'
+  - '+.spoaven.top'
   - '+.spoiledpresence.com'
   - '+.spoilmagicstandard.com'
   - '+.spoilphysiqueteenagers.com'
@@ -93171,6 +93172,7 @@ payload:
   - '+.tci.oss-ap-southeast-1.aliyuncs.com'
   - '+.tci.www.edusmartssl.com'
   - '+.tcimg.com'
+  - '+.tcinvdi.top'
   - '+.tciqgx.xyz'
   - '+.tck.fr.transavia.com'
   - '+.tck.photobox.com'
@@ -109080,6 +109082,7 @@ payload:
   - '+.yessearches.com'
   - '+.yeswevibe.com'
   - '+.yeswplearning.info'
+  - '+.yetcdn.com'
   - '+.yetshape.com'
   - '+.yetterslave.com'
   - '+.yev.moviesdirectpro.com'
