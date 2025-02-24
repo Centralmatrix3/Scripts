@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31146
+# 规则统计: 31147
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -6579,6 +6579,7 @@ DOMAIN-SUFFIX,cods-nursing.ac.uk
 DOMAIN-SUFFIX,coedcherry.com
 DOMAIN-SUFFIX,coem.ac.uk
 DOMAIN-SUFFIX,cof.ac.uk
+DOMAIN-SUFFIX,cofacts.tw
 DOMAIN-SUFFIX,cogc.ac.uk
 DOMAIN-SUFFIX,coin2co.in
 DOMAIN-SUFFIX,coinalyze.net

@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 94611
+# 规则统计: 94629
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -113,6 +113,7 @@ DOMAIN,csi.gstatic.com
 DOMAIN,cstat.apple.com
 DOMAIN,cstat.cdn-apple.com
 DOMAIN,ctldl.windowsupdate.com
+DOMAIN,cueme-api.quark.cn
 DOMAIN,dartsearch-cn.net
 DOMAIN,dd-cdn.origin-apple.com.akadns.net
 DOMAIN,dejavu.apple.com
@@ -13736,6 +13737,8 @@ DOMAIN-SUFFIX,besttrav.com
 DOMAIN-SUFFIX,bestugali.com
 DOMAIN-SUFFIX,bestv6.com
 DOMAIN-SUFFIX,bestvapp.com
+DOMAIN-SUFFIX,bestvcdn.com
+DOMAIN-SUFFIX,bestvcdn.net
 DOMAIN-SUFFIX,bestvideocloud.com
 DOMAIN-SUFFIX,bestviewstock.com
 DOMAIN-SUFFIX,bestvist.com
@@ -41769,6 +41772,7 @@ DOMAIN-SUFFIX,hzdjy.com
 DOMAIN-SUFFIX,hzdledu.com
 DOMAIN-SUFFIX,hzdlrj.com
 DOMAIN-SUFFIX,hzdq.com
+DOMAIN-SUFFIX,hzdtv.tv
 DOMAIN-SUFFIX,hzdx.com
 DOMAIN-SUFFIX,hzecsemir.com
 DOMAIN-SUFFIX,hzefjs.com
@@ -63918,6 +63922,7 @@ DOMAIN-SUFFIX,qingnianlvxing.com
 DOMAIN-SUFFIX,qingnianwang.com
 DOMAIN-SUFFIX,qingpanduola.com
 DOMAIN-SUFFIX,qingpin.vip
+DOMAIN-SUFFIX,qingping.co
 DOMAIN-SUFFIX,qingqikeji.com
 DOMAIN-SUFFIX,qingqin.com
 DOMAIN-SUFFIX,qingqingmedia.com
@@ -68648,6 +68653,7 @@ DOMAIN-SUFFIX,sharedaka.com
 DOMAIN-SUFFIX,sharegog.com
 DOMAIN-SUFFIX,shareinstall.com
 DOMAIN-SUFFIX,shareinstall.net
+DOMAIN-SUFFIX,shareintelli.com
 DOMAIN-SUFFIX,sharejs.com
 DOMAIN-SUFFIX,sharelogis.com
 DOMAIN-SUFFIX,sharemoon.club
@@ -71817,6 +71823,7 @@ DOMAIN-SUFFIX,startos.org
 DOMAIN-SUFFIX,startup-partner.com
 DOMAIN-SUFFIX,starwarschina.com
 DOMAIN-SUFFIX,starway.net
+DOMAIN-SUFFIX,starworldgames.com
 DOMAIN-SUFFIX,starx-w.com
 DOMAIN-SUFFIX,starxiiient.com
 DOMAIN-SUFFIX,starxn.com
@@ -82488,6 +82495,7 @@ DOMAIN-SUFFIX,wzswsq.com
 DOMAIN-SUFFIX,wzsxj.net
 DOMAIN-SUFFIX,wztf121.com
 DOMAIN-SUFFIX,wztlink1013.com
+DOMAIN-SUFFIX,wztsy.com
 DOMAIN-SUFFIX,wzty.ltd
 DOMAIN-SUFFIX,wzu.com
 DOMAIN-SUFFIX,wzweisen.com
@@ -83602,15 +83610,25 @@ DOMAIN-SUFFIX,xiaomi.hk
 DOMAIN-SUFFIX,xiaomi.net
 DOMAIN-SUFFIX,xiaomi.tw
 DOMAIN-SUFFIX,xiaomiaozai.com
+DOMAIN-SUFFIX,xiaomicp.com
+DOMAIN-SUFFIX,xiaomidns.com
+DOMAIN-SUFFIX,xiaomidns.net
 DOMAIN-SUFFIX,xiaomiev.com
 DOMAIN-SUFFIX,xiaomiflash.com
+DOMAIN-SUFFIX,xiaomiinc.com
+DOMAIN-SUFFIX,xiaomiinc.net
 DOMAIN-SUFFIX,xiaomimobile.com
 DOMAIN-SUFFIX,xiaominet.com
 DOMAIN-SUFFIX,xiaominfo.com
 DOMAIN-SUFFIX,xiaomingtaiji.com
+DOMAIN-SUFFIX,xiaominr.com
+DOMAIN-SUFFIX,xiaomiprint.com
 DOMAIN-SUFFIX,xiaomiqiu.com
 DOMAIN-SUFFIX,xiaomiquan.com
 DOMAIN-SUFFIX,xiaomirom.com
+DOMAIN-SUFFIX,xiaomisa.com
+DOMAIN-SUFFIX,xiaomisa.net
+DOMAIN-SUFFIX,xiaomisa.org
 DOMAIN-SUFFIX,xiaomishu.com
 DOMAIN-SUFFIX,xiaomiwear.com
 DOMAIN-SUFFIX,xiaomixiaoai.com
