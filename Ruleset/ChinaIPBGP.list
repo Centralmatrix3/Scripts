@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 4194
+# 规则统计: 4190
 
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
@@ -162,7 +162,6 @@ IP-CIDR,103.108.244.0/24,no-resolve
 IP-CIDR,103.108.247.0/24,no-resolve
 IP-CIDR,103.109.106.0/23,no-resolve
 IP-CIDR,103.110.132.0/22,no-resolve
-IP-CIDR,103.110.156.0/22,no-resolve
 IP-CIDR,103.111.64.0/24,no-resolve
 IP-CIDR,103.112.172.0/22,no-resolve
 IP-CIDR,103.112.184.0/22,no-resolve
@@ -2059,7 +2058,6 @@ IP-CIDR,146.222.94.0/24,no-resolve
 IP-CIDR,146.56.192.0/18,no-resolve
 IP-CIDR,147.78.176.0/22,no-resolve
 IP-CIDR,148.70.0.0/16,no-resolve
-IP-CIDR,149.134.158.0/24,no-resolve
 IP-CIDR,149.50.74.0/23,no-resolve
 IP-CIDR,149.50.81.0/24,no-resolve
 IP-CIDR,149.50.88.0/23,no-resolve
@@ -2169,6 +2167,7 @@ IP-CIDR,160.202.224.0/19,no-resolve
 IP-CIDR,160.22.188.0/24,no-resolve
 IP-CIDR,160.250.14.0/23,no-resolve
 IP-CIDR,160.250.18.0/24,no-resolve
+IP-CIDR,160.30.230.0/23,no-resolve
 IP-CIDR,160.83.110.0/24,no-resolve
 IP-CIDR,161.163.0.0/21,no-resolve
 IP-CIDR,161.163.28.0/23,no-resolve
@@ -3631,7 +3630,6 @@ IP-CIDR,42.97.0.0/16,no-resolve
 IP-CIDR,42.99.0.0/18,no-resolve
 IP-CIDR,43.136.0.0/13,no-resolve
 IP-CIDR,43.144.0.0/15,no-resolve
-IP-CIDR,43.16.0.0/12,no-resolve
 IP-CIDR,43.192.0.0/16,no-resolve
 IP-CIDR,43.193.0.0/18,no-resolve
 IP-CIDR,43.193.64.0/24,no-resolve
@@ -3793,9 +3791,6 @@ IP-CIDR,43.255.224.0/21,no-resolve
 IP-CIDR,43.255.68.0/22,no-resolve
 IP-CIDR,43.255.84.0/22,no-resolve
 IP-CIDR,43.255.96.0/22,no-resolve
-IP-CIDR,43.32.0.0/11,no-resolve
-IP-CIDR,43.64.0.0/14,no-resolve
-IP-CIDR,43.68.0.0/15,no-resolve
 IP-CIDR,45.10.172.0/22,no-resolve
 IP-CIDR,45.11.76.0/22,no-resolve
 IP-CIDR,45.113.20.0/22,no-resolve
@@ -3850,6 +3845,7 @@ IP-CIDR,45.153.128.0/22,no-resolve
 IP-CIDR,45.199.167.0/24,no-resolve
 IP-CIDR,45.248.108.0/24,no-resolve
 IP-CIDR,45.248.8.0/22,no-resolve
+IP-CIDR,45.249.208.0/23,no-resolve
 IP-CIDR,45.249.212.0/22,no-resolve
 IP-CIDR,45.250.180.0/23,no-resolve
 IP-CIDR,45.250.184.0/22,no-resolve
@@ -3955,7 +3951,7 @@ IP-CIDR,52.82.192.0/18,no-resolve
 IP-CIDR,52.83.0.0/16,no-resolve
 IP-CIDR,54.222.0.0/19,no-resolve
 IP-CIDR,54.222.100.0/22,no-resolve
-IP-CIDR,54.222.104.0/22,no-resolve
+IP-CIDR,54.222.104.0/21,no-resolve
 IP-CIDR,54.222.112.0/22,no-resolve
 IP-CIDR,54.222.116.0/23,no-resolve
 IP-CIDR,54.222.128.0/17,no-resolve
@@ -4174,7 +4170,7 @@ IP-CIDR,8.148.128.0/17,no-resolve
 IP-CIDR,8.148.32.0/22,no-resolve
 IP-CIDR,8.148.36.0/23,no-resolve
 IP-CIDR,8.148.38.0/24,no-resolve
-IP-CIDR,8.148.40.0/22,no-resolve
+IP-CIDR,8.148.43.0/24,no-resolve
 IP-CIDR,8.148.64.0/18,no-resolve
 IP-CIDR,8.149.0.0/16,no-resolve
 IP-CIDR,8.150.0.0/21,no-resolve
