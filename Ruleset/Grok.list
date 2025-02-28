@@ -1,4 +1,4 @@
-# 规则名称: X-AI
+# 规则名称: Grok
 # 规则统计: 2
 
 DOMAIN-SUFFIX,grok.com
