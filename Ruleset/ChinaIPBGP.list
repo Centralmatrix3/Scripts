@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 4180
+# 规则统计: 4176
 
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
@@ -134,7 +134,6 @@ IP-CIDR,103.1.20.0/22,no-resolve
 IP-CIDR,103.1.8.0/22,no-resolve
 IP-CIDR,103.10.0.0/22,no-resolve
 IP-CIDR,103.10.84.0/22,no-resolve
-IP-CIDR,103.100.158.0/23,no-resolve
 IP-CIDR,103.100.64.0/22,no-resolve
 IP-CIDR,103.101.124.0/23,no-resolve
 IP-CIDR,103.101.180.0/22,no-resolve
@@ -251,7 +250,6 @@ IP-CIDR,103.150.10.0/23,no-resolve
 IP-CIDR,103.150.164.0/23,no-resolve
 IP-CIDR,103.150.24.0/23,no-resolve
 IP-CIDR,103.151.148.0/23,no-resolve
-IP-CIDR,103.151.4.0/23,no-resolve
 IP-CIDR,103.152.186.0/23,no-resolve
 IP-CIDR,103.152.224.0/24,no-resolve
 IP-CIDR,103.152.28.0/23,no-resolve
@@ -2057,6 +2055,7 @@ IP-CIDR,146.222.94.0/24,no-resolve
 IP-CIDR,146.56.192.0/18,no-resolve
 IP-CIDR,147.78.176.0/22,no-resolve
 IP-CIDR,148.70.0.0/16,no-resolve
+IP-CIDR,149.134.158.0/24,no-resolve
 IP-CIDR,149.50.74.0/23,no-resolve
 IP-CIDR,149.50.81.0/24,no-resolve
 IP-CIDR,149.50.88.0/23,no-resolve
@@ -4135,7 +4134,6 @@ IP-CIDR,66.102.248.0/22,no-resolve
 IP-CIDR,66.102.255.0/24,no-resolve
 IP-CIDR,67.229.241.0/24,no-resolve
 IP-CIDR,68.79.0.0/18,no-resolve
-IP-CIDR,69.194.0.0/23,no-resolve
 IP-CIDR,69.230.192.0/18,no-resolve
 IP-CIDR,69.231.128.0/18,no-resolve
 IP-CIDR,69.234.192.0/18,no-resolve
@@ -4158,8 +4156,6 @@ IP-CIDR,8.148.0.0/19,no-resolve
 IP-CIDR,8.148.128.0/17,no-resolve
 IP-CIDR,8.148.32.0/22,no-resolve
 IP-CIDR,8.148.36.0/23,no-resolve
-IP-CIDR,8.148.38.0/24,no-resolve
-IP-CIDR,8.148.43.0/24,no-resolve
 IP-CIDR,8.148.64.0/18,no-resolve
 IP-CIDR,8.149.0.0/16,no-resolve
 IP-CIDR,8.150.0.0/21,no-resolve
