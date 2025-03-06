@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPBGP
-# 规则统计: 4174
+# 规则统计: 4173
 
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
@@ -1012,7 +1012,6 @@ IP-CIDR,112.124.0.0/14,no-resolve
 IP-CIDR,112.132.0.0/16,no-resolve
 IP-CIDR,112.192.0.0/14,no-resolve
 IP-CIDR,112.213.101.0/24,no-resolve
-IP-CIDR,112.213.116.0/24,no-resolve
 IP-CIDR,112.224.0.0/11,no-resolve
 IP-CIDR,112.64.0.0/14,no-resolve
 IP-CIDR,112.74.0.0/16,no-resolve
