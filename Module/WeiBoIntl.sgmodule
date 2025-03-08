@@ -21,4 +21,4 @@ http-response-jq ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_cent
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?ct=feed&a=search_topic& data-type=text data="{"retcode":0,"info":"","data":[],"ext":{}}" header="Content-Type:text/html"
 
 [MITM]
-hostname = %APPEND% *api.weibo.cn
+hostname = %APPEND% api.weibo.cn, weibointl.api.weibo.cn
