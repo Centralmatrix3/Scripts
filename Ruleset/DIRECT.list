@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 94292
+# 规则统计: 94294
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -64918,6 +64918,8 @@ DOMAIN-SUFFIX,qw5599.com
 DOMAIN-SUFFIX,qwbk.cc
 DOMAIN-SUFFIX,qweather.com
 DOMAIN-SUFFIX,qweather.net
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,qwenlm.ai
 DOMAIN-SUFFIX,qwerhost.com
 DOMAIN-SUFFIX,qwfync.com
 DOMAIN-SUFFIX,qwgg.com

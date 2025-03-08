@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6466
+# 规则统计: 6467
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -107,6 +107,7 @@ DOMAIN-SUFFIX,64wiki.com
 DOMAIN-SUFFIX,66.ca
 DOMAIN-SUFFIX,666kb.com
 DOMAIN-SUFFIX,666pool.cn
+DOMAIN-SUFFIX,69shuba.cx
 DOMAIN-SUFFIX,6do.news
 DOMAIN-SUFFIX,6do.world
 DOMAIN-SUFFIX,6park.com
@@ -2181,6 +2182,7 @@ DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gizlen.net
@@ -2449,6 +2451,7 @@ DOMAIN-SUFFIX,google.tt
 DOMAIN-SUFFIX,google.vg
 DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
+DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googlearth.com
 DOMAIN-SUFFIX,googleartproject.com
@@ -3467,7 +3470,6 @@ DOMAIN-SUFFIX,mansionpoker.com
 DOMAIN-SUFFIX,manta.com
 DOMAIN-SUFFIX,manyvoices.news
 DOMAIN-SUFFIX,maplew.com
-DOMAIN-SUFFIX,maps.googleapis.com
 DOMAIN-SUFFIX,marc.info
 DOMAIN-SUFFIX,marguerite.su
 DOMAIN-SUFFIX,martau.com
@@ -4292,6 +4294,7 @@ DOMAIN-SUFFIX,politicalchina.org
 DOMAIN-SUFFIX,politicalconsultation.org
 DOMAIN-SUFFIX,politiscales.net
 DOMAIN-SUFFIX,poloniex.com
+DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,polymer-project.org
 DOMAIN-SUFFIX,polymerhk.com
 DOMAIN-SUFFIX,poolbinance.com
@@ -5453,7 +5456,6 @@ DOMAIN-SUFFIX,tracfone.com
 DOMAIN-SUFFIX,tradingview.com
 DOMAIN-SUFFIX,trans.wenweipo.com
 DOMAIN-SUFFIX,translate.goog
-DOMAIN-SUFFIX,translate.googleapis.com
 DOMAIN-SUFFIX,transparency.org
 DOMAIN-SUFFIX,treemall.com.tw
 DOMAIN-SUFFIX,trendsmap.com
@@ -6050,7 +6052,6 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wikiwand.com
-DOMAIN-SUFFIX,wikiwiki.jp
 DOMAIN-SUFFIX,wiktionary.org
 DOMAIN-SUFFIX,wildammo.com
 DOMAIN-SUFFIX,williamhill.com
