@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31461
+# 规则统计: 31462
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -27679,6 +27679,7 @@ DOMAIN-SUFFIX,twitturly.com
 DOMAIN-SUFFIX,twitvid.com
 DOMAIN-SUFFIX,twitzap.com
 DOMAIN-SUFFIX,twiyia.com
+DOMAIN-SUFFIX,twkan.com
 DOMAIN-SUFFIX,twlegs.com
 DOMAIN-SUFFIX,twline5.com
 DOMAIN-SUFFIX,twnextdigital.com
