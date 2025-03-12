@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 87508
+# 规则统计: 87507
 
 payload:
   - '+.0.myikas.com'
@@ -4662,7 +4662,6 @@ payload:
   - '+.actives.youku.com'
   - '+.activisionnews.com'
   - '+.activity-flow.vtex.com'
-  - '+.activity.app.autohome.com.cn'
   - '+.activity.browser.intl.miui.com'
   - '+.activity.clotfun.xyz'
   - '+.activity.fiverr.com'
