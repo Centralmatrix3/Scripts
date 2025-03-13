@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31441
+# 规则统计: 31443
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -254,6 +254,7 @@ DOMAIN,paper-attachments.s3.amazonaws.com
 DOMAIN,pchomeonline.com.tw
 DOMAIN,pki.google.com
 DOMAIN,poshtestgallery.cloudapp.net
+DOMAIN,pplx-res.cloudinary.com
 DOMAIN,practivate.adobe
 DOMAIN,practivate.adobe.com
 DOMAIN,practivate.adobe.ipp
@@ -22537,6 +22538,7 @@ DOMAIN-SUFFIX,ppb-mod.buzz
 DOMAIN-SUFFIX,ppe.lawyer
 DOMAIN-SUFFIX,pplah.com
 DOMAIN-SUFFIX,pplusstatic.com
+DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,ppp91.cc
 DOMAIN-SUFFIX,pppds.com
 DOMAIN-SUFFIX,ppre.ac.uk
