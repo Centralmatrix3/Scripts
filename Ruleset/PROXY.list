@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31452
+# 规则统计: 31451
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -10558,7 +10558,6 @@ DOMAIN-SUFFIX,fashiontechnologyacademy.ac.uk
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastech.ac.uk
 DOMAIN-SUFFIX,fastestvpn.com
-DOMAIN-SUFFIX,fastgpt.run
 DOMAIN-SUFFIX,fastindianporn.com
 DOMAIN-SUFFIX,fastlane.ci
 DOMAIN-SUFFIX,fastlane.tools
