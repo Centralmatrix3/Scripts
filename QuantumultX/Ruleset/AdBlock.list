@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 87617
+# 规则统计: 87622
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -5064,6 +5064,7 @@ HOST-SUFFIX,adashbc.ut.taobao.com,AdBlock
 HOST-SUFFIX,adashx.m.taobao.com,AdBlock
 HOST-SUFFIX,adashx.ut.amap.com,AdBlock
 HOST-SUFFIX,adashx.ut.ele.me,AdBlock
+HOST-SUFFIX,adashx.ut.uc.cn,AdBlock
 HOST-SUFFIX,adashx.ut.youku.com,AdBlock
 HOST-SUFFIX,adashx4ae.ut.taobao.com,AdBlock
 HOST-SUFFIX,adashx4yt.m.taobao.com,AdBlock
@@ -10000,6 +10001,7 @@ HOST-SUFFIX,applinks.xdressr.com,AdBlock
 HOST-SUFFIX,applinks.zerista.com,AdBlock
 HOST-SUFFIX,applixir.com,AdBlock
 HOST-SUFFIX,applk.cn,AdBlock
+HOST-SUFFIX,applog-perf.uc.cn,AdBlock
 HOST-SUFFIX,applog.lc.quark.cn,AdBlock
 HOST-SUFFIX,applog.musical.ly,AdBlock
 HOST-SUFFIX,applog.reader.qq.com,AdBlock
@@ -33107,8 +33109,10 @@ HOST-SUFFIX,gzxnlk.com,AdBlock
 HOST-SUFFIX,gzzbb.net,AdBlock
 HOST-SUFFIX,gzzkjdam.cn,AdBlock
 HOST-SUFFIX,gzzuwo.com,AdBlock
+HOST-SUFFIX,h-adashx.ut.amap.com,AdBlock
 HOST-SUFFIX,h-adashx.ut.ele.me,AdBlock
 HOST-SUFFIX,h-adashx.ut.taobao.com,AdBlock
+HOST-SUFFIX,h-adashx.ut.uc.cn,AdBlock
 HOST-SUFFIX,h-adashx.ut.youku.com,AdBlock
 HOST-SUFFIX,h-adashx4yt.ut.taobao.com,AdBlock
 HOST-SUFFIX,h-bid.com,AdBlock
@@ -62285,6 +62289,7 @@ HOST-SUFFIX,rzpjyz.pasona.co.jp,AdBlock
 HOST-SUFFIX,rztrkr.com,AdBlock
 HOST-SUFFIX,rzuokcobzru.com,AdBlock
 HOST-SUFFIX,rzzlhfx.com,AdBlock
+HOST-SUFFIX,s-adashx.ut.uc.cn,AdBlock
 HOST-SUFFIX,s-adobe.wacoal.jp,AdBlock
 HOST-SUFFIX,s-adobeanalytics.vice.com,AdBlock
 HOST-SUFFIX,s-adzone.com,AdBlock
