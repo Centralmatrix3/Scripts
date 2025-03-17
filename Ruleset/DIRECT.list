@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 97371
+# 规则统计: 97369
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -22676,7 +22676,6 @@ DOMAIN-SUFFIX,cqrc.net
 DOMAIN-SUFFIX,cqrcb.com
 DOMAIN-SUFFIX,cqrcdsc.com
 DOMAIN-SUFFIX,cqrfym.com
-DOMAIN-SUFFIX,cqrjx.com
 DOMAIN-SUFFIX,cqrm.com
 DOMAIN-SUFFIX,cqrmb.com
 DOMAIN-SUFFIX,cqsckj02.com
@@ -47956,7 +47955,6 @@ DOMAIN-SUFFIX,jjj.ee
 DOMAIN-SUFFIX,jjjaaa.com
 DOMAIN-SUFFIX,jjjllk.com
 DOMAIN-SUFFIX,jjjpv.com
-DOMAIN-SUFFIX,jjjx9.com
 DOMAIN-SUFFIX,jjkeq.com
 DOMAIN-SUFFIX,jjkjnet.com
 DOMAIN-SUFFIX,jjkk.org
@@ -48861,6 +48859,7 @@ DOMAIN-SUFFIX,jswb.com
 DOMAIN-SUFFIX,jswebcall.com
 DOMAIN-SUFFIX,jsweixiu.com
 DOMAIN-SUFFIX,jswel.com
+DOMAIN-SUFFIX,jswenjin.com
 DOMAIN-SUFFIX,jswjkj.net
 DOMAIN-SUFFIX,jswmw.com
 DOMAIN-SUFFIX,jswonderful.com
@@ -51860,7 +51859,6 @@ DOMAIN-SUFFIX,labzj.com
 DOMAIN-SUFFIX,lacaoshi.com
 DOMAIN-SUFFIX,lacesar.com
 DOMAIN-SUFFIX,lacocrea.com
-DOMAIN-SUFFIX,lacyw.com
 DOMAIN-SUFFIX,ladiyoga.com
 DOMAIN-SUFFIX,ladjzs.com
 DOMAIN-SUFFIX,lady177.com
@@ -79164,7 +79162,6 @@ DOMAIN-SUFFIX,tzsports.com
 DOMAIN-SUFFIX,tzsti.com
 DOMAIN-SUFFIX,tzsucai.com
 DOMAIN-SUFFIX,tzswatch.com
-DOMAIN-SUFFIX,tzswll.com
 DOMAIN-SUFFIX,tztrzjt.com
 DOMAIN-SUFFIX,tztusi.com
 DOMAIN-SUFFIX,tzujian.com
@@ -80573,6 +80570,7 @@ DOMAIN-SUFFIX,vietnambesthotel.com
 DOMAIN-SUFFIX,viewstock.com
 DOMAIN-SUFFIX,viewtool.com
 DOMAIN-SUFFIX,viewtrans.com
+DOMAIN-SUFFIX,vifaka.com
 DOMAIN-SUFFIX,vigtm-meeting-tencent.com
 DOMAIN-SUFFIX,viigee.com
 DOMAIN-SUFFIX,viisan.com

@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6479
+# 规则统计: 6480
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -327,6 +327,7 @@ DOMAIN-SUFFIX,aofriend.com
 DOMAIN-SUFFIX,aofriend.com.au
 DOMAIN-SUFFIX,aojiao.org
 DOMAIN-SUFFIX,aolchannels.aol.com
+DOMAIN-SUFFIX,aomedia.org
 DOMAIN-SUFFIX,aomiwang.com
 DOMAIN-SUFFIX,apartmentratings.com
 DOMAIN-SUFFIX,apartments.com
@@ -4354,7 +4355,7 @@ DOMAIN-SUFFIX,powercx.com
 DOMAIN-SUFFIX,powerphoto.org
 DOMAIN-SUFFIX,ppy.sh
 DOMAIN-SUFFIX,prayforchina.net
-DOMAIN-SUFFIX,premeforwindows7.com
+DOMAIN-SUFFIX,prcleader.org
 DOMAIN-SUFFIX,premproxy.com
 DOMAIN-SUFFIX,presentation.new
 DOMAIN-SUFFIX,presentationzen.com
