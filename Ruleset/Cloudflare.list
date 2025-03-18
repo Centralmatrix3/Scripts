@@ -1,30 +1,41 @@
 # 规则名称: Cloudflare
-# 规则统计: 65
+# 规则统计: 55
 
+DOMAIN-SUFFIX,argotunnel.com
 DOMAIN-SUFFIX,cf-ipfs.com
 DOMAIN-SUFFIX,cf-ns.com
 DOMAIN-SUFFIX,cf-ns.net
 DOMAIN-SUFFIX,cf-ns.site
 DOMAIN-SUFFIX,cf-ns.tech
+DOMAIN-SUFFIX,cfl.re
 DOMAIN-SUFFIX,cftest5.cn
 DOMAIN-SUFFIX,cftest6.cn
 DOMAIN-SUFFIX,cftest7.com
 DOMAIN-SUFFIX,cftest8.com
 DOMAIN-SUFFIX,cloudflare-cn.com
 DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflare-ech.com
+DOMAIN-SUFFIX,cloudflare-esni.com
+DOMAIN-SUFFIX,cloudflare-gateway.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare.net
 DOMAIN-SUFFIX,cloudflare.tv
 DOMAIN-SUFFIX,cloudflareaccess.com
+DOMAIN-SUFFIX,cloudflareanycast.net
 DOMAIN-SUFFIX,cloudflareapps.com
 DOMAIN-SUFFIX,cloudflarebolt.com
+DOMAIN-SUFFIX,cloudflarechina.cn
 DOMAIN-SUFFIX,cloudflareclient.com
 DOMAIN-SUFFIX,cloudflarecn.net
+DOMAIN-SUFFIX,cloudflareglobal.net
 DOMAIN-SUFFIX,cloudflareinsights-cn.com
 DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudflareok.com
+DOMAIN-SUFFIX,cloudflarepartners.com
+DOMAIN-SUFFIX,cloudflareperf.com
+DOMAIN-SUFFIX,cloudflareportal.com
 DOMAIN-SUFFIX,cloudflarepreview.com
 DOMAIN-SUFFIX,cloudflareprod.com
 DOMAIN-SUFFIX,cloudflareresolve.com
@@ -37,6 +48,7 @@ DOMAIN-SUFFIX,cloudflarestream.com
 DOMAIN-SUFFIX,cloudflaretest.com
 DOMAIN-SUFFIX,cloudflarewarp.com
 DOMAIN-SUFFIX,every1dns.net
+DOMAIN-SUFFIX,isbgpsafeyet.com
 DOMAIN-SUFFIX,one.one.one
 DOMAIN-SUFFIX,pacloudflare.com
 DOMAIN-SUFFIX,pages.dev
@@ -44,25 +56,3 @@ DOMAIN-SUFFIX,trycloudflare.com
 DOMAIN-SUFFIX,videodelivery.net
 DOMAIN-SUFFIX,warp.plus
 DOMAIN-SUFFIX,workers.dev
-IP-CIDR,103.21.244.0/22,no-resolve
-IP-CIDR,103.22.200.0/22,no-resolve
-IP-CIDR,103.31.4.0/22,no-resolve
-IP-CIDR,104.16.0.0/13,no-resolve
-IP-CIDR,104.24.0.0/14,no-resolve
-IP-CIDR,108.162.192.0/18,no-resolve
-IP-CIDR,131.0.72.0/22,no-resolve
-IP-CIDR,141.101.64.0/18,no-resolve
-IP-CIDR,162.158.0.0/15,no-resolve
-IP-CIDR,172.64.0.0/13,no-resolve
-IP-CIDR,173.245.48.0/20,no-resolve
-IP-CIDR,188.114.96.0/20,no-resolve
-IP-CIDR,190.93.240.0/20,no-resolve
-IP-CIDR,197.234.240.0/22,no-resolve
-IP-CIDR,198.41.128.0/17,no-resolve
-IP-CIDR6,2400:cb00::/32,no-resolve
-IP-CIDR6,2405:8100::/32,no-resolve
-IP-CIDR6,2405:b500::/32,no-resolve
-IP-CIDR6,2606:4700::/32,no-resolve
-IP-CIDR6,2803:f800::/32,no-resolve
-IP-CIDR6,2a06:98c0::/29,no-resolve
-IP-CIDR6,2c0f:f248::/32,no-resolve
