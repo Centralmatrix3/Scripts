@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31391
+# 规则统计: 31392
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -22230,6 +22230,7 @@ DOMAIN-SUFFIX,practicum.ac.uk
 DOMAIN-SUFFIX,pramu.ac.uk
 DOMAIN-SUFFIX,prastitutki.ru
 DOMAIN-SUFFIX,prayforchina.net
+DOMAIN-SUFFIX,prcleader.org
 DOMAIN-SUFFIX,pre-bmwgroup.jobs
 DOMAIN-SUFFIX,predictivetechnologies.com
 DOMAIN-SUFFIX,premeforwindows7.com

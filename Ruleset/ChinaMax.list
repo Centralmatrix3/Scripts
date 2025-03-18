@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 117349
+# 规则统计: 117343
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -22149,7 +22149,6 @@ DOMAIN-SUFFIX,cqrc.net
 DOMAIN-SUFFIX,cqrcb.com
 DOMAIN-SUFFIX,cqrcdsc.com
 DOMAIN-SUFFIX,cqrfym.com
-DOMAIN-SUFFIX,cqrjx.com
 DOMAIN-SUFFIX,cqrm.com
 DOMAIN-SUFFIX,cqrmb.com
 DOMAIN-SUFFIX,cqsckj02.com
@@ -47621,7 +47620,6 @@ DOMAIN-SUFFIX,jjj.ee
 DOMAIN-SUFFIX,jjjaaa.com
 DOMAIN-SUFFIX,jjjllk.com
 DOMAIN-SUFFIX,jjjpv.com
-DOMAIN-SUFFIX,jjjx9.com
 DOMAIN-SUFFIX,jjkeq.com
 DOMAIN-SUFFIX,jjkjnet.com
 DOMAIN-SUFFIX,jjkk.org
@@ -48516,6 +48514,7 @@ DOMAIN-SUFFIX,jswb.com
 DOMAIN-SUFFIX,jswebcall.com
 DOMAIN-SUFFIX,jsweixiu.com
 DOMAIN-SUFFIX,jswel.com
+DOMAIN-SUFFIX,jswenjin.com
 DOMAIN-SUFFIX,jswjkj.net
 DOMAIN-SUFFIX,jswmw.com
 DOMAIN-SUFFIX,jswonderful.com
@@ -51529,7 +51528,6 @@ DOMAIN-SUFFIX,labzj.com
 DOMAIN-SUFFIX,lacaoshi.com
 DOMAIN-SUFFIX,lacesar.com
 DOMAIN-SUFFIX,lacocrea.com
-DOMAIN-SUFFIX,lacyw.com
 DOMAIN-SUFFIX,ladiyoga.com
 DOMAIN-SUFFIX,ladjzs.com
 DOMAIN-SUFFIX,lady75.com
@@ -78689,7 +78687,6 @@ DOMAIN-SUFFIX,tzsports.com
 DOMAIN-SUFFIX,tzsti.com
 DOMAIN-SUFFIX,tzsucai.com
 DOMAIN-SUFFIX,tzswatch.com
-DOMAIN-SUFFIX,tzswll.com
 DOMAIN-SUFFIX,tztrzjt.com
 DOMAIN-SUFFIX,tztusi.com
 DOMAIN-SUFFIX,tzujian.com
@@ -80080,6 +80077,7 @@ DOMAIN-SUFFIX,vietnambesthotel.com
 DOMAIN-SUFFIX,viewstock.com
 DOMAIN-SUFFIX,viewtool.com
 DOMAIN-SUFFIX,viewtrans.com
+DOMAIN-SUFFIX,vifaka.com
 DOMAIN-SUFFIX,vigtm-meeting-tencent.com
 DOMAIN-SUFFIX,viigee.com
 DOMAIN-SUFFIX,viisan.com
@@ -96955,7 +96953,6 @@ IP-CIDR,101.96.8.0/22,no-resolve
 IP-CIDR,101.99.96.0/19,no-resolve
 IP-CIDR,102.134.32.0/22,no-resolve
 IP-CIDR,102.134.56.0/22,no-resolve
-IP-CIDR,102.141.200.0/22,no-resolve
 IP-CIDR,102.220.88.0/22,no-resolve
 IP-CIDR,102.32.0.0/15,no-resolve
 IP-CIDR,102.38.229.0/24,no-resolve
@@ -100560,7 +100557,6 @@ IP-CIDR,154.208.140.0/22,no-resolve
 IP-CIDR,154.208.144.0/20,no-resolve
 IP-CIDR,154.208.160.0/21,no-resolve
 IP-CIDR,154.208.172.0/23,no-resolve
-IP-CIDR,154.209.2.0/24,no-resolve
 IP-CIDR,154.209.251.0/24,no-resolve
 IP-CIDR,154.213.4.0/23,no-resolve
 IP-CIDR,154.23.188.0/22,no-resolve
@@ -101241,7 +101237,6 @@ IP-CIDR,185.239.84.0/22,no-resolve
 IP-CIDR,185.242.232.0/22,no-resolve
 IP-CIDR,185.242.244.0/22,no-resolve
 IP-CIDR,185.243.240.0/22,no-resolve
-IP-CIDR,185.243.43.0/24,no-resolve
 IP-CIDR,185.245.40.0/23,no-resolve
 IP-CIDR,185.248.86.0/24,no-resolve
 IP-CIDR,185.255.152.0/24,no-resolve
@@ -104721,7 +104716,6 @@ IP-CIDR,45.152.24.0/22,no-resolve
 IP-CIDR,45.153.128.0/22,no-resolve
 IP-CIDR,45.154.244.0/24,no-resolve
 IP-CIDR,45.157.88.0/24,no-resolve
-IP-CIDR,45.195.198.0/24,no-resolve
 IP-CIDR,45.195.6.0/24,no-resolve
 IP-CIDR,45.199.167.0/24,no-resolve
 IP-CIDR,45.202.209.0/24,no-resolve
