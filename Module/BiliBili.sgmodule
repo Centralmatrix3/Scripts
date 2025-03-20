@@ -27,7 +27,7 @@ http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? 'delpa
 
 ^https:\/\/app\.bilibili\.com\/x\/resource\/ip data-type=text data="{}" status-code=200
 
-^https:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\? data-type=text data="{ "code": -404, "message": "啥都木有", "ttl": 1, "data": null }" status-code=200 header="Content-Type:text/json"
+^https:\/\/app\.bilibili\.com\/x\/resource\/top\/activity\? data-type=text data="{ "code": -404, "message": "啥都木有", "ttl": 1, "data": null }" status-code=200 header="Content-Type: application/json"
 
 [Script]
 哔哩哔哩 = type=http-response,pattern=^https:\/\/(?:app\.bilibili\.com|grpc\.biliapi\.net)\/bilibili\.app\.dynamic\.v2\.Dynamic\/DynAll$,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/BiliBili/Protos.js,requires-body=true,binary-body-mode=true,timeout=30 
