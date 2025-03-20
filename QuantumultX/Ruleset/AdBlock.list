@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 87809
+# 规则统计: 88061
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -494,6 +494,7 @@ HOST-SUFFIX,1ep.co,AdBlock
 HOST-SUFFIX,1ep2l1253.de,AdBlock
 HOST-SUFFIX,1eusy6.boxoffice.adventuretix.com,AdBlock
 HOST-SUFFIX,1f3k.com,AdBlock
+HOST-SUFFIX,1f506eaf.b-cdn.net,AdBlock
 HOST-SUFFIX,1f63b94163.com,AdBlock
 HOST-SUFFIX,1f6bf6f5a3.com,AdBlock
 HOST-SUFFIX,1f84e33459.com,AdBlock
@@ -596,7 +597,6 @@ HOST-SUFFIX,1yj.icu,AdBlock
 HOST-SUFFIX,1ytao.com,AdBlock
 HOST-SUFFIX,2-05.com,AdBlock
 HOST-SUFFIX,2.arpun.com,AdBlock
-HOST-SUFFIX,2.haory.cn,AdBlock
 HOST-SUFFIX,2.haoxue360.com,AdBlock
 HOST-SUFFIX,2.letvlive.com,AdBlock
 HOST-SUFFIX,2.nanrenwo.net,AdBlock
@@ -618,7 +618,6 @@ HOST-SUFFIX,2019hg.vip,AdBlock
 HOST-SUFFIX,2020mustang.com,AdBlock
 HOST-SUFFIX,2021.dxsbb.com,AdBlock
 HOST-SUFFIX,2022welcome.com,AdBlock
-HOST-SUFFIX,2024.sci-hub.se,AdBlock
 HOST-SUFFIX,2024jphatomenesys36.top,AdBlock
 HOST-SUFFIX,202m.com,AdBlock
 HOST-SUFFIX,203710.com,AdBlock
@@ -786,7 +785,6 @@ HOST-SUFFIX,2bps53igop02.com,AdBlock
 HOST-SUFFIX,2c4rrl8pe.de,AdBlock
 HOST-SUFFIX,2c5d30b6f1.com,AdBlock
 HOST-SUFFIX,2cba2742a4.com,AdBlock
-HOST-SUFFIX,2cfcb734-ec62-4cd9-b61c-03d4762ad765.filesusr.com,AdBlock
 HOST-SUFFIX,2cjlj3c15.de,AdBlock
 HOST-SUFFIX,2cnjuh34jbman.com,AdBlock
 HOST-SUFFIX,2cnjuh34jbpoint.com,AdBlock
@@ -1138,7 +1136,6 @@ HOST-SUFFIX,402v.com,AdBlock
 HOST-SUFFIX,404.safedog.cn,AdBlock
 HOST-SUFFIX,40451343.xyz,AdBlock
 HOST-SUFFIX,4088846d50.com,AdBlock
-HOST-SUFFIX,409b2d23-5c1d-402e-97df-26c0da9299b0.filesusr.com,AdBlock
 HOST-SUFFIX,40caidaylimpia.catzolab.net,AdBlock
 HOST-SUFFIX,40ceexln7929.com,AdBlock
 HOST-SUFFIX,40nuggets.com,AdBlock
@@ -1160,6 +1157,7 @@ HOST-SUFFIX,426g.com,AdBlock
 HOST-SUFFIX,42869755.xyz,AdBlock
 HOST-SUFFIX,429999d.com,AdBlock
 HOST-SUFFIX,42ce2b0955.com,AdBlock
+HOST-SUFFIX,42d9c0e6fb.com,AdBlock
 HOST-SUFFIX,42jdbcb.de,AdBlock
 HOST-SUFFIX,42r.cn,AdBlock
 HOST-SUFFIX,42ye.com,AdBlock
@@ -1771,6 +1769,9 @@ HOST-SUFFIX,78rkcgj4i8c6.www.cefirates.com,AdBlock
 HOST-SUFFIX,7900c936fb.com,AdBlock
 HOST-SUFFIX,79180284.xyz,AdBlock
 HOST-SUFFIX,79181531227.com,AdBlock
+HOST-SUFFIX,79391192.xyz,AdBlock
+HOST-SUFFIX,79582961.xyz,AdBlock
+HOST-SUFFIX,79870085.xyz,AdBlock
 HOST-SUFFIX,79893962.xyz,AdBlock
 HOST-SUFFIX,79cm.com,AdBlock
 HOST-SUFFIX,79k52baw2qa3.com,AdBlock
@@ -2127,7 +2128,6 @@ HOST-SUFFIX,98853171.xyz,AdBlock
 HOST-SUFFIX,988878.com,AdBlock
 HOST-SUFFIX,9891a36e37.com,AdBlock
 HOST-SUFFIX,98hx.cn,AdBlock
-HOST-SUFFIX,99-118-215-24.lightspeed.irvnca.sbcglobal.net,AdBlock
 HOST-SUFFIX,990215.xyz,AdBlock
 HOST-SUFFIX,990828ab3d.com,AdBlock
 HOST-SUFFIX,9948000.com,AdBlock
@@ -4068,6 +4068,7 @@ HOST-SUFFIX,abarbollidate.com,AdBlock
 HOST-SUFFIX,abashfireworks.com,AdBlock
 HOST-SUFFIX,abasshowish.guru,AdBlock
 HOST-SUFFIX,abastur.ubmmexico.com,AdBlock
+HOST-SUFFIX,abattuehagbuts.com,AdBlock
 HOST-SUFFIX,abbasidquippy.shop,AdBlock
 HOST-SUFFIX,abberantdiscussion.com,AdBlock
 HOST-SUFFIX,abberantdoggie.com,AdBlock
@@ -4444,7 +4445,6 @@ HOST-SUFFIX,acc.3gbizhi.com,AdBlock
 HOST-SUFFIX,acc.cbihelp.top,AdBlock
 HOST-SUFFIX,acc.info.lumxpert.signify.com,AdBlock
 HOST-SUFFIX,acc.marketing.adobedxcusteng.com,AdBlock
-HOST-SUFFIX,acc.wtshelp.top,AdBlock
 HOST-SUFFIX,accaii.com,AdBlock
 HOST-SUFFIX,accdab.net,AdBlock
 HOST-SUFFIX,accecmtrk.com,AdBlock
@@ -4716,7 +4716,6 @@ HOST-SUFFIX,actuallysheep.com,AdBlock
 HOST-SUFFIX,actuallysnake.com,AdBlock
 HOST-SUFFIX,actuallything.com,AdBlock
 HOST-SUFFIX,acuityplatform.com,AdBlock
-HOST-SUFFIX,acusense.ae,AdBlock
 HOST-SUFFIX,acv.auhikari-norikae.com,AdBlock
 HOST-SUFFIX,acv.aun-air-wifi.com,AdBlock
 HOST-SUFFIX,acv.aun-company.com,AdBlock
@@ -4885,6 +4884,7 @@ HOST-SUFFIX,ad.hiiir.com,AdBlock
 HOST-SUFFIX,ad.holaq.com,AdBlock
 HOST-SUFFIX,ad.houkei-shinjuku.com,AdBlock
 HOST-SUFFIX,ad.house365.com,AdBlock
+HOST-SUFFIX,ad.hpplay.cn,AdBlock
 HOST-SUFFIX,ad.huajiao.com,AdBlock
 HOST-SUFFIX,ad.ibookstar.com,AdBlock
 HOST-SUFFIX,ad.ichiban-boshi.com,AdBlock
@@ -4983,7 +4983,6 @@ HOST-SUFFIX,ad.winrar.com.cn,AdBlock
 HOST-SUFFIX,ad.wretch.cc,AdBlock
 HOST-SUFFIX,ad.wsod.com,AdBlock
 HOST-SUFFIX,ad.wurangxian.top,AdBlock
-HOST-SUFFIX,ad.xelements.cn,AdBlock
 HOST-SUFFIX,ad.xiaomi.com,AdBlock
 HOST-SUFFIX,ad.ximalaya.com,AdBlock
 HOST-SUFFIX,ad.yeshitv.com,AdBlock
@@ -5183,6 +5182,7 @@ HOST-SUFFIX,adbyss.com,AdBlock
 HOST-SUFFIX,adc-js.nine.com.au,AdBlock
 HOST-SUFFIX,adc-serv.net,AdBlock
 HOST-SUFFIX,adc-teasers.com,AdBlock
+HOST-SUFFIX,adc.hpplay.cn,AdBlock
 HOST-SUFFIX,adcalls.nl,AdBlock
 HOST-SUFFIX,adcalm.com,AdBlock
 HOST-SUFFIX,adcannyxml.com,AdBlock
@@ -5192,6 +5192,7 @@ HOST-SUFFIX,adcastplus.net,AdBlock
 HOST-SUFFIX,adcccc.com,AdBlock
 HOST-SUFFIX,adcde.com,AdBlock
 HOST-SUFFIX,adcdn.goo.ne.jp,AdBlock
+HOST-SUFFIX,adcdn.hpplay.cn,AdBlock
 HOST-SUFFIX,adcdn.tencentmusic.com,AdBlock
 HOST-SUFFIX,adcdnx.com,AdBlock
 HOST-SUFFIX,adcell.com,AdBlock
@@ -5363,6 +5364,7 @@ HOST-SUFFIX,adelphic.net,AdBlock
 HOST-SUFFIX,ademails.com,AdBlock
 HOST-SUFFIX,aden.baidu.com,AdBlock
 HOST-SUFFIX,adenc.co.kr,AdBlock
+HOST-SUFFIX,adeng.hpplay.cn,AdBlock
 HOST-SUFFIX,adengage.com,AdBlock
 HOST-SUFFIX,adentifi.com,AdBlock
 HOST-SUFFIX,adeq.hiidc.com.cn,AdBlock
@@ -5404,6 +5406,7 @@ HOST-SUFFIX,adfoc.us,AdBlock
 HOST-SUFFIX,adfootprints.com,AdBlock
 HOST-SUFFIX,adforcast.com,AdBlock
 HOST-SUFFIX,adforgames.com,AdBlock
+HOST-SUFFIX,adforge.io,AdBlock
 HOST-SUFFIX,adforgeinc.com,AdBlock
 HOST-SUFFIX,adform.com,AdBlock
 HOST-SUFFIX,adform.net,AdBlock
@@ -5664,8 +5667,6 @@ HOST-SUFFIX,admicro1.vcmedia.vn,AdBlock
 HOST-SUFFIX,admidainsight.com,AdBlock
 HOST-SUFFIX,admile.ru,AdBlock
 HOST-SUFFIX,admin.academyforconsciousleadership.net,AdBlock
-HOST-SUFFIX,admin.aishangzhua.com,AdBlock
-HOST-SUFFIX,admin.gestroom.it,AdBlock
 HOST-SUFFIX,admin.louxia.org,AdBlock
 HOST-SUFFIX,admin.net.fidorbank.uk,AdBlock
 HOST-SUFFIX,admin.smartgroup.com.au,AdBlock
@@ -6035,7 +6036,6 @@ HOST-SUFFIX,ads.globo.com,AdBlock
 HOST-SUFFIX,ads.gmodules.com,AdBlock
 HOST-SUFFIX,ads.google.cn,AdBlock
 HOST-SUFFIX,ads.google.com,AdBlock
-HOST-SUFFIX,ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,ads.house365.com,AdBlock
 HOST-SUFFIX,ads.huan.tv,AdBlock
 HOST-SUFFIX,ads.huantest.com,AdBlock
@@ -6048,7 +6048,6 @@ HOST-SUFFIX,ads.msn.com,AdBlock
 HOST-SUFFIX,ads.music.126.net,AdBlock
 HOST-SUFFIX,ads.nuonuo.com,AdBlock
 HOST-SUFFIX,ads.oneway.mobi,AdBlock
-HOST-SUFFIX,ads.oppomobile.com,AdBlock
 HOST-SUFFIX,ads.oway.mobi,AdBlock
 HOST-SUFFIX,ads.passiontimes.hk,AdBlock
 HOST-SUFFIX,ads.pinterest.com,AdBlock
@@ -6657,6 +6656,7 @@ HOST-SUFFIX,advsnx.net,AdBlock
 HOST-SUFFIX,advtise.net,AdBlock
 HOST-SUFFIX,advtrkone.com,AdBlock
 HOST-SUFFIX,adw.heraldm.com,AdBlock
+HOST-SUFFIX,adw9.com,AdBlock
 HOST-SUFFIX,adwalte.info,AdBlock
 HOST-SUFFIX,adwasu.wasu.tv,AdBlock
 HOST-SUFFIX,adway.org,AdBlock
@@ -6684,6 +6684,8 @@ HOST-SUFFIX,adx-open-service.youku.com,AdBlock
 HOST-SUFFIX,adx-os.anythinktech.com,AdBlock
 HOST-SUFFIX,adx-static.ksosoft.com,AdBlock
 HOST-SUFFIX,adx.36kr.com,AdBlock
+HOST-SUFFIX,adx.ads.heytapmobi.com,AdBlock
+HOST-SUFFIX,adx.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,adx.adxglobal.com,AdBlock
 HOST-SUFFIX,adx.apiok.net,AdBlock
 HOST-SUFFIX,adx.appsdk.com.cn,AdBlock
@@ -6720,7 +6722,6 @@ HOST-SUFFIX,adxiaozi.com,AdBlock
 HOST-SUFFIX,adxiny.com,AdBlock
 HOST-SUFFIX,adxion.com,AdBlock
 HOST-SUFFIX,adxlog-adnet.vivo.com.cn,AdBlock
-HOST-SUFFIX,adxlog-adnet.vivo.com.cn.dsa.dnsv1.com.cn,AdBlock
 HOST-SUFFIX,adxlog.vivo.com.cn,AdBlock
 HOST-SUFFIX,adxmi.com,AdBlock
 HOST-SUFFIX,adxnexus.com,AdBlock
@@ -6907,6 +6908,7 @@ HOST-SUFFIX,affiliates.minglematch.com,AdBlock
 HOST-SUFFIX,affiliates.systems,AdBlock
 HOST-SUFFIX,affiliates.thrixxx.com,AdBlock
 HOST-SUFFIX,affiliatesensor.com,AdBlock
+HOST-SUFFIX,affiliateservices.net,AdBlock
 HOST-SUFFIX,affiliatestonybet.com,AdBlock
 HOST-SUFFIX,affiliatewindow.com,AdBlock
 HOST-SUFFIX,affiliation.planethoster.info,AdBlock
@@ -7101,6 +7103,7 @@ HOST-SUFFIX,agitatechampionship.com,AdBlock
 HOST-SUFFIX,agkn.com,AdBlock
 HOST-SUFFIX,agl001.bid,AdBlock
 HOST-SUFFIX,agl002.online,AdBlock
+HOST-SUFFIX,agl002.org,AdBlock
 HOST-SUFFIX,agl003.com,AdBlock
 HOST-SUFFIX,agle21xe2anfddirite.com,AdBlock
 HOST-SUFFIX,aglobally.com,AdBlock
@@ -7723,6 +7726,7 @@ HOST-SUFFIX,altronopubacc.com,AdBlock
 HOST-SUFFIX,altynamoan.com,AdBlock
 HOST-SUFFIX,alumni.qualfon.com,AdBlock
 HOST-SUFFIX,alvenda.com,AdBlock
+HOST-SUFFIX,alwaysahorse.com,AdBlock
 HOST-SUFFIX,alwayscare.starmountlife.com,AdBlock
 HOST-SUFFIX,alwaysdomain01.online,AdBlock
 HOST-SUFFIX,alwayspainfully.com,AdBlock
@@ -7893,7 +7897,6 @@ HOST-SUFFIX,amtracking01.com,AdBlock
 HOST-SUFFIX,amtropiusr.com,AdBlock
 HOST-SUFFIX,amuckafternoon.com,AdBlock
 HOST-SUFFIX,amuletcontext.com,AdBlock
-HOST-SUFFIX,amun.jintsume.net,AdBlock
 HOST-SUFFIX,amunfezanttor.com,AdBlock
 HOST-SUFFIX,amung.us,AdBlock
 HOST-SUFFIX,amunx.de,AdBlock
@@ -7905,6 +7908,7 @@ HOST-SUFFIX,amusementrehearseevil.com,AdBlock
 HOST-SUFFIX,amusementstepfatherpretence.com,AdBlock
 HOST-SUFFIX,amusing-location.pro,AdBlock
 HOST-SUFFIX,amvtwk.thebottleclub.com,AdBlock
+HOST-SUFFIX,amyapad.top,AdBlock
 HOST-SUFFIX,amyfixesfelicity.com,AdBlock
 HOST-SUFFIX,amylo.site,AdBlock
 HOST-SUFFIX,amyrinbitume.com,AdBlock
@@ -7933,6 +7937,7 @@ HOST-SUFFIX,ana.tv5unis.ca,AdBlock
 HOST-SUFFIX,anacampaign.com,AdBlock
 HOST-SUFFIX,anaconda.net.anwalt.de,AdBlock
 HOST-SUFFIX,anadignity.com,AdBlock
+HOST-SUFFIX,anaemialeprid.com,AdBlock
 HOST-SUFFIX,anaemiaperceivedverge.com,AdBlock
 HOST-SUFFIX,anal.doubledouble.top,AdBlock
 HOST-SUFFIX,anal.sataniskwijt.be,AdBlock
@@ -8593,6 +8598,7 @@ HOST-SUFFIX,ancalfulpige.co.in,AdBlock
 HOST-SUFFIX,ancamcdu.com,AdBlock
 HOST-SUFFIX,anceenablesas.com,AdBlock
 HOST-SUFFIX,anceenablesas.info,AdBlock
+HOST-SUFFIX,ancelsqpv.com,AdBlock
 HOST-SUFFIX,ancestor3452.fun,AdBlock
 HOST-SUFFIX,ancestorpoutplanning.com,AdBlock
 HOST-SUFFIX,ancestortrotsoothe.com,AdBlock
@@ -8696,6 +8702,7 @@ HOST-SUFFIX,annoyedfifth.com,AdBlock
 HOST-SUFFIX,annoyingacoustics.com,AdBlock
 HOST-SUFFIX,annoyingclover.com,AdBlock
 HOST-SUFFIX,annulmentequitycereals.com,AdBlock
+HOST-SUFFIX,annussleys.com,AdBlock
 HOST-SUFFIX,annwwu.guitarcenter.com,AdBlock
 HOST-SUFFIX,annxwustakf.com,AdBlock
 HOST-SUFFIX,anon-stats.eff.org,AdBlock
@@ -8753,7 +8760,6 @@ HOST-SUFFIX,antiadblock.info,AdBlock
 HOST-SUFFIX,antiadblocksystems.com,AdBlock
 HOST-SUFFIX,antiaecroon.com,AdBlock
 HOST-SUFFIX,antiagingbiocream.com,AdBlock
-HOST-SUFFIX,antiapt.kaspersky-labs.com,AdBlock
 HOST-SUFFIX,antiblock.info,AdBlock
 HOST-SUFFIX,antibot.me,AdBlock
 HOST-SUFFIX,anticipateplummorbid.com,AdBlock
@@ -8784,6 +8790,7 @@ HOST-SUFFIX,anuclsrsnbcmvf.xyz,AdBlock
 HOST-SUFFIX,anuk.9pb0h.cn,AdBlock
 HOST-SUFFIX,anura.io,AdBlock
 HOST-SUFFIX,anurybolded.shop,AdBlock
+HOST-SUFFIX,anvtfvenqufkl.xyz,AdBlock
 HOST-SUFFIX,anwhitepinafore.info,AdBlock
 HOST-SUFFIX,anxiousapples.com,AdBlock
 HOST-SUFFIX,anxomeetqgvvwt.xyz,AdBlock
@@ -8959,7 +8966,6 @@ HOST-SUFFIX,api.bluerunningshadow.com,AdBlock
 HOST-SUFFIX,api.brs.intl.miui.com,AdBlock
 HOST-SUFFIX,api.bunzlaucastle.com,AdBlock
 HOST-SUFFIX,api.callget.cn,AdBlock
-HOST-SUFFIX,api.co-operativefinance.com,AdBlock
 HOST-SUFFIX,api.country.is,AdBlock
 HOST-SUFFIX,api.csxsyp.cn,AdBlock
 HOST-SUFFIX,api.cupid.ptqy.gitv.tv,AdBlock
@@ -9054,7 +9060,6 @@ HOST-SUFFIX,apk02070oo.xyz,AdBlock
 HOST-SUFFIX,apkinfo.voole.com,AdBlock
 HOST-SUFFIX,apklog.cp11.ott.cibntv.net,AdBlock
 HOST-SUFFIX,apkonline.ru,AdBlock
-HOST-SUFFIX,apks.webxiaobai.top,AdBlock
 HOST-SUFFIX,aplobv.xexymix.com,AdBlock
 HOST-SUFFIX,apm-engine.meteor.com,AdBlock
 HOST-SUFFIX,apm.suning.cn,AdBlock
@@ -10060,6 +10065,7 @@ HOST-SUFFIX,approbationoutwardconstrue.com,AdBlock
 HOST-SUFFIX,appropriate-bag.pro,AdBlock
 HOST-SUFFIX,approved.website,AdBlock
 HOST-SUFFIX,apprupt.com,AdBlock
+HOST-SUFFIX,apps-actions.com,AdBlock
 HOST-SUFFIX,apps-pbd.ctraffic.io,AdBlock
 HOST-SUFFIX,apps-test.spectrum-member.com,AdBlock
 HOST-SUFFIX,apps.airmeet.com,AdBlock
@@ -10210,6 +10216,7 @@ HOST-SUFFIX,ard.yahoo.co.jp,AdBlock
 HOST-SUFFIX,ardalio.com,AdBlock
 HOST-SUFFIX,ardentlyoddly.com,AdBlock
 HOST-SUFFIX,ardmall.com,AdBlock
+HOST-SUFFIX,ardrcirhi.com,AdBlock
 HOST-SUFFIX,ardsklangr.com,AdBlock
 HOST-SUFFIX,ardslediana.com,AdBlock
 HOST-SUFFIX,ardssandshrewon.com,AdBlock
@@ -10259,6 +10266,7 @@ HOST-SUFFIX,arkox.site,AdBlock
 HOST-SUFFIX,arleavannya.com,AdBlock
 HOST-SUFFIX,arlime.com,AdBlock
 HOST-SUFFIX,armamentsummary.com,AdBlock
+HOST-SUFFIX,armanayegh.com,AdBlock
 HOST-SUFFIX,armanet.co,AdBlock
 HOST-SUFFIX,armanet.us,AdBlock
 HOST-SUFFIX,armedtidying.com,AdBlock
@@ -10327,7 +10335,6 @@ HOST-SUFFIX,artistictastesnly.info,AdBlock
 HOST-SUFFIX,artlesscontagionseated.com,AdBlock
 HOST-SUFFIX,artlessdeprivationunfriendly.com,AdBlock
 HOST-SUFFIX,artoas301endore.com,AdBlock
-HOST-SUFFIX,artplantsindia.com,AdBlock
 HOST-SUFFIX,artsai.com,AdBlock
 HOST-SUFFIX,artthevoid.com,AdBlock
 HOST-SUFFIX,aruoyf.peterhahn.ch,AdBlock
@@ -10689,7 +10696,6 @@ HOST-SUFFIX,atatus.com,AdBlock
 HOST-SUFFIX,atb.mlb.com,AdBlock
 HOST-SUFFIX,atbif.cn,AdBlock
 HOST-SUFFIX,atblqu.rondorff.com,AdBlock
-HOST-SUFFIX,atc-secure.com,AdBlock
 HOST-SUFFIX,atcbju.silvergoldbull.ca,AdBlock
 HOST-SUFFIX,atcelebitor.com,AdBlock
 HOST-SUFFIX,atconnect.npo.nl,AdBlock
@@ -11009,6 +11015,7 @@ HOST-SUFFIX,automaticturkey.com,AdBlock
 HOST-SUFFIX,automation.pemco.com,AdBlock
 HOST-SUFFIX,automationtest.pemco.com,AdBlock
 HOST-SUFFIX,automizely-analytics.com,AdBlock
+HOST-SUFFIX,automobile-bk.de,AdBlock
 HOST-SUFFIX,automotive-business.vodafone.com,AdBlock
 HOST-SUFFIX,automotive.autodeskcommunications.com,AdBlock
 HOST-SUFFIX,automotive.balluff.com,AdBlock
@@ -11372,6 +11379,7 @@ HOST-SUFFIX,axp.yourerie.com,AdBlock
 HOST-SUFFIX,axpjcp.tennis-point.co.uk,AdBlock
 HOST-SUFFIX,axtlqoo.com,AdBlock
 HOST-SUFFIX,axvelures.top,AdBlock
+HOST-SUFFIX,axwqmoajcraqhp.com,AdBlock
 HOST-SUFFIX,axwwvfugh.com,AdBlock
 HOST-SUFFIX,axxxfam.com,AdBlock
 HOST-SUFFIX,axzxkeawbo.com,AdBlock
@@ -11416,7 +11424,6 @@ HOST-SUFFIX,azera-s014.com,AdBlock
 HOST-SUFFIX,azeriondigital.com,AdBlock
 HOST-SUFFIX,azflce.fragrances.bg,AdBlock
 HOST-SUFFIX,azg1.emalu-store.com,AdBlock
-HOST-SUFFIX,azgint.com,AdBlock
 HOST-SUFFIX,aziekg.xyz,AdBlock
 HOST-SUFFIX,azj57rjy.com,AdBlock
 HOST-SUFFIX,azjmp.com,AdBlock
@@ -11529,8 +11536,10 @@ HOST-SUFFIX,b02byun5xc3s.com,AdBlock
 HOST-SUFFIX,b0e8.com,AdBlock
 HOST-SUFFIX,b0f2f18e.xyz,AdBlock
 HOST-SUFFIX,b0oie4xjeb4ite.com,AdBlock
+HOST-SUFFIX,b1-data.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,b1.0430.com,AdBlock
 HOST-SUFFIX,b1.51scw.net,AdBlock
+HOST-SUFFIX,b1.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,b1.b2b168.com,AdBlock
 HOST-SUFFIX,b1.b2b168.net,AdBlock
 HOST-SUFFIX,b1.baomihua.com,AdBlock
@@ -11552,6 +11561,7 @@ HOST-SUFFIX,b1img.com,AdBlock
 HOST-SUFFIX,b1js.com,AdBlock
 HOST-SUFFIX,b1n.carabins.umontreal.ca,AdBlock
 HOST-SUFFIX,b1tow9h4erpw.anur.polymerdev.com,AdBlock
+HOST-SUFFIX,b2-data.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,b2.0430.com,AdBlock
 HOST-SUFFIX,b20p6lt350nt.app.polymersearch.com,AdBlock
 HOST-SUFFIX,b21379380e.com,AdBlock
@@ -11576,7 +11586,6 @@ HOST-SUFFIX,b3z29k1uxb.com,AdBlock
 HOST-SUFFIX,b41732fb1b.com,AdBlock
 HOST-SUFFIX,b42rracj.com,AdBlock
 HOST-SUFFIX,b442172e.b-cdn.net,AdBlock
-HOST-SUFFIX,b46.oss-cn-hongkong.aliyuncs.com,AdBlock
 HOST-SUFFIX,b477.life,AdBlock
 HOST-SUFFIX,b4xuj.zzhhts.com,AdBlock
 HOST-SUFFIX,b57dqedu4.com,AdBlock
@@ -12148,6 +12157,7 @@ HOST-SUFFIX,bdad.123pan.cn,AdBlock
 HOST-SUFFIX,bdamcsv.top,AdBlock
 HOST-SUFFIX,bdapi-ads.realmemobile.com,AdBlock
 HOST-SUFFIX,bdapi-in-ads.realmemobile.com,AdBlock
+HOST-SUFFIX,bdapi.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,bdasd.chdbook.cn,AdBlock
 HOST-SUFFIX,bdasd.wmxa.cn,AdBlock
 HOST-SUFFIX,bdash-cloud.com,AdBlock
@@ -12407,6 +12417,7 @@ HOST-SUFFIX,beigedi.com,AdBlock
 HOST-SUFFIX,beijing.buzhi5.com,AdBlock
 HOST-SUFFIX,beijinglvyou.net.cn,AdBlock
 HOST-SUFFIX,beilamusi.com,AdBlock
+HOST-SUFFIX,beiletoys.com,AdBlock
 HOST-SUFFIX,beingajoyto.info,AdBlock
 HOST-SUFFIX,beingajoytow.com,AdBlock
 HOST-SUFFIX,beingsjeanssent.com,AdBlock
@@ -12451,6 +12462,7 @@ HOST-SUFFIX,belstat.de,AdBlock
 HOST-SUFFIX,belstat.fr,AdBlock
 HOST-SUFFIX,belstat.nl,AdBlock
 HOST-SUFFIX,beltarklate.live,AdBlock
+HOST-SUFFIX,belterglaikit.com,AdBlock
 HOST-SUFFIX,beltwaythrust.com,AdBlock
 HOST-SUFFIX,beludicolor.com,AdBlock
 HOST-SUFFIX,belwrite.com,AdBlock
@@ -12620,6 +12632,7 @@ HOST-SUFFIX,betads.xyz,AdBlock
 HOST-SUFFIX,betahit.click,AdBlock
 HOST-SUFFIX,betarget.com,AdBlock
 HOST-SUFFIX,betarget.de,AdBlock
+HOST-SUFFIX,betazebra.com,AdBlock
 HOST-SUFFIX,betemolgar.com,AdBlock
 HOST-SUFFIX,beterrakionan.com,AdBlock
 HOST-SUFFIX,betforakiea.com,AdBlock
@@ -12685,9 +12698,11 @@ HOST-SUFFIX,bewperspiths.top,AdBlock
 HOST-SUFFIX,bewr1.com,AdBlock
 HOST-SUFFIX,bewrutv.top,AdBlock
 HOST-SUFFIX,beyanmaan.com,AdBlock
+HOST-SUFFIX,beylicbesmile.com,AdBlock
 HOST-SUFFIX,beyond.bluewolf.com,AdBlock
 HOST-SUFFIX,beyondcompare.cc,AdBlock
 HOST-SUFFIX,beyondsecurity.com,AdBlock
+HOST-SUFFIX,beyourxfriend.com,AdBlock
 HOST-SUFFIX,bf-ad.net,AdBlock
 HOST-SUFFIX,bf-tools.net,AdBlock
 HOST-SUFFIX,bf35f69f2c6f6bcda64064b1f5b49218.domain.com.au,AdBlock
@@ -12698,6 +12713,7 @@ HOST-SUFFIX,bfdtt.com,AdBlock
 HOST-SUFFIX,bfeagv.chicwish.com,AdBlock
 HOST-SUFFIX,bfg.loanzify.app,AdBlock
 HOST-SUFFIX,bfhueh.top,AdBlock
+HOST-SUFFIX,bfjduf2.top,AdBlock
 HOST-SUFFIX,bfjhhdmznjh.club,AdBlock
 HOST-SUFFIX,bfjoyp.plus.nl,AdBlock
 HOST-SUFFIX,bfjpbw.herrenausstatter.de,AdBlock
@@ -12779,6 +12795,7 @@ HOST-SUFFIX,biaseddocumentationacross.com,AdBlock
 HOST-SUFFIX,biasedpushful.com,AdBlock
 HOST-SUFFIX,biaxalstiles.com,AdBlock
 HOST-SUFFIX,bibblio.org,AdBlock
+HOST-SUFFIX,bibbysilkmen.com,AdBlock
 HOST-SUFFIX,biberukalap.com,AdBlock
 HOST-SUFFIX,bibglj.timberland.fr,AdBlock
 HOST-SUFFIX,bibi100.com,AdBlock
@@ -12861,6 +12878,7 @@ HOST-SUFFIX,bijkep.hotelesestelar.com,AdBlock
 HOST-SUFFIX,bijmz.cn,AdBlock
 HOST-SUFFIX,bikepaws.com,AdBlock
 HOST-SUFFIX,bikesboard.com,AdBlock
+HOST-SUFFIX,bikinginspire.com,AdBlock
 HOST-SUFFIX,bikrurda.net,AdBlock
 HOST-SUFFIX,bilahh.feuvert.fr,AdBlock
 HOST-SUFFIX,bilateralgodmother.com,AdBlock
@@ -12873,6 +12891,7 @@ HOST-SUFFIX,bildrat.com,AdBlock
 HOST-SUFFIX,bilec.xyz,AdBlock
 HOST-SUFFIX,bilibilitool.site,AdBlock
 HOST-SUFFIX,bilifeetcheets.com,AdBlock
+HOST-SUFFIX,bilingualgeek.com,AdBlock
 HOST-SUFFIX,bilingualwalking.com,AdBlock
 HOST-SUFFIX,bill.agent.56.com,AdBlock
 HOST-SUFFIX,billiardsdripping.com,AdBlock
@@ -13026,6 +13045,7 @@ HOST-SUFFIX,bjafafesg.com,AdBlock
 HOST-SUFFIX,bjakku.com,AdBlock
 HOST-SUFFIX,bjcass.com,AdBlock
 HOST-SUFFIX,bjcathay.com,AdBlock
+HOST-SUFFIX,bjdata.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,bjdnserror1.wo.com.cn,AdBlock
 HOST-SUFFIX,bjdnserror2.wo.com.cn,AdBlock
 HOST-SUFFIX,bjdnserror3.wo.com.cn,AdBlock
@@ -13071,6 +13091,7 @@ HOST-SUFFIX,bkmzhr.joint-space.co.jp,AdBlock
 HOST-SUFFIX,bknqpb.dobredomy.pl,AdBlock
 HOST-SUFFIX,bkogtr.vacationsbyrail.com,AdBlock
 HOST-SUFFIX,bkojzevpe.com,AdBlock
+HOST-SUFFIX,bkox.cn,AdBlock
 HOST-SUFFIX,bkpoef.jules.com,AdBlock
 HOST-SUFFIX,bkr5xeg0c.com,AdBlock
 HOST-SUFFIX,bkrtx.com,AdBlock
@@ -13148,6 +13169,7 @@ HOST-SUFFIX,ble.ubm-licensing.com,AdBlock
 HOST-SUFFIX,bleaborahmagtgi.org,AdBlock
 HOST-SUFFIX,bleachbubble.com,AdBlock
 HOST-SUFFIX,bleachimpartialtrusted.com,AdBlock
+HOST-SUFFIX,bleachinjectionuncommon.com,AdBlock
 HOST-SUFFIX,bleachscarecrow.com,AdBlock
 HOST-SUFFIX,blearspellaea.shop,AdBlock
 HOST-SUFFIX,bleedingofficecontagion.com,AdBlock
@@ -13178,6 +13200,7 @@ HOST-SUFFIX,blinktowel.com,AdBlock
 HOST-SUFFIX,blinxmi.icu,AdBlock
 HOST-SUFFIX,blip.bizrate.com,AdBlock
 HOST-SUFFIX,blismedia.com,AdBlock
+HOST-SUFFIX,blisscalendar.com,AdBlock
 HOST-SUFFIX,blissfulclick.pro,AdBlock
 HOST-SUFFIX,blissfulcrescendo.com,AdBlock
 HOST-SUFFIX,blissfuldes.com,AdBlock
@@ -13200,6 +13223,7 @@ HOST-SUFFIX,blockadsnot.com,AdBlock
 HOST-SUFFIX,blockchain-ads.com,AdBlock
 HOST-SUFFIX,blockchaintop.nl,AdBlock
 HOST-SUFFIX,blockdetector.org,AdBlock
+HOST-SUFFIX,blockdial.com,AdBlock
 HOST-SUFFIX,blockingdarlingshrivel.com,AdBlock
 HOST-SUFFIX,blockmetrics.com,AdBlock
 HOST-SUFFIX,blocksly.org,AdBlock
@@ -13403,7 +13427,6 @@ HOST-SUFFIX,bngpt.com,AdBlock
 HOST-SUFFIX,bngrol.com,AdBlock
 HOST-SUFFIX,bngtrak.com,AdBlock
 HOST-SUFFIX,bngwlt.com,AdBlock
-HOST-SUFFIX,bnhelp.top,AdBlock
 HOST-SUFFIX,bnhorn.xyz,AdBlock
 HOST-SUFFIX,bnhtml.com,AdBlock
 HOST-SUFFIX,bnifdlav.top,AdBlock
@@ -13461,6 +13484,7 @@ HOST-SUFFIX,bobo.com,AdBlock
 HOST-SUFFIX,bobo.corp.163.com,AdBlock
 HOST-SUFFIX,bobpiety.com,AdBlock
 HOST-SUFFIX,bobqucc.com,AdBlock
+HOST-SUFFIX,bockouphourgait.net,AdBlock
 HOST-SUFFIX,bodapet.com,AdBlock
 HOST-SUFFIX,bodegaseikon.shop,AdBlock
 HOST-SUFFIX,bodgg.com,AdBlock
@@ -13492,6 +13516,7 @@ HOST-SUFFIX,bojyvp.xyz,AdBlock
 HOST-SUFFIX,bokeden.com,AdBlock
 HOST-SUFFIX,boksaumetaixa.net,AdBlock
 HOST-SUFFIX,bolasesekoi.com,AdBlock
+HOST-SUFFIX,boldbars.com,AdBlock
 HOST-SUFFIX,boldboycott.com,AdBlock
 HOST-SUFFIX,boldscantyfrustrating.com,AdBlock
 HOST-SUFFIX,bole.shangshufang.ksosoft.com,AdBlock
@@ -13775,7 +13800,6 @@ HOST-SUFFIX,bragspiritualstay.com,AdBlock
 HOST-SUFFIX,braidprosecution.com,AdBlock
 HOST-SUFFIX,braidrainhypocrite.com,AdBlock
 HOST-SUFFIX,braidsagria.com,AdBlock
-HOST-SUFFIX,braindemics.org,AdBlock
 HOST-SUFFIX,brainient.com,AdBlock
 HOST-SUFFIX,brainlands.stonefalcon.com,AdBlock
 HOST-SUFFIX,brainlessshut.com,AdBlock
@@ -13929,6 +13953,7 @@ HOST-SUFFIX,brandscallioncommonwealth.com,AdBlock
 HOST-SUFFIX,brandsfive.com,AdBlock
 HOST-SUFFIX,brandshow.58.com,AdBlock
 HOST-SUFFIX,brandybison.com,AdBlock
+HOST-SUFFIX,brani.site,AdBlock
 HOST-SUFFIX,branleranger.com,AdBlock
 HOST-SUFFIX,brashbead.com,AdBlock
 HOST-SUFFIX,brasscurls.com,AdBlock
@@ -13936,7 +13961,6 @@ HOST-SUFFIX,brassicbabies.shop,AdBlock
 HOST-SUFFIX,brassstacker.com,AdBlock
 HOST-SUFFIX,brasthingut.com,AdBlock
 HOST-SUFFIX,brat-online.ro,AdBlock
-HOST-SUFFIX,bratusferramentas.grupomoltz.com.br,AdBlock
 HOST-SUFFIX,braun634.com,AdBlock
 HOST-SUFFIX,bravantrent.eccocar.com,AdBlock
 HOST-SUFFIX,bravebone.com,AdBlock
@@ -13961,6 +13985,7 @@ HOST-SUFFIX,brcrx.eccocar.com,AdBlock
 HOST-SUFFIX,brdriveonrental.eccocar.com,AdBlock
 HOST-SUFFIX,brdtest.com,AdBlock
 HOST-SUFFIX,brdtnet.com,AdBlock
+HOST-SUFFIX,breachneatlylane.com,AdBlock
 HOST-SUFFIX,breadbalance.com,AdBlock
 HOST-SUFFIX,breadpro.com,AdBlock
 HOST-SUFFIX,breadsincerely.com,AdBlock
@@ -14339,6 +14364,7 @@ HOST-SUFFIX,buffatopmost.com,AdBlock
 HOST-SUFFIX,buffcenturythreshold.com,AdBlock
 HOST-SUFFIX,buffethypothesis.com,AdBlock
 HOST-SUFFIX,buffetreboundfoul.com,AdBlock
+HOST-SUFFIX,bufmjknaeprvyd.com,AdBlock
 HOST-SUFFIX,bugattest.com,AdBlock
 HOST-SUFFIX,bugdsm.buffalo-boots.com,AdBlock
 HOST-SUFFIX,bugdt-ica.rocks,AdBlock
@@ -14401,6 +14427,7 @@ HOST-SUFFIX,bummalodenary.top,AdBlock
 HOST-SUFFIX,bummerentertain.com,AdBlock
 HOST-SUFFIX,bumnxiev.top,AdBlock
 HOST-SUFFIX,bumog.xyz,AdBlock
+HOST-SUFFIX,bumpermash.com,AdBlock
 HOST-SUFFIX,bumpexchangedcadet.com,AdBlock
 HOST-SUFFIX,bumpthank.com,AdBlock
 HOST-SUFFIX,bumpydevelopment.com,AdBlock
@@ -14451,6 +14478,7 @@ HOST-SUFFIX,burglaryrunner.com,AdBlock
 HOST-SUFFIX,burialsupple.com,AdBlock
 HOST-SUFFIX,burjam.com,AdBlock
 HOST-SUFFIX,burlapretorted.com,AdBlock
+HOST-SUFFIX,burleskspoiler.com,AdBlock
 HOST-SUFFIX,burlyenthronebye.com,AdBlock
 HOST-SUFFIX,burlywhistle.com,AdBlock
 HOST-SUFFIX,burn5tilt.com,AdBlock
@@ -14602,6 +14630,7 @@ HOST-SUFFIX,bxbuvv.zeelool.com,AdBlock
 HOST-SUFFIX,bxejfqxxm.com,AdBlock
 HOST-SUFFIX,bxg68.com,AdBlock
 HOST-SUFFIX,bxheifoe.icu,AdBlock
+HOST-SUFFIX,bxhm.cn,AdBlock
 HOST-SUFFIX,bxiaev.linvosges.com,AdBlock
 HOST-SUFFIX,bxlmfnnooejkuj.com,AdBlock
 HOST-SUFFIX,bxlmrl.xyz,AdBlock
@@ -15147,6 +15176,7 @@ HOST-SUFFIX,canopusastray.top,AdBlock
 HOST-SUFFIX,canopylabs.com,AdBlock
 HOST-SUFFIX,canorgirgu.net,AdBlock
 HOST-SUFFIX,canstrm.com,AdBlock
+HOST-SUFFIX,canvasandsocks.com,AdBlock
 HOST-SUFFIX,canvassblanketjar.com,AdBlock
 HOST-SUFFIX,canwi.mobi,AdBlock
 HOST-SUFFIX,canzosswager.com,AdBlock
@@ -15331,9 +15361,9 @@ HOST-SUFFIX,castify-trk.playitviral.com,AdBlock
 HOST-SUFFIX,castingmannergrim.com,AdBlock
 HOST-SUFFIX,castleconscienceenquired.com,AdBlock
 HOST-SUFFIX,castplatform.com,AdBlock
+HOST-SUFFIX,casualphysics.com,AdBlock
 HOST-SUFFIX,casualstat.com,AdBlock
 HOST-SUFFIX,casumoaffiliates.com,AdBlock
-HOST-SUFFIX,cat.xiaojiji.nl,AdBlock
 HOST-SUFFIX,catalog.fjwhcbsh.com,AdBlock
 HOST-SUFFIX,catalog.video.msn.com,AdBlock
 HOST-SUFFIX,catalogcake.com,AdBlock
@@ -15419,6 +15449,7 @@ HOST-SUFFIX,cbc.pnc.com,AdBlock
 HOST-SUFFIX,cbcgqs.xyz,AdBlock
 HOST-SUFFIX,cbd2dd06ba.com,AdBlock
 HOST-SUFFIX,cbdatatracker.com,AdBlock
+HOST-SUFFIX,cbdbda0256.com,AdBlock
 HOST-SUFFIX,cbdedibles.site,AdBlock
 HOST-SUFFIX,cbdm.weathercn.com,AdBlock
 HOST-SUFFIX,cbdqzbi.icu,AdBlock
@@ -15754,6 +15785,7 @@ HOST-SUFFIX,celebrus.com,AdBlock
 HOST-SUFFIX,celeritascdn.com,AdBlock
 HOST-SUFFIX,celeryisolatedproject.com,AdBlock
 HOST-SUFFIX,celestialeuphony.com,AdBlock
+HOST-SUFFIX,celestialquasar.com,AdBlock
 HOST-SUFFIX,celestialspectra.com,AdBlock
 HOST-SUFFIX,cellaraudacityslack.com,AdBlock
 HOST-SUFFIX,cellspsoatic.com,AdBlock
@@ -15934,6 +15966,7 @@ HOST-SUFFIX,challengetoward.com,AdBlock
 HOST-SUFFIX,chambermaidthree.xyz,AdBlock
 HOST-SUFFIX,chambershoist.com,AdBlock
 HOST-SUFFIX,chambersinterdependententirely.com,AdBlock
+HOST-SUFFIX,chambulwacs.com,AdBlock
 HOST-SUFFIX,chameleostudios.com,AdBlock
 HOST-SUFFIX,championshipcoma.com,AdBlock
 HOST-SUFFIX,chanalytics.merchantadvantage.com,AdBlock
@@ -16101,6 +16134,7 @@ HOST-SUFFIX,chessbranch.com,AdBlock
 HOST-SUFFIX,chesscherry.com,AdBlock
 HOST-SUFFIX,chesscolor.com,AdBlock
 HOST-SUFFIX,chesscrowd.com,AdBlock
+HOST-SUFFIX,chessquery.com,AdBlock
 HOST-SUFFIX,chetchen.net,AdBlock
 HOST-SUFFIX,chetchoa.com,AdBlock
 HOST-SUFFIX,chethgentman.live,AdBlock
@@ -16228,6 +16262,7 @@ HOST-SUFFIX,choppedtrimboulevard.com,AdBlock
 HOST-SUFFIX,choppedwhisperinggirlie.com,AdBlock
 HOST-SUFFIX,choppyevectic.shop,AdBlock
 HOST-SUFFIX,choptacache.com,AdBlock
+HOST-SUFFIX,chorninsm.com,AdBlock
 HOST-SUFFIX,chortutsoufu.xyz,AdBlock
 HOST-SUFFIX,choruslockdownbumpy.com,AdBlock
 HOST-SUFFIX,choseing.com,AdBlock
@@ -16332,6 +16367,7 @@ HOST-SUFFIX,cimtaiphos.com,AdBlock
 HOST-SUFFIX,cinarra.com,AdBlock
 HOST-SUFFIX,cincherdatable.com,AdBlock
 HOST-SUFFIX,cincinnati-content.cresa.com,AdBlock
+HOST-SUFFIX,cinderycandor.com,AdBlock
 HOST-SUFFIX,cindybegulf.shop,AdBlock
 HOST-SUFFIX,cinema1266.fun,AdBlock
 HOST-SUFFIX,cinemabonus.com,AdBlock
@@ -16423,6 +16459,7 @@ HOST-SUFFIX,cjuzydnvklnq.today,AdBlock
 HOST-SUFFIX,cjvdfw.com,AdBlock
 HOST-SUFFIX,cjxomyilmv.com,AdBlock
 HOST-SUFFIX,ck-cdn.com,AdBlock
+HOST-SUFFIX,ck.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,ck.connatix.com,AdBlock
 HOST-SUFFIX,ck.houyi.baofeng.net,AdBlock
 HOST-SUFFIX,ck123.io,AdBlock
@@ -16814,6 +16851,7 @@ HOST-SUFFIX,clients.intact.ca,AdBlock
 HOST-SUFFIX,clients.nbc-insurance.ca,AdBlock
 HOST-SUFFIX,clients.net.anwalt.de,AdBlock
 HOST-SUFFIX,clientservices.googleapis.com,AdBlock
+HOST-SUFFIX,clientv2new.vercel.app,AdBlock
 HOST-SUFFIX,cliffestablishedcrocodile.com,AdBlock
 HOST-SUFFIX,climatedetaindes.com,AdBlock
 HOST-SUFFIX,climbproducingdozen.com,AdBlock
@@ -17237,6 +17275,7 @@ HOST-SUFFIX,cobalten.com,AdBlock
 HOST-SUFFIX,cobaltgroup.com,AdBlock
 HOST-SUFFIX,cobaltoverture.com,AdBlock
 HOST-SUFFIX,coblesrondel.shop,AdBlock
+HOST-SUFFIX,cobolrationumelawrtewarms.com,AdBlock
 HOST-SUFFIX,cobwebcomprehension.com,AdBlock
 HOST-SUFFIX,cobwebhauntedallot.com,AdBlock
 HOST-SUFFIX,cobwebzincdelicacy.com,AdBlock
@@ -17650,6 +17689,7 @@ HOST-SUFFIX,comparepoisonous.com,AdBlock
 HOST-SUFFIX,compareproprietary.com,AdBlock
 HOST-SUFFIX,comparereaction.com,AdBlock
 HOST-SUFFIX,compassionatebarrowpine.com,AdBlock
+HOST-SUFFIX,compassionatecheek.com,AdBlock
 HOST-SUFFIX,compassionaterough.pro,AdBlock
 HOST-SUFFIX,compatexchange1.trafficmanager.net,AdBlock
 HOST-SUFFIX,compatriotelephant.com,AdBlock
@@ -17718,6 +17758,7 @@ HOST-SUFFIX,comurbate.com,AdBlock
 HOST-SUFFIX,comymandars.info,AdBlock
 HOST-SUFFIX,conabi.xjditan.com,AdBlock
 HOST-SUFFIX,conative.network,AdBlock
+HOST-SUFFIX,concavobegan.shop,AdBlock
 HOST-SUFFIX,concealedcredulous.com,AdBlock
 HOST-SUFFIX,concealmentmimic.com,AdBlock
 HOST-SUFFIX,concedederaserskyline.com,AdBlock
@@ -17764,6 +17805,7 @@ HOST-SUFFIX,condyleboggart.com,AdBlock
 HOST-SUFFIX,conestreshow.com,AdBlock
 HOST-SUFFIX,conetizable.com,AdBlock
 HOST-SUFFIX,conf.funshion.com,AdBlock
+HOST-SUFFIX,conf.hpplay.cn,AdBlock
 HOST-SUFFIX,conf.optum.com,AdBlock
 HOST-SUFFIX,conf.vidown.cn,AdBlock
 HOST-SUFFIX,confabureas.com,AdBlock
@@ -17797,6 +17839,7 @@ HOST-SUFFIX,confinemutual.com,AdBlock
 HOST-SUFFIX,confirm.aon.com,AdBlock
 HOST-SUFFIX,confirm.ptvgroup.com,AdBlock
 HOST-SUFFIX,confirmational.com,AdBlock
+HOST-SUFFIX,confirmglobal.com,AdBlock
 HOST-SUFFIX,confirmit.com,AdBlock
 HOST-SUFFIX,confirmsubscription.com,AdBlock
 HOST-SUFFIX,conforama-push.com,AdBlock
@@ -18060,6 +18103,7 @@ HOST-SUFFIX,constructpoll.com,AdBlock
 HOST-SUFFIX,constructpreachystopper.com,AdBlock
 HOST-SUFFIX,consukultinge.info,AdBlock
 HOST-SUFFIX,consukultingeca.com,AdBlock
+HOST-SUFFIX,consultantchow.com,AdBlock
 HOST-SUFFIX,consultantvariabilitybandage.com,AdBlock
 HOST-SUFFIX,consultation233.fun,AdBlock
 HOST-SUFFIX,consulting.guidehouse.com,AdBlock
@@ -18069,6 +18113,7 @@ HOST-SUFFIX,consulting.ramboll.com,AdBlock
 HOST-SUFFIX,consumable.com,AdBlock
 HOST-SUFFIX,consumer.equifax.com,AdBlock
 HOST-SUFFIX,consumer.inform.equifax.com,AdBlock
+HOST-SUFFIX,consumerknowhow.com,AdBlock
 HOST-SUFFIX,consumerzero.com,AdBlock
 HOST-SUFFIX,contaboserver.net,AdBlock
 HOST-SUFFIX,contact-us.adp.ca,AdBlock
@@ -18402,6 +18447,7 @@ HOST-SUFFIX,coolerads.com,AdBlock
 HOST-SUFFIX,coolerconvent.com,AdBlock
 HOST-SUFFIX,coolerpassagesshed.com,AdBlock
 HOST-SUFFIX,coolestblockade.com,AdBlock
+HOST-SUFFIX,coolestcatcare.com,AdBlock
 HOST-SUFFIX,coolestreactionstems.com,AdBlock
 HOST-SUFFIX,coolguang.com,AdBlock
 HOST-SUFFIX,coolherein.com,AdBlock
@@ -18536,6 +18582,7 @@ HOST-SUFFIX,costeanbacken.com,AdBlock
 HOST-SUFFIX,costhandbookfolder.com,AdBlock
 HOST-SUFFIX,coststunningconjure.com,AdBlock
 HOST-SUFFIX,costumefilmimport.com,AdBlock
+HOST-SUFFIX,costwinner.com,AdBlock
 HOST-SUFFIX,cosysuppressed.com,AdBlock
 HOST-SUFFIX,cotchaug.com,AdBlock
 HOST-SUFFIX,cotemaison.np6.com,AdBlock
@@ -18763,7 +18810,6 @@ HOST-SUFFIX,cpc.click.alimama.com,AdBlock
 HOST-SUFFIX,cpc.haohaowan8.com,AdBlock
 HOST-SUFFIX,cpc.sogou.com,AdBlock
 HOST-SUFFIX,cpc.sohu.com,AdBlock
-HOST-SUFFIX,cpc138130-hatf10-2-0-cust814.9-3.cable.virginm.net,AdBlock
 HOST-SUFFIX,cpcmanager.com,AdBlock
 HOST-SUFFIX,cpcmart.com,AdBlock
 HOST-SUFFIX,cpcvabi.com,AdBlock
@@ -18959,6 +19005,7 @@ HOST-SUFFIX,creative.live.missav.com,AdBlock
 HOST-SUFFIX,creative.live.tktube.com,AdBlock
 HOST-SUFFIX,creative.live7mm.tv,AdBlock
 HOST-SUFFIX,creative.myavlive.com,AdBlock
+HOST-SUFFIX,creative.nangilive.com,AdBlock
 HOST-SUFFIX,creative.ohmycams.com,AdBlock
 HOST-SUFFIX,creative.stripchat.com,AdBlock
 HOST-SUFFIX,creative.strpjmp.com,AdBlock
@@ -19000,6 +19047,7 @@ HOST-SUFFIX,crengate.com,AdBlock
 HOST-SUFFIX,crentexgate.com,AdBlock
 HOST-SUFFIX,creojnpibos.com,AdBlock
 HOST-SUFFIX,crepemania.openapp.link,AdBlock
+HOST-SUFFIX,crepeyfrogged.com,AdBlock
 HOST-SUFFIX,crepgate.com,AdBlock
 HOST-SUFFIX,creptdeservedprofanity.com,AdBlock
 HOST-SUFFIX,cresfpho2ntesepapillo3.com,AdBlock
@@ -19157,7 +19205,6 @@ HOST-SUFFIX,cryptvalue.com,AdBlock
 HOST-SUFFIX,crystalapp.miguvideo.com,AdBlock
 HOST-SUFFIX,crystalboulevard.com,AdBlock
 HOST-SUFFIX,crystalmart.cn,AdBlock
-HOST-SUFFIX,crystalpvp.ru,AdBlock
 HOST-SUFFIX,crystalstatus.com,AdBlock
 HOST-SUFFIX,crzohw.intersport.gr,AdBlock
 HOST-SUFFIX,cs-bailing.com.cn,AdBlock
@@ -20616,6 +20663,7 @@ HOST-SUFFIX,d3mqyj199tigh.cloudfront.net,AdBlock
 HOST-SUFFIX,d3mr7y154d2qg5.cloudfront.net,AdBlock
 HOST-SUFFIX,d3mshiiq22wqhz.cloudfront.net,AdBlock
 HOST-SUFFIX,d3mskfhorhi2fb.cloudfront.net,AdBlock
+HOST-SUFFIX,d3mt4q5p9blrvc.cloudfront.net,AdBlock
 HOST-SUFFIX,d3mzokty951c5w.cloudfront.net,AdBlock
 HOST-SUFFIX,d3n3a4vl82t80h.cloudfront.net,AdBlock
 HOST-SUFFIX,d3n4krap0yfivk.cloudfront.net,AdBlock
@@ -20675,6 +20723,7 @@ HOST-SUFFIX,d3t3lxfqz2g5hs.cloudfront.net,AdBlock
 HOST-SUFFIX,d3t3z4teexdk2r.cloudfront.net,AdBlock
 HOST-SUFFIX,d3t5ngjixpjdho.cloudfront.net,AdBlock
 HOST-SUFFIX,d3t87ooo0697p8.cloudfront.net,AdBlock
+HOST-SUFFIX,d3t9wb555jg65y.cloudfront.net,AdBlock
 HOST-SUFFIX,d3tfeohk35h2ye.cloudfront.net,AdBlock
 HOST-SUFFIX,d3tfz9q9zlwk84.cloudfront.net,AdBlock
 HOST-SUFFIX,d3tjml0i5ek35w.cloudfront.net,AdBlock
@@ -20928,7 +20977,6 @@ HOST-SUFFIX,dangerouslyprudent.com,AdBlock
 HOST-SUFFIX,dangerousratio.pro,AdBlock
 HOST-SUFFIX,dangerouswinter.com,AdBlock
 HOST-SUFFIX,dangersfluentnewsletter.com,AdBlock
-HOST-SUFFIX,dangtienluc.com,AdBlock
 HOST-SUFFIX,danmounttablets.com,AdBlock
 HOST-SUFFIX,dannyuncoach.com,AdBlock
 HOST-SUFFIX,danorenius.com,AdBlock
@@ -20994,6 +21042,7 @@ HOST-SUFFIX,dat.red,AdBlock
 HOST-SUFFIX,dat1.jzjxmj.com,AdBlock
 HOST-SUFFIX,data-data-vac.com,AdBlock
 HOST-SUFFIX,data-dynamic.net,AdBlock
+HOST-SUFFIX,data-id.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,data-ingenuity.com,AdBlock
 HOST-SUFFIX,data-insight365.com,AdBlock
 HOST-SUFFIX,data-logdelivery.wconcept.co.kr,AdBlock
@@ -21025,6 +21074,7 @@ HOST-SUFFIX,data.accountslatam.coca-cola.com,AdBlock
 HOST-SUFFIX,data.acierto.com,AdBlock
 HOST-SUFFIX,data.adlermode.com,AdBlock
 HOST-SUFFIX,data.admin-updates.airmiles.ca,AdBlock
+HOST-SUFFIX,data.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,data.aem-sites-internal.adobe.com,AdBlock
 HOST-SUFFIX,data.ajo-demosystem4.adobedemosystem.com,AdBlock
 HOST-SUFFIX,data.ajo2emea.adobevlab.com,AdBlock
@@ -21519,6 +21569,7 @@ HOST-SUFFIX,datadoghq.eu,AdBlock
 HOST-SUFFIX,datadome.co,AdBlock
 HOST-SUFFIX,datadome.maisonsdumonde.com,AdBlock
 HOST-SUFFIX,datadsk.com,AdBlock
+HOST-SUFFIX,dataf.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,datafa.st,AdBlock
 HOST-SUFFIX,datafeedfile.com,AdBlock
 HOST-SUFFIX,dataflow.biliapi.com,AdBlock
@@ -22041,6 +22092,7 @@ HOST-SUFFIX,deereefade.xyz,AdBlock
 HOST-SUFFIX,deethout.net,AdBlock
 HOST-SUFFIX,deewansturacin.com,AdBlock
 HOST-SUFFIX,deewemestoh.net,AdBlock
+HOST-SUFFIX,def.ball-strike-up.shop,AdBlock
 HOST-SUFFIX,def.bayer04.de,AdBlock
 HOST-SUFFIX,defacebunny.com,AdBlock
 HOST-SUFFIX,defandoar.xyz,AdBlock
@@ -22228,6 +22280,7 @@ HOST-SUFFIX,dephasevittate.com,AdBlock
 HOST-SUFFIX,depictdeservedtwins.com,AdBlock
 HOST-SUFFIX,deploremythsound.com,AdBlock
 HOST-SUFFIX,deployads.com,AdBlock
+HOST-SUFFIX,deployinput.com,AdBlock
 HOST-SUFFIX,deponerdidym.top,AdBlock
 HOST-SUFFIX,deporttideevenings.com,AdBlock
 HOST-SUFFIX,depositpastel.com,AdBlock
@@ -22283,6 +22336,7 @@ HOST-SUFFIX,designernoise.com,AdBlock
 HOST-SUFFIX,designeropened.com,AdBlock
 HOST-SUFFIX,designingbadlyhinder.com,AdBlock
 HOST-SUFFIX,designingpupilintermediary.com,AdBlock
+HOST-SUFFIX,designsgrid.com,AdBlock
 HOST-SUFFIX,designsrivetfoolish.com,AdBlock
 HOST-SUFFIX,desipearl.com,AdBlock
 HOST-SUFFIX,desirebucket.com,AdBlock
@@ -22299,6 +22353,7 @@ HOST-SUFFIX,desquer.ens.uabc.mx,AdBlock
 HOST-SUFFIX,dessly.ru,AdBlock
 HOST-SUFFIX,destinysfavored.xyz,AdBlock
 HOST-SUFFIX,destinyssa.com,AdBlock
+HOST-SUFFIX,destisheem.com,AdBlock
 HOST-SUFFIX,destituteuncommon.com,AdBlock
 HOST-SUFFIX,destroyedspear.com,AdBlock
 HOST-SUFFIX,destructionhybrids.com,AdBlock
@@ -22307,6 +22362,7 @@ HOST-SUFFIX,detachedbates.com,AdBlock
 HOST-SUFFIX,detail.taobao.com,AdBlock
 HOST-SUFFIX,detailedglue.com,AdBlock
 HOST-SUFFIX,detailedgovernment.com,AdBlock
+HOST-SUFFIX,detailedkitten.com,AdBlock
 HOST-SUFFIX,detailedshuffleshadow.com,AdBlock
 HOST-SUFFIX,detailexcitement.com,AdBlock
 HOST-SUFFIX,details.pella.com,AdBlock
@@ -22336,6 +22392,7 @@ HOST-SUFFIX,detnmz.techwalla.com,AdBlock
 HOST-SUFFIX,detour.click,AdBlock
 HOST-SUFFIX,detourgame.com,AdBlock
 HOST-SUFFIX,deturbcordies.com,AdBlock
+HOST-SUFFIX,deturistaenjapon.com,AdBlock
 HOST-SUFFIX,deturnfurdle.shop,AdBlock
 HOST-SUFFIX,deut1.fdj.fr,AdBlock
 HOST-SUFFIX,deut2.fdj.fr,AdBlock
@@ -22721,6 +22778,7 @@ HOST-SUFFIX,digitaltarget.ru,AdBlock
 HOST-SUFFIX,digitalthrottle.com,AdBlock
 HOST-SUFFIX,digitalunion.cn,AdBlock
 HOST-SUFFIX,digitalworkplace.ricoh.fr,AdBlock
+HOST-SUFFIX,digithalo.com,AdBlock
 HOST-SUFFIX,digitklosh.top,AdBlock
 HOST-SUFFIX,digitru.st,AdBlock
 HOST-SUFFIX,dignityhourmulticultural.com,AdBlock
@@ -23313,7 +23371,6 @@ HOST-SUFFIX,dl.mail.express-scripts.com,AdBlock
 HOST-SUFFIX,dl.manscore.com,AdBlock
 HOST-SUFFIX,dl.mbsea.com,AdBlock
 HOST-SUFFIX,dl.nalbes.com,AdBlock
-HOST-SUFFIX,dl.natgo.cn,AdBlock
 HOST-SUFFIX,dl.nekropol-khv.ru,AdBlock
 HOST-SUFFIX,dl.nx5.com,AdBlock
 HOST-SUFFIX,dl.oneworldonesai.com,AdBlock
@@ -23361,6 +23418,7 @@ HOST-SUFFIX,dlink.hsdyn.com,AdBlock
 HOST-SUFFIX,dlink.upperinc.com,AdBlock
 HOST-SUFFIX,dlisuq.wbw-nail.com,AdBlock
 HOST-SUFFIX,dljdgn.e-lens.com.br,AdBlock
+HOST-SUFFIX,dlmonitize.com,AdBlock
 HOST-SUFFIX,dlmr7hpb2buud.cloudfront.net,AdBlock
 HOST-SUFFIX,dlne6myudrxi1.cloudfront.net,AdBlock
 HOST-SUFFIX,dload.qd.qingting.fm,AdBlock
@@ -23682,6 +23740,7 @@ HOST-SUFFIX,doodiwom.com,AdBlock
 HOST-SUFFIX,doodlelegitimatebracelet.com,AdBlock
 HOST-SUFFIX,doodoaru.net,AdBlock
 HOST-SUFFIX,dooloust.net,AdBlock
+HOST-SUFFIX,doolyturbo.com,AdBlock
 HOST-SUFFIX,doomail.org,AdBlock
 HOST-SUFFIX,doomcelebritystarch.com,AdBlock
 HOST-SUFFIX,doomdoleinto.com,AdBlock
@@ -23714,6 +23773,7 @@ HOST-SUFFIX,doptik.ru,AdBlock
 HOST-SUFFIX,doraikouor.com,AdBlock
 HOST-SUFFIX,dorimnews.com,AdBlock
 HOST-SUFFIX,dorkingvoust.com,AdBlock
+HOST-SUFFIX,dorpshexyls.com,AdBlock
 HOST-SUFFIX,dortmark.net,AdBlock
 HOST-SUFFIX,doruffleton.com,AdBlock
 HOST-SUFFIX,doruffletr.com,AdBlock
@@ -23811,7 +23871,6 @@ HOST-SUFFIX,down.ftp21.cc,AdBlock
 HOST-SUFFIX,down.fwqlt.com,AdBlock
 HOST-SUFFIX,down.gmexiochappt.com,AdBlock
 HOST-SUFFIX,down.pcclear.com,AdBlock
-HOST-SUFFIX,down.qqfarmer.com.cn,AdBlock
 HOST-SUFFIX,down.ruanmei.com,AdBlock
 HOST-SUFFIX,down.xiazaidc.com,AdBlock
 HOST-SUFFIX,down.xiazaiyuan.net,AdBlock
@@ -23829,6 +23888,7 @@ HOST-SUFFIX,download.350.com,AdBlock
 HOST-SUFFIX,download.backpackergame.com,AdBlock
 HOST-SUFFIX,download.bav.baidu.com,AdBlock
 HOST-SUFFIX,download.bonnti.com,AdBlock
+HOST-SUFFIX,download.caihong.com,AdBlock
 HOST-SUFFIX,download.changhong.upgrade2.huan.tv,AdBlock
 HOST-SUFFIX,download.coinseed.co,AdBlock
 HOST-SUFFIX,download.connectie.com,AdBlock
@@ -23836,7 +23896,6 @@ HOST-SUFFIX,download.createyournextcustomer.com,AdBlock
 HOST-SUFFIX,download.cudo.org,AdBlock
 HOST-SUFFIX,download.dackinc.com,AdBlock
 HOST-SUFFIX,download.dnv.com,AdBlock
-HOST-SUFFIX,download.emailorganizer.com,AdBlock
 HOST-SUFFIX,download.frolit.io,AdBlock
 HOST-SUFFIX,download.fuyuncc.com,AdBlock
 HOST-SUFFIX,download.getneema.com,AdBlock
@@ -24012,6 +24071,7 @@ HOST-SUFFIX,dreamaquarium.com,AdBlock
 HOST-SUFFIX,dreamcounter.de,AdBlock
 HOST-SUFFIX,dreamine.com,AdBlock
 HOST-SUFFIX,dreamintim.net,AdBlock
+HOST-SUFFIX,dreamsdome.com,AdBlock
 HOST-SUFFIX,dreamteamaffiliates.com,AdBlock
 HOST-SUFFIX,dreamycanyon.com,AdBlock
 HOST-SUFFIX,drenastheycam.com,AdBlock
@@ -24056,7 +24116,6 @@ HOST-SUFFIX,drizzlerules.com,AdBlock
 HOST-SUFFIX,drjs123.com,AdBlock
 HOST-SUFFIX,drkness.net,AdBlock
 HOST-SUFFIX,drleez.xyz,AdBlock
-HOST-SUFFIX,drmarlenemd.com,AdBlock
 HOST-SUFFIX,drmcmm.baidu.cn,AdBlock
 HOST-SUFFIX,drollwharf.com,AdBlock
 HOST-SUFFIX,dronediscussed.com,AdBlock
@@ -24088,6 +24147,7 @@ HOST-SUFFIX,drummercrouchdelegate.com,AdBlock
 HOST-SUFFIX,drumskilxoa.click,AdBlock
 HOST-SUFFIX,drunkendecembermediocre.com,AdBlock
 HOST-SUFFIX,drunkindigenouswaitress.com,AdBlock
+HOST-SUFFIX,druqkstwwvg.com,AdBlock
 HOST-SUFFIX,druqodrly.com,AdBlock
 HOST-SUFFIX,drustren.com,AdBlock
 HOST-SUFFIX,druzja.canmart.co.kr,AdBlock
@@ -24350,6 +24410,7 @@ HOST-SUFFIX,dupy-hsjctyn.icu,AdBlock
 HOST-SUFFIX,dupzbh.icu,AdBlock
 HOST-SUFFIX,duqamtr9ifv5t.cloudfront.net,AdBlock
 HOST-SUFFIX,duqqrl.jefchaussures.com,AdBlock
+HOST-SUFFIX,durantconvey.com,AdBlock
 HOST-SUFFIX,durationmedia.net,AdBlock
 HOST-SUFFIX,durchsichtig.xyz,AdBlock
 HOST-SUFFIX,duringherenurew.com,AdBlock
@@ -24485,6 +24546,7 @@ HOST-SUFFIX,dy886.cn,AdBlock
 HOST-SUFFIX,dyb.jdcbuy.com,AdBlock
 HOST-SUFFIX,dybxezbel1g44.cloudfront.net,AdBlock
 HOST-SUFFIX,dydab.com,AdBlock
+HOST-SUFFIX,dyecloud.com,AdBlock
 HOST-SUFFIX,dyerbossier.top,AdBlock
 HOST-SUFFIX,dygang.kkcaicai.com,AdBlock
 HOST-SUFFIX,dyghye.fashionesta.com,AdBlock
@@ -25242,6 +25304,7 @@ HOST-SUFFIX,eanwhitepinafor.com,AdBlock
 HOST-SUFFIX,eap.big5.enorth.com.cn,AdBlock
 HOST-SUFFIX,eap.enorth.com.cn,AdBlock
 HOST-SUFFIX,eaqgsw.xyz,AdBlock
+HOST-SUFFIX,earbossysavvy.com,AdBlock
 HOST-SUFFIX,eardepth-prisists.com,AdBlock
 HOST-SUFFIX,earholeprosode.shop,AdBlock
 HOST-SUFFIX,earinglestpeoples.info,AdBlock
@@ -25691,6 +25754,7 @@ HOST-SUFFIX,educationlink.clear360.com,AdBlock
 HOST-SUFFIX,educationrailway.website,AdBlock
 HOST-SUFFIX,educedsteeped.com,AdBlock
 HOST-SUFFIX,educontinua.javeriana.edu.co,AdBlock
+HOST-SUFFIX,educrated.com,AdBlock
 HOST-SUFFIX,edutalkingdata.cn,AdBlock
 HOST-SUFFIX,edutalkingdata.com,AdBlock
 HOST-SUFFIX,edutechlearners.com,AdBlock
@@ -25781,6 +25845,7 @@ HOST-SUFFIX,eei.lobbycafe.cn,AdBlock
 HOST-SUFFIX,eejeephaux.net,AdBlock
 HOST-SUFFIX,eejersenset.net,AdBlock
 HOST-SUFFIX,eejipukaijy.net,AdBlock
+HOST-SUFFIX,eekekseecke.net,AdBlock
 HOST-SUFFIX,eeknabkuazjjn.site,AdBlock
 HOST-SUFFIX,eekreeng.com,AdBlock
 HOST-SUFFIX,eekrogrameety.net,AdBlock
@@ -25788,6 +25853,7 @@ HOST-SUFFIX,eeksoabo.com,AdBlock
 HOST-SUFFIX,eeksoshair.net,AdBlock
 HOST-SUFFIX,eekvgafcsgbwx.xyz,AdBlock
 HOST-SUFFIX,eel.transistor.fm,AdBlock
+HOST-SUFFIX,eelerzambo.com,AdBlock
 HOST-SUFFIX,eelkeageg.com,AdBlock
 HOST-SUFFIX,eelroave.xyz,AdBlock
 HOST-SUFFIX,eemaibsemtushaz.net,AdBlock
@@ -26159,6 +26225,7 @@ HOST-SUFFIX,eloquatrack.kistler.com,AdBlock
 HOST-SUFFIX,eloquatracking.internationalsos.com,AdBlock
 HOST-SUFFIX,eloquatracking.iqvia.com,AdBlock
 HOST-SUFFIX,eloquatracking.mindbody.io,AdBlock
+HOST-SUFFIX,eloquenceeye.com,AdBlock
 HOST-SUFFIX,eloquentvaluation.com,AdBlock
 HOST-SUFFIX,elpfulinotahere.com,AdBlock
 HOST-SUFFIX,elphhrj.xyz,AdBlock
@@ -26638,6 +26705,7 @@ HOST-SUFFIX,enactdubcompetitive.com,AdBlock
 HOST-SUFFIX,enacttournamentcute.com,AdBlock
 HOST-SUFFIX,enalzlw.top,AdBlock
 HOST-SUFFIX,enamelcourage.com,AdBlock
+HOST-SUFFIX,enamelhurdleunpaid.com,AdBlock
 HOST-SUFFIX,enarmuokzo.com,AdBlock
 HOST-SUFFIX,enbazj.ilbianconero.com,AdBlock
 HOST-SUFFIX,encaseauditorycolourful.com,AdBlock
@@ -27013,6 +27081,7 @@ HOST-SUFFIX,ep4p.com,AdBlock
 HOST-SUFFIX,epacash.com,AdBlock
 HOST-SUFFIX,epanpano.com,AdBlock
 HOST-SUFFIX,epargnez.adp.ca,AdBlock
+HOST-SUFFIX,epaulebeardie.com,AdBlock
 HOST-SUFFIX,epcdko.forevernew.com.au,AdBlock
 HOST-SUFFIX,epededonemile.com,AdBlock
 HOST-SUFFIX,epeex.com,AdBlock
@@ -27032,6 +27101,7 @@ HOST-SUFFIX,epilot.com,AdBlock
 HOST-SUFFIX,epimetheus.navigator.web.de,AdBlock
 HOST-SUFFIX,epipenexpiryservice.com,AdBlock
 HOST-SUFFIX,epitrack.com,AdBlock
+HOST-SUFFIX,epiurallass.com,AdBlock
 HOST-SUFFIX,epixkf.dentrodahistoria.com.br,AdBlock
 HOST-SUFFIX,epl.paypal-communication.com,AdBlock
 HOST-SUFFIX,eplndhtrobl.com,AdBlock
@@ -27070,6 +27140,7 @@ HOST-SUFFIX,eqbyc.com,AdBlock
 HOST-SUFFIX,eqclicks.movember.com,AdBlock
 HOST-SUFFIX,eqdudaj.com,AdBlock
 HOST-SUFFIX,eqgmnmqlz.com,AdBlock
+HOST-SUFFIX,eqhelp.top,AdBlock
 HOST-SUFFIX,eqingl.ivet.bg,AdBlock
 HOST-SUFFIX,eqkvks.xyz,AdBlock
 HOST-SUFFIX,eqkwat.histoiredor.com,AdBlock
@@ -27195,6 +27266,7 @@ HOST-SUFFIX,es-sa.siemensplmevents.com,AdBlock
 HOST-SUFFIX,es.lucanet.com,AdBlock
 HOST-SUFFIX,es.sharpmarketing.eu,AdBlock
 HOST-SUFFIX,esaidees.com,AdBlock
+HOST-SUFFIX,esaidndamafraid.com,AdBlock
 HOST-SUFFIX,esasaimpi.net,AdBlock
 HOST-SUFFIX,esathyasesume.info,AdBlock
 HOST-SUFFIX,esauphultough.net,AdBlock
@@ -27309,6 +27381,7 @@ HOST-SUFFIX,ethereum-pocket.com,AdBlock
 HOST-SUFFIX,ethereum-pocket.de,AdBlock
 HOST-SUFFIX,ethereum-pocket.eu,AdBlock
 HOST-SUFFIX,ethereumads.com,AdBlock
+HOST-SUFFIX,etherolasqueal.com,AdBlock
 HOST-SUFFIX,ethicalads.io,AdBlock
 HOST-SUFFIX,ethicbecamecarbonate.com,AdBlock
 HOST-SUFFIX,ethicel.com,AdBlock
@@ -27643,6 +27716,7 @@ HOST-SUFFIX,events.whisk.com,AdBlock
 HOST-SUFFIX,events.yourcx.io,AdBlock
 HOST-SUFFIX,events2.www.edenfantasys.com,AdBlock
 HOST-SUFFIX,eventsink.api.redbee.live,AdBlock
+HOST-SUFFIX,eventsmall.com,AdBlock
 HOST-SUFFIX,eventsproxy.gargantuan.futureplc.com,AdBlock
 HOST-SUFFIX,eventstream.dodopizza.com,AdBlock
 HOST-SUFFIX,eventuallysmallestejection.com,AdBlock
@@ -27818,6 +27892,7 @@ HOST-SUFFIX,exilepracticableresignation.com,AdBlock
 HOST-SUFFIX,exilesgalei.shop,AdBlock
 HOST-SUFFIX,eximius.epoise.com,AdBlock
 HOST-SUFFIX,exinariuminix.info,AdBlock
+HOST-SUFFIX,exinesriles.com,AdBlock
 HOST-SUFFIX,existenceassociationvoice.com,AdBlock
 HOST-SUFFIX,existenceprinterfrog.com,AdBlock
 HOST-SUFFIX,existencethrough.com,AdBlock
@@ -28234,6 +28309,7 @@ HOST-SUFFIX,falloutspecies.com,AdBlock
 HOST-SUFFIX,falsechasingdefine.com,AdBlock
 HOST-SUFFIX,falsefeet.com,AdBlock
 HOST-SUFFIX,falseframe.com,AdBlock
+HOST-SUFFIX,falsesight.com,AdBlock
 HOST-SUFFIX,falsifybrightly.com,AdBlock
 HOST-SUFFIX,falsifylilac.com,AdBlock
 HOST-SUFFIX,fam-8.net,AdBlock
@@ -28307,6 +28383,7 @@ HOST-SUFFIX,fargwyn.com,AdBlock
 HOST-SUFFIX,fark.com,AdBlock
 HOST-SUFFIX,farmergoldfish.com,AdBlock
 HOST-SUFFIX,farmmandatehaggard.com,AdBlock
+HOST-SUFFIX,farmyengrail.top,AdBlock
 HOST-SUFFIX,farrivederev.pro,AdBlock
 HOST-SUFFIX,farshake.com,AdBlock
 HOST-SUFFIX,farsnails.com,AdBlock
@@ -28347,8 +28424,6 @@ HOST-SUFFIX,fasterfineart.com,AdBlock
 HOST-SUFFIX,fasterjson.com,AdBlock
 HOST-SUFFIX,fastesteye.com,AdBlock
 HOST-SUFFIX,fastfinch.co,AdBlock
-HOST-SUFFIX,fastfreight-loads.com,AdBlock
-HOST-SUFFIX,fastfreightloads.com,AdBlock
 HOST-SUFFIX,fastgull.io,AdBlock
 HOST-SUFFIX,fastidiousilliteratehag.com,AdBlock
 HOST-SUFFIX,fastimage.uve.weibo.com,AdBlock
@@ -28414,6 +28489,7 @@ HOST-SUFFIX,fbb.nbhotpo.com,AdBlock
 HOST-SUFFIX,fbc.ffychb.com,AdBlock
 HOST-SUFFIX,fbcdn2.com,AdBlock
 HOST-SUFFIX,fbgdc.com,AdBlock
+HOST-SUFFIX,fbhkxt.icu,AdBlock
 HOST-SUFFIX,fbjpji.europcar.es,AdBlock
 HOST-SUFFIX,fbkzqnyyga.com,AdBlock
 HOST-SUFFIX,fbmedia-bls.com,AdBlock
@@ -28616,6 +28692,7 @@ HOST-SUFFIX,fellrummageunpleasant.com,AdBlock
 HOST-SUFFIX,felonauditoriumdistant.com,AdBlock
 HOST-SUFFIX,felsaulaft.com,AdBlock
 HOST-SUFFIX,feltatchaiz.net,AdBlock
+HOST-SUFFIX,feltlonelyandbeg.com,AdBlock
 HOST-SUFFIX,femefaih.com,AdBlock
 HOST-SUFFIX,femetrics.grammarly.io,AdBlock
 HOST-SUFFIX,femin.online,AdBlock
@@ -28827,6 +28904,7 @@ HOST-SUFFIX,fillingcater.com,AdBlock
 HOST-SUFFIX,filmesonlinegratis.com,AdBlock
 HOST-SUFFIX,filmoljupci.com,AdBlock
 HOST-SUFFIX,filpili.com,AdBlock
+HOST-SUFFIX,filroomewhoogug.net,AdBlock
 HOST-SUFFIX,filternannewspaper.com,AdBlock
 HOST-SUFFIX,filtertopplescream.com,AdBlock
 HOST-SUFFIX,filthnair.click,AdBlock
@@ -28954,6 +29032,7 @@ HOST-SUFFIX,firurx.invia.hu,AdBlock
 HOST-SUFFIX,fisari.com,AdBlock
 HOST-SUFFIX,fishermanplacingthrough.com,AdBlock
 HOST-SUFFIX,fishermanslush.com,AdBlock
+HOST-SUFFIX,fishersfinds.com,AdBlock
 HOST-SUFFIX,fisherspythium.com,AdBlock
 HOST-SUFFIX,fishing.daigostudio.com,AdBlock
 HOST-SUFFIX,fishingtouching.com,AdBlock
@@ -28964,6 +29043,7 @@ HOST-SUFFIX,fitanalytics.com,AdBlock
 HOST-SUFFIX,fitcenterz.com,AdBlock
 HOST-SUFFIX,fitfuldemolitionbilliards.com,AdBlock
 HOST-SUFFIX,fitmessage.com,AdBlock
+HOST-SUFFIX,fitnessmapper.com,AdBlock
 HOST-SUFFIX,fitsazx.xyz,AdBlock
 HOST-SUFFIX,fitsjamescommunicated.com,AdBlock
 HOST-SUFFIX,fitssheashasvs.info,AdBlock
@@ -28974,6 +29054,7 @@ HOST-SUFFIX,fivulsou.xyz,AdBlock
 HOST-SUFFIX,fiwhibse.com,AdBlock
 HOST-SUFFIX,fiwinet.firmenwissen.com,AdBlock
 HOST-SUFFIX,fiwinet.firmenwissen.de,AdBlock
+HOST-SUFFIX,fix.hpplay.cn,AdBlock
 HOST-SUFFIX,fixatealaloi.top,AdBlock
 HOST-SUFFIX,fixcounter.com,AdBlock
 HOST-SUFFIX,fixdynamics.info,AdBlock
@@ -29074,6 +29155,7 @@ HOST-SUFFIX,flawerosion.com,AdBlock
 HOST-SUFFIX,flaweyesight.com,AdBlock
 HOST-SUFFIX,flawgrandparentsmysterious.com,AdBlock
 HOST-SUFFIX,flawsfairish.top,AdBlock
+HOST-SUFFIX,flawydanda.com,AdBlock
 HOST-SUFFIX,flaxconfession.com,AdBlock
 HOST-SUFFIX,flaxierfilmset.com,AdBlock
 HOST-SUFFIX,flcounter.com,AdBlock
@@ -29241,6 +29323,7 @@ HOST-SUFFIX,fmv9kweoe06r.com,AdBlock
 HOST-SUFFIX,fmversing.shop,AdBlock
 HOST-SUFFIX,fn-pz.com,AdBlock
 HOST-SUFFIX,fna.fnainsurance.com,AdBlock
+HOST-SUFFIX,fnafar.netlify.app,AdBlock
 HOST-SUFFIX,fnajvu.framingsuccess.com,AdBlock
 HOST-SUFFIX,fnbauniukvi.com,AdBlock
 HOST-SUFFIX,fncash.com,AdBlock
@@ -29296,6 +29379,7 @@ HOST-SUFFIX,folbwkw.com,AdBlock
 HOST-SUFFIX,foldedaddress.com,AdBlock
 HOST-SUFFIX,foldedprevent.com,AdBlock
 HOST-SUFFIX,foldinginstallation.com,AdBlock
+HOST-SUFFIX,foldymuist.shop,AdBlock
 HOST-SUFFIX,foliumumu.com,AdBlock
 HOST-SUFFIX,followborder.com,AdBlock
 HOST-SUFFIX,followeraggregationtraumatize.com,AdBlock
@@ -29319,6 +29403,7 @@ HOST-SUFFIX,food.informaengage.com,AdBlock
 HOST-SUFFIX,food.pentonmarketingsvcs.com,AdBlock
 HOST-SUFFIX,food9wave.com,AdBlock
 HOST-SUFFIX,foodbrochure.advancedtech.com,AdBlock
+HOST-SUFFIX,foodfunfestivals.com,AdBlock
 HOST-SUFFIX,foodieblogroll.com,AdBlock
 HOST-SUFFIX,foodpackaging.kpfilms.com,AdBlock
 HOST-SUFFIX,foodsouvlakibar.openapp.link,AdBlock
@@ -29420,6 +29505,7 @@ HOST-SUFFIX,formationunavoidableenvisage.com,AdBlock
 HOST-SUFFIX,formationwallet.com,AdBlock
 HOST-SUFFIX,formatresourcefulresolved.com,AdBlock
 HOST-SUFFIX,formatstock.com,AdBlock
+HOST-SUFFIX,formayday.com,AdBlock
 HOST-SUFFIX,formedwrapped.com,AdBlock
 HOST-SUFFIX,formerdisagreepectoral.com,AdBlock
 HOST-SUFFIX,formerdrearybiopsy.com,AdBlock
@@ -29850,6 +29936,7 @@ HOST-SUFFIX,frictionterritoryvacancy.com,AdBlock
 HOST-SUFFIX,fridayarched.com,AdBlock
 HOST-SUFFIX,fridaywake.com,AdBlock
 HOST-SUFFIX,fridgesbunt.top,AdBlock
+HOST-SUFFIX,friedone.com,AdBlock
 HOST-SUFFIX,friedretrieve.com,AdBlock
 HOST-SUFFIX,friendbuy.com,AdBlock
 HOST-SUFFIX,friendlycrayon.com,AdBlock
@@ -29888,7 +29975,6 @@ HOST-SUFFIX,fromhttptohttps.atea.fi,AdBlock
 HOST-SUFFIX,fromjoytohappiness.com,AdBlock
 HOST-SUFFIX,fromoffspringcaliber.com,AdBlock
 HOST-SUFFIX,frompilis.com,AdBlock
-HOST-SUFFIX,fromthetrenchesworldreport.com,AdBlock
 HOST-SUFFIX,frontcognizance.com,AdBlock
 HOST-SUFFIX,fronthlpr.com,AdBlock
 HOST-SUFFIX,frontierconsul02.tsunagaru-office.com,AdBlock
@@ -29963,6 +30049,7 @@ HOST-SUFFIX,ftaysn.meinekette.de,AdBlock
 HOST-SUFFIX,ftblltrck.com,AdBlock
 HOST-SUFFIX,ftbpro.com,AdBlock
 HOST-SUFFIX,ftd.agency,AdBlock
+HOST-SUFFIX,ftertheyhagete.com,AdBlock
 HOST-SUFFIX,ftheusysianeduk.com,AdBlock
 HOST-SUFFIX,ftjcfx.com,AdBlock
 HOST-SUFFIX,ftm.fluencyinc.co,AdBlock
@@ -30099,6 +30186,7 @@ HOST-SUFFIX,furtherbasketballoverwhelming.com,AdBlock
 HOST-SUFFIX,furzetshi.com,AdBlock
 HOST-SUFFIX,fuse-cloud.com,AdBlock
 HOST-SUFFIX,fuse.forbes.com,AdBlock
+HOST-SUFFIX,fusedcontent.com,AdBlock
 HOST-SUFFIX,fusedeck.net,AdBlock
 HOST-SUFFIX,fuseplatform.net,AdBlock
 HOST-SUFFIX,fusestats.com,AdBlock
@@ -30304,6 +30392,7 @@ HOST-SUFFIX,g0gr67p.de,AdBlock
 HOST-SUFFIX,g0wow.net,AdBlock
 HOST-SUFFIX,g1.08160.cn,AdBlock
 HOST-SUFFIX,g1.163.com,AdBlock
+HOST-SUFFIX,g1.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,g1.corp.163.com,AdBlock
 HOST-SUFFIX,g1.pptair.com,AdBlock
 HOST-SUFFIX,g1.tagtic.cn,AdBlock
@@ -30363,12 +30452,12 @@ HOST-SUFFIX,ga.webdigi.co.uk,AdBlock
 HOST-SUFFIX,ga1.3dmgame.com,AdBlock
 HOST-SUFFIX,ga2.3dmgame.com,AdBlock
 HOST-SUFFIX,gaafbi.fashiondays.hu,AdBlock
+HOST-SUFFIX,gabberhavel.shop,AdBlock
 HOST-SUFFIX,gabblecongestionhelpful.com,AdBlock
 HOST-SUFFIX,gabblewhining.com,AdBlock
 HOST-SUFFIX,gabsailr.com,AdBlock
 HOST-SUFFIX,gaccwr.dutramaquinas.com.br,AdBlock
 HOST-SUFFIX,gacela.eu,AdBlock
-HOST-SUFFIX,gachetroi.com,AdBlock
 HOST-SUFFIX,gaconnector.com,AdBlock
 HOST-SUFFIX,gacraft.jp,AdBlock
 HOST-SUFFIX,gad.kugou.com,AdBlock
@@ -30534,6 +30623,7 @@ HOST-SUFFIX,garretassociate.com,AdBlock
 HOST-SUFFIX,garretdistort.com,AdBlock
 HOST-SUFFIX,garrisonparttimemount.com,AdBlock
 HOST-SUFFIX,gartaurdeeworsi.net,AdBlock
+HOST-SUFFIX,garthsava.com,AdBlock
 HOST-SUFFIX,garvum.julesb.co.uk,AdBlock
 HOST-SUFFIX,gas-sensing.spec-sensors.com,AdBlock
 HOST-SUFFIX,gas.data.pplive.com,AdBlock
@@ -30716,6 +30806,7 @@ HOST-SUFFIX,geegleshoaph.com,AdBlock
 HOST-SUFFIX,geejetag.com,AdBlock
 HOST-SUFFIX,geejushoaboustu.net,AdBlock
 HOST-SUFFIX,geekactive.com,AdBlock
+HOST-SUFFIX,geekbackyard.com,AdBlock
 HOST-SUFFIX,geekries.com,AdBlock
 HOST-SUFFIX,geeptaunip.net,AdBlock
 HOST-SUFFIX,geetacog.xyz,AdBlock
@@ -31224,6 +31315,7 @@ HOST-SUFFIX,ghifrc.baldai1.lt,AdBlock
 HOST-SUFFIX,ghiuge55.fun,AdBlock
 HOST-SUFFIX,ghjedashb6.fun,AdBlock
 HOST-SUFFIX,ghlyrecomemurg.com,AdBlock
+HOST-SUFFIX,ghmjpanel.top,AdBlock
 HOST-SUFFIX,ghmproperties.com,AdBlock
 HOST-SUFFIX,ghnvfncbleiu.xyz,AdBlock
 HOST-SUFFIX,ghnwss.fmsstores.gr,AdBlock
@@ -31251,6 +31343,7 @@ HOST-SUFFIX,gi0.icu,AdBlock
 HOST-SUFFIX,gi7a.structube.com,AdBlock
 HOST-SUFFIX,giantaffiliates.com,AdBlock
 HOST-SUFFIX,giantexit.com,AdBlock
+HOST-SUFFIX,gianthypes.com,AdBlock
 HOST-SUFFIX,giantsvessel.com,AdBlock
 HOST-SUFFIX,gianwho.com,AdBlock
 HOST-SUFFIX,giaythethaonuhcm.com,AdBlock
@@ -31276,6 +31369,7 @@ HOST-SUFFIX,giganticlived.com,AdBlock
 HOST-SUFFIX,gigcount.com,AdBlock
 HOST-SUFFIX,giggleostentatious.com,AdBlock
 HOST-SUFFIX,gigjjgb.com,AdBlock
+HOST-SUFFIX,gigkarma.com,AdBlock
 HOST-SUFFIX,gigsmanhowls.top,AdBlock
 HOST-SUFFIX,gihehazfdm.com,AdBlock
 HOST-SUFFIX,giirlforyou.com,AdBlock
@@ -31319,6 +31413,7 @@ HOST-SUFFIX,girls.xyz,AdBlock
 HOST-SUFFIX,girlsflirthere.life,AdBlock
 HOST-SUFFIX,girlstretchingsplendid.com,AdBlock
 HOST-SUFFIX,girlwallpaper.pro,AdBlock
+HOST-SUFFIX,girnalnemean.com,AdBlock
 HOST-SUFFIX,gishejuy.com,AdBlock
 HOST-SUFFIX,gishpurer.shop,AdBlock
 HOST-SUFFIX,gismoarette.top,AdBlock
@@ -31404,6 +31499,7 @@ HOST-SUFFIX,glaidalr.net,AdBlock
 HOST-SUFFIX,glaidekeemp.net,AdBlock
 HOST-SUFFIX,glaidipt.net,AdBlock
 HOST-SUFFIX,glaignatsensah.xyz,AdBlock
+HOST-SUFFIX,glaignoopty.net,AdBlock
 HOST-SUFFIX,glaijauk.xyz,AdBlock
 HOST-SUFFIX,glaikrolsoa.com,AdBlock
 HOST-SUFFIX,glaiksoachou.com,AdBlock
@@ -31499,6 +31595,7 @@ HOST-SUFFIX,gloacmug.net,AdBlock
 HOST-SUFFIX,gloagaus.xyz,AdBlock
 HOST-SUFFIX,gloalrie.com,AdBlock
 HOST-SUFFIX,gloaphoo.net,AdBlock
+HOST-SUFFIX,gloardaigrith.com,AdBlock
 HOST-SUFFIX,gloardoali.com,AdBlock
 HOST-SUFFIX,global-go.experian.com,AdBlock
 HOST-SUFFIX,global-mktg.transunion.com,AdBlock
@@ -31523,6 +31620,7 @@ HOST-SUFFIX,globalsolutions.risk.lexisnexis.com,AdBlock
 HOST-SUFFIX,globalsuccessclub.com,AdBlock
 HOST-SUFFIX,globaltraffico.com,AdBlock
 HOST-SUFFIX,globalwebindex.net,AdBlock
+HOST-SUFFIX,globalwoldsinc.com,AdBlock
 HOST-SUFFIX,globase.com,AdBlock
 HOST-SUFFIX,globel.co.uk,AdBlock
 HOST-SUFFIX,globeofnews.com,AdBlock
@@ -32245,6 +32343,7 @@ HOST-SUFFIX,goat.skeetstats.xyz,AdBlock
 HOST-SUFFIX,goat.tailspace.net,AdBlock
 HOST-SUFFIX,goatauthut.xyz,AdBlock
 HOST-SUFFIX,goatcounter.com,AdBlock
+HOST-SUFFIX,goatmod.xyz,AdBlock
 HOST-SUFFIX,goatsnulls.com,AdBlock
 HOST-SUFFIX,goazlf.mytoys.de,AdBlock
 HOST-SUFFIX,gobacktothefuture.biz,AdBlock
@@ -32371,7 +32470,6 @@ HOST-SUFFIX,googletraveladservices-cn.com,AdBlock
 HOST-SUFFIX,googletraveladservices.com,AdBlock
 HOST-SUFFIX,googlevads-cn.com,AdBlock
 HOST-SUFFIX,googlevideoads.com,AdBlock
-HOST-SUFFIX,googlleaszxds.nyc3.cdn.digitaloceanspaces.com,AdBlock
 HOST-SUFFIX,goohimom.net,AdBlock
 HOST-SUFFIX,goole20.shop,AdBlock
 HOST-SUFFIX,goole24.shop,AdBlock
@@ -32402,6 +32500,7 @@ HOST-SUFFIX,gorgon.youdao.com,AdBlock
 HOST-SUFFIX,gorilladescendbounds.com,AdBlock
 HOST-SUFFIX,gorillatraffic.xyz,AdBlock
 HOST-SUFFIX,gorillatrking.com,AdBlock
+HOST-SUFFIX,gormansnaffle.com,AdBlock
 HOST-SUFFIX,goseri-link.mysuki.io,AdBlock
 HOST-SUFFIX,goshbiopsy.com,AdBlock
 HOST-SUFFIX,gositego.live,AdBlock
@@ -32661,7 +32760,6 @@ HOST-SUFFIX,green4762.com,AdBlock
 HOST-SUFFIX,greenads.org,AdBlock
 HOST-SUFFIX,greenandhappiness.com,AdBlock
 HOST-SUFFIX,greenfox.ink,AdBlock
-HOST-SUFFIX,greenindustry.pl,AdBlock
 HOST-SUFFIX,greenjapan-cname.green-japan.com,AdBlock
 HOST-SUFFIX,greenlinknow.com,AdBlock
 HOST-SUFFIX,greenmortgage.pro,AdBlock
@@ -32703,6 +32801,7 @@ HOST-SUFFIX,grfpr.com,AdBlock
 HOST-SUFFIX,grfz.de,AdBlock
 HOST-SUFFIX,grgnsht.nzxt.com,AdBlock
 HOST-SUFFIX,gribseep.net,AdBlock
+HOST-SUFFIX,gridbelow.com,AdBlock
 HOST-SUFFIX,gridder.co,AdBlock
 HOST-SUFFIX,gridedloamily.top,AdBlock
 HOST-SUFFIX,gridiogrid.com,AdBlock
@@ -32766,6 +32865,7 @@ HOST-SUFFIX,groinopposed.com,AdBlock
 HOST-SUFFIX,grojaigrerdugru.xyz,AdBlock
 HOST-SUFFIX,groleegni.net,AdBlock
 HOST-SUFFIX,gromairgexucmo.net,AdBlock
+HOST-SUFFIX,gromtempair.com,AdBlock
 HOST-SUFFIX,grondrens.com,AdBlock
 HOST-SUFFIX,gronsoakoube.net,AdBlock
 HOST-SUFFIX,grookilteepsou.net,AdBlock
@@ -32840,12 +32940,12 @@ HOST-SUFFIX,grufeegny.xyz,AdBlock
 HOST-SUFFIX,gruffsleighrebellion.com,AdBlock
 HOST-SUFFIX,grugnampouksi.net,AdBlock
 HOST-SUFFIX,grulphaens.com,AdBlock
+HOST-SUFFIX,grumpbelly.top,AdBlock
 HOST-SUFFIX,grumpydime.com,AdBlock
 HOST-SUFFIX,grumpydrawer.com,AdBlock
 HOST-SUFFIX,grumpyslayerbarton.com,AdBlock
 HOST-SUFFIX,grunoaph.net,AdBlock
 HOST-SUFFIX,gruntremoved.com,AdBlock
-HOST-SUFFIX,grupobramam.com.br,AdBlock
 HOST-SUFFIX,gruponn.com,AdBlock
 HOST-SUFFIX,grurawho.com,AdBlock
 HOST-SUFFIX,grushoungy.com,AdBlock
@@ -32876,6 +32976,7 @@ HOST-SUFFIX,gsimedia.net,AdBlock
 HOST-SUFFIX,gsjdzx.com,AdBlock
 HOST-SUFFIX,gsjlfs.com,AdBlock
 HOST-SUFFIX,gsjln04hd.com,AdBlock
+HOST-SUFFIX,gslb.hpplay.cn,AdBlock
 HOST-SUFFIX,gslive.edm.globalsources.com,AdBlock
 HOST-SUFFIX,gsmatch.edm.globalsources.com,AdBlock
 HOST-SUFFIX,gsmqez.xcite.com,AdBlock
@@ -33148,7 +33249,6 @@ HOST-SUFFIX,gzads.com,AdBlock
 HOST-SUFFIX,gzbcuy.mamarella.com,AdBlock
 HOST-SUFFIX,gzcl999.cn,AdBlock
 HOST-SUFFIX,gzcl999.com,AdBlock
-HOST-SUFFIX,gzeed-33w.top,AdBlock
 HOST-SUFFIX,gzfsqrc.icu,AdBlock
 HOST-SUFFIX,gzglmoczfzf.com,AdBlock
 HOST-SUFFIX,gzhctryy.com,AdBlock
@@ -33314,6 +33414,7 @@ HOST-SUFFIX,hamletuponcontribute.com,AdBlock
 HOST-SUFFIX,hamletvertical.com,AdBlock
 HOST-SUFFIX,hammalfrabous.com,AdBlock
 HOST-SUFFIX,hammamfehmic.com,AdBlock
+HOST-SUFFIX,hammamnotself.com,AdBlock
 HOST-SUFFIX,hammereternal.com,AdBlock
 HOST-SUFFIX,hammerhearing.com,AdBlock
 HOST-SUFFIX,hammerhewer.top,AdBlock
@@ -33554,6 +33655,7 @@ HOST-SUFFIX,hbmode.com,AdBlock
 HOST-SUFFIX,hbo5.concours-pass.com,AdBlock
 HOST-SUFFIX,hborq.com,AdBlock
 HOST-SUFFIX,hbqaihowimyiuh.com,AdBlock
+HOST-SUFFIX,hbwncbwgyvgt.com,AdBlock
 HOST-SUFFIX,hbwrapper.com,AdBlock
 HOST-SUFFIX,hbxmdf.icu,AdBlock
 HOST-SUFFIX,hby7.destinia.it,AdBlock
@@ -33964,6 +34066,7 @@ HOST-SUFFIX,hh6666.com,AdBlock
 HOST-SUFFIX,hh9uc8r3.xyz,AdBlock
 HOST-SUFFIX,hhausq.top,AdBlock
 HOST-SUFFIX,hhb123.tk,AdBlock
+HOST-SUFFIX,hhbs.hhu.edu.cn,AdBlock
 HOST-SUFFIX,hhbxcs.tylko.com,AdBlock
 HOST-SUFFIX,hhbypdoecp.com,AdBlock
 HOST-SUFFIX,hhcskj.com,AdBlock
@@ -33980,6 +34083,7 @@ HOST-SUFFIX,hhn.cxslcc.cn,AdBlock
 HOST-SUFFIX,hhqda.pop.t5yx.cn,AdBlock
 HOST-SUFFIX,hhrerv.xyz,AdBlock
 HOST-SUFFIX,hht8m6w8mnug.quine.sh,AdBlock
+HOST-SUFFIX,hhuobnajd.com,AdBlock
 HOST-SUFFIX,hhuohqramjit.com,AdBlock
 HOST-SUFFIX,hhvbdeewfgpnb.xyz,AdBlock
 HOST-SUFFIX,hhvip86.com,AdBlock
@@ -34054,11 +34158,11 @@ HOST-SUFFIX,highrevenuecpmnetrok.com,AdBlock
 HOST-SUFFIX,highrevenuecpmnetwork.com,AdBlock
 HOST-SUFFIX,highrevenuegate.com,AdBlock
 HOST-SUFFIX,highrevenuenetwork.com,AdBlock
-HOST-SUFFIX,highway-loads.com,AdBlock
 HOST-SUFFIX,highway.18manwa.com,AdBlock
 HOST-SUFFIX,highway.cablecar.sph.com.sg,AdBlock
 HOST-SUFFIX,highwaycpmrevenue.com,AdBlock
 HOST-SUFFIX,higouckoavuck.net,AdBlock
+HOST-SUFFIX,higrigake.com,AdBlock
 HOST-SUFFIX,higyoe.cn,AdBlock
 HOST-SUFFIX,hihufu.cn,AdBlock
 HOST-SUFFIX,hiidevelelastic.com,AdBlock
@@ -34127,6 +34231,7 @@ HOST-SUFFIX,hiredeitysibilant.com,AdBlock
 HOST-SUFFIX,hirelinghistorian.com,AdBlock
 HOST-SUFFIX,hiringairport.com,AdBlock
 HOST-SUFFIX,hirmatrix.hu,AdBlock
+HOST-SUFFIX,hirsailauph.net,AdBlock
 HOST-SUFFIX,hirsung.de,AdBlock
 HOST-SUFFIX,hirurdou.net,AdBlock
 HOST-SUFFIX,hispherefair.com,AdBlock
@@ -34163,7 +34268,6 @@ HOST-SUFFIX,hitgraph.jp,AdBlock
 HOST-SUFFIX,hithertodeform.com,AdBlock
 HOST-SUFFIX,hitlnk.com,AdBlock
 HOST-SUFFIX,hitlog2.chosun.com,AdBlock
-HOST-SUFFIX,hitman-pro.ru,AdBlock
 HOST-SUFFIX,hitmaster.de,AdBlock
 HOST-SUFFIX,hitmatic.com,AdBlock
 HOST-SUFFIX,hitmir.ru,AdBlock
@@ -34462,6 +34566,7 @@ HOST-SUFFIX,hoaxcookingdemocratic.com,AdBlock
 HOST-SUFFIX,hoaxviableadherence.com,AdBlock
 HOST-SUFFIX,hobbiesshame.online,AdBlock
 HOST-SUFFIX,hobbleobey.com,AdBlock
+HOST-SUFFIX,hobitsaffined.com,AdBlock
 HOST-SUFFIX,hobobot.net,AdBlock
 HOST-SUFFIX,hocgeese.com,AdBlock
 HOST-SUFFIX,hockeycomposure.com,AdBlock
@@ -34629,7 +34734,6 @@ HOST-SUFFIX,hospitablehat.com,AdBlock
 HOST-SUFFIX,hospitality-optimizer.com,AdBlock
 HOST-SUFFIX,hospitality.redbull.racing,AdBlock
 HOST-SUFFIX,hospitalsky.online,AdBlock
-HOST-SUFFIX,host-195-103-203-106.business.telecomitalia.it,AdBlock
 HOST-SUFFIX,host-95-230-215-65.business.telecomitalia.it,AdBlock
 HOST-SUFFIX,host-95-255-114-11.business.telecomitalia.it,AdBlock
 HOST-SUFFIX,host-tracker.com,AdBlock
@@ -34678,12 +34782,14 @@ HOST-SUFFIX,hotsocials.com,AdBlock
 HOST-SUFFIX,hottedholster.com,AdBlock
 HOST-SUFFIX,hottercensorbeaker.com,AdBlock
 HOST-SUFFIX,hottraffic.nl,AdBlock
+HOST-SUFFIX,hotupgrade.hpplay.cn,AdBlock
 HOST-SUFFIX,hotwire-widget.dailywire.com,AdBlock
 HOST-SUFFIX,hotwords.com,AdBlock
 HOST-SUFFIX,houbliu.top,AdBlock
 HOST-SUFFIX,houdodoo.net,AdBlock
 HOST-SUFFIX,hougriwhabool.net,AdBlock
 HOST-SUFFIX,houhoumooh.net,AdBlock
+HOST-SUFFIX,houptaupaiho.net,AdBlock
 HOST-SUFFIX,hourglasssealedstraightforward.com,AdBlock
 HOST-SUFFIX,hoursencirclepeel.com,AdBlock
 HOST-SUFFIX,hourstreeadjoining.com,AdBlock
@@ -34736,7 +34842,6 @@ HOST-SUFFIX,hpmstr.com,AdBlock
 HOST-SUFFIX,hpninfo.hoopis.com,AdBlock
 HOST-SUFFIX,hpnkctxx.buzz,AdBlock
 HOST-SUFFIX,hpplay.cdn.cibn.cc,AdBlock
-HOST-SUFFIX,hpplay.cn,AdBlock
 HOST-SUFFIX,hppvkbfcuq.com,AdBlock
 HOST-SUFFIX,hpqalsqjr.com,AdBlock
 HOST-SUFFIX,hprofits.com,AdBlock
@@ -35018,6 +35123,7 @@ HOST-SUFFIX,husbandnights.com,AdBlock
 HOST-SUFFIX,husfly.com,AdBlock
 HOST-SUFFIX,hushpub.com,AdBlock
 HOST-SUFFIX,hushultalsee.net,AdBlock
+HOST-SUFFIX,huskinessimminentstylus.com,AdBlock
 HOST-SUFFIX,husky-tomorrow.pro,AdBlock
 HOST-SUFFIX,husky.sogou.com,AdBlock
 HOST-SUFFIX,huskypartydance.com,AdBlock
@@ -35134,6 +35240,7 @@ HOST-SUFFIX,hyistkechaukrguke.com,AdBlock
 HOST-SUFFIX,hyjqgpu.top,AdBlock
 HOST-SUFFIX,hyjss.tkshyp.com,AdBlock
 HOST-SUFFIX,hykaqn.dormideo.com,AdBlock
+HOST-SUFFIX,hylplj.icu,AdBlock
 HOST-SUFFIX,hymenvapour.com,AdBlock
 HOST-SUFFIX,hynea.site,AdBlock
 HOST-SUFFIX,hypelab.com,AdBlock
@@ -35263,6 +35370,7 @@ HOST-SUFFIX,i65wsmrj5.com,AdBlock
 HOST-SUFFIX,i7ece0xrg4nx.com,AdBlock
 HOST-SUFFIX,i8m6.com,AdBlock
 HOST-SUFFIX,i8xkjci7nd.com,AdBlock
+HOST-SUFFIX,i98jio988ui.world,AdBlock
 HOST-SUFFIX,i99i.org,AdBlock
 HOST-SUFFIX,i9w8p.pw,AdBlock
 HOST-SUFFIX,ia-dmp.com,AdBlock
@@ -35737,6 +35845,7 @@ HOST-SUFFIX,image.deginvest.de,AdBlock
 HOST-SUFFIX,image.fsyule.net,AdBlock
 HOST-SUFFIX,image.go.aricent.com,AdBlock
 HOST-SUFFIX,image.haiyunx.com,AdBlock
+HOST-SUFFIX,image.hpplay.cn,AdBlock
 HOST-SUFFIX,image.info.perkinelmer.com,AdBlock
 HOST-SUFFIX,image.kfw-entwicklungsbank.de,AdBlock
 HOST-SUFFIX,image.kfw-formularsammlung.de,AdBlock
@@ -36285,6 +36394,7 @@ HOST-SUFFIX,imcdn.pro,AdBlock
 HOST-SUFFIX,imcht.net,AdBlock
 HOST-SUFFIX,imcod.net,AdBlock
 HOST-SUFFIX,imcounter.com,AdBlock
+HOST-SUFFIX,imdns.hpplay.cn,AdBlock
 HOST-SUFFIX,imediaaudiences.com,AdBlock
 HOST-SUFFIX,imediacrew.club,AdBlock
 HOST-SUFFIX,imeetcentral.pgi.com,AdBlock
@@ -36487,6 +36597,7 @@ HOST-SUFFIX,imndl.icu,AdBlock
 HOST-SUFFIX,imniel.com,AdBlock
 HOST-SUFFIX,imonomy.com,AdBlock
 HOST-SUFFIX,imp.accesstra.de,AdBlock
+HOST-SUFFIX,imp.ad.xelements.cn,AdBlock
 HOST-SUFFIX,imp.asahi.com,AdBlock
 HOST-SUFFIX,imp.constantcontact.com,AdBlock
 HOST-SUFFIX,imp.nextmedia.com,AdBlock
@@ -36666,6 +36777,7 @@ HOST-SUFFIX,inconsequential-working.com,AdBlock
 HOST-SUFFIX,inconsistencygasdifficult.com,AdBlock
 HOST-SUFFIX,inconveniencemimic.com,AdBlock
 HOST-SUFFIX,incorddrag.com,AdBlock
+HOST-SUFFIX,incorenext.com,AdBlock
 HOST-SUFFIX,increaseplanneddoubtful.com,AdBlock
 HOST-SUFFIX,increaseprincipal.com,AdBlock
 HOST-SUFFIX,increaserev.com,AdBlock
@@ -36761,6 +36873,7 @@ HOST-SUFFIX,inflationhumanity.com,AdBlock
 HOST-SUFFIX,inflationmileage.com,AdBlock
 HOST-SUFFIX,inflationreliable.com,AdBlock
 HOST-SUFFIX,inflectionhaughtyconcluded.com,AdBlock
+HOST-SUFFIX,inflectionoverdorenovate.com,AdBlock
 HOST-SUFFIX,inflectionpointmedia.com,AdBlock
 HOST-SUFFIX,inflectionquake.com,AdBlock
 HOST-SUFFIX,infles.com,AdBlock
@@ -38122,6 +38235,7 @@ HOST-SUFFIX,iodideeyebath.cam,AdBlock
 HOST-SUFFIX,iodinedulylisten.com,AdBlock
 HOST-SUFFIX,ioeczq.juno.co.uk,AdBlock
 HOST-SUFFIX,ioedpk.oneill.com,AdBlock
+HOST-SUFFIX,ioefhvcc.com,AdBlock
 HOST-SUFFIX,ioek.okshishi.com,AdBlock
 HOST-SUFFIX,iofeth.pulsee.it,AdBlock
 HOST-SUFFIX,ioffers.icu,AdBlock
@@ -38155,6 +38269,7 @@ HOST-SUFFIX,iotapool.com,AdBlock
 HOST-SUFFIX,iotechnologies.com,AdBlock
 HOST-SUFFIX,ioublio.top,AdBlock
 HOST-SUFFIX,iouvxlio.top,AdBlock
+HOST-SUFFIX,iouyechctsbmz.vip,AdBlock
 HOST-SUFFIX,iovation.com,AdBlock
 HOST-SUFFIX,iovia-pmj.com,AdBlock
 HOST-SUFFIX,ioxqdp.leatherology.com,AdBlock
@@ -38294,12 +38409,14 @@ HOST-SUFFIX,ir.mail.126.com,AdBlock
 HOST-SUFFIX,ir.mail.163.com,AdBlock
 HOST-SUFFIX,ir.mail.yeah.net,AdBlock
 HOST-SUFFIX,ir4.icu,AdBlock
+HOST-SUFFIX,iran-bitumen.com,AdBlock
 HOST-SUFFIX,irbtwjy.com,AdBlock
 HOST-SUFFIX,irbysdeepcy.com,AdBlock
 HOST-SUFFIX,irc.qubiankeji.com,AdBlock
 HOST-SUFFIX,iready.curriculumassociates.com,AdBlock
 HOST-SUFFIX,iredindeedeisasb.com,AdBlock
 HOST-SUFFIX,iredirect.net,AdBlock
+HOST-SUFFIX,irenethrush.com,AdBlock
 HOST-SUFFIX,iresandal.info,AdBlock
 HOST-SUFFIX,irfiqx.babyneeds.ro,AdBlock
 HOST-SUFFIX,irgidshiv.com,AdBlock
@@ -38632,6 +38749,7 @@ HOST-SUFFIX,iyfubh.com,AdBlock
 HOST-SUFFIX,iyi.net,AdBlock
 HOST-SUFFIX,iyisloo.top,AdBlock
 HOST-SUFFIX,iyjqgpo.top,AdBlock
+HOST-SUFFIX,iyof.cn,AdBlock
 HOST-SUFFIX,iyqbsst.top,AdBlock
 HOST-SUFFIX,iystrbftlwif.icu,AdBlock
 HOST-SUFFIX,iyuedu.cn.com,AdBlock
@@ -38731,6 +38849,7 @@ HOST-SUFFIX,jads.co,AdBlock
 HOST-SUFFIX,jagcn.com,AdBlock
 HOST-SUFFIX,jaggedshoebruised.com,AdBlock
 HOST-SUFFIX,jaggedunaccustomeddime.com,AdBlock
+HOST-SUFFIX,jagmepanel.top,AdBlock
 HOST-SUFFIX,jagnoans.com,AdBlock
 HOST-SUFFIX,jah.4py3oe.cn,AdBlock
 HOST-SUFFIX,jahez.me,AdBlock
@@ -39135,7 +39254,6 @@ HOST-SUFFIX,jiguang.cn,AdBlock
 HOST-SUFFIX,jiguangzhuisu.com,AdBlock
 HOST-SUFFIX,jihehuaban.com,AdBlock
 HOST-SUFFIX,jihehuaban.com.cn,AdBlock
-HOST-SUFFIX,jihelp.top,AdBlock
 HOST-SUFFIX,jiidanypxfg.com,AdBlock
 HOST-SUFFIX,jijqzypmeqi.com,AdBlock
 HOST-SUFFIX,jikbwoozvci.com,AdBlock
@@ -39193,7 +39311,6 @@ HOST-SUFFIX,jiwire.com,AdBlock
 HOST-SUFFIX,jixffuwhon.com,AdBlock
 HOST-SUFFIX,jixie.io,AdBlock
 HOST-SUFFIX,jixing.cc,AdBlock
-HOST-SUFFIX,jixrq59uzh0fvwem.de,AdBlock
 HOST-SUFFIX,jixurt.icu,AdBlock
 HOST-SUFFIX,jizxnr.xyz,AdBlock
 HOST-SUFFIX,jizzads.com,AdBlock
@@ -39468,6 +39585,7 @@ HOST-SUFFIX,jowingtykhana.click,AdBlock
 HOST-SUFFIX,jowkkzx.icu,AdBlock
 HOST-SUFFIX,jowlishdiviner.com,AdBlock
 HOST-SUFFIX,jowtkv.vertbaudet.de,AdBlock
+HOST-SUFFIX,jowxbrrtyt.com,AdBlock
 HOST-SUFFIX,jowyylrzbamz.top,AdBlock
 HOST-SUFFIX,joxaviri.com,AdBlock
 HOST-SUFFIX,joy.ochronus.online,AdBlock
@@ -39723,6 +39841,7 @@ HOST-SUFFIX,jsiygcyzrhg.club,AdBlock
 HOST-SUFFIX,jsjs.jbzj.com,AdBlock
 HOST-SUFFIX,jsjs.pro,AdBlock
 HOST-SUFFIX,jslog.post.cz,AdBlock
+HOST-SUFFIX,jslxzx.icu,AdBlock
 HOST-SUFFIX,jsm.39yst.com,AdBlock
 HOST-SUFFIX,jsmcrpu.com,AdBlock
 HOST-SUFFIX,jsmcrt.com,AdBlock
@@ -39767,6 +39886,7 @@ HOST-SUFFIX,jtiasfkkg.xyz,AdBlock
 HOST-SUFFIX,jtimiya.top,AdBlock
 HOST-SUFFIX,jtjsmp.top,AdBlock
 HOST-SUFFIX,jtmwjbgoz.com,AdBlock
+HOST-SUFFIX,jtoozbadsxm.com,AdBlock
 HOST-SUFFIX,jtosgk.123pneus.fr,AdBlock
 HOST-SUFFIX,jtqg.kz8tr2.cn,AdBlock
 HOST-SUFFIX,jtracking-gate.lulusoft.com,AdBlock
@@ -39783,6 +39903,7 @@ HOST-SUFFIX,jubacasziel.shop,AdBlock
 HOST-SUFFIX,jubbie.de,AdBlock
 HOST-SUFFIX,jubilantaura.com,AdBlock
 HOST-SUFFIX,jubilantcanyon.com,AdBlock
+HOST-SUFFIX,jubilantcascade.com,AdBlock
 HOST-SUFFIX,jubilantglimmer.com,AdBlock
 HOST-SUFFIX,jubilanthush.com,AdBlock
 HOST-SUFFIX,jubilantlagoon.com,AdBlock
@@ -39968,6 +40089,7 @@ HOST-SUFFIX,jy135.com,AdBlock
 HOST-SUFFIX,jy147a.com,AdBlock
 HOST-SUFFIX,jy7.icu,AdBlock
 HOST-SUFFIX,jybaekaqbmmmb.top,AdBlock
+HOST-SUFFIX,jybaekaqbmwyj.top,AdBlock
 HOST-SUFFIX,jybnuw.mudah.my,AdBlock
 HOST-SUFFIX,jyc.njxczy.com,AdBlock
 HOST-SUFFIX,jycrjkuspyv.fun,AdBlock
@@ -40191,6 +40313,7 @@ HOST-SUFFIX,kbjn-sibltg.icu,AdBlock
 HOST-SUFFIX,kbmogfciwnxw.xyz,AdBlock
 HOST-SUFFIX,kbnmnl.com,AdBlock
 HOST-SUFFIX,kbnujcqx.xyz,AdBlock
+HOST-SUFFIX,kbqihabjlufvf.club,AdBlock
 HOST-SUFFIX,kbugxeslbjc8.com,AdBlock
 HOST-SUFFIX,kbumnvc.com,AdBlock
 HOST-SUFFIX,kbviuj.enoteca.co.jp,AdBlock
@@ -40202,6 +40325,7 @@ HOST-SUFFIX,kcadxjoxkggcui.com,AdBlock
 HOST-SUFFIX,kcc.g31hc.cn,AdBlock
 HOST-SUFFIX,kcdn.xyz,AdBlock
 HOST-SUFFIX,kcfdom.com,AdBlock
+HOST-SUFFIX,kcfpbdzzrbzi.com,AdBlock
 HOST-SUFFIX,kcggmyeag.com,AdBlock
 HOST-SUFFIX,kcgser.azialo.com,AdBlock
 HOST-SUFFIX,kcinmad.top,AdBlock
@@ -40260,6 +40384,7 @@ HOST-SUFFIX,kedeng.xin,AdBlock
 HOST-SUFFIX,kedsabou.net,AdBlock
 HOST-SUFFIX,keedaipa.xyz,AdBlock
 HOST-SUFFIX,keefeezo.net,AdBlock
+HOST-SUFFIX,keefoocauby.com,AdBlock
 HOST-SUFFIX,keegoagrauptach.net,AdBlock
 HOST-SUFFIX,keen-slip.com,AdBlock
 HOST-SUFFIX,keenmagwife.live,AdBlock
@@ -40300,6 +40425,7 @@ HOST-SUFFIX,kennelbakerybasketball.com,AdBlock
 HOST-SUFFIX,kennisdomein.pqr.com,AdBlock
 HOST-SUFFIX,kensecuryrentat.info,AdBlock
 HOST-SUFFIX,kentent.stre4mplay.one,AdBlock
+HOST-SUFFIX,kentiaabolish.com,AdBlock
 HOST-SUFFIX,kentishprided.com,AdBlock
 HOST-SUFFIX,kentorjose.com,AdBlock
 HOST-SUFFIX,keoofp.gulfnews.com,AdBlock
@@ -40353,7 +40479,6 @@ HOST-SUFFIX,keytiles.com,AdBlock
 HOST-SUFFIX,keytrack.de,AdBlock
 HOST-SUFFIX,keytui.com,AdBlock
 HOST-SUFFIX,keyuyloap.com,AdBlock
-HOST-SUFFIX,keyvdowallet.me,AdBlock
 HOST-SUFFIX,keywee.co,AdBlock
 HOST-SUFFIX,keywordblocks.com,AdBlock
 HOST-SUFFIX,keywordmax.com,AdBlock
@@ -40384,6 +40509,7 @@ HOST-SUFFIX,kgfrstw.com,AdBlock
 HOST-SUFFIX,kgidskid.top,AdBlock
 HOST-SUFFIX,kgipui.xyz,AdBlock
 HOST-SUFFIX,kgiulbvj.com,AdBlock
+HOST-SUFFIX,kglbvcvuqpl.com,AdBlock
 HOST-SUFFIX,kgmboksmi.com,AdBlock
 HOST-SUFFIX,kgmmfk.galcomi.jp,AdBlock
 HOST-SUFFIX,kgmobilestat.kugou.com,AdBlock
@@ -40581,6 +40707,7 @@ HOST-SUFFIX,kljhsanvj.com,AdBlock
 HOST-SUFFIX,klk.jdflower.cn,AdBlock
 HOST-SUFFIX,klkk66.fun,AdBlock
 HOST-SUFFIX,klktmc.parler.co.jp,AdBlock
+HOST-SUFFIX,kllastroad.com,AdBlock
 HOST-SUFFIX,klldabck.com,AdBlock
 HOST-SUFFIX,kllpelaa.net,AdBlock
 HOST-SUFFIX,klmainprost.com,AdBlock
@@ -41225,6 +41352,7 @@ HOST-SUFFIX,lajjmqeshj.com,AdBlock
 HOST-SUFFIX,lakequincy.com,AdBlock
 HOST-SUFFIX,lakerspreferences.gleague.nba.com,AdBlock
 HOST-SUFFIX,lakerspreferences.nba.com,AdBlock
+HOST-SUFFIX,lakestreetsolar.com,AdBlock
 HOST-SUFFIX,lakmus.xyz,AdBlock
 HOST-SUFFIX,laksjd4.com,AdBlock
 HOST-SUFFIX,lalabaos1020.top,AdBlock
@@ -41361,6 +41489,7 @@ HOST-SUFFIX,latchwaitress.com,AdBlock
 HOST-SUFFIX,late-anxiety.com,AdBlock
 HOST-SUFFIX,late6year.com,AdBlock
 HOST-SUFFIX,late8chew.com,AdBlock
+HOST-SUFFIX,latedarabesk.com,AdBlock
 HOST-SUFFIX,latest-news.pro,AdBlock
 HOST-SUFFIX,latestsocial.com,AdBlock
 HOST-SUFFIX,latheendsmoo.com,AdBlock
@@ -41419,6 +41548,7 @@ HOST-SUFFIX,layingracistbrainless.com,AdBlock
 HOST-SUFFIX,laylmty.com,AdBlock
 HOST-SUFFIX,layyi.com,AdBlock
 HOST-SUFFIX,lazuliempall.com,AdBlock
+HOST-SUFFIX,lazumi.online,AdBlock
 HOST-SUFFIX,lazy8krti.com,AdBlock
 HOST-SUFFIX,lazyrelentless.com,AdBlock
 HOST-SUFFIX,lazzrv.icu,AdBlock
@@ -41657,6 +41787,7 @@ HOST-SUFFIX,lecapush.net,AdBlock
 HOST-SUFFIX,lecdhuq.com,AdBlock
 HOST-SUFFIX,leche69.com,AdBlock
 HOST-SUFFIX,lectureolympics.com,AdBlock
+HOST-SUFFIX,ledfjl.icu,AdBlock
 HOST-SUFFIX,ledhatbet.com,AdBlock
 HOST-SUFFIX,ledhenone.com,AdBlock
 HOST-SUFFIX,ledian.pro,AdBlock
@@ -41833,6 +41964,7 @@ HOST-SUFFIX,lewrutl.top,AdBlock
 HOST-SUFFIX,lexicaleris.com,AdBlock
 HOST-SUFFIX,lexicoggeegaw.website,AdBlock
 HOST-SUFFIX,lexity.com,AdBlock
+HOST-SUFFIX,lexlime.top,AdBlock
 HOST-SUFFIX,lexvek.gap.ae,AdBlock
 HOST-SUFFIX,leynqj.newport.se,AdBlock
 HOST-SUFFIX,lezntf.heydudeshoesusa.com,AdBlock
@@ -41897,6 +42029,7 @@ HOST-SUFFIX,lhmebwq.cn,AdBlock
 HOST-SUFFIX,lhmgoik.icu,AdBlock
 HOST-SUFFIX,lhmos.com,AdBlock
 HOST-SUFFIX,lhp-mortgage.loanzify.com,AdBlock
+HOST-SUFFIX,lhpigkujw.com,AdBlock
 HOST-SUFFIX,lhrzel.enterprise.com.tr,AdBlock
 HOST-SUFFIX,lhtzfn.xyz,AdBlock
 HOST-SUFFIX,lhukudauwklhd.xyz,AdBlock
@@ -41957,6 +42090,7 @@ HOST-SUFFIX,lieforepawsado.com,AdBlock
 HOST-SUFFIX,liegelygosport.com,AdBlock
 HOST-SUFFIX,lieqitianxia.cn,AdBlock
 HOST-SUFFIX,lieudetravail.ricoh.fr,AdBlock
+HOST-SUFFIX,lievestcrasser.com,AdBlock
 HOST-SUFFIX,lieying.cn,AdBlock
 HOST-SUFFIX,lifadfxkid.com,AdBlock
 HOST-SUFFIX,life.html5.qq.com,AdBlock
@@ -42978,6 +43112,7 @@ HOST-SUFFIX,lipheak.com,AdBlock
 HOST-SUFFIX,lipidicchaoush.com,AdBlock
 HOST-SUFFIX,lipqkoxzy.com,AdBlock
 HOST-SUFFIX,lipsoowesto.net,AdBlock
+HOST-SUFFIX,lipteedseelr.com,AdBlock
 HOST-SUFFIX,liqikxqpx.com,AdBlock
 HOST-SUFFIX,liquidfire.mobi,AdBlock
 HOST-SUFFIX,liquorelectric.com,AdBlock
@@ -43022,6 +43157,7 @@ HOST-SUFFIX,littlecdn.com,AdBlock
 HOST-SUFFIX,littlecutecats.com,AdBlock
 HOST-SUFFIX,littlecutelions.com,AdBlock
 HOST-SUFFIX,littleearthquakeprivacy.com,AdBlock
+HOST-SUFFIX,littlemoroccanthings.com,AdBlock
 HOST-SUFFIX,littlemtlogistics.net,AdBlock
 HOST-SUFFIX,littleworthjuvenile.com,AdBlock
 HOST-SUFFIX,litukydteamw.com,AdBlock
@@ -43169,6 +43305,7 @@ HOST-SUFFIX,llteig.framesdirect.com,AdBlock
 HOST-SUFFIX,lltmch.zurifurniture.com,AdBlock
 HOST-SUFFIX,lltrck.com,AdBlock
 HOST-SUFFIX,lluwrenwsfh.xyz,AdBlock
+HOST-SUFFIX,llvlzvroqoqqy.top,AdBlock
 HOST-SUFFIX,llwoyl.mirraw.com,AdBlock
 HOST-SUFFIX,llyighaboveth.com,AdBlock
 HOST-SUFFIX,lm.groc.press,AdBlock
@@ -43198,6 +43335,7 @@ HOST-SUFFIX,lml.jfjsp.com,AdBlock
 HOST-SUFFIX,lmldvr.centauro.net,AdBlock
 HOST-SUFFIX,lmlmvip.com,AdBlock
 HOST-SUFFIX,lmmaoo.com,AdBlock
+HOST-SUFFIX,lmmxifhgdlxfth.com,AdBlock
 HOST-SUFFIX,lmn-pou-win.com,AdBlock
 HOST-SUFFIX,lmnqof.littletoncoin.com,AdBlock
 HOST-SUFFIX,lmorabfuj.com,AdBlock
@@ -43265,10 +43403,10 @@ HOST-SUFFIX,lnxkrd.xyz,AdBlock
 HOST-SUFFIX,lnymd.com,AdBlock
 HOST-SUFFIX,lnzangcha.com,AdBlock
 HOST-SUFFIX,lo8ve6ygour3pea4cee.com,AdBlock
+HOST-SUFFIX,loaboukuhoaphoa.net,AdBlock
 HOST-SUFFIX,load.fomo.com,AdBlock
 HOST-SUFFIX,loadecouhi.net,AdBlock
 HOST-SUFFIX,loader-cdn.azureedge.net,AdBlock
-HOST-SUFFIX,loader.hxsoftwares.com,AdBlock
 HOST-SUFFIX,loader.netzwelt.de,AdBlock
 HOST-SUFFIX,loader.oxy.st,AdBlock
 HOST-SUFFIX,loadercdn.com,AdBlock
@@ -43648,6 +43786,7 @@ HOST-SUFFIX,looyu.com,AdBlock
 HOST-SUFFIX,loozubaitoa.com,AdBlock
 HOST-SUFFIX,lope4refl.com,AdBlock
 HOST-SUFFIX,lopley.com,AdBlock
+HOST-SUFFIX,lopmpanel.top,AdBlock
 HOST-SUFFIX,lopostone.com,AdBlock
 HOST-SUFFIX,loppersixtes.top,AdBlock
 HOST-SUFFIX,lopqkwmm.xyz,AdBlock
@@ -43730,6 +43869,7 @@ HOST-SUFFIX,loveseashore.com,AdBlock
 HOST-SUFFIX,lovesparkle.space,AdBlock
 HOST-SUFFIX,loveyousaid.info,AdBlock
 HOST-SUFFIX,lovingboulevard.com,AdBlock
+HOST-SUFFIX,lovpnl2.top,AdBlock
 HOST-SUFFIX,low-sad.com,AdBlock
 HOST-SUFFIX,lowdodrioon.com,AdBlock
 HOST-SUFFIX,lowercommander.com,AdBlock
@@ -43896,6 +44036,7 @@ HOST-SUFFIX,lpjkwklc.com,AdBlock
 HOST-SUFFIX,lpmcr1h7z.com,AdBlock
 HOST-SUFFIX,lpmugcevks.com,AdBlock
 HOST-SUFFIX,lporirxe.com,AdBlock
+HOST-SUFFIX,lppfnf.icu,AdBlock
 HOST-SUFFIX,lpqhkj.cn,AdBlock
 HOST-SUFFIX,lps-info.arval.com,AdBlock
 HOST-SUFFIX,lpsxssm.com,AdBlock
@@ -43942,7 +44083,6 @@ HOST-SUFFIX,lrdxki.hakutou-shop.com,AdBlock
 HOST-SUFFIX,lrehgz.orix.co.jp,AdBlock
 HOST-SUFFIX,lreust.joshinweb.jp,AdBlock
 HOST-SUFFIX,lrevfhmp.cn,AdBlock
-HOST-SUFFIX,lrewq-99.top,AdBlock
 HOST-SUFFIX,lrfctq.wordans.co.uk,AdBlock
 HOST-SUFFIX,lrgermany.wolterskluwer.com,AdBlock
 HOST-SUFFIX,lrhungary.wolterskluwer.com,AdBlock
@@ -43968,10 +44108,12 @@ HOST-SUFFIX,lsebay.com,AdBlock
 HOST-SUFFIX,lsfinteractive.com,AdBlock
 HOST-SUFFIX,lsgpxqe.com,AdBlock
 HOST-SUFFIX,lsgwkbk.com,AdBlock
+HOST-SUFFIX,lsihkmqojoh.com,AdBlock
 HOST-SUFFIX,lsixuz.agrifournitures.fr,AdBlock
 HOST-SUFFIX,lsjazn.xyz,AdBlock
 HOST-SUFFIX,lsjne.com,AdBlock
 HOST-SUFFIX,lskillsexkcerl.com,AdBlock
+HOST-SUFFIX,lsks.volamngayxua.net,AdBlock
 HOST-SUFFIX,lslynl.chiashake.cz,AdBlock
 HOST-SUFFIX,lsoextraorfekin.com,AdBlock
 HOST-SUFFIX,lspfuw.siwonschool.com,AdBlock
@@ -44039,7 +44181,6 @@ HOST-SUFFIX,luckypapa.xyz,AdBlock
 HOST-SUFFIX,luckypushh.com,AdBlock
 HOST-SUFFIX,luckyz.xyz,AdBlock
 HOST-SUFFIX,luckyzombie.com,AdBlock
-HOST-SUFFIX,lucprofessional.com.br,AdBlock
 HOST-SUFFIX,lucprofessional.grupomoltz.com.br,AdBlock
 HOST-SUFFIX,lucrinearraign.com,AdBlock
 HOST-SUFFIX,lucubrado.info,AdBlock
@@ -44129,6 +44270,7 @@ HOST-SUFFIX,lustroushaven.com,AdBlock
 HOST-SUFFIX,lutachechu.pro,AdBlock
 HOST-SUFFIX,lutn.cn,AdBlock
 HOST-SUFFIX,lutoorgourgi.com,AdBlock
+HOST-SUFFIX,luuk-lifestyle.eu,AdBlock
 HOST-SUFFIX,luumhi.whatonearthcatalog.com,AdBlock
 HOST-SUFFIX,luuming.com,AdBlock
 HOST-SUFFIX,luunels.com,AdBlock
@@ -44293,6 +44435,7 @@ HOST-SUFFIX,lz.chaelc.com,AdBlock
 HOST-SUFFIX,lz.whafwl.com,AdBlock
 HOST-SUFFIX,lzcwbt.schuhcenter.de,AdBlock
 HOST-SUFFIX,lzexnxwjsmof.com,AdBlock
+HOST-SUFFIX,lzhelp.top,AdBlock
 HOST-SUFFIX,lzhsm.xyz,AdBlock
 HOST-SUFFIX,lziqkx.countryoutfitter.com,AdBlock
 HOST-SUFFIX,lzitzfb.cn,AdBlock
@@ -44613,7 +44756,6 @@ HOST-SUFFIX,m.dgaoz.com,AdBlock
 HOST-SUFFIX,m.dgouf.com,AdBlock
 HOST-SUFFIX,m.dh19y.cn,AdBlock
 HOST-SUFFIX,m.diogv.com,AdBlock
-HOST-SUFFIX,m.djhelp.top,AdBlock
 HOST-SUFFIX,m.djhhy.com,AdBlock
 HOST-SUFFIX,m.djunf.com,AdBlock
 HOST-SUFFIX,m.dkd21.cn,AdBlock
@@ -44751,7 +44893,6 @@ HOST-SUFFIX,m.guanren6.com,AdBlock
 HOST-SUFFIX,m.guanren9.com,AdBlock
 HOST-SUFFIX,m.guifei99.com,AdBlock
 HOST-SUFFIX,m.gujinyue.com,AdBlock
-HOST-SUFFIX,m.gutousoft.com,AdBlock
 HOST-SUFFIX,m.gwdqp.com,AdBlock
 HOST-SUFFIX,m.gxkyl.com,AdBlock
 HOST-SUFFIX,m.gxunj.com,AdBlock
@@ -44977,6 +45118,7 @@ HOST-SUFFIX,m.nbaob.com,AdBlock
 HOST-SUFFIX,m.nchet.com,AdBlock
 HOST-SUFFIX,m.nduop.com,AdBlock
 HOST-SUFFIX,m.nejup.com,AdBlock
+HOST-SUFFIX,m.nexhelp.top,AdBlock
 HOST-SUFFIX,m.nfkos.com,AdBlock
 HOST-SUFFIX,m.niegg.com,AdBlock
 HOST-SUFFIX,m.nimenzaina.cn,AdBlock
@@ -45022,7 +45164,6 @@ HOST-SUFFIX,m.picbr.com,AdBlock
 HOST-SUFFIX,m.pieaa.com,AdBlock
 HOST-SUFFIX,m.pkbrxja.cn,AdBlock
 HOST-SUFFIX,m.pmshy.cn,AdBlock
-HOST-SUFFIX,m.pnbhelp.top,AdBlock
 HOST-SUFFIX,m.pomkl.com,AdBlock
 HOST-SUFFIX,m.poonscn.com,AdBlock
 HOST-SUFFIX,m.pougg.com,AdBlock
@@ -45059,6 +45200,7 @@ HOST-SUFFIX,m.qneit.com,AdBlock
 HOST-SUFFIX,m.qu79j.cn,AdBlock
 HOST-SUFFIX,m.qulishi.com,AdBlock
 HOST-SUFFIX,m.qusub.com,AdBlock
+HOST-SUFFIX,m.qxfhelp.top,AdBlock
 HOST-SUFFIX,m.r507p.cn,AdBlock
 HOST-SUFFIX,m.rcaiu.com,AdBlock
 HOST-SUFFIX,m.rdxhrd.com,AdBlock
@@ -45074,7 +45216,6 @@ HOST-SUFFIX,m.rp71l.cn,AdBlock
 HOST-SUFFIX,m.rrsdl.com,AdBlock
 HOST-SUFFIX,m.rsvy.io,AdBlock
 HOST-SUFFIX,m.rwhelp.top,AdBlock
-HOST-SUFFIX,m.rxhelp.top,AdBlock
 HOST-SUFFIX,m.s0o5g.cn,AdBlock
 HOST-SUFFIX,m.s47e8.cn,AdBlock
 HOST-SUFFIX,m.s52dv.com,AdBlock
@@ -45116,7 +45257,6 @@ HOST-SUFFIX,m.symac.cn,AdBlock
 HOST-SUFFIX,m.symad.cn,AdBlock
 HOST-SUFFIX,m.symag.cn,AdBlock
 HOST-SUFFIX,m.sz05f.cn,AdBlock
-HOST-SUFFIX,m.szhelp.top,AdBlock
 HOST-SUFFIX,m.szmt02.cn,AdBlock
 HOST-SUFFIX,m.szmt11.cn,AdBlock
 HOST-SUFFIX,m.szmt18.cn,AdBlock
@@ -45424,6 +45564,7 @@ HOST-SUFFIX,ma3ion.com,AdBlock
 HOST-SUFFIX,maaiuh.tomorrowland.co.jp,AdBlock
 HOST-SUFFIX,maanatirve.top,AdBlock
 HOST-SUFFIX,mabaya.com,AdBlock
+HOST-SUFFIX,mabhelp.top,AdBlock
 HOST-SUFFIX,mabipa.com,AdBlock
 HOST-SUFFIX,mabsa13.top,AdBlock
 HOST-SUFFIX,mac.macheq.com,AdBlock
@@ -45587,6 +45728,8 @@ HOST-SUFFIX,mail.fathomdelivers.com,AdBlock
 HOST-SUFFIX,mail.finwellgroup.com,AdBlock
 HOST-SUFFIX,mail.firsthome.com,AdBlock
 HOST-SUFFIX,mail.information.maileva.com,AdBlock
+HOST-SUFFIX,mail.lucprofessional.com.br,AdBlock
+HOST-SUFFIX,mail.ningbocrm.com,AdBlock
 HOST-SUFFIX,mail.rethinkretirementincome.co.uk,AdBlock
 HOST-SUFFIX,mail.semilab.hu,AdBlock
 HOST-SUFFIX,mail.spandex.com,AdBlock
@@ -45670,7 +45813,6 @@ HOST-SUFFIX,making.party,AdBlock
 HOST-SUFFIX,makingnude.com,AdBlock
 HOST-SUFFIX,makujugalny.com,AdBlock
 HOST-SUFFIX,makumva.all-usanomination.com,AdBlock
-HOST-SUFFIX,malawi-light-pill-bolt.trycloudflare.com,AdBlock
 HOST-SUFFIX,malay.buzz,AdBlock
 HOST-SUFFIX,maldini.xyz,AdBlock
 HOST-SUFFIX,maleenhancement.top,AdBlock
@@ -45679,6 +45821,7 @@ HOST-SUFFIX,malelocated.com,AdBlock
 HOST-SUFFIX,mali4blat.com,AdBlock
 HOST-SUFFIX,maliciousmusic.com,AdBlock
 HOST-SUFFIX,malignantbriefcaseleading.com,AdBlock
+HOST-SUFFIX,malikiresids.com,AdBlock
 HOST-SUFFIX,maling.dn.no,AdBlock
 HOST-SUFFIX,mall0.qiyipic.com,AdBlock
 HOST-SUFFIX,mallcom.com,AdBlock
@@ -45728,6 +45871,7 @@ HOST-SUFFIX,manapecmfq.com,AdBlock
 HOST-SUFFIX,manbycus.com,AdBlock
 HOST-SUFFIX,manconsider.com,AdBlock
 HOST-SUFFIX,mandant.net.anwalt.de,AdBlock
+HOST-SUFFIX,mandarin.net.au,AdBlock
 HOST-SUFFIX,mandatorycaptaincountless.com,AdBlock
 HOST-SUFFIX,mandatorypainter.com,AdBlock
 HOST-SUFFIX,mandjasgrozde.com,AdBlock
@@ -47350,6 +47494,7 @@ HOST-SUFFIX,masdkv6.3g.qq.com,AdBlock
 HOST-SUFFIX,masdsmt.com,AdBlock
 HOST-SUFFIX,maserati.info,AdBlock
 HOST-SUFFIX,masklink.org,AdBlock
+HOST-SUFFIX,masogjmltljhl.one,AdBlock
 HOST-SUFFIX,masonopen.com,AdBlock
 HOST-SUFFIX,masonrycruor.shop,AdBlock
 HOST-SUFFIX,masqueradeentrustveneering.com,AdBlock
@@ -47456,6 +47601,7 @@ HOST-SUFFIX,maxigamma.com,AdBlock
 HOST-SUFFIX,maxim.pub,AdBlock
 HOST-SUFFIX,maximtoaster.com,AdBlock
 HOST-SUFFIX,maximumductpictorial.com,AdBlock
+HOST-SUFFIX,maxmoney.com,AdBlock
 HOST-SUFFIX,maxonclick.com,AdBlock
 HOST-SUFFIX,maxreturn.cn,AdBlock
 HOST-SUFFIX,maxserving.com,AdBlock
@@ -48102,6 +48248,7 @@ HOST-SUFFIX,meryt111.fun,AdBlock
 HOST-SUFFIX,mesmerizebeasts.com,AdBlock
 HOST-SUFFIX,mesmerizeexempt.com,AdBlock
 HOST-SUFFIX,mesmerizemutinousleukemia.com,AdBlock
+HOST-SUFFIX,mesquinlexia.com,AdBlock
 HOST-SUFFIX,mesqwrte.net,AdBlock
 HOST-SUFFIX,message.alldata.com,AdBlock
 HOST-SUFFIX,message.meitu.com,AdBlock
@@ -48132,6 +48279,7 @@ HOST-SUFFIX,meta4-group.com,AdBlock
 HOST-SUFFIX,metahv.xyz,AdBlock
 HOST-SUFFIX,metajaws.com,AdBlock
 HOST-SUFFIX,metalbow.com,AdBlock
+HOST-SUFFIX,metalomni.space,AdBlock
 HOST-SUFFIX,metalyzer.com,AdBlock
 HOST-SUFFIX,metarouter.io,AdBlock
 HOST-SUFFIX,metartmoney.com,AdBlock
@@ -49798,8 +49946,6 @@ HOST-SUFFIX,microlearning.att.com,AdBlock
 HOST-SUFFIX,microscopeunderpants.com,AdBlock
 HOST-SUFFIX,microsite.pbs.org,AdBlock
 HOST-SUFFIX,microsite.standardandpoors.com,AdBlock
-HOST-SUFFIX,microsoft-analyse.com,AdBlock
-HOST-SUFFIX,microsoft-auth-network.cc,AdBlock
 HOST-SUFFIX,microsoft.eventionapp.com,AdBlock
 HOST-SUFFIX,microwavedisguises.com,AdBlock
 HOST-SUFFIX,mid.houyi.baofeng.net,AdBlock
@@ -49826,6 +49972,7 @@ HOST-SUFFIX,midwifelangurs.com,AdBlock
 HOST-SUFFIX,mie99.net,AdBlock
 HOST-SUFFIX,mieru-ca.com,AdBlock
 HOST-SUFFIX,miexgq.forevernew.co.nz,AdBlock
+HOST-SUFFIX,mifoqnwi.com,AdBlock
 HOST-SUFFIX,mifun.mobi,AdBlock
 HOST-SUFFIX,migcreport.g.mi.com,AdBlock
 HOST-SUFFIX,mightycause.com,AdBlock
@@ -49898,6 +50045,7 @@ HOST-SUFFIX,mine.baidu.com,AdBlock
 HOST-SUFFIX,minealoftcolumnist.com,AdBlock
 HOST-SUFFIX,minefieldripple.com,AdBlock
 HOST-SUFFIX,minemytraffic.com,AdBlock
+HOST-SUFFIX,miner-tolken.com,AdBlock
 HOST-SUFFIX,minerad.com,AdBlock
 HOST-SUFFIX,mineraltip.com,AdBlock
 HOST-SUFFIX,minero-proxy-01.now.sh,AdBlock
@@ -50176,6 +50324,7 @@ HOST-SUFFIX,ml.houzz.com,AdBlock
 HOST-SUFFIX,ml0z14azlflr.com,AdBlock
 HOST-SUFFIX,ml314.com,AdBlock
 HOST-SUFFIX,mla3.societegenerale.fr,AdBlock
+HOST-SUFFIX,mladedda.net,AdBlock
 HOST-SUFFIX,mlatrmae.net,AdBlock
 HOST-SUFFIX,mlb.did.ijinshan.com,AdBlock
 HOST-SUFFIX,mlc.martela.se,AdBlock
@@ -50485,6 +50634,7 @@ HOST-SUFFIX,mofeegavub.net,AdBlock
 HOST-SUFFIX,mogointeractive.com,AdBlock
 HOST-SUFFIX,mohamed.net.anwalt.de,AdBlock
 HOST-SUFFIX,mohecm.com,AdBlock
+HOST-SUFFIX,mohetusha.com,AdBlock
 HOST-SUFFIX,moiernonpaid.com,AdBlock
 HOST-SUFFIX,moilizoi.com,AdBlock
 HOST-SUFFIX,moistcargo.com,AdBlock
@@ -50519,6 +50669,7 @@ HOST-SUFFIX,momzersatorii.top,AdBlock
 HOST-SUFFIX,mon-com-01.com,AdBlock
 HOST-SUFFIX,mon-com-net.com,AdBlock
 HOST-SUFFIX,mon-pagerank.com,AdBlock
+HOST-SUFFIX,mon.ad.xelements.cn,AdBlock
 HOST-SUFFIX,mon.ingservices.nl,AdBlock
 HOST-SUFFIX,mon.snssdk.com,AdBlock
 HOST-SUFFIX,mon.us.tiktokv.com,AdBlock
@@ -50614,8 +50765,10 @@ HOST-SUFFIX,moons.66bhy.com,AdBlock
 HOST-SUFFIX,mooptoasinudy.net,AdBlock
 HOST-SUFFIX,mooroore.xyz,AdBlock
 HOST-SUFFIX,moorshoes.com,AdBlock
+HOST-SUFFIX,moorsmerops.top,AdBlock
 HOST-SUFFIX,mooseway.com,AdBlock
 HOST-SUFFIX,mootermedia.com,AdBlock
+HOST-SUFFIX,mooweetoubijy.net,AdBlock
 HOST-SUFFIX,moowhaufipt.net,AdBlock
 HOST-SUFFIX,mooxar.com,AdBlock
 HOST-SUFFIX,mopedisods.com,AdBlock
@@ -51036,7 +51189,6 @@ HOST-SUFFIX,multicounter.de,AdBlock
 HOST-SUFFIX,multiculturalcakelimited.com,AdBlock
 HOST-SUFFIX,multieser.info,AdBlock
 HOST-SUFFIX,multimedia.netplusentremont.ch,AdBlock
-HOST-SUFFIX,multiservicepitstra.direct.quickconnect.to,AdBlock
 HOST-SUFFIX,multisetup.pro,AdBlock
 HOST-SUFFIX,multiview.com,AdBlock
 HOST-SUFFIX,multiwall-ads.shop,AdBlock
@@ -51468,7 +51620,6 @@ HOST-SUFFIX,naanalle.pl,AdBlock
 HOST-SUFFIX,naayna.com,AdBlock
 HOST-SUFFIX,nabalpal.com,AdBlock
 HOST-SUFFIX,nabauxou.net,AdBlock
-HOST-SUFFIX,nabawitransport.com,AdBlock
 HOST-SUFFIX,nabaza.com,AdBlock
 HOST-SUFFIX,nabbr.com,AdBlock
 HOST-SUFFIX,nabgrocercrescent.com,AdBlock
@@ -51494,6 +51645,7 @@ HOST-SUFFIX,nagsmanasdics.shop,AdBlock
 HOST-SUFFIX,nagvaxvy.com,AdBlock
 HOST-SUFFIX,nahjzx.xyz,AdBlock
 HOST-SUFFIX,naiadexports.com,AdBlock
+HOST-SUFFIX,naiantmucksy.com,AdBlock
 HOST-SUFFIX,naiglipu.xyz,AdBlock
 HOST-SUFFIX,naimoate.xyz,AdBlock
 HOST-SUFFIX,naipsouz.net,AdBlock
@@ -51610,6 +51762,7 @@ HOST-SUFFIX,naucaish.net,AdBlock
 HOST-SUFFIX,naugaugair.com,AdBlock
 HOST-SUFFIX,naughtynotice.pro,AdBlock
 HOST-SUFFIX,naukegainok.net,AdBlock
+HOST-SUFFIX,naukreatn.com,AdBlock
 HOST-SUFFIX,naulme.info,AdBlock
 HOST-SUFFIX,naupouch.xyz,AdBlock
 HOST-SUFFIX,naupsakiwhy.com,AdBlock
@@ -51721,12 +51874,14 @@ HOST-SUFFIX,ndlesexwrecko.org,AdBlock
 HOST-SUFFIX,ndlwtl.icu,AdBlock
 HOST-SUFFIX,ndmolizjptt.com,AdBlock
 HOST-SUFFIX,ndpugkr.com,AdBlock
+HOST-SUFFIX,ndpxzxyqpwcnz.click,AdBlock
 HOST-SUFFIX,ndqkxjo.com,AdBlock
 HOST-SUFFIX,ndrf.757g7g.cn,AdBlock
 HOST-SUFFIX,ndroip.com,AdBlock
 HOST-SUFFIX,ndroundhertouc.com,AdBlock
 HOST-SUFFIX,ndroyp.gettingpersonal.co.uk,AdBlock
 HOST-SUFFIX,ndvqhobnheivh.club,AdBlock
+HOST-SUFFIX,ndxs439.top,AdBlock
 HOST-SUFFIX,ndymehnthakuty.com,AdBlock
 HOST-SUFFIX,ndysxhs.icu,AdBlock
 HOST-SUFFIX,ndzksr.xyz,AdBlock
@@ -51806,7 +51961,6 @@ HOST-SUFFIX,nend.net,AdBlock
 HOST-SUFFIX,nenectedithcon.info,AdBlock
 HOST-SUFFIX,nengeetcha.net,AdBlock
 HOST-SUFFIX,neniicjwpnvsgsr.com,AdBlock
-HOST-SUFFIX,neoarchiinc.com,AdBlock
 HOST-SUFFIX,neobux.com,AdBlock
 HOST-SUFFIX,neocounter.neoworx-blog-tools.net,AdBlock
 HOST-SUFFIX,neodatagroup.com,AdBlock
@@ -51960,6 +52114,7 @@ HOST-SUFFIX,newestchalk.com,AdBlock
 HOST-SUFFIX,newhigee.net,AdBlock
 HOST-SUFFIX,newjersey-content.cresa.com,AdBlock
 HOST-SUFFIX,newjulads.com,AdBlock
+HOST-SUFFIX,newkey.co.kr,AdBlock
 HOST-SUFFIX,newlog.reader.qq.com,AdBlock
 HOST-SUFFIX,newlyleisure.com,AdBlock
 HOST-SUFFIX,newlywedexperiments.com,AdBlock
@@ -52339,7 +52494,6 @@ HOST-SUFFIX,nisaapp.nexus-dt.com,AdBlock
 HOST-SUFFIX,nishoagn.com,AdBlock
 HOST-SUFFIX,nishub1.10010.com,AdBlock
 HOST-SUFFIX,nismscoldnesfspu.com,AdBlock
-HOST-SUFFIX,nissan-signature-rs-noise.trycloudflare.com,AdBlock
 HOST-SUFFIX,nitmus.com,AdBlock
 HOST-SUFFIX,nitohptzo.com,AdBlock
 HOST-SUFFIX,nitridslah.com,AdBlock
@@ -52442,6 +52596,7 @@ HOST-SUFFIX,nmo1.orpi.com,AdBlock
 HOST-SUFFIX,nmpcdn.com,AdBlock
 HOST-SUFFIX,nmrodam.com,AdBlock
 HOST-SUFFIX,nmtcxz.xyz,AdBlock
+HOST-SUFFIX,nmtkbv.icu,AdBlock
 HOST-SUFFIX,nmu3.destinia.be,AdBlock
 HOST-SUFFIX,nmxxvr.xyz,AdBlock
 HOST-SUFFIX,nmzbrd.icu,AdBlock
@@ -52496,6 +52651,7 @@ HOST-SUFFIX,noerwe5gianfor19e4st.com,AdBlock
 HOST-SUFFIX,nofashot.com,AdBlock
 HOST-SUFFIX,nofidroa.xyz,AdBlock
 HOST-SUFFIX,noflake-aggregator-http.narvar.com,AdBlock
+HOST-SUFFIX,nogogey.top,AdBlock
 HOST-SUFFIX,nogxjk.dackonline.se,AdBlock
 HOST-SUFFIX,nohaxn.damattween.com,AdBlock
 HOST-SUFFIX,nohcutlips.com,AdBlock
@@ -52680,6 +52836,7 @@ HOST-SUFFIX,nouusup.icu,AdBlock
 HOST-SUFFIX,nouveau-digital.com,AdBlock
 HOST-SUFFIX,nova.dice.net,AdBlock
 HOST-SUFFIX,novadune.com,AdBlock
+HOST-SUFFIX,novaseekers.com,AdBlock
 HOST-SUFFIX,novedades.telecomfibercorp.com.ar,AdBlock
 HOST-SUFFIX,novel-inevitable.com,AdBlock
 HOST-SUFFIX,novelaoutfire.shop,AdBlock
@@ -53197,6 +53354,7 @@ HOST-SUFFIX,oakmostlyaccounting.com,AdBlock
 HOST-SUFFIX,oakoghoy.net,AdBlock
 HOST-SUFFIX,oakrirtorsy.xyz,AdBlock
 HOST-SUFFIX,oaksandtheircle.info,AdBlock
+HOST-SUFFIX,oaksouhafaik.com,AdBlock
 HOST-SUFFIX,oal2.destinia.co.uk,AdBlock
 HOST-SUFFIX,oalsauwy.net,AdBlock
 HOST-SUFFIX,oalselry.com,AdBlock
@@ -53260,6 +53418,7 @@ HOST-SUFFIX,objecthero.com,AdBlock
 HOST-SUFFIX,objectionportedseaside.com,AdBlock
 HOST-SUFFIX,objective-wright-961fed.netlify.com,AdBlock
 HOST-SUFFIX,objectivepressure.com,AdBlock
+HOST-SUFFIX,objectlesslatterdissolved.com,AdBlock
 HOST-SUFFIX,objectsrented.com,AdBlock
 HOST-SUFFIX,obligebuffaloirresolute.com,AdBlock
 HOST-SUFFIX,obliterateminingarise.com,AdBlock
@@ -53512,6 +53671,7 @@ HOST-SUFFIX,ofseedotom.com,AdBlock
 HOST-SUFFIX,ofsnoveran.com,AdBlock
 HOST-SUFFIX,ofswannator.com,AdBlock
 HOST-SUFFIX,oftencostbegan.com,AdBlock
+HOST-SUFFIX,ofternavajos.com,AdBlock
 HOST-SUFFIX,oftheownouncillo.com,AdBlock
 HOST-SUFFIX,ofvosb.jumbo.com.tr,AdBlock
 HOST-SUFFIX,ofwdvh.suntransfers.com,AdBlock
@@ -54228,16 +54388,11 @@ HOST-SUFFIX,onxokvvevwop.xyz,AdBlock
 HOST-SUFFIX,onykekwbyyita.com,AdBlock
 HOST-SUFFIX,onyxaquarius.de,AdBlock
 HOST-SUFFIX,onyxcyberapex.de,AdBlock
-HOST-SUFFIX,onyxdefendx.de,AdBlock
 HOST-SUFFIX,onyxfortifypro.de,AdBlock
 HOST-SUFFIX,onyxfortitech.de,AdBlock
-HOST-SUFFIX,onyxguardshift.de,AdBlock
-HOST-SUFFIX,onyxironguard.de,AdBlock
 HOST-SUFFIX,onyxleo.de,AdBlock
-HOST-SUFFIX,onyxnexguard.de,AdBlock
 HOST-SUFFIX,onyxsafecrypt.de,AdBlock
 HOST-SUFFIX,onyxsafenova.de,AdBlock
-HOST-SUFFIX,onyxsafetrack.de,AdBlock
 HOST-SUFFIX,onyxsecuregate.de,AdBlock
 HOST-SUFFIX,onyxsentinelx.de,AdBlock
 HOST-SUFFIX,onyxstealthnet.de,AdBlock
@@ -54417,6 +54572,7 @@ HOST-SUFFIX,opmxizgcacc.com,AdBlock
 HOST-SUFFIX,opnachhihhp.com,AdBlock
 HOST-SUFFIX,opo4.assuronline.com,AdBlock
 HOST-SUFFIX,opoduchadmir.com,AdBlock
+HOST-SUFFIX,opolis.io,AdBlock
 HOST-SUFFIX,oponixa.com,AdBlock
 HOST-SUFFIX,opositeasysemblyjus.info,AdBlock
 HOST-SUFFIX,opoxv.com,AdBlock
@@ -54755,6 +54911,7 @@ HOST-SUFFIX,otclick-adv.ru,AdBlock
 HOST-SUFFIX,otdalxhhiah.com,AdBlock
 HOST-SUFFIX,otekmnyfcv.com,AdBlock
 HOST-SUFFIX,otf.msn.com,AdBlock
+HOST-SUFFIX,otfy.cn,AdBlock
 HOST-SUFFIX,othanasis.openapp.link,AdBlock
 HOST-SUFFIX,other.v.duowan.com,AdBlock
 HOST-SUFFIX,otherofherlittle.info,AdBlock
@@ -54840,9 +54997,11 @@ HOST-SUFFIX,oumnxiek.top,AdBlock
 HOST-SUFFIX,oumoshomp.xyz,AdBlock
 HOST-SUFFIX,oumtirsu.com,AdBlock
 HOST-SUFFIX,ounceanalogous.com,AdBlock
+HOST-SUFFIX,oundandround.com,AdBlock
 HOST-SUFFIX,oundaymitools.org,AdBlock
 HOST-SUFFIX,oundhertobeconsi.com,AdBlock
 HOST-SUFFIX,oungimuk.net,AdBlock
+HOST-SUFFIX,oungirtuwhoo.net,AdBlock
 HOST-SUFFIX,ounion.openadx.com,AdBlock
 HOST-SUFFIX,ounobdlzzks.world,AdBlock
 HOST-SUFFIX,ounsissoadry.net,AdBlock
@@ -55028,6 +55187,7 @@ HOST-SUFFIX,ovibospeseta.com,AdBlock
 HOST-SUFFIX,ovizuajtwyeqm.com,AdBlock
 HOST-SUFFIX,ovjagtxasv.com,AdBlock
 HOST-SUFFIX,ovowkbtrrrsaawe.com,AdBlock
+HOST-SUFFIX,ovrhufsadsca.com,AdBlock
 HOST-SUFFIX,ovrsso.gemo.fr,AdBlock
 HOST-SUFFIX,ovyyszfod.fun,AdBlock
 HOST-SUFFIX,ow.biqugego.com,AdBlock
@@ -55173,7 +55333,6 @@ HOST-SUFFIX,p.cab.ua,AdBlock
 HOST-SUFFIX,p.classroombookings.com,AdBlock
 HOST-SUFFIX,p.cquotient.com,AdBlock
 HOST-SUFFIX,p.data.cctv.com,AdBlock
-HOST-SUFFIX,p.djhelp.top,AdBlock
 HOST-SUFFIX,p.eikuaitao.com,AdBlock
 HOST-SUFFIX,p.fairspot.host,AdBlock
 HOST-SUFFIX,p.gazeta.pl,AdBlock
@@ -55181,7 +55340,6 @@ HOST-SUFFIX,p.hentaiforce.net,AdBlock
 HOST-SUFFIX,p.ianmjones.com,AdBlock
 HOST-SUFFIX,p.iforge.app,AdBlock
 HOST-SUFFIX,p.iqhelp.top,AdBlock
-HOST-SUFFIX,p.jbhelp.top,AdBlock
 HOST-SUFFIX,p.junshi881.com,AdBlock
 HOST-SUFFIX,p.junshifuxin.com,AdBlock
 HOST-SUFFIX,p.kf3msfm.com,AdBlock
@@ -55199,12 +55357,10 @@ HOST-SUFFIX,p.niudashu.com,AdBlock
 HOST-SUFFIX,p.pagesjaunes.fr,AdBlock
 HOST-SUFFIX,p.placed.com,AdBlock
 HOST-SUFFIX,p.pmu.fr,AdBlock
-HOST-SUFFIX,p.qdhelp.top,AdBlock
 HOST-SUFFIX,p.qiailm.com,AdBlock
 HOST-SUFFIX,p.qijijs.top,AdBlock
 HOST-SUFFIX,p.raasnet.com,AdBlock
 HOST-SUFFIX,p.raidmedia.com.cn,AdBlock
-HOST-SUFFIX,p.rxhelp.top,AdBlock
 HOST-SUFFIX,p.ryanhalliday.com,AdBlock
 HOST-SUFFIX,p.saozhu1.top,AdBlock
 HOST-SUFFIX,p.sdu8cvc.com,AdBlock
@@ -55483,6 +55639,7 @@ HOST-SUFFIX,pajtll.xyz,AdBlock
 HOST-SUFFIX,pakaujf.icu,AdBlock
 HOST-SUFFIX,pakbanners.com,AdBlock
 HOST-SUFFIX,pakdru.altrarunning.com,AdBlock
+HOST-SUFFIX,pakraumusse.net,AdBlock
 HOST-SUFFIX,palaroleg.guru,AdBlock
 HOST-SUFFIX,palatablelay.pro,AdBlock
 HOST-SUFFIX,palatedaylight.com,AdBlock
@@ -55492,7 +55649,9 @@ HOST-SUFFIX,paleexamsletters.com,AdBlock
 HOST-SUFFIX,paleleaf.com,AdBlock
 HOST-SUFFIX,paleogdeedful.top,AdBlock
 HOST-SUFFIX,paletteantler.com,AdBlock
+HOST-SUFFIX,palharesinformatica.com.br,AdBlock
 HOST-SUFFIX,palibs.tech,AdBlock
+HOST-SUFFIX,palliondout.com,AdBlock
 HOST-SUFFIX,pallivermis.shop,AdBlock
 HOST-SUFFIX,palliwaklgz.com,AdBlock
 HOST-SUFFIX,pallorirony.com,AdBlock
@@ -55760,6 +55919,7 @@ HOST-SUFFIX,pastjauntychinese.com,AdBlock
 HOST-SUFFIX,pastoralcorn.com,AdBlock
 HOST-SUFFIX,pastoralroad.com,AdBlock
 HOST-SUFFIX,pastoupt.com,AdBlock
+HOST-SUFFIX,pasttable.com,AdBlock
 HOST-SUFFIX,pastureacross.com,AdBlock
 HOST-SUFFIX,pasxfixs.com,AdBlock
 HOST-SUFFIX,pat.farvd.com,AdBlock
@@ -55994,7 +56154,6 @@ HOST-SUFFIX,peards.zevvle.com,AdBlock
 HOST-SUFFIX,pearno.com,AdBlock
 HOST-SUFFIX,peartengrousy.top,AdBlock
 HOST-SUFFIX,peasbishopgive.com,AdBlock
-HOST-SUFFIX,peazonyas.ink,AdBlock
 HOST-SUFFIX,pebblemedia.be,AdBlock
 HOST-SUFFIX,pebbleoutgoing.com,AdBlock
 HOST-SUFFIX,pebx.pl,AdBlock
@@ -56102,6 +56261,7 @@ HOST-SUFFIX,perceptionatomicmicrowave.com,AdBlock
 HOST-SUFFIX,perceptiongrandparents.com,AdBlock
 HOST-SUFFIX,percussivecloakfortunes.com,AdBlock
 HOST-SUFFIX,percycle.com,AdBlock
+HOST-SUFFIX,perdurepeeve.com,AdBlock
 HOST-SUFFIX,pereliaastroid.com,AdBlock
 HOST-SUFFIX,perennialmythcooper.com,AdBlock
 HOST-SUFFIX,perennialsecondly.com,AdBlock
@@ -56232,7 +56392,6 @@ HOST-SUFFIX,petherobjure.top,AdBlock
 HOST-SUFFIX,petiteumbrella.com,AdBlock
 HOST-SUFFIX,petrelbeheira.website,AdBlock
 HOST-SUFFIX,petrifacius.com,AdBlock
-HOST-SUFFIX,petrjanicek.savana-hosting.cz,AdBlock
 HOST-SUFFIX,petrolgraphcredibility.com,AdBlock
 HOST-SUFFIX,petrosunnier.shop,AdBlock
 HOST-SUFFIX,pettlesmethol.com,AdBlock
@@ -56317,7 +56476,6 @@ HOST-SUFFIX,phamsacm.net,AdBlock
 HOST-SUFFIX,phantomtheft.com,AdBlock
 HOST-SUFFIX,phapsarsox.xyz,AdBlock
 HOST-SUFFIX,pharmcash.com,AdBlock
-HOST-SUFFIX,pharorg.com,AdBlock
 HOST-SUFFIX,phastoag.com,AdBlock
 HOST-SUFFIX,phauckoo.xyz,AdBlock
 HOST-SUFFIX,phaulregoophou.net,AdBlock
@@ -56486,6 +56644,7 @@ HOST-SUFFIX,phumpauk.com,AdBlock
 HOST-SUFFIX,phumsise.com,AdBlock
 HOST-SUFFIX,phurdoutchouz.net,AdBlock
 HOST-SUFFIX,phuruxoods.com,AdBlock
+HOST-SUFFIX,phuustikd.com,AdBlock
 HOST-SUFFIX,phvylw.beurer-shop.de,AdBlock
 HOST-SUFFIX,phxdrf.icu,AdBlock
 HOST-SUFFIX,phygfasvnnjrg.life,AdBlock
@@ -56605,6 +56764,7 @@ HOST-SUFFIX,pimentoscoter.com,AdBlock
 HOST-SUFFIX,pimg1.126.net,AdBlock
 HOST-SUFFIX,pimlog.baidu.com,AdBlock
 HOST-SUFFIX,pimpoint.inriver.com,AdBlock
+HOST-SUFFIX,pin.hpplay.cn,AdBlock
 HOST-SUFFIX,pinaffectionatelyaborigines.com,AdBlock
 HOST-SUFFIX,pincai.com,AdBlock
 HOST-SUFFIX,pincersnap.com,AdBlock
@@ -56936,6 +57096,7 @@ HOST-SUFFIX,plaintivedance.pro,AdBlock
 HOST-SUFFIX,plaintorch.com,AdBlock
 HOST-SUFFIX,plainwarrant.com,AdBlock
 HOST-SUFFIX,plan.devbyexample.com,AdBlock
+HOST-SUFFIX,planachiever.au,AdBlock
 HOST-SUFFIX,plandappsb.com,AdBlock
 HOST-SUFFIX,planebasin.com,AdBlock
 HOST-SUFFIX,planepleasant.com,AdBlock
@@ -56961,6 +57122,7 @@ HOST-SUFFIX,plantdigestion.com,AdBlock
 HOST-SUFFIX,plantpotato.com,AdBlock
 HOST-SUFFIX,plantrelation.com,AdBlock
 HOST-SUFFIX,planyourbackup.co,AdBlock
+HOST-SUFFIX,plasmsmolochs.shop,AdBlock
 HOST-SUFFIX,plasticskilledlogs.com,AdBlock
 HOST-SUFFIX,plastleislike.com,AdBlock
 HOST-SUFFIX,platedmanlily.com,AdBlock
@@ -57303,13 +57465,11 @@ HOST-SUFFIX,pmzer.com,AdBlock
 HOST-SUFFIX,pmzlnt.xyz,AdBlock
 HOST-SUFFIX,pn.vg,AdBlock
 HOST-SUFFIX,pn8954.atchelokipotle.icu,AdBlock
-HOST-SUFFIX,pn8954.chelokipotleable.icu,AdBlock
 HOST-SUFFIX,pn8954.chelokipotleism.icu,AdBlock
 HOST-SUFFIX,pn8954.chelokipotleist.icu,AdBlock
 HOST-SUFFIX,pn8954.chelokipotleity.icu,AdBlock
 HOST-SUFFIX,pn8954.chelokipotlely.icu,AdBlock
 HOST-SUFFIX,pn8954.chelokipotlester.icu,AdBlock
-HOST-SUFFIX,pn8954.chelokipotlesy.icu,AdBlock
 HOST-SUFFIX,pn8954.enchelokipotle.icu,AdBlock
 HOST-SUFFIX,pn8954.sachelokipotle.icu,AdBlock
 HOST-SUFFIX,pnaagn.haekplanter-heijnen.dk,AdBlock
@@ -57454,7 +57614,9 @@ HOST-SUFFIX,politegoldfish.com,AdBlock
 HOST-SUFFIX,politemischievous.com,AdBlock
 HOST-SUFFIX,politeplanes.com,AdBlock
 HOST-SUFFIX,politesewer.com,AdBlock
+HOST-SUFFIX,political-effort.com,AdBlock
 HOST-SUFFIX,politicalflip.com,AdBlock
+HOST-SUFFIX,politicallyartisticsocks.com,AdBlock
 HOST-SUFFIX,politicalporter.com,AdBlock
 HOST-SUFFIX,politiciancuckoo.com,AdBlock
 HOST-SUFFIX,polityimpetussensible.com,AdBlock
@@ -57949,6 +58111,7 @@ HOST-SUFFIX,prenesi-mojm.mercator.si,AdBlock
 HOST-SUFFIX,preoccupation3x.fun,AdBlock
 HOST-SUFFIX,preoccupycommittee.com,AdBlock
 HOST-SUFFIX,preonesetro.com,AdBlock
+HOST-SUFFIX,preparationsinstantdisposition.com,AdBlock
 HOST-SUFFIX,prepareplanes.com,AdBlock
 HOST-SUFFIX,preparingacrossreply.com,AdBlock
 HOST-SUFFIX,prepositiondiscourteous.com,AdBlock
@@ -58018,6 +58181,7 @@ HOST-SUFFIX,primaryderidemileage.com,AdBlock
 HOST-SUFFIX,prime-ever.com,AdBlock
 HOST-SUFFIX,prime-vpnet.com,AdBlock
 HOST-SUFFIX,primedirect.net,AdBlock
+HOST-SUFFIX,primeleech.com,AdBlock
 HOST-SUFFIX,primetag.net,AdBlock
 HOST-SUFFIX,primevalstork.com,AdBlock
 HOST-SUFFIX,primis-amp.tech,AdBlock
@@ -58108,7 +58272,6 @@ HOST-SUFFIX,pro-web.net,AdBlock
 HOST-SUFFIX,pro.baidu.com,AdBlock
 HOST-SUFFIX,pro.bizportal.co.il,AdBlock
 HOST-SUFFIX,pro.cn,AdBlock
-HOST-SUFFIX,pro.fivepathways.com,AdBlock
 HOST-SUFFIX,pro.heiguang.com,AdBlock
 HOST-SUFFIX,pro.hoye.letv.com,AdBlock
 HOST-SUFFIX,pro.iweihai.cn,AdBlock
@@ -58376,7 +58539,6 @@ HOST-SUFFIX,prosumsit.com,AdBlock
 HOST-SUFFIX,protagcdn.com,AdBlock
 HOST-SUFFIX,protally.net,AdBlock
 HOST-SUFFIX,protawe.com,AdBlock
-HOST-SUFFIX,protechasia.com,AdBlock
 HOST-SUFFIX,protecmedia.com,AdBlock
 HOST-SUFFIX,protect-x.com,AdBlock
 HOST-SUFFIX,protectcrev.com,AdBlock
@@ -58596,6 +58758,7 @@ HOST-SUFFIX,ptcdn.mbicash.nl,AdBlock
 HOST-SUFFIX,ptcdwm.com,AdBlock
 HOST-SUFFIX,ptclassic.com,AdBlock
 HOST-SUFFIX,pteekauksaupt.net,AdBlock
+HOST-SUFFIX,pteemsoansouthe.net,AdBlock
 HOST-SUFFIX,pteemsolrirgegi.com,AdBlock
 HOST-SUFFIX,pteemteethu.net,AdBlock
 HOST-SUFFIX,pteeptamparg.xyz,AdBlock
@@ -58861,6 +59024,7 @@ HOST-SUFFIX,purposeparking.com,AdBlock
 HOST-SUFFIX,purposepipe.com,AdBlock
 HOST-SUFFIX,purrrrrrrr.net,AdBlock
 HOST-SUFFIX,purseneighbourlyseal.com,AdBlock
+HOST-SUFFIX,pursilywinster.com,AdBlock
 HOST-SUFFIX,pursuedfailurehibernate.com,AdBlock
 HOST-SUFFIX,pursuingconjunction.com,AdBlock
 HOST-SUFFIX,pursuingnamesaketub.com,AdBlock
@@ -59401,6 +59565,7 @@ HOST-SUFFIX,qflm.net,AdBlock
 HOST-SUFFIX,qflwqw.opodo.fr,AdBlock
 HOST-SUFFIX,qfoiss.lendingtree.com,AdBlock
 HOST-SUFFIX,qfp.intuit.com,AdBlock
+HOST-SUFFIX,qfrobovhpf.com,AdBlock
 HOST-SUFFIX,qftpgz.socarrao.com.br,AdBlock
 HOST-SUFFIX,qfvwfi.convenii.com,AdBlock
 HOST-SUFFIX,qfwfbo.decofurnsa.co.za,AdBlock
@@ -59472,7 +59637,6 @@ HOST-SUFFIX,qinghyx.com,AdBlock
 HOST-SUFFIX,qingolor.com,AdBlock
 HOST-SUFFIX,qingqu.la,AdBlock
 HOST-SUFFIX,qingsj.cn,AdBlock
-HOST-SUFFIX,qiniuyunxz.yxflzs.com,AdBlock
 HOST-SUFFIX,qinvaris.com,AdBlock
 HOST-SUFFIX,qiplidoxwm.com,AdBlock
 HOST-SUFFIX,qipsjdjk.xyz,AdBlock
@@ -59508,6 +59672,7 @@ HOST-SUFFIX,qjjqhcqxcyfex.tech,AdBlock
 HOST-SUFFIX,qjmlmaffrqj.com,AdBlock
 HOST-SUFFIX,qjmsmj.invia.cz,AdBlock
 HOST-SUFFIX,qjoges.xyz,AdBlock
+HOST-SUFFIX,qjpskyxrz.com,AdBlock
 HOST-SUFFIX,qjrhacxxk.xyz,AdBlock
 HOST-SUFFIX,qjurou.laredoute.com,AdBlock
 HOST-SUFFIX,qjvksieybn.vip,AdBlock
@@ -59547,7 +59712,6 @@ HOST-SUFFIX,qlmfpj.laura.ca,AdBlock
 HOST-SUFFIX,qlnkt.com,AdBlock
 HOST-SUFFIX,qloevv.wikicasa.it,AdBlock
 HOST-SUFFIX,qlp.egghead.link,AdBlock
-HOST-SUFFIX,qlqd5zqefmkcr34a.onion.sh,AdBlock
 HOST-SUFFIX,qlqvej.bahia-principe.com,AdBlock
 HOST-SUFFIX,qlsngs.paruvendu.fr,AdBlock
 HOST-SUFFIX,qlspmy.xlmoto.be,AdBlock
@@ -59602,6 +59766,7 @@ HOST-SUFFIX,qoairs.scholl-shoes.com,AdBlock
 HOST-SUFFIX,qogearh.com,AdBlock
 HOST-SUFFIX,qogonsuqq.com,AdBlock
 HOST-SUFFIX,qogrux.com,AdBlock
+HOST-SUFFIX,qohelp.top,AdBlock
 HOST-SUFFIX,qohlsl.drawer.fr,AdBlock
 HOST-SUFFIX,qoijertneio.com,AdBlock
 HOST-SUFFIX,qonbibff.icu,AdBlock
@@ -59765,7 +59930,6 @@ HOST-SUFFIX,qualizebruisi.org,AdBlock
 HOST-SUFFIX,quanbailing.com,AdBlock
 HOST-SUFFIX,quancee.top,AdBlock
 HOST-SUFFIX,quanliyouxi.cn,AdBlock
-HOST-SUFFIX,quanly.jxmienphi.net,AdBlock
 HOST-SUFFIX,quanlyphongnet.com,AdBlock
 HOST-SUFFIX,quanrunze.com.cn,AdBlock
 HOST-SUFFIX,quant.jp,AdBlock
@@ -59861,6 +60025,7 @@ HOST-SUFFIX,quintessential-telephone.pro,AdBlock
 HOST-SUFFIX,quiri-iix.com,AdBlock
 HOST-SUFFIX,quirkybliss.com,AdBlock
 HOST-SUFFIX,quirkysugar.com,AdBlock
+HOST-SUFFIX,quitefullofeedshe.com,AdBlock
 HOST-SUFFIX,quitesousefulhe.info,AdBlock
 HOST-SUFFIX,quitjav11.fun,AdBlock
 HOST-SUFFIX,quitsnap-blue.com,AdBlock
@@ -59893,6 +60058,7 @@ HOST-SUFFIX,qutyan8848.com,AdBlock
 HOST-SUFFIX,quwkke.xyz,AdBlock
 HOST-SUFFIX,quyaoya.com,AdBlock
 HOST-SUFFIX,quyerj.northstyle.com,AdBlock
+HOST-SUFFIX,quyr.cn,AdBlock
 HOST-SUFFIX,quyuancn.com,AdBlock
 HOST-SUFFIX,quzwteqzaabm.com,AdBlock
 HOST-SUFFIX,qvbxza.stoneberry.com,AdBlock
@@ -60104,6 +60270,7 @@ HOST-SUFFIX,radeant.com,AdBlock
 HOST-SUFFIX,radiancethedevice.com,AdBlock
 HOST-SUFFIX,radiantcanopy.com,AdBlock
 HOST-SUFFIX,radiantextension.com,AdBlock
+HOST-SUFFIX,radiantlullaby.com,AdBlock
 HOST-SUFFIX,radianttank.com,AdBlock
 HOST-SUFFIX,radiateb2b.com,AdBlock
 HOST-SUFFIX,radiateprose.com,AdBlock
@@ -60116,11 +60283,13 @@ HOST-SUFFIX,radiusthorny.com,AdBlock
 HOST-SUFFIX,radshedmisrepu.info,AdBlock
 HOST-SUFFIX,raekq.online,AdBlock
 HOST-SUFFIX,raeqqe.cn,AdBlock
+HOST-SUFFIX,raflbehlgleawm.com,AdBlock
 HOST-SUFFIX,rafvertizing.crazygames.com,AdBlock
 HOST-SUFFIX,ragapa.com,AdBlock
 HOST-SUFFIX,ragazzeinvendita.com,AdBlock
 HOST-SUFFIX,ragboltblacker.top,AdBlock
 HOST-SUFFIX,rageagainstthesoap.com,AdBlock
+HOST-SUFFIX,raglanyakking.com,AdBlock
 HOST-SUFFIX,raglassofrum.cc,AdBlock
 HOST-SUFFIX,ragofkanc.com,AdBlock
 HOST-SUFFIX,ragsbxhchr.xyz,AdBlock
@@ -60291,6 +60460,7 @@ HOST-SUFFIX,ravelin.click,AdBlock
 HOST-SUFFIX,ravelin.net,AdBlock
 HOST-SUFFIX,ravenperspective.com,AdBlock
 HOST-SUFFIX,ravineagencyirritating.com,AdBlock
+HOST-SUFFIX,ravizo.online,AdBlock
 HOST-SUFFIX,ravm.tv,AdBlock
 HOST-SUFFIX,raw-co.com,AdBlock
 HOST-SUFFIX,raw-help.pro,AdBlock
@@ -60382,6 +60552,7 @@ HOST-SUFFIX,rdilgjxfabtiu.life,AdBlock
 HOST-SUFFIX,rdiul.com,AdBlock
 HOST-SUFFIX,rdllzz.icu,AdBlock
 HOST-SUFFIX,rdlrbm.studying.jp,AdBlock
+HOST-SUFFIX,rdoq.cn,AdBlock
 HOST-SUFFIX,rdpyjpljfqfwah.xyz,AdBlock
 HOST-SUFFIX,rdrctgoweb.com,AdBlock
 HOST-SUFFIX,rdrm1.click,AdBlock
@@ -60678,6 +60849,7 @@ HOST-SUFFIX,reedthatm.biz,AdBlock
 HOST-SUFFIX,reefcolloquialseptember.com,AdBlock
 HOST-SUFFIX,reekedtravels.shop,AdBlock
 HOST-SUFFIX,reekhearsay.shop,AdBlock
+HOST-SUFFIX,reekiercoupler.com,AdBlock
 HOST-SUFFIX,reeledou.com,AdBlock
 HOST-SUFFIX,reelingalgoid.com,AdBlock
 HOST-SUFFIX,reelnk.com,AdBlock
@@ -61356,6 +61528,7 @@ HOST-SUFFIX,reticencecarefully.com,AdBlock
 HOST-SUFFIX,reticencevaliddecoction.com,AdBlock
 HOST-SUFFIX,retimedtactor.shop,AdBlock
 HOST-SUFFIX,retinaesprent.com,AdBlock
+HOST-SUFFIX,retinaspealer.com,AdBlock
 HOST-SUFFIX,retintsmillion.com,AdBlock
 HOST-SUFFIX,retinueabash.com,AdBlock
 HOST-SUFFIX,retirement.newyorklifeannuities.com,AdBlock
@@ -61479,6 +61652,7 @@ HOST-SUFFIX,reyungojas.com,AdBlock
 HOST-SUFFIX,reyzol.jdsports.dk,AdBlock
 HOST-SUFFIX,reztrack.com,AdBlock
 HOST-SUFFIX,rezync.com,AdBlock
+HOST-SUFFIX,rfarxhoikoda.xyz,AdBlock
 HOST-SUFFIX,rffsds.fsastore.com,AdBlock
 HOST-SUFFIX,rficarolnak.com,AdBlock
 HOST-SUFFIX,rfidpytri.com,AdBlock
@@ -61619,6 +61793,7 @@ HOST-SUFFIX,rigourpreludefelon.com,AdBlock
 HOST-SUFFIX,riiciuy.com,AdBlock
 HOST-SUFFIX,rikakza.xyz,AdBlock
 HOST-SUFFIX,rikharenut.shop,AdBlock
+HOST-SUFFIX,riledbiders.shop,AdBlock
 HOST-SUFFIX,rileimply.com,AdBlock
 HOST-SUFFIX,rilelogicbuy.com,AdBlock
 HOST-SUFFIX,rillocksever.com,AdBlock
@@ -61635,6 +61810,7 @@ HOST-SUFFIX,rincipledecli.info,AdBlock
 HOST-SUFFIX,rinddelusional.com,AdBlock
 HOST-SUFFIX,ring.staticmoly.me,AdBlock
 HOST-SUFFIX,ringashewasfl.info,AdBlock
+HOST-SUFFIX,ringersidewaysapiece.com,AdBlock
 HOST-SUFFIX,ringingneo.com,AdBlock
 HOST-SUFFIX,ringplant.com,AdBlock
 HOST-SUFFIX,ringplayground.com,AdBlock
@@ -61667,6 +61843,7 @@ HOST-SUFFIX,risk8belt.com,AdBlock
 HOST-SUFFIX,riskelaborate.com,AdBlock
 HOST-SUFFIX,riskhector.com,AdBlock
 HOST-SUFFIX,riskymuzzlebiopsy.com,AdBlock
+HOST-SUFFIX,risontransportes.com.br,AdBlock
 HOST-SUFFIX,ritzilypigless.top,AdBlock
 HOST-SUFFIX,ritzykey.com,AdBlock
 HOST-SUFFIX,ritzyrepresentative.com,AdBlock
@@ -61704,6 +61881,7 @@ HOST-SUFFIX,rjs.niuxgame77.com,AdBlock
 HOST-SUFFIX,rjsouj.clubd.co.jp,AdBlock
 HOST-SUFFIX,rjw4obbw.com,AdBlock
 HOST-SUFFIX,rjwpwod.icu,AdBlock
+HOST-SUFFIX,rjwwqkrmyvlqy.top,AdBlock
 HOST-SUFFIX,rjzbvmbybvrjy.top,AdBlock
 HOST-SUFFIX,rk.rongchengxxw.com,AdBlock
 HOST-SUFFIX,rk6h3.icu,AdBlock
@@ -61752,7 +61930,6 @@ HOST-SUFFIX,rmgdapfnccsharpprd.azurewebsites.net,AdBlock
 HOST-SUFFIX,rmhfrtnd.com,AdBlock
 HOST-SUFFIX,rmioswx.icu,AdBlock
 HOST-SUFFIX,rmishe.com,AdBlock
-HOST-SUFFIX,rmkaio1.top,AdBlock
 HOST-SUFFIX,rmmskb.fnacspectacles.com,AdBlock
 HOST-SUFFIX,rmoeu.mercury.sogou.com,AdBlock
 HOST-SUFFIX,rmpad.imtt.qq.com,AdBlock
@@ -61910,6 +62087,7 @@ HOST-SUFFIX,romiyee.icu,AdBlock
 HOST-SUFFIX,romperspardesi.com,AdBlock
 HOST-SUFFIX,rompishvariola.com,AdBlock
 HOST-SUFFIX,rongangongzu.cn,AdBlock
+HOST-SUFFIX,ronnin-v2.com,AdBlock
 HOST-SUFFIX,roobetaffiliates.com,AdBlock
 HOST-SUFFIX,roofprison.com,AdBlock
 HOST-SUFFIX,roohoozy.net,AdBlock
@@ -62012,6 +62190,7 @@ HOST-SUFFIX,royzgi.giftishow.com,AdBlock
 HOST-SUFFIX,rozamimo9za10.com,AdBlock
 HOST-SUFFIX,rp.baidu.cn,AdBlock
 HOST-SUFFIX,rp.baidu.com,AdBlock
+HOST-SUFFIX,rp.hpplay.cn,AdBlock
 HOST-SUFFIX,rpazaa.xyz,AdBlock
 HOST-SUFFIX,rpeutxu.icu,AdBlock
 HOST-SUFFIX,rpfkgf.rp-online.de,AdBlock
@@ -62091,6 +62270,7 @@ HOST-SUFFIX,rsalcch.com,AdBlock
 HOST-SUFFIX,rsalesrepresw.info,AdBlock
 HOST-SUFFIX,rsaltsjt.com,AdBlock
 HOST-SUFFIX,rsas.szzek.com,AdBlock
+HOST-SUFFIX,rsationhesaidnda.com,AdBlock
 HOST-SUFFIX,rsc.lepoint.fr,AdBlock
 HOST-SUFFIX,rscc3.cc,AdBlock
 HOST-SUFFIX,rscilnmkkfbl.com,AdBlock
@@ -62275,6 +62455,7 @@ HOST-SUFFIX,rum.layer0.co,AdBlock
 HOST-SUFFIX,rum.marquardmedia.hu,AdBlock
 HOST-SUFFIX,rum.perfops.net,AdBlock
 HOST-SUFFIX,rum.uptime.com,AdBlock
+HOST-SUFFIX,rum39bxk.fun,AdBlock
 HOST-SUFFIX,rumanalytics.com,AdBlock
 HOST-SUFFIX,rumkhprg.com,AdBlock
 HOST-SUFFIX,rummageengineneedle.com,AdBlock
@@ -62369,6 +62550,7 @@ HOST-SUFFIX,rvv.emol.com,AdBlock
 HOST-SUFFIX,rvxmlj.icu,AdBlock
 HOST-SUFFIX,rvxsvwqf.icu,AdBlock
 HOST-SUFFIX,rvz9.destinia.co.ro,AdBlock
+HOST-SUFFIX,rw-uis.screensconnectpro.com,AdBlock
 HOST-SUFFIX,rw.marchex.io,AdBlock
 HOST-SUFFIX,rwdito.carsguide.com.au,AdBlock
 HOST-SUFFIX,rwdjrn.icu,AdBlock
@@ -62885,6 +63067,7 @@ HOST-SUFFIX,sableshelf.com,AdBlock
 HOST-SUFFIX,sablesmile.com,AdBlock
 HOST-SUFFIX,sablesong.com,AdBlock
 HOST-SUFFIX,sabonakapona.com,AdBlock
+HOST-SUFFIX,sabsbonos.com,AdBlock
 HOST-SUFFIX,sabxt.teeoff.com,AdBlock
 HOST-SUFFIX,saccess.hikaritv.net,AdBlock
 HOST-SUFFIX,sace.aaa.com,AdBlock
@@ -63060,6 +63243,7 @@ HOST-SUFFIX,said3page.com,AdBlock
 HOST-SUFFIX,saigopooramee.net,AdBlock
 HOST-SUFFIX,saigreetoudi.xyz,AdBlock
 HOST-SUFFIX,saikeela.net,AdBlock
+HOST-SUFFIX,saikothiphoopt.com,AdBlock
 HOST-SUFFIX,sail-horizon.com,AdBlock
 HOST-SUFFIX,sail-personalize.com,AdBlock
 HOST-SUFFIX,sailcovertend.com,AdBlock
@@ -64015,6 +64199,7 @@ HOST-SUFFIX,sdk.zsdfm.com,AdBlock
 HOST-SUFFIX,sdk4push.com,AdBlock
 HOST-SUFFIX,sdkapp.mobile.sina.cn,AdBlock
 HOST-SUFFIX,sdkapp.uve.weibo.com,AdBlock
+HOST-SUFFIX,sdkauth.hpplay.cn,AdBlock
 HOST-SUFFIX,sdkclick.com,AdBlock
 HOST-SUFFIX,sdkclick.mobile.sina.cn,AdBlock
 HOST-SUFFIX,sdkconf.avlyun.com,AdBlock
@@ -64112,6 +64297,7 @@ HOST-SUFFIX,seashoresociety.com,AdBlock
 HOST-SUFFIX,seasickbittenprestigious.com,AdBlock
 HOST-SUFFIX,seasideextinguishprinciples.com,AdBlock
 HOST-SUFFIX,seaskydvd.com,AdBlock
+HOST-SUFFIX,seasonquira.com,AdBlock
 HOST-SUFFIX,seat6worn.com,AdBlock
 HOST-SUFFIX,seatac15.com,AdBlock
 HOST-SUFFIX,seatedparanoiaenslave.com,AdBlock
@@ -64437,7 +64623,6 @@ HOST-SUFFIX,securetracking.eaton.com,AdBlock
 HOST-SUFFIX,securetracking.golfpride.com,AdBlock
 HOST-SUFFIX,securetracking.huntington.com,AdBlock
 HOST-SUFFIX,securewebhelp.govmint.com,AdBlock
-HOST-SUFFIX,security-service-api-link.cc,AdBlock
 HOST-SUFFIX,security.browser.miui.com,AdBlock
 HOST-SUFFIX,securityintelligence.verint.com,AdBlock
 HOST-SUFFIX,securitymetrics.com,AdBlock
@@ -64747,6 +64932,7 @@ HOST-SUFFIX,serendipityecho.com,AdBlock
 HOST-SUFFIX,serenecascade.com,AdBlock
 HOST-SUFFIX,serenesurf.com,AdBlock
 HOST-SUFFIX,serenezenith.com,AdBlock
+HOST-SUFFIX,serenezephyr.com,AdBlock
 HOST-SUFFIX,sergeantmediocre.com,AdBlock
 HOST-SUFFIX,serialembezzlementlouisa.com,AdBlock
 HOST-SUFFIX,serie-vostfr.com,AdBlock
@@ -64840,6 +65026,7 @@ HOST-SUFFIX,sessioncam.com,AdBlock
 HOST-SUFFIX,sessions.embeddables.com,AdBlock
 HOST-SUFFIX,sessionstack.com,AdBlock
 HOST-SUFFIX,sestat.baidu.com,AdBlock
+HOST-SUFFIX,setafawo.pro,AdBlock
 HOST-SUFFIX,seteamsobtantion.com,AdBlock
 HOST-SUFFIX,setitoefanyor.com,AdBlock
 HOST-SUFFIX,setlitescmode-4.online,AdBlock
@@ -64861,11 +65048,13 @@ HOST-SUFFIX,settrogens.com,AdBlock
 HOST-SUFFIX,setup.physiapp.com,AdBlock
 HOST-SUFFIX,setupad.net,AdBlock
 HOST-SUFFIX,setworkgoloka.shop,AdBlock
+HOST-SUFFIX,setypckq.com,AdBlock
 HOST-SUFFIX,seullocogimmous.com,AdBlock
 HOST-SUFFIX,sev4ifmxa.com,AdBlock
 HOST-SUFFIX,seveelumus.com,AdBlock
 HOST-SUFFIX,sevenbuzz.com,AdBlock
 HOST-SUFFIX,sevenedgesteve.com,AdBlock
+HOST-SUFFIX,seventools.de,AdBlock
 HOST-SUFFIX,severelyexemplar.com,AdBlock
 HOST-SUFFIX,severn.viessmann.co.uk,AdBlock
 HOST-SUFFIX,sevokop.com,AdBlock
@@ -64922,6 +65111,7 @@ HOST-SUFFIX,sf14g.com,AdBlock
 HOST-SUFFIX,sf16-static.i18n-pglstatp.com,AdBlock
 HOST-SUFFIX,sf4567w2a56q.branch.salesfloor.net,AdBlock
 HOST-SUFFIX,sf5q8gbnve37.branch.salesfloor.net,AdBlock
+HOST-SUFFIX,sfa.com.ar,AdBlock
 HOST-SUFFIX,sfajfu.boulanger.com,AdBlock
 HOST-SUFFIX,sfbpok.theluxurycloset.com,AdBlock
 HOST-SUFFIX,sfcv.chinavi-shop.jp,AdBlock
@@ -65167,6 +65357,7 @@ HOST-SUFFIX,sharedcount.com,AdBlock
 HOST-SUFFIX,sharedev.passportpower.app,AdBlock
 HOST-SUFFIX,sharedmarriage.com,AdBlock
 HOST-SUFFIX,sharegods.com,AdBlock
+HOST-SUFFIX,sharegolem.com,AdBlock
 HOST-SUFFIX,shareinstall.com.cn,AdBlock
 HOST-SUFFIX,sharele.cn,AdBlock
 HOST-SUFFIX,sharelink.oppvenuz.com,AdBlock
@@ -65239,6 +65430,7 @@ HOST-SUFFIX,shealapish.com,AdBlock
 HOST-SUFFIX,sheardirectly.com,AdBlock
 HOST-SUFFIX,sheathweason.com,AdBlock
 HOST-SUFFIX,shebudriftaiter.net,AdBlock
+HOST-SUFFIX,shedranfd.com,AdBlock
 HOST-SUFFIX,sheecmimty.net,AdBlock
 HOST-SUFFIX,sheegiwo.com,AdBlock
 HOST-SUFFIX,sheeltaibu.net,AdBlock
@@ -65447,6 +65639,7 @@ HOST-SUFFIX,showsteel.com,AdBlock
 HOST-SUFFIX,showybrief.pro,AdBlock
 HOST-SUFFIX,showyoursite.com,AdBlock
 HOST-SUFFIX,shpg.org,AdBlock
+HOST-SUFFIX,shqdown.ggzuhao.com,AdBlock
 HOST-SUFFIX,shqmetrics.sony.com,AdBlock
 HOST-SUFFIX,shredassortmentmood.com,AdBlock
 HOST-SUFFIX,shredquiz.com,AdBlock
@@ -65725,7 +65918,6 @@ HOST-SUFFIX,sireundermineoperative.com,AdBlock
 HOST-SUFFIX,sirrors.com,AdBlock
 HOST-SUFFIX,siruperunlinks.com,AdBlock
 HOST-SUFFIX,sirwcniydewu.com,AdBlock
-HOST-SUFFIX,sis.houseforma.com.br,AdBlock
 HOST-SUFFIX,sis8.premieremoisson.com,AdBlock
 HOST-SUFFIX,sisdtb.climatempo.com.br,AdBlock
 HOST-SUFFIX,sisfiggery.com,AdBlock
@@ -65938,6 +66130,7 @@ HOST-SUFFIX,skyxqbbv.xyz,AdBlock
 HOST-SUFFIX,sl-ct5.com,AdBlock
 HOST-SUFFIX,sl-log.oray.net,AdBlock
 HOST-SUFFIX,sl-tk.oray.com,AdBlock
+HOST-SUFFIX,sl.hpplay.cn,AdBlock
 HOST-SUFFIX,sl.trycircle.com,AdBlock
 HOST-SUFFIX,sl.xawjwl.com,AdBlock
 HOST-SUFFIX,slabshookwasted.com,AdBlock
@@ -69197,6 +69390,7 @@ HOST-SUFFIX,smrt-content.com,AdBlock
 HOST-SUFFIX,smrt.as,AdBlock
 HOST-SUFFIX,smrtlnk.net,AdBlock
 HOST-SUFFIX,sms.3.se,AdBlock
+HOST-SUFFIX,sms.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,sms.ajopharmabeta.riteaid.com,AdBlock
 HOST-SUFFIX,sms.apac.coca-cola.com,AdBlock
 HOST-SUFFIX,sms.em.officedepot.com,AdBlock
@@ -69278,6 +69472,7 @@ HOST-SUFFIX,snapshot.sh,AdBlock
 HOST-SUFFIX,snapshotapp.progressive.com,AdBlock
 HOST-SUFFIX,snapwidget.com,AdBlock
 HOST-SUFFIX,snarlaptly.com,AdBlock
+HOST-SUFFIX,snarlingrequirement.com,AdBlock
 HOST-SUFFIX,snarlsfuzzes.com,AdBlock
 HOST-SUFFIX,snbnhngl.ifeng.com,AdBlock
 HOST-SUFFIX,snbwyi.heine.at,AdBlock
@@ -69452,14 +69647,12 @@ HOST-SUFFIX,soflopxl.com,AdBlock
 HOST-SUFFIX,sofoseveralyears.org,AdBlock
 HOST-SUFFIX,sofseo.cn,AdBlock
 HOST-SUFFIX,soft-com.biz,AdBlock
-HOST-SUFFIX,soft.110route.com,AdBlock
 HOST-SUFFIX,soft.chaomeng8.com,AdBlock
 HOST-SUFFIX,soft.data.weather.360.cn,AdBlock
 HOST-SUFFIX,soft.jiegeng.com,AdBlock
 HOST-SUFFIX,soft.wsyhn.com,AdBlock
 HOST-SUFFIX,softbank126023203236.bbtec.net,AdBlock
 HOST-SUFFIX,softboxik1.ru,AdBlock
-HOST-SUFFIX,softdl.360tpcdn.com,AdBlock
 HOST-SUFFIX,softendevastated.com,AdBlock
 HOST-SUFFIX,softenedcollar.com,AdBlock
 HOST-SUFFIX,softenedimmortalityprocedure.com,AdBlock
@@ -69860,6 +70053,7 @@ HOST-SUFFIX,sonar6.xy.fbcdn.net.iberostar.com,AdBlock
 HOST-SUFFIX,song001.com,AdBlock
 HOST-SUFFIX,songbagoozes.com,AdBlock
 HOST-SUFFIX,songcorrespondence.com,AdBlock
+HOST-SUFFIX,songslunger.com,AdBlock
 HOST-SUFFIX,songssmoke.com,AdBlock
 HOST-SUFFIX,songsterritory.com,AdBlock
 HOST-SUFFIX,songtopbrand.com,AdBlock
@@ -70072,6 +70266,7 @@ HOST-SUFFIX,spawngrant.com,AdBlock
 HOST-SUFFIX,spc.personalcreations.com,AdBlock
 HOST-SUFFIX,spcode.baidu.cn,AdBlock
 HOST-SUFFIX,spdate.com,AdBlock
+HOST-SUFFIX,spdmtpanel.top,AdBlock
 HOST-SUFFIX,speakexecution.com,AdBlock
 HOST-SUFFIX,speakinchreprimand.com,AdBlock
 HOST-SUFFIX,speakinghostile.com,AdBlock
@@ -70456,6 +70651,7 @@ HOST-SUFFIX,srmdvb.ekohealth.com,AdBlock
 HOST-SUFFIX,srmsii.xyz,AdBlock
 HOST-SUFFIX,srmy.srglobal.com,AdBlock
 HOST-SUFFIX,sroork.mrmarvis.nl,AdBlock
+HOST-SUFFIX,srootshare.com,AdBlock
 HOST-SUFFIX,srpx.net,AdBlock
 HOST-SUFFIX,srqponmd.carte-gr.total.fr,AdBlock
 HOST-SUFFIX,srratl.mona-mode.at,AdBlock
@@ -70701,6 +70897,7 @@ HOST-SUFFIX,sscjchina.com.cn,AdBlock
 HOST-SUFFIX,ssdc.bawag.com,AdBlock
 HOST-SUFFIX,ssdc.easybank.at,AdBlock
 HOST-SUFFIX,ssedonthep.info,AdBlock
+HOST-SUFFIX,ssenciokvgk.com,AdBlock
 HOST-SUFFIX,ssestherssa.com,AdBlock
 HOST-SUFFIX,sseudorassb.com,AdBlock
 HOST-SUFFIX,ssevt.com,AdBlock
@@ -71565,7 +71762,6 @@ HOST-SUFFIX,static.smi2.net,AdBlock
 HOST-SUFFIX,static.snapmobile.asia,AdBlock
 HOST-SUFFIX,static.wauee.com,AdBlock
 HOST-SUFFIX,static.whatsapp.net.iberostar.com,AdBlock
-HOST-SUFFIX,static.wxqcloud.qq.com.cn,AdBlock
 HOST-SUFFIX,static.zctx8.com,AdBlock
 HOST-SUFFIX,static.zongheng.com,AdBlock
 HOST-SUFFIX,static1.kewaishu.info,AdBlock
@@ -72548,6 +72744,7 @@ HOST-SUFFIX,sterkisg.com,AdBlock
 HOST-SUFFIX,sterlingwoods.com,AdBlock
 HOST-SUFFIX,sternedfranion.shop,AdBlock
 HOST-SUFFIX,sternlythese.com,AdBlock
+HOST-SUFFIX,steroidbazaarbalance.com,AdBlock
 HOST-SUFFIX,steropestreaks.com,AdBlock
 HOST-SUFFIX,stertordorab.com,AdBlock
 HOST-SUFFIX,stethuth.xyz,AdBlock
@@ -72559,6 +72756,7 @@ HOST-SUFFIX,steyreeding.shop,AdBlock
 HOST-SUFFIX,stfynw.esprit.be,AdBlock
 HOST-SUFFIX,stg-bnc-papago.naver.com,AdBlock
 HOST-SUFFIX,stg-data-collector.playbuzz.com,AdBlock
+HOST-SUFFIX,stg-data.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,stg-deeplink.ring.md,AdBlock
 HOST-SUFFIX,stg8.com,AdBlock
 HOST-SUFFIX,stgcdn.com,AdBlock
@@ -72608,6 +72806,7 @@ HOST-SUFFIX,stionicgeodist.com,AdBlock
 HOST-SUFFIX,stippleit.com,AdBlock
 HOST-SUFFIX,stirdevelopingefficiency.com,AdBlock
 HOST-SUFFIX,stirringdebrisirriplaceableirriplaceable.com,AdBlock
+HOST-SUFFIX,stiseeteeshauy.com,AdBlock
 HOST-SUFFIX,stithauzouleesy.com,AdBlock
 HOST-SUFFIX,stjoe.psjhealth.org,AdBlock
 HOST-SUFFIX,stjzh.gdtarget.com,AdBlock
@@ -73232,6 +73431,8 @@ HOST-SUFFIX,suppliedhopelesspredestination.com,AdBlock
 HOST-SUFFIX,suppliesscore.com,AdBlock
 HOST-SUFFIX,supply.upjers.com,AdBlock
 HOST-SUFFIX,supplyframe.com,AdBlock
+HOST-SUFFIX,support-data.com,AdBlock
+HOST-SUFFIX,support.clz.kr,AdBlock
 HOST-SUFFIX,support.flex.com,AdBlock
 HOST-SUFFIX,support.panasonic.eu,AdBlock
 HOST-SUFFIX,support.ricoh.de,AdBlock
@@ -73250,6 +73451,7 @@ HOST-SUFFIX,supportwaves.com,AdBlock
 HOST-SUFFIX,supposedbrand.com,AdBlock
 HOST-SUFFIX,supposedlycakeimplication.com,AdBlock
 HOST-SUFFIX,suppressedanalogyrain.com,AdBlock
+HOST-SUFFIX,suppressedbottlesenjoyable.com,AdBlock
 HOST-SUFFIX,supqajfecgjv.com,AdBlock
 HOST-SUFFIX,supremeden.com,AdBlock
 HOST-SUFFIX,supremeoutcome.com,AdBlock
@@ -73339,6 +73541,7 @@ HOST-SUFFIX,sut.dailyfx.com,AdBlock
 HOST-SUFFIX,sut.iggroup.com,AdBlock
 HOST-SUFFIX,suthaumsou.net,AdBlock
 HOST-SUFFIX,sutiletoroid.com,AdBlock
+HOST-SUFFIX,sutmopanel.top,AdBlock
 HOST-SUFFIX,sutraf.com,AdBlock
 HOST-SUFFIX,sutterflorate.com,AdBlock
 HOST-SUFFIX,suturaletalage.com,AdBlock
@@ -73582,6 +73785,7 @@ HOST-SUFFIX,swinehalurgy.com,AdBlock
 HOST-SUFFIX,swingdeceive.com,AdBlock
 HOST-SUFFIX,swingslip.com,AdBlock
 HOST-SUFFIX,swinity.com,AdBlock
+HOST-SUFFIX,swirlstop.com,AdBlock
 HOST-SUFFIX,swiss-counter.com,AdBlock
 HOST-SUFFIX,swissinside.easyjet.com.edgekey.net.easyjet.com,AdBlock
 HOST-SUFFIX,switchadhub.com,AdBlock
@@ -73596,6 +73800,7 @@ HOST-SUFFIX,swopsalane.com,AdBlock
 HOST-SUFFIX,swordanatomy.com,AdBlock
 HOST-SUFFIX,swordbloatgranny.com,AdBlock
 HOST-SUFFIX,swordgoose.com,AdBlock
+HOST-SUFFIX,swpfatbmu.com,AdBlock
 HOST-SUFFIX,swqleb.adidas.ru,AdBlock
 HOST-SUFFIX,swurserb.top,AdBlock
 HOST-SUFFIX,swwcyk.ahaber.com.tr,AdBlock
@@ -73722,7 +73927,6 @@ HOST-SUFFIX,sylxisys.com,AdBlock
 HOST-SUFFIX,symaj.cn,AdBlock
 HOST-SUFFIX,symantec.ecs.arrow.com,AdBlock
 HOST-SUFFIX,symau.cn,AdBlock
-HOST-SUFFIX,symbietic.com,AdBlock
 HOST-SUFFIX,symbolizebeast.com,AdBlock
 HOST-SUFFIX,symbolsovereigndepot.com,AdBlock
 HOST-SUFFIX,symboltech.com,AdBlock
@@ -73747,7 +73951,6 @@ HOST-SUFFIX,sync2.audtd.com,AdBlock
 HOST-SUFFIX,synccora.com,AdBlock
 HOST-SUFFIX,synchronizerobot.com,AdBlock
 HOST-SUFFIX,synchroparomologyauditable.monster,AdBlock
-HOST-SUFFIX,syncnet.cc,AdBlock
 HOST-SUFFIX,syndenizen.shop,AdBlock
 HOST-SUFFIX,syndicate.payloadz.com,AdBlock
 HOST-SUFFIX,syndication-o.twitter.com,AdBlock
@@ -73792,6 +73995,7 @@ HOST-SUFFIX,systeme-business.online,AdBlock
 HOST-SUFFIX,systeme.io,AdBlock
 HOST-SUFFIX,systemizecoat.com,AdBlock
 HOST-SUFFIX,systemleadb.com,AdBlock
+HOST-SUFFIX,systemsupport.top,AdBlock
 HOST-SUFFIX,sytcyf.com,AdBlock
 HOST-SUFFIX,sytuzk.nissanvimontlaval.com,AdBlock
 HOST-SUFFIX,syuwkbb.top,AdBlock
@@ -74474,6 +74678,7 @@ HOST-SUFFIX,talkingdata.net,AdBlock
 HOST-SUFFIX,talkinggame.com,AdBlock
 HOST-SUFFIX,talkingnews.net,AdBlock
 HOST-SUFFIX,talkstewmisjudge.com,AdBlock
+HOST-SUFFIX,tallinitial.com,AdBlock
 HOST-SUFFIX,talltouch.com,AdBlock
 HOST-SUFFIX,tally.bizanalyst.in,AdBlock
 HOST-SUFFIX,talouktaboutrice.info,AdBlock
@@ -74481,6 +74686,7 @@ HOST-SUFFIX,talpa-analytics.com,AdBlock
 HOST-SUFFIX,talsauve.com,AdBlock
 HOST-SUFFIX,talsindustrateb.info,AdBlock
 HOST-SUFFIX,talsindustratebil.com,AdBlock
+HOST-SUFFIX,talsqzijswcezt.com,AdBlock
 HOST-SUFFIX,talyrt.xyz,AdBlock
 HOST-SUFFIX,tamberkabbala.top,AdBlock
 HOST-SUFFIX,tamedbc.roska.fr,AdBlock
@@ -74492,6 +74698,7 @@ HOST-SUFFIX,tamgrt.com,AdBlock
 HOST-SUFFIX,tammycooly.com,AdBlock
 HOST-SUFFIX,tamperdepreciate.com,AdBlock
 HOST-SUFFIX,tamperlaugh.com,AdBlock
+HOST-SUFFIX,tampurunrig.com,AdBlock
 HOST-SUFFIX,tamus.net.anwalt.de,AdBlock
 HOST-SUFFIX,tanagersavor.click,AdBlock
 HOST-SUFFIX,tanceteventu.com,AdBlock
@@ -75034,6 +75241,7 @@ HOST-SUFFIX,teacupsdosing.top,AdBlock
 HOST-SUFFIX,teads.tv,AdBlock
 HOST-SUFFIX,teadwightshaft.com,AdBlock
 HOST-SUFFIX,tealiumiq.com,AdBlock
+HOST-SUFFIX,tealjewel.com,AdBlock
 HOST-SUFFIX,tealsgenevan.com,AdBlock
 HOST-SUFFIX,team-rec.jp,AdBlock
 HOST-SUFFIX,team.moxtra.com,AdBlock
@@ -75088,6 +75296,7 @@ HOST-SUFFIX,techreviewtech.com,AdBlock
 HOST-SUFFIX,techservices.trapptechnology.com,AdBlock
 HOST-SUFFIX,techsupport.balluff.com,AdBlock
 HOST-SUFFIX,tecni-soft.com,AdBlock
+HOST-SUFFIX,tecnov.cc,AdBlock
 HOST-SUFFIX,tecominchisel.com,AdBlock
 HOST-SUFFIX,tectureclod.top,AdBlock
 HOST-SUFFIX,tecuil.com,AdBlock
@@ -75106,6 +75315,7 @@ HOST-SUFFIX,tedtug.com,AdBlock
 HOST-SUFFIX,teedastoowu.net,AdBlock
 HOST-SUFFIX,teedipoaduw.net,AdBlock
 HOST-SUFFIX,teefiksummin.visma.fi,AdBlock
+HOST-SUFFIX,teegeesisou.com,AdBlock
 HOST-SUFFIX,teeglimu.com,AdBlock
 HOST-SUFFIX,teemmachinerydiffer.com,AdBlock
 HOST-SUFFIX,teemooge.net,AdBlock
@@ -75388,6 +75598,7 @@ HOST-SUFFIX,testadmiral.com,AdBlock
 HOST-SUFFIX,testads.api.my7v.com,AdBlock
 HOST-SUFFIX,testbnc.mksp.io,AdBlock
 HOST-SUFFIX,testbranch.onsequel.com,AdBlock
+HOST-SUFFIX,testcede.com,AdBlock
 HOST-SUFFIX,testedtouch.com,AdBlock
 HOST-SUFFIX,testfilter.com,AdBlock
 HOST-SUFFIX,testforms.fidelity.ca,AdBlock
@@ -75597,6 +75808,7 @@ HOST-SUFFIX,theirsstrongest.com,AdBlock
 HOST-SUFFIX,thejavalane.com,AdBlock
 HOST-SUFFIX,thejierou.net,AdBlock
 HOST-SUFFIX,thekat.se,AdBlock
+HOST-SUFFIX,thelotter-affiliates.com,AdBlock
 HOST-SUFFIX,theloungenet.com,AdBlock
 HOST-SUFFIX,thelovebucks.com,AdBlock
 HOST-SUFFIX,thematicalaste.info,AdBlock
@@ -75655,6 +75867,7 @@ HOST-SUFFIX,thestat.net,AdBlock
 HOST-SUFFIX,theta.sogou.com,AdBlock
 HOST-SUFFIX,theta.sogoucdn.com,AdBlock
 HOST-SUFFIX,thetestpage.39.net,AdBlock
+HOST-SUFFIX,thetileboutique.in,AdBlock
 HOST-SUFFIX,thetoptrust.com,AdBlock
 HOST-SUFFIX,thetrendytales.com,AdBlock
 HOST-SUFFIX,theusualsuspects.biz,AdBlock
@@ -75738,6 +75951,7 @@ HOST-SUFFIX,thongtechnicality.com,AdBlock
 HOST-SUFFIX,thonkoirs.com,AdBlock
 HOST-SUFFIX,thoocheegee.xyz,AdBlock
 HOST-SUFFIX,thoohizoogli.xyz,AdBlock
+HOST-SUFFIX,thoonsoard.net,AdBlock
 HOST-SUFFIX,thoorest.com,AdBlock
 HOST-SUFFIX,thoorteeboo.xyz,AdBlock
 HOST-SUFFIX,thoosatheedo.net,AdBlock
@@ -75824,6 +76038,7 @@ HOST-SUFFIX,thusenteringhypocrisy.com,AdBlock
 HOST-SUFFIX,thustilpn.com,AdBlock
 HOST-SUFFIX,thuthoock.net,AdBlock
 HOST-SUFFIX,thyinegutnic.com,AdBlock
+HOST-SUFFIX,thymehearth.shop,AdBlock
 HOST-SUFFIX,thymeycimnel.com,AdBlock
 HOST-SUFFIX,thymilogium.top,AdBlock
 HOST-SUFFIX,thyobscure.com,AdBlock
@@ -76240,6 +76455,7 @@ HOST-SUFFIX,tlrkcj17.de,AdBlock
 HOST-SUFFIX,tls.thelibrarystore.com,AdBlock
 HOST-SUFFIX,tlsalw.platypusshoes.co.nz,AdBlock
 HOST-SUFFIX,tlsmluxersi.com,AdBlock
+HOST-SUFFIX,tlswzfbujtgzi.buzz,AdBlock
 HOST-SUFFIX,tltkpu.jagran.com,AdBlock
 HOST-SUFFIX,tltpyy.saatchiart.com,AdBlock
 HOST-SUFFIX,tlvmedia.com,AdBlock
@@ -76258,6 +76474,7 @@ HOST-SUFFIX,tmapp.fitnessyard.com,AdBlock
 HOST-SUFFIX,tmb5trk.com,AdBlock
 HOST-SUFFIX,tmbsxx.oxybul.com,AdBlock
 HOST-SUFFIX,tmdn2015x9.com,AdBlock
+HOST-SUFFIX,tmdqlk.top,AdBlock
 HOST-SUFFIX,tmea116.oss-cn-beijing.aliyuncs.com,AdBlock
 HOST-SUFFIX,tmead.y.qq.com,AdBlock
 HOST-SUFFIX,tmeadbak.y.qq.com,AdBlock
@@ -76402,6 +76619,7 @@ HOST-SUFFIX,togenron.com,AdBlock
 HOST-SUFFIX,togetherballroom.com,AdBlock
 HOST-SUFFIX,toggledmouton.com,AdBlock
 HOST-SUFFIX,toglooman.com,AdBlock
+HOST-SUFFIX,togmoxwnw.com,AdBlock
 HOST-SUFFIX,togothitaa.com,AdBlock
 HOST-SUFFIX,tohechaustoox.net,AdBlock
 HOST-SUFFIX,toiletallowingrepair.com,AdBlock
@@ -76607,6 +76825,7 @@ HOST-SUFFIX,toscytheran.com,AdBlock
 HOST-SUFFIX,tosfeed.com,AdBlock
 HOST-SUFFIX,tossoffads.com,AdBlock
 HOST-SUFFIX,tossquicklypluck.com,AdBlock
+HOST-SUFFIX,tostervar.shop,AdBlock
 HOST-SUFFIX,totalab.xyz,AdBlock
 HOST-SUFFIX,totaladblock.com,AdBlock
 HOST-SUFFIX,totaldrag.pro,AdBlock
@@ -78971,6 +79190,7 @@ HOST-SUFFIX,trackvoluum.com,AdBlock
 HOST-SUFFIX,trackwilltrk.com,AdBlock
 HOST-SUFFIX,trackword.biz,AdBlock
 HOST-SUFFIX,trackyourstats.com,AdBlock
+HOST-SUFFIX,trackzd.com,AdBlock
 HOST-SUFFIX,tracot.com,AdBlock
 HOST-SUFFIX,tractorfoolproofstandard.com,AdBlock
 HOST-SUFFIX,tradbypass.com,AdBlock
@@ -79982,6 +80202,7 @@ HOST-SUFFIX,tubestrap.com,AdBlock
 HOST-SUFFIX,tubetitties.com,AdBlock
 HOST-SUFFIX,tubeultra.com,AdBlock
 HOST-SUFFIX,tubewalk.com,AdBlock
+HOST-SUFFIX,tubingacater.com,AdBlock
 HOST-SUFFIX,tubpwpxupjrw.com,AdBlock
 HOST-SUFFIX,tubroaffs.org,AdBlock
 HOST-SUFFIX,tuckedmajor.com,AdBlock
@@ -80093,6 +80314,7 @@ HOST-SUFFIX,tuxi.com.cn,AdBlock
 HOST-SUFFIX,tuxpfiok.icu,AdBlock
 HOST-SUFFIX,tv-test.esvdigital.com,AdBlock
 HOST-SUFFIX,tv.totaljobs.com,AdBlock
+HOST-SUFFIX,tvapp.hpplay.cn,AdBlock
 HOST-SUFFIX,tvcoag.brw.pl,AdBlock
 HOST-SUFFIX,tver-metrics.streaks.jp,AdBlock
 HOST-SUFFIX,tvgkatu.icu,AdBlock
@@ -80253,7 +80475,6 @@ HOST-SUFFIX,typesluggage.com,AdBlock
 HOST-SUFFIX,typical-hub.com,AdBlock
 HOST-SUFFIX,typicalairplane.com,AdBlock
 HOST-SUFFIX,typicalappleashy.com,AdBlock
-HOST-SUFFIX,typically-nut-personalized-syndication.trycloudflare.com,AdBlock
 HOST-SUFFIX,typicalstudent.org,AdBlock
 HOST-SUFFIX,typicalteeth.com,AdBlock
 HOST-SUFFIX,typiccor.com,AdBlock
@@ -80339,7 +80560,7 @@ HOST-SUFFIX,u0crsrah75fy.camberlion.com,AdBlock
 HOST-SUFFIX,u1.idongde.com,AdBlock
 HOST-SUFFIX,u1.img.mobile.sina.cn,AdBlock
 HOST-SUFFIX,u1.qyxxpd.com,AdBlock
-HOST-SUFFIX,u1.saunatriceps.shop,AdBlock
+HOST-SUFFIX,u1.tweeddisparity.shop,AdBlock
 HOST-SUFFIX,u1010.com,AdBlock
 HOST-SUFFIX,u1011.com,AdBlock
 HOST-SUFFIX,u1033.com,AdBlock
@@ -80397,6 +80618,8 @@ HOST-SUFFIX,uaiqp.top,AdBlock
 HOST-SUFFIX,ualkzq.moobel1.ee,AdBlock
 HOST-SUFFIX,uanhmbsoenccl.com,AdBlock
 HOST-SUFFIX,uaoaig.xyz,AdBlock
+HOST-SUFFIX,uapi.ads.heytapmobi.com,AdBlock
+HOST-SUFFIX,uapi.ads.oppomobile.com,AdBlock
 HOST-SUFFIX,uaqcui.tennis-point.fr,AdBlock
 HOST-SUFFIX,uaqdgrfr.icu,AdBlock
 HOST-SUFFIX,uarating.com,AdBlock
@@ -80430,7 +80653,6 @@ HOST-SUFFIX,ubercpm.com,AdBlock
 HOST-SUFFIX,ubertags.com,AdBlock
 HOST-SUFFIX,ubertracking.info,AdBlock
 HOST-SUFFIX,ubesykrmo.xyz,AdBlock
-HOST-SUFFIX,ubftr3.top,AdBlock
 HOST-SUFFIX,ubibibi.com,AdBlock
 HOST-SUFFIX,ubilinkbin.com,AdBlock
 HOST-SUFFIX,ubiquitoussea.com,AdBlock
@@ -80560,6 +80782,7 @@ HOST-SUFFIX,uewzjy.xyz,AdBlock
 HOST-SUFFIX,ueykjfltxqsb.space,AdBlock
 HOST-SUFFIX,ufachoustoh.net,AdBlock
 HOST-SUFFIX,ufaexpert.com,AdBlock
+HOST-SUFFIX,ufdgcvcrpuxdwhd.com,AdBlock
 HOST-SUFFIX,ufeonk.viravira.co,AdBlock
 HOST-SUFFIX,ufewhistug.net,AdBlock
 HOST-SUFFIX,ufiidvv.icu,AdBlock
@@ -80617,6 +80840,7 @@ HOST-SUFFIX,uhedsplo.com,AdBlock
 HOST-SUFFIX,uhegarberetrof.com,AdBlock
 HOST-SUFFIX,uhenqb.manning.com,AdBlock
 HOST-SUFFIX,uhfdsplo.com,AdBlock
+HOST-SUFFIX,uhhelp.top,AdBlock
 HOST-SUFFIX,uhi02121uik.xyz,AdBlock
 HOST-SUFFIX,uhi02130uik.xyz,AdBlock
 HOST-SUFFIX,uhlagm.rakurakuseisan.jp,AdBlock
@@ -80824,6 +81048,7 @@ HOST-SUFFIX,umv0.com,AdBlock
 HOST-SUFFIX,umv5.com,AdBlock
 HOST-SUFFIX,umwatsonc.telemetry.microsoft.us,AdBlock
 HOST-SUFFIX,umwcyw.xyz,AdBlock
+HOST-SUFFIX,umwoibvsbnhrh.xyz,AdBlock
 HOST-SUFFIX,umwuxk.hotel.cz,AdBlock
 HOST-SUFFIX,umxwew.hellobello.com,AdBlock
 HOST-SUFFIX,umylynsr9b.quira.sh,AdBlock
@@ -81181,6 +81406,7 @@ HOST-SUFFIX,upcoastfondle.com,AdBlock
 HOST-SUFFIX,upcomingmonkeydolphin.com,AdBlock
 HOST-SUFFIX,upcurlsreid.website,AdBlock
 HOST-SUFFIX,updaight.com,AdBlock
+HOST-SUFFIX,update-mac.com,AdBlock
 HOST-SUFFIX,update.360safe.com,AdBlock
 HOST-SUFFIX,update.bainv.net,AdBlock
 HOST-SUFFIX,update.cg100iii.com,AdBlock
@@ -81190,7 +81416,6 @@ HOST-SUFFIX,update.lejiao.tv,AdBlock
 HOST-SUFFIX,update.mobile.kugou.com,AdBlock
 HOST-SUFFIX,update.purina.com,AdBlock
 HOST-SUFFIX,update.tcsg.edu,AdBlock
-HOST-SUFFIX,update.vlnguba.com,AdBlock
 HOST-SUFFIX,update.volam2005pk.com,AdBlock
 HOST-SUFFIX,updateadvancedgreatlytheproduct.vip,AdBlock
 HOST-SUFFIX,updatecenter.qq.com,AdBlock
@@ -81387,7 +81612,6 @@ HOST-SUFFIX,us.vortex-win.data.microsft.com,AdBlock
 HOST-SUFFIX,us.vortex-win.data.microsoft.com,AdBlock
 HOST-SUFFIX,us4post.com,AdBlock
 HOST-SUFFIX,usa.cc,AdBlock
-HOST-SUFFIX,usaaeastnode.azureedge.net,AdBlock
 HOST-SUFFIX,usaballs.fun,AdBlock
 HOST-SUFFIX,usabilitytools.com,AdBlock
 HOST-SUFFIX,usabilla.com,AdBlock
@@ -81897,6 +82121,7 @@ HOST-SUFFIX,vauloops.net,AdBlock
 HOST-SUFFIX,vaultmultiple.com,AdBlock
 HOST-SUFFIX,vaultwrite.com,AdBlock
 HOST-SUFFIX,vauphuwoaby.net,AdBlock
+HOST-SUFFIX,vauphwgisneug.life,AdBlock
 HOST-SUFFIX,vavuwetus.com,AdBlock
 HOST-SUFFIX,vawk0ap3.xyz,AdBlock
 HOST-SUFFIX,vax-boost.com,AdBlock
@@ -82014,6 +82239,7 @@ HOST-SUFFIX,velocecdn.com,AdBlock
 HOST-SUFFIX,velocitycdn.com,AdBlock
 HOST-SUFFIX,velodran.com,AdBlock
 HOST-SUFFIX,velti.com,AdBlock
+HOST-SUFFIX,velvetdock.com,AdBlock
 HOST-SUFFIX,velvetneutralunnatural.com,AdBlock
 HOST-SUFFIX,velvetnova.com,AdBlock
 HOST-SUFFIX,velvetquasar.com,AdBlock
@@ -82193,6 +82419,7 @@ HOST-SUFFIX,vhngny-cfwm.life,AdBlock
 HOST-SUFFIX,vhpabx.herffjones.com,AdBlock
 HOST-SUFFIX,vhrbxb.vidaxl.nl,AdBlock
 HOST-SUFFIX,vhrhnh.icu,AdBlock
+HOST-SUFFIX,vhsspanel.top,AdBlock
 HOST-SUFFIX,vhvwyurhkehv.com,AdBlock
 HOST-SUFFIX,vhzivz.xyz,AdBlock
 HOST-SUFFIX,vi-serve.com,AdBlock
@@ -82220,6 +82447,7 @@ HOST-SUFFIX,viatechonline.com,AdBlock
 HOST-SUFFIX,viatepigan.com,AdBlock
 HOST-SUFFIX,viatrisneuropathicpain.co.uk,AdBlock
 HOST-SUFFIX,vibanioa.com,AdBlock
+HOST-SUFFIX,vibrantgale.com,AdBlock
 HOST-SUFFIX,vibranthaven.com,AdBlock
 HOST-SUFFIX,vibrantsundown.com,AdBlock
 HOST-SUFFIX,vibrantvale.com,AdBlock
@@ -82382,6 +82610,7 @@ HOST-SUFFIX,vindictivegrabnautical.com,AdBlock
 HOST-SUFFIX,vinegardaring.com,AdBlock
 HOST-SUFFIX,vingartistictaste.com,AdBlock
 HOST-SUFFIX,vinlens.com,AdBlock
+HOST-SUFFIX,vinoinqih.com,AdBlock
 HOST-SUFFIX,vinosedermol.com,AdBlock
 HOST-SUFFIX,vinsgcs.com,AdBlock
 HOST-SUFFIX,vinsight.de,AdBlock
@@ -82418,6 +82647,7 @@ HOST-SUFFIX,vip.winfisc.com,AdBlock
 HOST-SUFFIX,vip.zhuba8.com,AdBlock
 HOST-SUFFIX,vipads.cn,AdBlock
 HOST-SUFFIX,vipads.live,AdBlock
+HOST-SUFFIX,vipauth.hpplay.cn,AdBlock
 HOST-SUFFIX,vipdragonapp.monster,AdBlock
 HOST-SUFFIX,viperishly.com,AdBlock
 HOST-SUFFIX,vipfanyongwang.com,AdBlock
@@ -82458,6 +82688,7 @@ HOST-SUFFIX,virtuousescape.pro,AdBlock
 HOST-SUFFIX,virusinfo-cloudscan-cn.heytapmobi.com,AdBlock
 HOST-SUFFIX,visariomedia.com,AdBlock
 HOST-SUFFIX,viscountquality.com,AdBlock
+HOST-SUFFIX,viscusguddle.com,AdBlock
 HOST-SUFFIX,viscusumgang.shop,AdBlock
 HOST-SUFFIX,visfirst.com,AdBlock
 HOST-SUFFIX,visiads.com,AdBlock
@@ -82555,6 +82786,8 @@ HOST-SUFFIX,viurl.fun,AdBlock
 HOST-SUFFIX,vivaciousveil.com,AdBlock
 HOST-SUFFIX,vivaxhouvari.shop,AdBlock
 HOST-SUFFIX,vividcash.com,AdBlock
+HOST-SUFFIX,vividmeadow.com,AdBlock
+HOST-SUFFIX,vividplume.com,AdBlock
 HOST-SUFFIX,vivistats.com,AdBlock
 HOST-SUFFIX,vivocha.com,AdBlock
 HOST-SUFFIX,viwjsp.info,AdBlock
@@ -82601,6 +82834,7 @@ HOST-SUFFIX,vlexokrako.com,AdBlock
 HOST-SUFFIX,vlion.cn,AdBlock
 HOST-SUFFIX,vlitag.com,AdBlock
 HOST-SUFFIX,vlive.qqvideo.tc.qq.com,AdBlock
+HOST-SUFFIX,vljkjx.top,AdBlock
 HOST-SUFFIX,vlkmcpnfo.com,AdBlock
 HOST-SUFFIX,vlkvchof.com,AdBlock
 HOST-SUFFIX,vllsour.com,AdBlock
@@ -82638,6 +82872,7 @@ HOST-SUFFIX,vmxvcjuf.icu,AdBlock
 HOST-SUFFIX,vmzqqmlpwwmazjnio.com,AdBlock
 HOST-SUFFIX,vmzqwz.cn,AdBlock
 HOST-SUFFIX,vn543.com,AdBlock
+HOST-SUFFIX,vnbbrx.top,AdBlock
 HOST-SUFFIX,vnet.cn,AdBlock
 HOST-SUFFIX,vnl1.voyage-prive.nl,AdBlock
 HOST-SUFFIX,vnlvxi.vivastreet.co.uk,AdBlock
@@ -82669,6 +82904,7 @@ HOST-SUFFIX,vodsoamsoun.net,AdBlock
 HOST-SUFFIX,voeux2020.wearemip.com,AdBlock
 HOST-SUFFIX,vogate.com,AdBlock
 HOST-SUFFIX,vogozae.ru,AdBlock
+HOST-SUFFIX,vohainoaho.net,AdBlock
 HOST-SUFFIX,vohqpgsdn.xyz,AdBlock
 HOST-SUFFIX,voice.thewealthadvisor.com,AdBlock
 HOST-SUFFIX,voiceads.cn,AdBlock
@@ -82940,6 +83176,7 @@ HOST-SUFFIX,vupteerairs.net,AdBlock
 HOST-SUFFIX,vupulse.com,AdBlock
 HOST-SUFFIX,vursoofte.net,AdBlock
 HOST-SUFFIX,vuryua.ru,AdBlock
+HOST-SUFFIX,vutipseethu.net,AdBlock
 HOST-SUFFIX,vutjnt.xyz,AdBlock
 HOST-SUFFIX,vutkaqlakbp.com,AdBlock
 HOST-SUFFIX,vuvacu.xyz,AdBlock
@@ -82984,6 +83221,7 @@ HOST-SUFFIX,vwuiefsgtvixw.xyz,AdBlock
 HOST-SUFFIX,vwvatp.xyz,AdBlock
 HOST-SUFFIX,vwvj.cn,AdBlock
 HOST-SUFFIX,vwwzygltq.com,AdBlock
+HOST-SUFFIX,vx-events.com,AdBlock
 HOST-SUFFIX,vxcjoz.nextadvisor.com,AdBlock
 HOST-SUFFIX,vxcvd67.fun,AdBlock
 HOST-SUFFIX,vxdrfr.xyz,AdBlock
@@ -83649,6 +83887,7 @@ HOST-SUFFIX,web.news.thebridge.it,AdBlock
 HOST-SUFFIX,web.newsletter.koffer-to-go.de,AdBlock
 HOST-SUFFIX,web.newsletter.viviennewestwood.com,AdBlock
 HOST-SUFFIX,web.newsletterit.esprinet.com,AdBlock
+HOST-SUFFIX,web.nexhelp.top,AdBlock
 HOST-SUFFIX,web.northwestern.nm.org,AdBlock
 HOST-SUFFIX,web.nortonrosefulbright.com,AdBlock
 HOST-SUFFIX,web.novogene.com,AdBlock
@@ -83658,6 +83897,7 @@ HOST-SUFFIX,web.novunapersonalfinance.co.uk,AdBlock
 HOST-SUFFIX,web.online.monnalisa.com,AdBlock
 HOST-SUFFIX,web.orionpharma.com,AdBlock
 HOST-SUFFIX,web.qrhelp.top,AdBlock
+HOST-SUFFIX,web.qxfhelp.top,AdBlock
 HOST-SUFFIX,web.redazione.milanofinanza.it,AdBlock
 HOST-SUFFIX,web.sensilab.com,AdBlock
 HOST-SUFFIX,web.sensilab.cz,AdBlock
@@ -83707,14 +83947,13 @@ HOST-SUFFIX,web2.da.mgtv.com,AdBlock
 HOST-SUFFIX,web2.perkinelmer.com,AdBlock
 HOST-SUFFIX,web3.bxhelp.top,AdBlock
 HOST-SUFFIX,web3.ishelp.top,AdBlock
-HOST-SUFFIX,web3.jkhelp.top,AdBlock
-HOST-SUFFIX,web3.obhelp.top,AdBlock
 HOST-SUFFIX,web3.perkinelmer.com,AdBlock
 HOST-SUFFIX,web3.qrhelp.top,AdBlock
 HOST-SUFFIX,web3ads.net,AdBlock
 HOST-SUFFIX,web605.cn,AdBlock
 HOST-SUFFIX,web8.net,AdBlock
 HOST-SUFFIX,web8.perkinelmer.com,AdBlock
+HOST-SUFFIX,webaap2.site,AdBlock
 HOST-SUFFIX,webads.co.nz,AdBlock
 HOST-SUFFIX,webads.eu,AdBlock
 HOST-SUFFIX,webads.media,AdBlock
@@ -84034,6 +84273,7 @@ HOST-SUFFIX,wellmadefrog.com,AdBlock
 HOST-SUFFIX,wellmov.com,AdBlock
 HOST-SUFFIX,wellness.palomarhealth.org,AdBlock
 HOST-SUFFIX,wellpdy.com,AdBlock
+HOST-SUFFIX,wellworn-lead.com,AdBlock
 HOST-SUFFIX,welt-der-links.de,AdBlock
 HOST-SUFFIX,welved.com,AdBlock
 HOST-SUFFIX,wembybuw.xyz,AdBlock
@@ -84410,7 +84650,6 @@ HOST-SUFFIX,wimaxnetworks.cn,AdBlock
 HOST-SUFFIX,wimblesmurgavi.top,AdBlock
 HOST-SUFFIX,wimpthirtyarrears.com,AdBlock
 HOST-SUFFIX,win-bidding.com,AdBlock
-HOST-SUFFIX,win-network-checker.cc,AdBlock
 HOST-SUFFIX,win-stock.com.cn,AdBlock
 HOST-SUFFIX,win-winfuture.cn,AdBlock
 HOST-SUFFIX,win.down.55kantu.com,AdBlock
@@ -84430,7 +84669,6 @@ HOST-SUFFIX,windingsynonym.com,AdBlock
 HOST-SUFFIX,windlebrogues.com,AdBlock
 HOST-SUFFIX,windowsuseful.com,AdBlock
 HOST-SUFFIX,windrightyshade.com,AdBlock
-HOST-SUFFIX,windriversfiles.imeitools.com,AdBlock
 HOST-SUFFIX,windsplay.com,AdBlock
 HOST-SUFFIX,windsuredine.shop,AdBlock
 HOST-SUFFIX,windymissphantom.com,AdBlock
@@ -84507,6 +84745,7 @@ HOST-SUFFIX,witnessjacket.com,AdBlock
 HOST-SUFFIX,witnessremovalsoccer.com,AdBlock
 HOST-SUFFIX,witnesssellingoranges.com,AdBlock
 HOST-SUFFIX,wittolsaortic.com,AdBlock
+HOST-SUFFIX,wittomeinvokes.com,AdBlock
 HOST-SUFFIX,wittypopcorn.com,AdBlock
 HOST-SUFFIX,wivo2gaza.com,AdBlock
 HOST-SUFFIX,wiwarrkazg.com,AdBlock
@@ -84578,7 +84817,6 @@ HOST-SUFFIX,wllebozbzjybk.top,AdBlock
 HOST-SUFFIX,wllqotfmkhlhx.xyz,AdBlock
 HOST-SUFFIX,wlmarketing.com,AdBlock
 HOST-SUFFIX,wlog.kuaishou.com,AdBlock
-HOST-SUFFIX,wlop10.top,AdBlock
 HOST-SUFFIX,wlouqsz.xyz,AdBlock
 HOST-SUFFIX,wlp3.aegon.es,AdBlock
 HOST-SUFFIX,wlptux.habitaclia.com,AdBlock
@@ -84680,6 +84918,7 @@ HOST-SUFFIX,wobo888.cc,AdBlock
 HOST-SUFFIX,wocwibkfutrj.com,AdBlock
 HOST-SUFFIX,wodemeitu.com,AdBlock
 HOST-SUFFIX,woefifty.com,AdBlock
+HOST-SUFFIX,woeful-trash.pro,AdBlock
 HOST-SUFFIX,woespoke.com,AdBlock
 HOST-SUFFIX,woevr.com,AdBlock
 HOST-SUFFIX,wof.hnltcw.com,AdBlock
@@ -85056,6 +85295,7 @@ HOST-SUFFIX,wuczmaorkqaz.com,AdBlock
 HOST-SUFFIX,wudang05.com,AdBlock
 HOST-SUFFIX,wudr.net,AdBlock
 HOST-SUFFIX,wuefmls.com,AdBlock
+HOST-SUFFIX,wuftaustee.net,AdBlock
 HOST-SUFFIX,wugoughurtaitsu.net,AdBlock
 HOST-SUFFIX,wugroansaghadry.com,AdBlock
 HOST-SUFFIX,wuiqiq.xyz,AdBlock
@@ -85262,7 +85502,6 @@ HOST-SUFFIX,www91.intel.in,AdBlock
 HOST-SUFFIX,www91.intel.la,AdBlock
 HOST-SUFFIX,www91.intel.pl,AdBlock
 HOST-SUFFIX,www999999asgasg-1327129302.cos.ap-chengdu.myqcloud.com,AdBlock
-HOST-SUFFIX,www999999safagqwhg-1327129302.cos.ap-chengdu.myqcloud.com,AdBlock
 HOST-SUFFIX,wwwadcntr.com,AdBlock
 HOST-SUFFIX,wwwmetricssl.visitflorida.com,AdBlock
 HOST-SUFFIX,wwwokzyzy.com,AdBlock
@@ -85310,6 +85549,7 @@ HOST-SUFFIX,wyelmp.vidaxl.si,AdBlock
 HOST-SUFFIX,wyglyvaso.com,AdBlock
 HOST-SUFFIX,wyhifdpatl.com,AdBlock
 HOST-SUFFIX,wyisloe.top,AdBlock
+HOST-SUFFIX,wylmzwklklyaz.top,AdBlock
 HOST-SUFFIX,wylmzwklklywm.top,AdBlock
 HOST-SUFFIX,wymqjow.icu,AdBlock
 HOST-SUFFIX,wymymep.com,AdBlock
@@ -85457,6 +85697,7 @@ HOST-SUFFIX,xcafcyxddc.com,AdBlock
 HOST-SUFFIX,xcahurewa.com,AdBlock
 HOST-SUFFIX,xcdf.cn,AdBlock
 HOST-SUFFIX,xcdkxayfqe.com,AdBlock
+HOST-SUFFIX,xcdqbqduelix.com,AdBlock
 HOST-SUFFIX,xcec.ru,AdBlock
 HOST-SUFFIX,xcedwa.contactsdirect.com,AdBlock
 HOST-SUFFIX,xcelltech.com,AdBlock
@@ -85501,6 +85742,7 @@ HOST-SUFFIX,xdvdrg.globalindustrial.com,AdBlock
 HOST-SUFFIX,xdyjt.com,AdBlock
 HOST-SUFFIX,xe2c.com,AdBlock
 HOST-SUFFIX,xebadu.com,AdBlock
+HOST-SUFFIX,xeccotftw.com,AdBlock
 HOST-SUFFIX,xedlxeuz.icu,AdBlock
 HOST-SUFFIX,xedo.me,AdBlock
 HOST-SUFFIX,xegluwate.com,AdBlock
@@ -85683,7 +85925,6 @@ HOST-SUFFIX,xkesalwueyz.com,AdBlock
 HOST-SUFFIX,xkesqbp.icu,AdBlock
 HOST-SUFFIX,xkgttas.icu,AdBlock
 HOST-SUFFIX,xkgtxj.edomator.pl,AdBlock
-HOST-SUFFIX,xkhelp.top,AdBlock
 HOST-SUFFIX,xkidkt.edenbrothers.com,AdBlock
 HOST-SUFFIX,xknhwv.mobile01.com,AdBlock
 HOST-SUFFIX,xkowcsl.com,AdBlock
@@ -85730,6 +85971,7 @@ HOST-SUFFIX,xlviiirdr.com,AdBlock
 HOST-SUFFIX,xlviirdr.com,AdBlock
 HOST-SUFFIX,xlvirdr.com,AdBlock
 HOST-SUFFIX,xlvvy4msxr.coolinastore.com,AdBlock
+HOST-SUFFIX,xlx1.com,AdBlock
 HOST-SUFFIX,xlxehr.xyz,AdBlock
 HOST-SUFFIX,xlylqx.com,AdBlock
 HOST-SUFFIX,xmas-xmas-wow.com,AdBlock
@@ -85858,12 +86100,14 @@ HOST-SUFFIX,xqtcur.kirklands.com,AdBlock
 HOST-SUFFIX,xqupwc.emp.at,AdBlock
 HOST-SUFFIX,xqwcryh.com,AdBlock
 HOST-SUFFIX,xqwiremesh.com,AdBlock
+HOST-SUFFIX,xqwrdegbmdfrv.top,AdBlock
 HOST-SUFFIX,xqzqdj.mfind.pl,AdBlock
 HOST-SUFFIX,xragnfrjhiqep.xyz,AdBlock
 HOST-SUFFIX,xrain.net,AdBlock
 HOST-SUFFIX,xransv.hometogo.com.au,AdBlock
 HOST-SUFFIX,xray.mail.ru,AdBlock
 HOST-SUFFIX,xrcksn.vvf-villages.fr,AdBlock
+HOST-SUFFIX,xrlzhk.top,AdBlock
 HOST-SUFFIX,xrngoxoqlpgmc.com,AdBlock
 HOST-SUFFIX,xrnyhc.arumdri.co.kr,AdBlock
 HOST-SUFFIX,xrnyhc.jokwangilbo.com,AdBlock
@@ -85958,6 +86202,7 @@ HOST-SUFFIX,xun.mobi,AdBlock
 HOST-SUFFIX,xunchn.com,AdBlock
 HOST-SUFFIX,xunfan.net,AdBlock
 HOST-SUFFIX,xunleiii.com,AdBlock
+HOST-SUFFIX,xunqrutsl.com,AdBlock
 HOST-SUFFIX,xunsfr.xyz,AdBlock
 HOST-SUFFIX,xunyangdianzi4.cn,AdBlock
 HOST-SUFFIX,xunyibaike.com,AdBlock
@@ -86127,6 +86372,7 @@ HOST-SUFFIX,y.hk9600.com,AdBlock
 HOST-SUFFIX,y.hzht666.com,AdBlock
 HOST-SUFFIX,y.ilancc.com,AdBlock
 HOST-SUFFIX,y.pzclw.cn,AdBlock
+HOST-SUFFIX,y.shavsl.com,AdBlock
 HOST-SUFFIX,y.shuoshuocm.com,AdBlock
 HOST-SUFFIX,y.sphinxtube.com,AdBlock
 HOST-SUFFIX,y.topya.com,AdBlock
@@ -86151,6 +86397,7 @@ HOST-SUFFIX,y820.darientimes.com,AdBlock
 HOST-SUFFIX,y8hxgv9m.kobetsu.co.jp,AdBlock
 HOST-SUFFIX,y8z5nv0slz06vj2k5vh6akv7dj2c8aj62zhj2v7zj8vp0zq7fj2gf4mv6zsb.me,AdBlock
 HOST-SUFFIX,y900.greenwichtime.com,AdBlock
+HOST-SUFFIX,yaaumqa.top,AdBlock
 HOST-SUFFIX,yabo816.com,AdBlock
 HOST-SUFFIX,yacafrr.bailingcloud.cn,AdBlock
 HOST-SUFFIX,yackedcuttage.com,AdBlock
@@ -86490,6 +86737,7 @@ HOST-SUFFIX,yj2nf.icu,AdBlock
 HOST-SUFFIX,yjdigtr.com,AdBlock
 HOST-SUFFIX,yje912.cn,AdBlock
 HOST-SUFFIX,yjepztzvncndf.tech,AdBlock
+HOST-SUFFIX,yjgrhzvtvkqen.tech,AdBlock
 HOST-SUFFIX,yjkyj.cn,AdBlock
 HOST-SUFFIX,yjlbvd.pcfactory.cl,AdBlock
 HOST-SUFFIX,yjlhep.skechers.co.nz,AdBlock
@@ -86532,6 +86780,7 @@ HOST-SUFFIX,yl-sooippd.vip,AdBlock
 HOST-SUFFIX,yl04z4v.cn,AdBlock
 HOST-SUFFIX,yl850555.com,AdBlock
 HOST-SUFFIX,yl89.cn,AdBlock
+HOST-SUFFIX,yladihsmkopov.xyz,AdBlock
 HOST-SUFFIX,yladm.com,AdBlock
 HOST-SUFFIX,ylads.yaolan.com,AdBlock
 HOST-SUFFIX,ylafwg.greenpoint.pl,AdBlock
@@ -86569,6 +86818,7 @@ HOST-SUFFIX,ymewsu.xyz,AdBlock
 HOST-SUFFIX,ymixqb.nationalgeographic.com,AdBlock
 HOST-SUFFIX,ymmiyun.com,AdBlock
 HOST-SUFFIX,ymph.y8u975.cn,AdBlock
+HOST-SUFFIX,ympmeafbhj.com,AdBlock
 HOST-SUFFIX,ymprove.gmx.net,AdBlock
 HOST-SUFFIX,ymprove.web.de,AdBlock
 HOST-SUFFIX,ymqlrkznenfcd.world,AdBlock
@@ -87012,7 +87262,6 @@ HOST-SUFFIX,yzfjlvqa.com,AdBlock
 HOST-SUFFIX,yzgbsg.xyz,AdBlock
 HOST-SUFFIX,yzh.jyjhkz.com,AdBlock
 HOST-SUFFIX,yzjqqj.emmiol.com,AdBlock
-HOST-SUFFIX,yzkzixun.com,AdBlock
 HOST-SUFFIX,yzldy.info,AdBlock
 HOST-SUFFIX,yzvpco.hfashionmall.com,AdBlock
 HOST-SUFFIX,yzxbdzrnsyscx.rocks,AdBlock
@@ -87267,7 +87516,6 @@ HOST-SUFFIX,zewkj.com,AdBlock
 HOST-SUFFIX,zexardoussesa.net,AdBlock
 HOST-SUFFIX,zeydoo.com,AdBlock
 HOST-SUFFIX,zfacts.com,AdBlock
-HOST-SUFFIX,zfaew-76.top,AdBlock
 HOST-SUFFIX,zfeaubp.com,AdBlock
 HOST-SUFFIX,zferral.com,AdBlock
 HOST-SUFFIX,zffsg.oss-ap-northeast-2.aliyuncs.com,AdBlock
@@ -87525,6 +87773,7 @@ HOST-SUFFIX,znsv.baidu.cn,AdBlock
 HOST-SUFFIX,znsv.baidu.com,AdBlock
 HOST-SUFFIX,znvlfef.com,AdBlock
 HOST-SUFFIX,znxblom.cn,AdBlock
+HOST-SUFFIX,znzfvmdtklsvv.xyz,AdBlock
 HOST-SUFFIX,zoachoar.net,AdBlock
 HOST-SUFFIX,zoachops.com,AdBlock
 HOST-SUFFIX,zoagremo.net,AdBlock
@@ -87605,6 +87854,7 @@ HOST-SUFFIX,zprofuqkssny.com,AdBlock
 HOST-SUFFIX,zq-hk.cn,AdBlock
 HOST-SUFFIX,zq.lansedir.com,AdBlock
 HOST-SUFFIX,zq84.com,AdBlock
+HOST-SUFFIX,zqdekzkqwvzcl.buzz,AdBlock
 HOST-SUFFIX,zqgixxp.icu,AdBlock
 HOST-SUFFIX,zqjklzajmmwq.top,AdBlock
 HOST-SUFFIX,zqjljeyqbejrb.top,AdBlock
@@ -87780,6 +88030,7 @@ HOST-SUFFIX,zymbrlgu.cn,AdBlock
 HOST-SUFFIX,zymerget.win,AdBlock
 HOST-SUFFIX,zymjzwyyjyvb.top,AdBlock
 HOST-SUFFIX,zymo.mps.weibo.com,AdBlock
+HOST-SUFFIX,zynewaylxyxex.buzz,AdBlock
 HOST-SUFFIX,zynga.com,AdBlock
 HOST-SUFFIX,zyngaplayersupport.com,AdBlock
 HOST-SUFFIX,zypenetwork.com,AdBlock
@@ -87787,6 +88038,7 @@ HOST-SUFFIX,zyq2.destinia.sk,AdBlock
 HOST-SUFFIX,zyrelolbbqyww.top,AdBlock
 HOST-SUFFIX,zyrnbh.xyz,AdBlock
 HOST-SUFFIX,zyvbvqvjjkvqz.top,AdBlock
+HOST-SUFFIX,zyzqkbkeyqajw.top,AdBlock
 HOST-SUFFIX,zz.bdstatic.com,AdBlock
 HOST-SUFFIX,zz.xiakelea.com,AdBlock
 HOST-SUFFIX,zz123.com,AdBlock
