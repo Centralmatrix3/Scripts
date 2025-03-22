@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31386
+# 规则统计: 31385
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -30136,7 +30136,6 @@ DOMAIN-SUFFIX,xtracloud.net
 DOMAIN-SUFFIX,xtube.com
 DOMAIN-SUFFIX,xtubebdsm.com
 DOMAIN-SUFFIX,xtubezoo.com
-DOMAIN-SUFFIX,xu97.vip
 DOMAIN-SUFFIX,xuchao.net
 DOMAIN-SUFFIX,xuchao.org
 DOMAIN-SUFFIX,xuehua.us
