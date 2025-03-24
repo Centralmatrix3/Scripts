@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31385
+# 规则统计: 31377
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -2524,7 +2524,6 @@ DOMAIN-SUFFIX,askubuntu.com
 DOMAIN-SUFFIX,askynz.net
 DOMAIN-SUFFIX,asmhentai.com
 DOMAIN-SUFFIX,asminternational.org
-DOMAIN-SUFFIX,asmr.gay
 DOMAIN-SUFFIX,asmrbuluo.com
 DOMAIN-SUFFIX,asn-online.org
 DOMAIN-SUFFIX,asp-cc.com
@@ -3015,7 +3014,6 @@ DOMAIN-SUFFIX,b-ok.org
 DOMAIN-SUFFIX,b.hatena.ne.jp
 DOMAIN-SUFFIX,b0ne.com
 DOMAIN-SUFFIX,b3boos.com
-DOMAIN-SUFFIX,b3bos.com
 DOMAIN-SUFFIX,b6b33.com
 DOMAIN-SUFFIX,b6fc.ac.uk
 DOMAIN-SUFFIX,baa.ac.uk
@@ -5155,7 +5153,6 @@ DOMAIN-SUFFIX,bukkake.link
 DOMAIN-SUFFIX,bullguard.com
 DOMAIN-SUFFIX,bullog.org
 DOMAIN-SUFFIX,bullogger.com
-DOMAIN-SUFFIX,bululusexdoll.com
 DOMAIN-SUFFIX,bumingbai.net
 DOMAIN-SUFFIX,bumpshare.com
 DOMAIN-SUFFIX,bumptop.ca
@@ -7109,7 +7106,6 @@ DOMAIN-SUFFIX,cts.com.tw
 DOMAIN-SUFFIX,cttoolkit.ac.uk
 DOMAIN-SUFFIX,ctv.com.tw
 DOMAIN-SUFFIX,ctwant.com
-DOMAIN-SUFFIX,ctyun.online
 DOMAIN-SUFFIX,cubo.ac.uk
 DOMAIN-SUFFIX,cuc.ac.uk
 DOMAIN-SUFFIX,cuckfilmswifefuck.com
@@ -9985,6 +9981,7 @@ DOMAIN-SUFFIX,fandom.com
 DOMAIN-SUFFIX,fanfox.net
 DOMAIN-SUFFIX,fangbinxing.com
 DOMAIN-SUFFIX,fangeming.com
+DOMAIN-SUFFIX,fangeming.comffvpn.com
 DOMAIN-SUFFIX,fangeqiang.com
 DOMAIN-SUFFIX,fanglizhi.info
 DOMAIN-SUFFIX,fangmincn.org
@@ -10274,7 +10271,6 @@ DOMAIN-SUFFIX,fgls.ac.uk
 DOMAIN-SUFFIX,fgmtv.net
 DOMAIN-SUFFIX,fgmtv.org
 DOMAIN-SUFFIX,fhreports.net
-DOMAIN-SUFFIX,fi11.com
 DOMAIN-SUFFIX,fi11av1.com
 DOMAIN-SUFFIX,fi11tv1.com
 DOMAIN-SUFFIX,fibre-diffraction.ac.uk
@@ -11731,7 +11727,6 @@ DOMAIN-SUFFIX,gmiddle.net
 DOMAIN-SUFFIX,gmims.ac.uk
 DOMAIN-SUFFIX,gmll.org
 DOMAIN-SUFFIX,gmms.ac.uk
-DOMAIN-SUFFIX,gmnetworks.net
 DOMAIN-SUFFIX,gmocloud.com
 DOMAIN-SUFFIX,gmodules.com
 DOMAIN-SUFFIX,gmoney.org
@@ -24779,7 +24774,6 @@ DOMAIN-SUFFIX,sneaker666.com
 DOMAIN-SUFFIX,sneakerpage.net
 DOMAIN-SUFFIX,sneakerskick.com
 DOMAIN-SUFFIX,sneakme.net
-DOMAIN-SUFFIX,snjulebu.com
 DOMAIN-SUFFIX,snk-corp.co.jp
 DOMAIN-SUFFIX,snkplaymore.info
 DOMAIN-SUFFIX,snow.me
@@ -27914,7 +27908,6 @@ DOMAIN-SUFFIX,usw.ac.uk
 DOMAIN-SUFFIX,utcreading.ac.uk
 DOMAIN-SUFFIX,utopianpal.com
 DOMAIN-SUFFIX,uu-gg.com
-DOMAIN-SUFFIX,uug22.com
 DOMAIN-SUFFIX,uug23.com
 DOMAIN-SUFFIX,uug25.com
 DOMAIN-SUFFIX,uug26.com
@@ -28969,7 +28962,6 @@ DOMAIN-SUFFIX,w-mt.co
 DOMAIN-SUFFIX,w-pool.com
 DOMAIN-SUFFIX,w.org
 DOMAIN-SUFFIX,w.wiki
-DOMAIN-SUFFIX,w0512.com
 DOMAIN-SUFFIX,w3.org
 DOMAIN-SUFFIX,w3schools.com
 DOMAIN-SUFFIX,w6un.com

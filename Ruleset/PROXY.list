@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31451
+# 规则统计: 31447
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -1479,6 +1479,7 @@ DOMAIN-SUFFIX,adult-home-videos.com
 DOMAIN-SUFFIX,adult-list.com
 DOMAIN-SUFFIX,adult-sex-games.com
 DOMAIN-SUFFIX,adult-web-site.net
+DOMAIN-SUFFIX,adult.contents.fc2.com
 DOMAIN-SUFFIX,adult.friendfinder.com
 DOMAIN-SUFFIX,adult.toonsearch.net
 DOMAIN-SUFFIX,adult3dcomics.com
@@ -7165,6 +7166,7 @@ DOMAIN-SUFFIX,coin2co.in
 DOMAIN-SUFFIX,coinalyze.net
 DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,coinbene.com
+DOMAIN-SUFFIX,coincarp.com
 DOMAIN-SUFFIX,coindesk.com
 DOMAIN-SUFFIX,coinegg.com
 DOMAIN-SUFFIX,coinex.com
@@ -9603,7 +9605,6 @@ DOMAIN-SUFFIX,emulefans.com
 DOMAIN-SUFFIX,emuparadise.me
 DOMAIN-SUFFIX,emwprep.ac.uk
 DOMAIN-SUFFIX,en-compass.ac.uk
-DOMAIN-SUFFIX,en.favotter.net
 DOMAIN-SUFFIX,en.hao123.com
 DOMAIN-SUFFIX,enablementadobe.com
 DOMAIN-SUFFIX,enanyang.my
@@ -10455,6 +10456,7 @@ DOMAIN-SUFFIX,fandom.com
 DOMAIN-SUFFIX,fanfox.net
 DOMAIN-SUFFIX,fangbinxing.com
 DOMAIN-SUFFIX,fangeming.com
+DOMAIN-SUFFIX,fangeming.comffvpn.com
 DOMAIN-SUFFIX,fangeqiang.com
 DOMAIN-SUFFIX,fanglizhi.info
 DOMAIN-SUFFIX,fangmincn.org
@@ -10581,7 +10583,6 @@ DOMAIN-SUFFIX,favelaporno.com
 DOMAIN-SUFFIX,favepornmovs.com
 DOMAIN-SUFFIX,favepornvids.com
 DOMAIN-SUFFIX,favjapaneseporn.com
-DOMAIN-SUFFIX,favstar.fm
 DOMAIN-SUFFIX,fawanghuihui.org
 DOMAIN-SUFFIX,faycbok.com
 DOMAIN-SUFFIX,faydao.com
@@ -10625,9 +10626,6 @@ DOMAIN-SUFFIX,fbthirdpartypixel.org
 DOMAIN-SUFFIX,fburl.com
 DOMAIN-SUFFIX,fbwat.ch
 DOMAIN-SUFFIX,fbworkmail.com
-DOMAIN-SUFFIX,fc2.com
-DOMAIN-SUFFIX,fc2blog.net
-DOMAIN-SUFFIX,fc2china.com
 DOMAIN-SUFFIX,fc2cn.com
 DOMAIN-SUFFIX,fc2ppv.tv
 DOMAIN-SUFFIX,fca.ac.uk
@@ -10643,7 +10641,6 @@ DOMAIN-SUFFIX,fcww0.com
 DOMAIN-SUFFIX,fdacebook.info
 DOMAIN-SUFFIX,fdc64.de
 DOMAIN-SUFFIX,fdc64.org
-DOMAIN-SUFFIX,fdc89.jp
 DOMAIN-SUFFIX,fdf.ac.uk
 DOMAIN-SUFFIX,fdiintelligence.com
 DOMAIN-SUFFIX,fdroid.org
@@ -10718,7 +10715,6 @@ DOMAIN-SUFFIX,ff.im
 DOMAIN-SUFFIX,ffacebook.com
 DOMAIN-SUFFIX,ffc.ac.uk
 DOMAIN-SUFFIX,fffdm.com
-DOMAIN-SUFFIX,fffff.at
 DOMAIN-SUFFIX,fffucked.com
 DOMAIN-SUFFIX,fflick.com
 DOMAIN-SUFFIX,fflm.ac.uk
@@ -28534,7 +28530,7 @@ DOMAIN-SUFFIX,video-one.com
 DOMAIN-SUFFIX,video.aol.ca
 DOMAIN-SUFFIX,video.aol.co.uk
 DOMAIN-SUFFIX,video.aol.com
-DOMAIN-SUFFIX,video.fdbox.com
+DOMAIN-SUFFIX,video.fc2.com
 DOMAIN-SUFFIX,video01.org
 DOMAIN-SUFFIX,videoactive.ac.uk
 DOMAIN-SUFFIX,videobam.com
