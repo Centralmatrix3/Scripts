@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31377
+# 规则统计: 31378
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -6631,6 +6631,7 @@ DOMAIN-SUFFIX,coin2co.in
 DOMAIN-SUFFIX,coinalyze.net
 DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,coinbene.com
+DOMAIN-SUFFIX,coincarp.com
 DOMAIN-SUFFIX,coincheck.com
 DOMAIN-SUFFIX,coindesk.com
 DOMAIN-SUFFIX,coinegg.com
