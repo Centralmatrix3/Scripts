@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31378
+# 规则统计: 31379
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -1977,6 +1977,7 @@ DOMAIN-SUFFIX,apollocrewe.ac.uk
 DOMAIN-SUFFIX,apornotube.net
 DOMAIN-SUFFIX,aporntv.com
 DOMAIN-SUFFIX,apornvideo.com
+DOMAIN-SUFFIX,app-analytics-services.com
 DOMAIN-SUFFIX,app-dynamics.com
 DOMAIN-SUFFIX,app-measurement-cn.com
 DOMAIN-SUFFIX,app-measurement.net

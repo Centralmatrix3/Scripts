@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31448
+# 规则统计: 31465
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -1446,6 +1446,7 @@ DOMAIN-SUFFIX,adobesign.com
 DOMAIN-SUFFIX,adobesigncdn.com
 DOMAIN-SUFFIX,adobespark.com
 DOMAIN-SUFFIX,adobess.com
+DOMAIN-SUFFIX,adobestats.io
 DOMAIN-SUFFIX,adobestock.com
 DOMAIN-SUFFIX,adobetag.com
 DOMAIN-SUFFIX,adobetarget.com
@@ -4204,6 +4205,7 @@ DOMAIN-SUFFIX,bestpremiumpornsite.com
 DOMAIN-SUFFIX,bestrecipes.com.au
 DOMAIN-SUFFIX,bestsexcam.com
 DOMAIN-SUFFIX,bestshoesale2014.net
+DOMAIN-SUFFIX,bestsrv.de
 DOMAIN-SUFFIX,besttitstube.com
 DOMAIN-SUFFIX,bestvpn.com
 DOMAIN-SUFFIX,bestvpnanalysis.com
@@ -12279,6 +12281,7 @@ DOMAIN-SUFFIX,goodreaders.com
 DOMAIN-SUFFIX,goodreads.com
 DOMAIN-SUFFIX,goodsdunk.net
 DOMAIN-SUFFIX,goodsexporn.org
+DOMAIN-SUFFIX,goodsrv.de
 DOMAIN-SUFFIX,goodtv.com.tw
 DOMAIN-SUFFIX,goodtv.tv
 DOMAIN-SUFFIX,goofind.com
@@ -12904,6 +12907,7 @@ DOMAIN-SUFFIX,happymeal.co.nz
 DOMAIN-SUFFIX,happymeal.com
 DOMAIN-SUFFIX,happymeal.com.au
 DOMAIN-SUFFIX,happymealdigital.com
+DOMAIN-SUFFIX,happysrv.de
 DOMAIN-SUFFIX,haproxy.org
 DOMAIN-SUFFIX,hardcore-sex-filme.com
 DOMAIN-SUFFIX,hardcoregayblog.com
@@ -13380,6 +13384,7 @@ DOMAIN-SUFFIX,heyuedi.com
 DOMAIN-SUFFIX,heywire.com
 DOMAIN-SUFFIX,heyzo.com
 DOMAIN-SUFFIX,hf-iphone.com
+DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hfaes.ac.uk
 DOMAIN-SUFFIX,hfals.ac.uk
 DOMAIN-SUFFIX,hfma.ac.uk
@@ -13741,6 +13746,7 @@ DOMAIN-SUFFIX,hotsexvideo.mobi
 DOMAIN-SUFFIX,hotsexydolls.com
 DOMAIN-SUFFIX,hotshame.com
 DOMAIN-SUFFIX,hotspotshield.com
+DOMAIN-SUFFIX,hotsrv.de
 DOMAIN-SUFFIX,hotstar-cdn.net
 DOMAIN-SUFFIX,hotstar-labs.com
 DOMAIN-SUFFIX,hotstar.com
@@ -15430,6 +15436,8 @@ DOMAIN-SUFFIX,italiatibet.org
 DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,itcanwait.com
 DOMAIN-SUFFIX,itcfonts.com
+DOMAIN-SUFFIX,itch.io
+DOMAIN-SUFFIX,itch.zone
 DOMAIN-SUFFIX,itchen.ac.uk
 DOMAIN-SUFFIX,iteach.ac.uk
 DOMAIN-SUFFIX,itec.ac.uk
@@ -17963,6 +17971,7 @@ DOMAIN-SUFFIX,megaporno.com.br
 DOMAIN-SUFFIX,megapornpics.com
 DOMAIN-SUFFIX,megaproxy.com
 DOMAIN-SUFFIX,megarotic.com
+DOMAIN-SUFFIX,megasrv.de
 DOMAIN-SUFFIX,megatitsminka.com
 DOMAIN-SUFFIX,megavideo.com
 DOMAIN-SUFFIX,meguk.ac.uk
@@ -19981,6 +19990,7 @@ DOMAIN-SUFFIX,nicd.ac.uk
 DOMAIN-SUFFIX,niceanimegames.com
 DOMAIN-SUFFIX,niceporn.tv
 DOMAIN-SUFFIX,nicer.ac.uk
+DOMAIN-SUFFIX,nicesrv.de
 DOMAIN-SUFFIX,nicesshop.net
 DOMAIN-SUFFIX,nichepornsite.com
 DOMAIN-SUFFIX,nichepornsites.com
@@ -21016,6 +21026,7 @@ DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,opendemocracy.net
 DOMAIN-SUFFIX,opendn.xyz
+DOMAIN-SUFFIX,opendns.com
 DOMAIN-SUFFIX,opendroneid.org
 DOMAIN-SUFFIX,opened.ac.uk
 DOMAIN-SUFFIX,openengineeringlaboratory.ac.uk
@@ -21031,6 +21042,7 @@ DOMAIN-SUFFIX,openlibrary.org
 DOMAIN-SUFFIX,openmaps.org
 DOMAIN-SUFFIX,openreality.com
 DOMAIN-SUFFIX,openresty.org
+DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,opensciencelab.ac.uk
 DOMAIN-SUFFIX,opensciencelaboratory.ac.uk
 DOMAIN-SUFFIX,opensea.io
@@ -22531,6 +22543,7 @@ DOMAIN-SUFFIX,powerphoto.org
 DOMAIN-SUFFIX,powershape-e.com
 DOMAIN-SUFFIX,powershape.com
 DOMAIN-SUFFIX,powershellgallery.com
+DOMAIN-SUFFIX,powersrv.de
 DOMAIN-SUFFIX,powersunitedvr.com
 DOMAIN-SUFFIX,powia.ac.uk
 DOMAIN-SUFFIX,pp-soc.com
@@ -22960,6 +22973,7 @@ DOMAIN-SUFFIX,quicinc.com
 DOMAIN-SUFFIX,quickconnect.to
 DOMAIN-SUFFIX,quickiepage.com
 DOMAIN-SUFFIX,quickoffice.com
+DOMAIN-SUFFIX,quicksrv.de
 DOMAIN-SUFFIX,quicktake.video
 DOMAIN-SUFFIX,quicktime.cc
 DOMAIN-SUFFIX,quicktime.com
@@ -27937,12 +27951,14 @@ DOMAIN-SUFFIX,ultimaforever.com
 DOMAIN-SUFFIX,ultimaonline.com
 DOMAIN-SUFFIX,ultradonkey.com
 DOMAIN-SUFFIX,ultralab.ac.uk
+DOMAIN-SUFFIX,ultrasrv.de
 DOMAIN-SUFFIX,ultrasurf.us
 DOMAIN-SUFFIX,ultravpn.com
 DOMAIN-SUFFIX,ultravpn.fr
 DOMAIN-SUFFIX,ultraxs.com
 DOMAIN-SUFFIX,umagazine.com.hk
 DOMAIN-SUFFIX,umass.edu
+DOMAIN-SUFFIX,umbrella.com
 DOMAIN-SUFFIX,umds.ac.uk
 DOMAIN-SUFFIX,umich.edu
 DOMAIN-SUFFIX,umis.ac.uk
@@ -29607,6 +29623,7 @@ DOMAIN-SUFFIX,whystudyenglish.ac.uk
 DOMAIN-SUFFIX,whystudylanguages.ac.uk
 DOMAIN-SUFFIX,whystudymaterials.ac.uk
 DOMAIN-SUFFIX,whyx.org
+DOMAIN-SUFFIX,wi-fi.org
 DOMAIN-SUFFIX,wias.ac.uk
 DOMAIN-SUFFIX,wicn.ac.uk
 DOMAIN-SUFFIX,widevine.com
