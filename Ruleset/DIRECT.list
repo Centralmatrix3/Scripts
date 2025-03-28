@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 102190
+# 规则统计: 102192
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -110,6 +110,7 @@ DOMAIN,content.googleadapis.com
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,crl-lb.apple.com.akadns.net
 DOMAIN,crl.apple.com
+DOMAIN,crl.globalsign.net
 DOMAIN,crl.pki.goog
 DOMAIN,crls.pki.goog
 DOMAIN,csi.gstatic.com
@@ -506,6 +507,7 @@ DOMAIN,www.apple.com
 DOMAIN,www.apple.com.edgekey.net
 DOMAIN,www.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,www.destinationurl.com
+DOMAIN,www.entrust.cn
 DOMAIN,www.googleadapis.com
 DOMAIN,www.gstatic.com
 DOMAIN,www.libvideo.com

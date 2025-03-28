@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31465
+# 规则统计: 31491
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -40,6 +40,7 @@ DOMAIN,aod-pod-uk-live.akamaized.net
 DOMAIN,api-p.videomarket.jp
 DOMAIN,api.viu.now.com
 DOMAIN,apl-hamivideo.cdn.hinet.net
+DOMAIN,apple-tv-plus-press.apple.com
 DOMAIN,apple.com.akadns.net
 DOMAIN,appleworldwidedeveloper.hb-api.omtrdc.net
 DOMAIN,appleworldwidedeveloper.sc.omtrdc.net
@@ -182,6 +183,8 @@ DOMAIN,heads4-ak-spotify-com.akamaized.net
 DOMAIN,himalaya-exchange.zendesk.com
 DOMAIN,hl2rcv.adobe.com
 DOMAIN,hlrcv.stage.adobe.com
+DOMAIN,hls-amt.itunes.apple.com
+DOMAIN,hls.itunes.apple.com
 DOMAIN,homebrew.bintray.com
 DOMAIN,hpefonts.s3.amazonaws.com
 DOMAIN,hpstore.corpmerchandise.com
@@ -223,6 +226,7 @@ DOMAIN,netflix.com.edgesuite.net
 DOMAIN,notary-submissions-prod.s3-accelerate.amazonaws.com
 DOMAIN,notary-submissions-prod.s3.us-west-2.amazonaws.com
 DOMAIN,notify.ppy.sh
+DOMAIN,np-edge.itunes.apple.com
 DOMAIN,ntp-b.nist.gov
 DOMAIN,ntp-c.colorado.edu
 DOMAIN,ntp-d.nist.gov
@@ -253,6 +257,7 @@ DOMAIN,p16-tiktokcdn-com.akamaized.net
 DOMAIN,paper-attachments.s3.amazonaws.com
 DOMAIN,pchomeonline.com.tw
 DOMAIN,pki.google.com
+DOMAIN,play-edge.itunes.apple.com
 DOMAIN,poshtestgallery.cloudapp.net
 DOMAIN,pplx-res.cloudinary.com
 DOMAIN,practivate.adobe
@@ -408,6 +413,7 @@ DOMAIN,time4.facebook.com
 DOMAIN,time4.google.com
 DOMAIN,time5.facebook.com
 DOMAIN,tmdb-image-prod.b-cdn.net
+DOMAIN,tv.applemusic.com
 DOMAIN,tvcastlive-hamivideo.cdn.hinet.net
 DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com
 DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com
@@ -419,6 +425,7 @@ DOMAIN,ut1-wwv.nist.gov
 DOMAIN,utcnist.colorado.edu
 DOMAIN,utcnist2.colorado.edu
 DOMAIN,utcnist3.colorado.edu
+DOMAIN,uts-api.itunes.apple.com
 DOMAIN,ve-dash-uk-live.akamaized.net
 DOMAIN,ve-uhd-push-uk-live.akamaized.net
 DOMAIN,venmo.s3.amazonaws.com
@@ -731,6 +738,9 @@ DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,1mobile.com
 DOMAIN-SUFFIX,1mobile.tw
 DOMAIN-SUFFIX,1monsterbeatsbydreus.com
+DOMAIN-SUFFIX,1password.ca
+DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1password.eu
 DOMAIN-SUFFIX,1point3acres.com
 DOMAIN-SUFFIX,1pondo.tv
 DOMAIN-SUFFIX,1pornlist.com
@@ -1165,6 +1175,7 @@ DOMAIN-SUFFIX,aabb1802.com
 DOMAIN-SUFFIX,aabb1803.com
 DOMAIN-SUFFIX,aacrjournals.org
 DOMAIN-SUFFIX,aadmv.com
+DOMAIN-SUFFIX,aadrm.com
 DOMAIN-SUFFIX,aaex.uk
 DOMAIN-SUFFIX,aalah.me
 DOMAIN-SUFFIX,aamacau.com
@@ -1605,6 +1616,7 @@ DOMAIN-SUFFIX,agefans.com
 DOMAIN-SUFFIX,agemys.org
 DOMAIN-SUFFIX,agendaweek.com
 DOMAIN-SUFFIX,agenet.ac.uk
+DOMAIN-SUFFIX,agilebits.com
 DOMAIN-SUFFIX,agnesb.fr
 DOMAIN-SUFFIX,agocg.ac.uk
 DOMAIN-SUFFIX,agoogleaday.com
@@ -8243,7 +8255,9 @@ DOMAIN-SUFFIX,difangwenge.org
 DOMAIN-SUFFIX,dify.ai
 DOMAIN-SUFFIX,digicert-cn.com
 DOMAIN-SUFFIX,digicert-validation.com
+DOMAIN-SUFFIX,digicert.co.jp
 DOMAIN-SUFFIX,digicert.com
+DOMAIN-SUFFIX,digicert.eu
 DOMAIN-SUFFIX,digiland.tw
 DOMAIN-SUFFIX,digimap.ac.uk
 DOMAIN-SUFFIX,digisfera.com
@@ -9698,6 +9712,8 @@ DOMAIN-SUFFIX,enterprisebydesign.ac.uk
 DOMAIN-SUFFIX,enterprisepaging.com
 DOMAIN-SUFFIX,enterpriseresearch.ac.uk
 DOMAIN-SUFFIX,enterprisessl.com
+DOMAIN-SUFFIX,entrust.cn
+DOMAIN-SUFFIX,entrust.com
 DOMAIN-SUFFIX,entrust.net
 DOMAIN-SUFFIX,entrustdatacard.com
 DOMAIN-SUFFIX,enveast.ac.uk
@@ -15518,6 +15534,7 @@ DOMAIN-SUFFIX,iwork.wang
 DOMAIN-SUFFIX,iwyn138.com
 DOMAIN-SUFFIX,ixnxx.tv
 DOMAIN-SUFFIX,ixquick.com
+DOMAIN-SUFFIX,ixsystems.com
 DOMAIN-SUFFIX,ixxx.com
 DOMAIN-SUFFIX,iyalc.com
 DOMAIN-SUFFIX,iyf.tv
@@ -18169,6 +18186,7 @@ DOMAIN-SUFFIX,microsoftadvertising.com
 DOMAIN-SUFFIX,microsoftadvertisingregionalawards.com
 DOMAIN-SUFFIX,microsoftaffiliates.com
 DOMAIN-SUFFIX,microsoftapp.net
+DOMAIN-SUFFIX,microsoftazuread-sso.com
 DOMAIN-SUFFIX,microsoftazuresponsorships.com
 DOMAIN-SUFFIX,microsoftcloud.com
 DOMAIN-SUFFIX,microsoftcloudsummit.com
@@ -21262,6 +21280,9 @@ DOMAIN-SUFFIX,ozchinese.com
 DOMAIN-SUFFIX,ozeex.com
 DOMAIN-SUFFIX,ozodi.org
 DOMAIN-SUFFIX,ozodlik.org
+DOMAIN-SUFFIX,ozon.ru
+DOMAIN-SUFFIX,ozone.ru
+DOMAIN-SUFFIX,ozonusercontent.com
 DOMAIN-SUFFIX,ozvoice.org
 DOMAIN-SUFFIX,ozxw.com
 DOMAIN-SUFFIX,ozyoyo.com
@@ -21991,6 +22012,8 @@ DOMAIN-SUFFIX,playbydurex.com
 DOMAIN-SUFFIX,playcover.io
 DOMAIN-SUFFIX,player.fm
 DOMAIN-SUFFIX,playerjs.io
+DOMAIN-SUFFIX,playfab.com
+DOMAIN-SUFFIX,playfabapi.com
 DOMAIN-SUFFIX,playforceone.com
 DOMAIN-SUFFIX,playhearthstone.com
 DOMAIN-SUFFIX,playmation.com
@@ -26222,6 +26245,7 @@ DOMAIN-SUFFIX,syfor.click
 DOMAIN-SUFFIX,syhacked.com
 DOMAIN-SUFFIX,sylfoundation.org
 DOMAIN-SUFFIX,symantec.com
+DOMAIN-SUFFIX,symauth.com
 DOMAIN-SUFFIX,symcb.com
 DOMAIN-SUFFIX,symcd.com
 DOMAIN-SUFFIX,symonds.ac.uk
@@ -27347,6 +27371,7 @@ DOMAIN-SUFFIX,truebuddha-md.org
 DOMAIN-SUFFIX,truedepth3d.com
 DOMAIN-SUFFIX,truedwg.com
 DOMAIN-SUFFIX,truefi.io
+DOMAIN-SUFFIX,truenas.com
 DOMAIN-SUFFIX,trulyergonomic.com
 DOMAIN-SUFFIX,trunest.com
 DOMAIN-SUFFIX,truro-penwith.ac.uk
@@ -28746,6 +28771,7 @@ DOMAIN-SUFFIX,visa.tc
 DOMAIN-SUFFIX,visabank.org
 DOMAIN-SUFFIX,visabg.com
 DOMAIN-SUFFIX,visabusinessinsights.com
+DOMAIN-SUFFIX,visaca.com
 DOMAIN-SUFFIX,visacarddesignlab.com
 DOMAIN-SUFFIX,visacards.com
 DOMAIN-SUFFIX,visacheckout.net
