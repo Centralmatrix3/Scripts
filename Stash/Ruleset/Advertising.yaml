@@ -1,5 +1,5 @@
 # 规则名称: Advertising
-# 规则统计: 114224
+# 规则统计: 114233
 
 payload:
   - '+.0.101tubeporn.com'
@@ -9471,6 +9471,7 @@ payload:
   - '+.ainu.intel.la'
   - '+.ainu.intel.pl'
   - '+.ainuftou.net'
+  - '+.aiolkyocbiwevv.com'
   - '+.aipaistop.insulinsolutionhub.com'
   - '+.aipaistop.passionatelifeinsights.com'
   - '+.aipaistop.urogymansclinic.com'
@@ -10383,6 +10384,7 @@ payload:
   - '+.an.constantcontact.com'
   - '+.an.dongphim.net'
   - '+.an.facebook.com'
+  - '+.an.mail.ru'
   - '+.an.milb.com'
   - '+.an.mlb.com'
   - '+.an.reflektion.com'
@@ -39765,6 +39767,7 @@ payload:
   - '+.giojhm.finya.ch'
   - '+.giojhm.finya.de'
   - '+.gipeucn.icu'
+  - '+.giphaudoq.com'
   - '+.gipostart-1.co'
   - '+.gipsiesthyrsi.com'
   - '+.gipsyhit.com'
@@ -40047,6 +40050,7 @@ payload:
   - '+.glolsoarti.net'
   - '+.glomtipagrou.xyz'
   - '+.gloodsie.com'
+  - '+.gloofeeghiby.net'
   - '+.glooftezoad.net'
   - '+.gloogruk.com'
   - '+.gloohozedoa.xyz'
@@ -45369,6 +45373,7 @@ payload:
   - '+.iatoex.kahve.com'
   - '+.iaudienc.com'
   - '+.iaukmlastitytyeast.com'
+  - '+.iawbcdohtprwaxg.com'
   - '+.iazwzp.lyst.com'
   - '+.ib-ibi.com'
   - '+.ibaglhc.icu'
@@ -73386,6 +73391,7 @@ payload:
   - '+.postthieve.com'
   - '+.postureunlikeagile.com'
   - '+.potailvine.com'
+  - '+.potatoesejection.com'
   - '+.potawe.com'
   - '+.potedraihouxo.xyz'
   - '+.potencyissuedflashlight.com'
@@ -74569,6 +74575,7 @@ payload:
   - '+.ptoorauptoud.net'
   - '+.ptootsailrou.net'
   - '+.ptootseegle.net'
+  - '+.ptootutseh.net'
   - '+.ptoriq.kristall-shop.ru'
   - '+.ptouckop.xyz'
   - '+.ptougeegnep.net'
@@ -97992,6 +97999,7 @@ payload:
   - '+.toforebhut.top'
   - '+.togemantedious.top'
   - '+.togenron.com'
+  - '+.togerspas.com'
   - '+.togetherballroom.com'
   - '+.toggle.qq.com'
   - '+.toggledmouton.com'
@@ -106692,6 +106700,7 @@ payload:
   - '+.vqjacf.mauriziocollectionstore.com'
   - '+.vqlwoy.xyz'
   - '+.vqonjcnsl.com'
+  - '+.vqoqlebqqammj.top'
   - '+.vqp3.madeindesign.co.uk'
   - '+.vqrozzojjlwbz.top'
   - '+.vqwvlp.onlinekoupelny.cz'
