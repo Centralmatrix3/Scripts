@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31491
+# 规则统计: 31490
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -275,7 +275,6 @@ DOMAIN,publicca.googleapis.com
 DOMAIN,push-apple.com.akadns.net
 DOMAIN,pvr-hamivideo.cdn.hinet.net
 DOMAIN,qualcomm.sc.omtrdc.net
-DOMAIN,reddit.map.fastly.net
 DOMAIN,rink.hockeyapp.net
 DOMAIN,rtm.tnt-ea.com
 DOMAIN,sa78gs.wpc.edgecastcdn.net

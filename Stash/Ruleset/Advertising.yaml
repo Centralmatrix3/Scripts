@@ -1,5 +1,5 @@
 # 规则名称: Advertising
-# 规则统计: 112623
+# 规则统计: 112627
 
 payload:
   - '+.0.101tubeporn.com'
@@ -16116,6 +16116,7 @@ payload:
   - '+.beqbox.com'
   - '+.beqcoabc.com'
   - '+.beqioy.promessedefleurs.com'
+  - '+.beqnnobwt.com'
   - '+.beqvol.nabbi.sk'
   - '+.berchchisel.com'
   - '+.bereaveconsciousscuffle.com'
@@ -31256,6 +31257,7 @@ payload:
   - '+.drmcmm.baidu.cn'
   - '+.drmcmm.baidu.com'
   - '+.drnsvp.starcasino.be'
+  - '+.drohlaneh.com'
   - '+.dronediscussed.com'
   - '+.droopcomate.top'
   - '+.droopingfur.com'
@@ -49354,6 +49356,7 @@ payload:
   - '+.jouteetu.net'
   - '+.jouwaikekaivep.net'
   - '+.jouwhoanepoob.xyz'
+  - '+.jovcbp.top'
   - '+.jovqyymemwezy.top'
   - '+.jovslw.gardenmarkt.de'
   - '+.jowingtykhana.click'
@@ -50955,6 +50958,7 @@ payload:
   - '+.kspmaaiayadg.com'
   - '+.kspotson.de'
   - '+.ksqfwxu.cn'
+  - '+.ksro.cn'
   - '+.ksrtmgoym.com'
   - '+.ksseot.europcar.pt'
   - '+.kssolo.com'
