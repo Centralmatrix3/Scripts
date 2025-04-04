@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31408
+# 规则统计: 31409
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -5113,6 +5113,7 @@ DOMAIN-SUFFIX,btsynckeys.com
 DOMAIN-SUFFIX,btt804.com
 DOMAIN-SUFFIX,btt904.com
 DOMAIN-SUFFIX,bttzyw.com
+DOMAIN-SUFFIX,bttzyw.net
 DOMAIN-SUFFIX,btwrdn.com
 DOMAIN-SUFFIX,buba.ac.uk
 DOMAIN-SUFFIX,bubbaporn.com
