@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31408
+# 规则统计: 31409
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -20667,6 +20667,7 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,opendemocracy.net
+DOMAIN-SUFFIX,opendesktop.org
 DOMAIN-SUFFIX,opendn.xyz
 DOMAIN-SUFFIX,opendns.com
 DOMAIN-SUFFIX,opendroneid.org

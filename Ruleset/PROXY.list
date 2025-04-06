@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31497
+# 规则统计: 31498
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -8,6 +8,7 @@ DOMAIN,3dns-4.adobe.com
 DOMAIN,3dns-5.adobe.com
 DOMAIN,3dns.adobe.com
 DOMAIN,a.ppy.sh
+DOMAIN,a4e8s8k3.map2.ssl.hwcdn.net
 DOMAIN,abematv.akamaized.net
 DOMAIN,activate-sea.adobe.com
 DOMAIN,activate-sjc0.adobe.com
