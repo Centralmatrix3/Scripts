@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 30747
+# 规则统计: 30745
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -2055,7 +2055,6 @@ IP-CIDR,103.215.36.0/22,no-resolve
 IP-CIDR,103.215.44.0/22,no-resolve
 IP-CIDR,103.215.44.0/24,no-resolve
 IP-CIDR,103.215.48.0/22,no-resolve
-IP-CIDR,103.215.80.0/22,no-resolve
 IP-CIDR,103.216.108.0/22,no-resolve
 IP-CIDR,103.216.12.0/22,no-resolve
 IP-CIDR,103.216.136.0/22,no-resolve
@@ -3074,7 +3073,6 @@ IP-CIDR,103.30.216.0/22,no-resolve
 IP-CIDR,103.30.228.0/22,no-resolve
 IP-CIDR,103.30.232.0/21,no-resolve
 IP-CIDR,103.30.236.0/22,no-resolve
-IP-CIDR,103.30.40.0/22,no-resolve
 IP-CIDR,103.30.96.0/22,no-resolve
 IP-CIDR,103.31.0.0/22,no-resolve
 IP-CIDR,103.31.148.0/22,no-resolve
@@ -4868,7 +4866,6 @@ IP-CIDR,103.96.212.0/22,no-resolve
 IP-CIDR,103.96.214.0/23,no-resolve
 IP-CIDR,103.96.216.0/22,no-resolve
 IP-CIDR,103.96.224.0/23,no-resolve
-IP-CIDR,103.96.72.0/22,no-resolve
 IP-CIDR,103.96.8.0/22,no-resolve
 IP-CIDR,103.96.80.0/22,no-resolve
 IP-CIDR,103.97.112.0/21,no-resolve
@@ -9325,6 +9322,7 @@ IP-CIDR,156.109.34.3/32,no-resolve
 IP-CIDR,156.109.34.4/30,no-resolve
 IP-CIDR,156.154.62.0/23,no-resolve
 IP-CIDR,156.224.128.0/24,no-resolve
+IP-CIDR,156.224.139.0/24,no-resolve
 IP-CIDR,156.224.168.0/24,no-resolve
 IP-CIDR,156.224.176.0/24,no-resolve
 IP-CIDR,156.224.184.0/24,no-resolve
