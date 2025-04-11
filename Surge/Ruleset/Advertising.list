@@ -1,5 +1,5 @@
 # 规则名称: Advertising
-# 规则统计: 113742
+# 规则统计: 113753
 
 DOMAIN-SUFFIX,0.101tubeporn.com
 DOMAIN-SUFFIX,0.clicks4me.fwh.is
@@ -30915,6 +30915,7 @@ DOMAIN-SUFFIX,dnrf0215.com
 DOMAIN-SUFFIX,dnrpnl.yves-rocher.no
 DOMAIN-SUFFIX,dns-analytics.com
 DOMAIN-SUFFIX,dns-clientinfo.cbsivideo.com
+DOMAIN-SUFFIX,dns-clientinfo.vtg.paramount.tech
 DOMAIN-SUFFIX,dns-upload.com
 DOMAIN-SUFFIX,dns.jd.com
 DOMAIN-SUFFIX,dns.qiyipic.iqiyi.com
@@ -34716,6 +34717,7 @@ DOMAIN-SUFFIX,euchresgryllus.com
 DOMAIN-SUFFIX,euclid.kuula.co
 DOMAIN-SUFFIX,euconicungaro.top
 DOMAIN-SUFFIX,eucosiaepeiric.com
+DOMAIN-SUFFIX,eudoraz.com
 DOMAIN-SUFFIX,eudoxia-myr.com
 DOMAIN-SUFFIX,eudstudio.com
 DOMAIN-SUFFIX,eufunding.ukri.org
@@ -40856,6 +40858,7 @@ DOMAIN-SUFFIX,goggle.com
 DOMAIN-SUFFIX,gogglebox26.fun
 DOMAIN-SUFFIX,gogglemessenger.com
 DOMAIN-SUFFIX,gogiworld.com
+DOMAIN-SUFFIX,goglle.com
 DOMAIN-SUFFIX,gogord.com
 DOMAIN-SUFFIX,gohere.pl
 DOMAIN-SUFFIX,goikbnjksdf.com
@@ -45160,6 +45163,7 @@ DOMAIN-SUFFIX,idescargarapk.com
 DOMAIN-SUFFIX,idg1.idgarages.com
 DOMAIN-SUFFIX,idgbgl.sloggi.com
 DOMAIN-SUFFIX,idgptg.esm-computer.de
+DOMAIN-SUFFIX,idhaiafq.com
 DOMAIN-SUFFIX,idiafix.com
 DOMAIN-SUFFIX,idianw.warmteservice.nl
 DOMAIN-SUFFIX,idickeo.top
@@ -49397,6 +49401,7 @@ DOMAIN-SUFFIX,jmcnwr.bricoprive.com
 DOMAIN-SUFFIX,jmesxbe.icu
 DOMAIN-SUFFIX,jmfgxq.vitalsleep.com
 DOMAIN-SUFFIX,jmgehn.cn
+DOMAIN-SUFFIX,jmif.cn
 DOMAIN-SUFFIX,jmipzsn.icu
 DOMAIN-SUFFIX,jmixgqcfcukm.xyz
 DOMAIN-SUFFIX,jmopproojsc.xyz
@@ -63553,7 +63558,10 @@ DOMAIN-SUFFIX,monitor.azure.com
 DOMAIN-SUFFIX,monitor.channel4.com
 DOMAIN-SUFFIX,monitor.ebay.com
 DOMAIN-SUFFIX,monitor.music.qq.com
+DOMAIN-SUFFIX,monitor.ns1-d.viacomtech.net
+DOMAIN-SUFFIX,monitor.ns1-s.rspcdn.net
 DOMAIN-SUFFIX,monitor.qq.com
+DOMAIN-SUFFIX,monitor.r53.cbsivideo.com
 DOMAIN-SUFFIX,monitor.teko.vn
 DOMAIN-SUFFIX,monitoring-sdk.experimentation.intuit.com
 DOMAIN-SUFFIX,monitoring.iraiser.eu
@@ -66192,7 +66200,6 @@ DOMAIN-SUFFIX,noretia.com
 DOMAIN-SUFFIX,norex-app.paihealth.no
 DOMAIN-SUFFIX,norfotball.com
 DOMAIN-SUFFIX,norgefotball.com
-DOMAIN-SUFFIX,norgeshoes.com
 DOMAIN-SUFFIX,norma-external-collect.meizu.com
 DOMAIN-SUFFIX,normal-strength.com
 DOMAIN-SUFFIX,normalfloat.com
@@ -78558,6 +78565,7 @@ DOMAIN-SUFFIX,rvv.emol.com
 DOMAIN-SUFFIX,rvvmynjd.love
 DOMAIN-SUFFIX,rvvpbf.xcom-shop.ru
 DOMAIN-SUFFIX,rvxmlj.icu
+DOMAIN-SUFFIX,rvxo.cn
 DOMAIN-SUFFIX,rvxsvwqf.icu
 DOMAIN-SUFFIX,rvyjbwr.cn
 DOMAIN-SUFFIX,rvz9.destinia.co.ro
@@ -110715,6 +110723,7 @@ DOMAIN-SUFFIX,xdns.asia
 DOMAIN-SUFFIX,xdowl0adxd0wnloadx.com
 DOMAIN-SUFFIX,xdownloadright.com
 DOMAIN-SUFFIX,xdrig.com
+DOMAIN-SUFFIX,xdrlthfhikvgm.club
 DOMAIN-SUFFIX,xdsblm.ullapopken.de
 DOMAIN-SUFFIX,xdsgbkfkm.com
 DOMAIN-SUFFIX,xdvdrg.globalindustrial.com
@@ -111671,6 +111680,7 @@ DOMAIN-SUFFIX,xwsbxv.noracora.com
 DOMAIN-SUFFIX,xwseyi.yellohvillage.nl
 DOMAIN-SUFFIX,xwsqtngwa.xyz
 DOMAIN-SUFFIX,xwtldx.tuinmeubelshop.nl
+DOMAIN-SUFFIX,xwtylm.top
 DOMAIN-SUFFIX,xwvduxeiuv.com
 DOMAIN-SUFFIX,xwvnhe.cn
 DOMAIN-SUFFIX,xww360.com
@@ -113500,6 +113510,7 @@ DOMAIN-SUFFIX,zqcfns.evesaddiction.com
 DOMAIN-SUFFIX,zqdekzkqwvzcl.buzz
 DOMAIN-SUFFIX,zqeajs.basicgagu.com
 DOMAIN-SUFFIX,zqgixxp.icu
+DOMAIN-SUFFIX,zqifmyt.icu
 DOMAIN-SUFFIX,zqigbe.centpourcent-volet-roulant.fr
 DOMAIN-SUFFIX,zqjklzajmmwq.top
 DOMAIN-SUFFIX,zqjljeyqbejrb.top
