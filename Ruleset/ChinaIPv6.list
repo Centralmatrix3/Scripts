@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPv6
-# 规则统计: 2037
+# 规则统计: 2040
 
 IP-CIDR6,2001:250:2000::/35,no-resolve
 IP-CIDR6,2001:250:4000::/34,no-resolve
@@ -92,6 +92,7 @@ IP-CIDR6,2001:df5:2080::/48,no-resolve
 IP-CIDR6,2001:df5:2fc0::/48,no-resolve
 IP-CIDR6,2001:df5:44c0::/48,no-resolve
 IP-CIDR6,2001:df5:4740::/48,no-resolve
+IP-CIDR6,2001:df5:4cc0::/48,no-resolve
 IP-CIDR6,2001:df5:5f80::/48,no-resolve
 IP-CIDR6,2001:df5:7800::/48,no-resolve
 IP-CIDR6,2001:df6:100::/48,no-resolve
@@ -680,6 +681,7 @@ IP-CIDR6,2401:f7c0::/32,no-resolve
 IP-CIDR6,2401:f860::/32,no-resolve
 IP-CIDR6,2401:fa80::/32,no-resolve
 IP-CIDR6,2401:fb80::/32,no-resolve
+IP-CIDR6,2401:fc60::/32,no-resolve
 IP-CIDR6,2401:fc80::/32,no-resolve
 IP-CIDR6,2401:ffc0::/32,no-resolve
 IP-CIDR6,2402:1000::/32,no-resolve
@@ -2008,6 +2010,7 @@ IP-CIDR6,2408:6000::/24,no-resolve
 IP-CIDR6,2408:8000::/22,no-resolve
 IP-CIDR6,2408:8400::/22,no-resolve
 IP-CIDR6,2408:8800::/21,no-resolve
+IP-CIDR6,2409:1000::/20,no-resolve
 IP-CIDR6,2409:2000::/21,no-resolve
 IP-CIDR6,2409:6000::/20,no-resolve
 IP-CIDR6,2409:8000::/20,no-resolve
