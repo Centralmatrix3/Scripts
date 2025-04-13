@@ -16,6 +16,8 @@ http-response-jq ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\? 'delpaths
 
 http-response-jq ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\? 'delpaths([["vip_tip"]])'
 
+http-response-jq ^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=) 'del(.ad_info, .data.ad_info?, .query_info) | if (.data | type) == "array" then .data |= map(select(.target?.answer_type?// "" | tostring | contains("paid") | not)) else . end'
+
 [Map Local]
 ^https:\/\/api\.zhihu\.com\/(?:bazaar\/float_window|market\/popovers_v2) data-type=text data="{}" status-code=200
 
@@ -69,8 +71,6 @@ http-response-jq ^https:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\? 'delpaths
 知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/feed\/render\/tab\/config\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Zhihu/Zhihu.js,requires-body=true,timeout=30
 
 知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/next-(?:bff|data|render),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Zhihu/Zhihu.js,requires-body=true,timeout=30
-
-知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/questions\/\d+(?:\/answers|\/feeds|\?include=),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Zhihu/Zhihu.js,requires-body=true,timeout=30
 
 知乎 = type=http-response,pattern=^https:\/\/api\.zhihu\.com\/root\/tab,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Zhihu/Zhihu.js,requires-body=true,timeout=30
 
