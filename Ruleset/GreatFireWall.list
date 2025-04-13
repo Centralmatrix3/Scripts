@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6476
+# 规则统计: 6477
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -425,6 +425,7 @@ DOMAIN-SUFFIX,atlaspost.com
 DOMAIN-SUFFIX,atnext.com
 DOMAIN-SUFFIX,auctions.yahoo.co.jp
 DOMAIN-SUFFIX,audacy.com
+DOMAIN-SUFFIX,audiomack.com
 DOMAIN-SUFFIX,auntology.fandom.com
 DOMAIN-SUFFIX,auth.openai.com
 DOMAIN-SUFFIX,authorizeddns.net
@@ -1165,7 +1166,6 @@ DOMAIN-SUFFIX,cloakpoint.com
 DOMAIN-SUFFIX,cloud.dify.ai
 DOMAIN-SUFFIX,cloud.mail.ru
 DOMAIN-SUFFIX,cloudflare-ipfs.com
-DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,club1069.com
 DOMAIN-SUFFIX,clubhouseapi.com
@@ -4624,6 +4624,7 @@ DOMAIN-SUFFIX,s1s1s1.com
 DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com
 DOMAIN-SUFFIX,s3.amazonaws.com
+DOMAIN-SUFFIX,s3.eu-central-1.amazonaws.com
 DOMAIN-SUFFIX,s8forum.com
 DOMAIN-SUFFIX,sa.hao123.com
 DOMAIN-SUFFIX,sacks.com
