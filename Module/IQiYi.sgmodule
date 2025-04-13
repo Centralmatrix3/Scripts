@@ -57,4 +57,4 @@ http-response-jq ^https?:\/\/search\.video\.iqiyi\.com\/q\? 'delpaths([["data"]]
 ^https?:\/\/iface2\.iqiyi\.com\/views_pop\/3\.0\/pop_control\? data-type=text data="{}" status-code=200
 
 [MITM]
-hostname = %APPEND% cards.iqiyi.com, comment-card.iqiyi.com, kjp.cupid.iqiyi.com, t7z.cupid.iqiyi.com, iface2.iqiyi.com, search.video.iqiyi.com, act.vip.iqiyi.com
+hostname = %APPEND% -i.vip.iqiyi.com, *.iqiyi.com
