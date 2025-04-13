@@ -1,10 +1,20 @@
 # 规则名称: China
-# 规则统计: 612
+# 规则统计: 629
 
+DOMAIN,auth.wosms.cn
+DOMAIN,config.cmpassport.com
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
 DOMAIN,dota2.wmsj.cn
+DOMAIN,enrichgw.10010.com
+DOMAIN,hmrz.wo.cn
+DOMAIN,id.mail.wo.cn
+DOMAIN,log.cmpassport.com
+DOMAIN,log1.cmpassport.com
+DOMAIN,mdn.open.wo.cn
+DOMAIN,nishub1.10010.com
+DOMAIN,opencloud.wostore.cn
 DOMAIN,st.dl.bscstorage.net
 DOMAIN,st.dl.eccdnx.com
 DOMAIN,st.dl.pinyuncloud.com
@@ -13,6 +23,7 @@ DOMAIN,steampowered.com.8686c.com
 DOMAIN,steamstatic.com.8686c.com
 DOMAIN,wmsjsteam.com
 DOMAIN,xz.pphimalayanrt.com
+DOMAIN,ye.dun.163yun.com
 DOMAIN-SUFFIX,00cdn.com
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,115.com
@@ -83,6 +94,7 @@ DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,appsimg.com
 DOMAIN-SUFFIX,appvipshop.com
+DOMAIN-SUFFIX,auth.wo.cn
 DOMAIN-SUFFIX,autonavi.com
 DOMAIN-SUFFIX,b23.tv
 DOMAIN-SUFFIX,babytree.com
@@ -148,6 +160,7 @@ DOMAIN-SUFFIX,clouddn.com
 DOMAIN-SUFFIX,cloudxns.net
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmpassport.com
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,cn163.net
 DOMAIN-SUFFIX,cnblogs.com
@@ -179,6 +192,7 @@ DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,douyu.com
 DOMAIN-SUFFIX,douyu.tv
+DOMAIN-SUFFIX,douyucdn.cn
 DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,douyutv.com
 DOMAIN-SUFFIX,dpfile.com
@@ -251,6 +265,7 @@ DOMAIN-SUFFIX,huya.com
 DOMAIN-SUFFIX,hwccpc.com
 DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,iciba.com
+DOMAIN-SUFFIX,id6.me
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,iesdouyin.com
 DOMAIN-SUFFIX,ifeng.com
@@ -339,6 +354,7 @@ DOMAIN-SUFFIX,migucloud.com
 DOMAIN-SUFFIX,miguvideo.com
 DOMAIN-SUFFIX,miui.com
 DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,mob.com
 DOMAIN-SUFFIX,mobike.com
 DOMAIN-SUFFIX,mogu.com
 DOMAIN-SUFFIX,mogucdn.com
@@ -360,6 +376,7 @@ DOMAIN-SUFFIX,nuomi.com
 DOMAIN-SUFFIX,onedns.net
 DOMAIN-SUFFIX,oneplus.com
 DOMAIN-SUFFIX,onlinedown.net
+DOMAIN-SUFFIX,open.e.189.cn
 DOMAIN-SUFFIX,oppo.com
 DOMAIN-SUFFIX,oppoer.me
 DOMAIN-SUFFIX,oppomobile.com

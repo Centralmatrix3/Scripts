@@ -1,5 +1,5 @@
 # 规则名称: Privacy
-# 规则统计: 39380
+# 规则统计: 39382
 
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com
@@ -7263,6 +7263,7 @@ DOMAIN-SUFFIX,bhmzab.totes.com
 DOMAIN-SUFFIX,bhwjoa.cotopaxi.com
 DOMAIN-SUFFIX,bhwkju.vivo.com
 DOMAIN-SUFFIX,bhxemw.charleskeith.com
+DOMAIN-SUFFIX,bi-metrics.aramuz.net
 DOMAIN-SUFFIX,bi.banggood.com
 DOMAIN-SUFFIX,bi.concordesolutions.com
 DOMAIN-SUFFIX,bi.heyloyalty.com
@@ -36531,6 +36532,7 @@ DOMAIN-SUFFIX,tvppa.actonservice.com
 DOMAIN-SUFFIX,tvuaeb.taqi.com.br
 DOMAIN-SUFFIX,tw-go.experian.com
 DOMAIN-SUFFIX,tw.cx
+DOMAIN-SUFFIX,tw.reppublika.com
 DOMAIN-SUFFIX,tw.spiriteq.com
 DOMAIN-SUFFIX,twdhec.marioeletro.com
 DOMAIN-SUFFIX,tweetdeck.net.anwalt.de
