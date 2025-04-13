@@ -1,11 +1,11 @@
 #!name = 哔哩哔哩
 #!desc = 哔哩哔哩去广告
-#!author = RuCu6、Maasea、lodepuly
+#!author = Maasea、RuCu6、Maasea、lodepuly
 
 [Rule]
-URL-REGEX,^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH,REJECT-TINYGIF
+URL-REGEX,"^http:\/\/[\d\.]+:8000\/v1\/resource\/\w{32}-1-SPLASH",REJECT-TINYGIF
 
-URL-REGEX,^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH,REJECT-TINYGIF
+URL-REGEX,"^http:\/\/upos-sz-static\.bilivideo\.com\/ssaxcode\/\w{2}\/\w{2}\/\w{32}-1-SPLASH",REJECT-TINYGIF
 
 [Body Rewrite]
 http-response-jq ^https:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? 'delpaths([["data","common_equip"]])'
