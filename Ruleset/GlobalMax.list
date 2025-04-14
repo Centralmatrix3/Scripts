@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31534
+# 规则统计: 31535
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -2660,6 +2660,7 @@ DOMAIN-SUFFIX,audiencenetwork.com
 DOMAIN-SUFFIX,audiencenetwork.tv
 DOMAIN-SUFFIX,audiobeatsau.com
 DOMAIN-SUFFIX,audiobeatsbydre.com
+DOMAIN-SUFFIX,audiomack.com
 DOMAIN-SUFFIX,audiomonsterbeatsonline.com
 DOMAIN-SUFFIX,audionow.com
 DOMAIN-SUFFIX,aue.ac.uk

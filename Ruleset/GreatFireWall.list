@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6477
+# 规则统计: 6488
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -123,6 +123,7 @@ DOMAIN-SUFFIX,85cc.us
 DOMAIN-SUFFIX,85st.com
 DOMAIN-SUFFIX,881903.com
 DOMAIN-SUFFIX,888.com
+DOMAIN-SUFFIX,8888.google
 DOMAIN-SUFFIX,888poker.com
 DOMAIN-SUFFIX,89-64.org
 DOMAIN-SUFFIX,89.64.charter.constitutionalism.solutions
@@ -1165,6 +1166,7 @@ DOMAIN-SUFFIX,clipfish.de
 DOMAIN-SUFFIX,cloakpoint.com
 DOMAIN-SUFFIX,cloud.dify.ai
 DOMAIN-SUFFIX,cloud.mail.ru
+DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudfunctions.net
 DOMAIN-SUFFIX,club1069.com
@@ -1818,6 +1820,7 @@ DOMAIN-SUFFIX,fangong.org
 DOMAIN-SUFFIX,fangongheike.com
 DOMAIN-SUFFIX,fanhaodang.com
 DOMAIN-SUFFIX,fanhaolou.com
+DOMAIN-SUFFIX,fani.com
 DOMAIN-SUFFIX,fanqiang.network
 DOMAIN-SUFFIX,fanqiang.tk
 DOMAIN-SUFFIX,fanqiangdang.com
@@ -1837,6 +1840,7 @@ DOMAIN-SUFFIX,fastpic.ru
 DOMAIN-SUFFIX,fastssh.com
 DOMAIN-SUFFIX,faststone.org
 DOMAIN-SUFFIX,fatbtc.com
+DOMAIN-SUFFIX,favcomic.com
 DOMAIN-SUFFIX,fawanghuihui.org
 DOMAIN-SUFFIX,faydao.com
 DOMAIN-SUFFIX,faz.net
@@ -2566,6 +2570,7 @@ DOMAIN-SUFFIX,gyatsostudio.com
 DOMAIN-SUFFIX,gzm.tv
 DOMAIN-SUFFIX,gzone-anime.info
 DOMAIN-SUFFIX,h-china.org
+DOMAIN-SUFFIX,h-ciyuan.com
 DOMAIN-SUFFIX,h-moe.com
 DOMAIN-SUFFIX,h1n1china.org
 DOMAIN-SUFFIX,h528.com
@@ -3472,6 +3477,7 @@ DOMAIN-SUFFIX,manicur4ik.ru
 DOMAIN-SUFFIX,mansion.com
 DOMAIN-SUFFIX,mansionpoker.com
 DOMAIN-SUFFIX,manta.com
+DOMAIN-SUFFIX,manwa.me
 DOMAIN-SUFFIX,manyvoices.news
 DOMAIN-SUFFIX,maplew.com
 DOMAIN-SUFFIX,marc.info
@@ -4804,6 +4810,7 @@ DOMAIN-SUFFIX,simplecd.org
 DOMAIN-SUFFIX,simpleproductivityblog.com
 DOMAIN-SUFFIX,simpleswap.io
 DOMAIN-SUFFIX,sinchew.com.my
+DOMAIN-SUFFIX,sing-box.sagernet.org
 DOMAIN-SUFFIX,singaporepools.com.sg
 DOMAIN-SUFFIX,singfortibet.com
 DOMAIN-SUFFIX,singlelogin.se
@@ -4913,6 +4920,7 @@ DOMAIN-SUFFIX,sos.org
 DOMAIN-SUFFIX,sosad.fun
 DOMAIN-SUFFIX,sosreader.com
 DOMAIN-SUFFIX,sostibet.org
+DOMAIN-SUFFIX,sotwe.com
 DOMAIN-SUFFIX,soubory.com
 DOMAIN-SUFFIX,soul-plus.net
 DOMAIN-SUFFIX,soulcaliburhentai.net
@@ -4975,6 +4983,7 @@ DOMAIN-SUFFIX,ssglobal.me
 DOMAIN-SUFFIX,ssh91.com
 DOMAIN-SUFFIX,ssl.webpack.de
 DOMAIN-SUFFIX,ssl443.org
+DOMAIN-SUFFIX,ssm.fun
 DOMAIN-SUFFIX,sspanel.net
 DOMAIN-SUFFIX,sspro.ml
 DOMAIN-SUFFIX,ssr.tools
@@ -5270,6 +5279,7 @@ DOMAIN-SUFFIX,thisav.com
 DOMAIN-SUFFIX,thlib.org
 DOMAIN-SUFFIX,thomasbernhard.org
 DOMAIN-SUFFIX,thongdreams.com
+DOMAIN-SUFFIX,thotsbay.tv
 DOMAIN-SUFFIX,threadreaderapp.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,threatchaos.com
@@ -5767,6 +5777,7 @@ DOMAIN-SUFFIX,uygur.fc2web.com
 DOMAIN-SUFFIX,uygur.org
 DOMAIN-SUFFIX,uymaarip.com
 DOMAIN-SUFFIX,v2.help
+DOMAIN-SUFFIX,v2.hysteria.network
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2fly.org
 DOMAIN-SUFFIX,v2ray.com
