@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 87570
+# 规则统计: 87569
 
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com
@@ -71801,7 +71801,6 @@ DOMAIN-SUFFIX,stats.psychotherapieravensburg.de
 DOMAIN-SUFFIX,stats.pubfind.io
 DOMAIN-SUFFIX,stats.pusher.com
 DOMAIN-SUFFIX,stats.qdq.com
-DOMAIN-SUFFIX,stats.qiumibao.com
 DOMAIN-SUFFIX,stats.qovery.com
 DOMAIN-SUFFIX,stats.quicksilvercre.com
 DOMAIN-SUFFIX,stats.qwant.com

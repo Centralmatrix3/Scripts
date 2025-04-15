@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31511
+# 规则统计: 31528
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -399,6 +399,7 @@ DOMAIN,time-e-b.nist.gov
 DOMAIN,time-e-g.nist.gov
 DOMAIN,time-e-wwv.nist.gov
 DOMAIN,time.apple.com
+DOMAIN,time.aws.com
 DOMAIN,time.euro.apple.com
 DOMAIN,time.facebook.com
 DOMAIN,time.google.com
@@ -863,6 +864,7 @@ DOMAIN-SUFFIX,3dtin.com
 DOMAIN-SUFFIX,3dtin.net
 DOMAIN-SUFFIX,3go.fun
 DOMAIN-SUFFIX,3hentai.net
+DOMAIN-SUFFIX,3lateral.com
 DOMAIN-SUFFIX,3lib.net
 DOMAIN-SUFFIX,3movs.com
 DOMAIN-SUFFIX,3movs.xyz
@@ -1397,6 +1399,7 @@ DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.info
 DOMAIN-SUFFIX,adguard.io
 DOMAIN-SUFFIX,adguard.org
+DOMAIN-SUFFIX,adguardaccount.com
 DOMAIN-SUFFIX,adguardvpn.com
 DOMAIN-SUFFIX,adhelpnews.com
 DOMAIN-SUFFIX,adidas.at
@@ -3406,6 +3409,7 @@ DOMAIN-SUFFIX,awjq.cc
 DOMAIN-SUFFIX,awlc.ac.uk
 DOMAIN-SUFFIX,aws
 DOMAIN-SUFFIX,aws-iot-hackathon.com
+DOMAIN-SUFFIX,aws.com
 DOMAIN-SUFFIX,awsautopilot.com
 DOMAIN-SUFFIX,awsautoscaling.com
 DOMAIN-SUFFIX,awsbraket.com
@@ -6074,6 +6078,7 @@ DOMAIN-SUFFIX,capitalgames.com
 DOMAIN-SUFFIX,capitaliq.com
 DOMAIN-SUFFIX,capitalisingoncreativity.ac.uk
 DOMAIN-SUFFIX,capsule.ac.uk
+DOMAIN-SUFFIX,capturingreality.com
 DOMAIN-SUFFIX,carabinasypistolas.com
 DOMAIN-SUFFIX,carbo-biocrop.ac.uk
 DOMAIN-SUFFIX,carbobiocrop.ac.uk
@@ -6781,6 +6786,7 @@ DOMAIN-SUFFIX,chuporno.com
 DOMAIN-SUFFIX,churchill.ac.uk
 DOMAIN-SUFFIX,churchinhongkong.org
 DOMAIN-SUFFIX,chushigangdrug.ch
+DOMAIN-SUFFIX,chutes.ai
 DOMAIN-SUFFIX,chutuno.fun
 DOMAIN-SUFFIX,chuzs2.xyz
 DOMAIN-SUFFIX,chwr7s8u.com
@@ -7662,6 +7668,7 @@ DOMAIN-SUFFIX,cttoolkit.ac.uk
 DOMAIN-SUFFIX,ctv.com.tw
 DOMAIN-SUFFIX,ctwant.com
 DOMAIN-SUFFIX,ctyun.online
+DOMAIN-SUFFIX,cubicmotion.com
 DOMAIN-SUFFIX,cubo.ac.uk
 DOMAIN-SUFFIX,cuc.ac.uk
 DOMAIN-SUFFIX,cuckfilmswifefuck.com
@@ -10130,6 +10137,7 @@ DOMAIN-SUFFIX,faacebook.com
 DOMAIN-SUFFIX,faam.ac.uk
 DOMAIN-SUFFIX,faapy.com
 DOMAIN-SUFFIX,faasbook.com
+DOMAIN-SUFFIX,fab.com
 DOMAIN-SUFFIX,fabhairypussy.com
 DOMAIN-SUFFIX,fablabplymouth.ac.uk
 DOMAIN-SUFFIX,fabricmc.net
@@ -14227,6 +14235,7 @@ DOMAIN-SUFFIX,hypnohub.net
 DOMAIN-SUFFIX,hypnoporn.net
 DOMAIN-SUFFIX,hypnotube.com
 DOMAIN-SUFFIX,hypothes.is
+DOMAIN-SUFFIX,hyprsense.com
 DOMAIN-SUFFIX,hysbys.ac.uk
 DOMAIN-SUFFIX,hzmn.net
 DOMAIN-SUFFIX,i-123-hp.com
@@ -18647,6 +18656,7 @@ DOMAIN-SUFFIX,misskey.yukineko.me
 DOMAIN-SUFFIX,misskeyusercontent.jp
 DOMAIN-SUFFIX,mist.ac.uk
 DOMAIN-SUFFIX,mist.vip
+DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,mistresskym.com
 DOMAIN-SUFFIX,mit
 DOMAIN-SUFFIX,mit.edu
@@ -23021,6 +23031,8 @@ DOMAIN-SUFFIX,quip.com
 DOMAIN-SUFFIX,quipelements.com
 DOMAIN-SUFFIX,quitccp.net
 DOMAIN-SUFFIX,quitccp.org
+DOMAIN-SUFFIX,quixel.com
+DOMAIN-SUFFIX,quixel.se
 DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,qumingwz.com
 DOMAIN-SUFFIX,qumrancavesdispersed.ac.uk
@@ -23066,6 +23078,7 @@ DOMAIN-SUFFIX,racked.com
 DOMAIN-SUFFIX,rad-sat.ac.uk
 DOMAIN-SUFFIX,rada.ac.uk
 DOMAIN-SUFFIX,radeon.com
+DOMAIN-SUFFIX,radgametools.com
 DOMAIN-SUFFIX,radian6.com
 DOMAIN-SUFFIX,radicalparty.org
 DOMAIN-SUFFIX,radiko.jp
@@ -23291,6 +23304,7 @@ DOMAIN-SUFFIX,realgfporn.com
 DOMAIN-SUFFIX,realisingopportunities.ac.uk
 DOMAIN-SUFFIX,reality-computing.com
 DOMAIN-SUFFIX,realitykings.com
+DOMAIN-SUFFIX,realityscan.com
 DOMAIN-SUFFIX,reallesbianexposed.com
 DOMAIN-SUFFIX,reallifemethods.ac.uk
 DOMAIN-SUFFIX,realmaturesfuck.com
@@ -24941,6 +24955,7 @@ DOMAIN-SUFFIX,sketchbookdesigner.com
 DOMAIN-SUFFIX,sketchbookmobile.com
 DOMAIN-SUFFIX,sketchbooknews.com
 DOMAIN-SUFFIX,sketchbookpro.com
+DOMAIN-SUFFIX,sketchfab.com
 DOMAIN-SUFFIX,skillsbridge.ac.uk
 DOMAIN-SUFFIX,skillscompetitionwales.ac.uk
 DOMAIN-SUFFIX,skillsgroupuk.ac.uk
@@ -27670,6 +27685,7 @@ DOMAIN-SUFFIX,twindexx.com
 DOMAIN-SUFFIX,twinkboyfriends.tv
 DOMAIN-SUFFIX,twinkspornos.com
 DOMAIN-SUFFIX,twinkybf.com
+DOMAIN-SUFFIX,twinmotion.com
 DOMAIN-SUFFIX,twinprime.com
 DOMAIN-SUFFIX,twinsuk.ac.uk
 DOMAIN-SUFFIX,twip.me
@@ -31068,6 +31084,7 @@ DOMAIN-SUFFIX,youshun12.com
 DOMAIN-SUFFIX,youskbe.com
 DOMAIN-SUFFIX,youthforfreechina.org
 DOMAIN-SUFFIX,youthnetradio.org
+DOMAIN-SUFFIX,youtrack.cloud
 DOMAIN-SUFFIX,youtrannytube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube

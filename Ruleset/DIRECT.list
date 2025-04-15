@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 119880
+# 规则统计: 119884
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -467,6 +467,7 @@ DOMAIN,tesla-cdn.thron.cn
 DOMAIN,test.bugs-qa.chromium.org
 DOMAIN,test.gbugs-qa.chromium.org
 DOMAIN,tf-feedback.itunes.apple.com
+DOMAIN,time.amazonaws.cn
 DOMAIN,time.izatcloud.net
 DOMAIN,time.xtracloud.net
 DOMAIN,tj-pod1-smp-device.apple.com
@@ -34931,6 +34932,7 @@ DOMAIN-SUFFIX,eszyb.com
 DOMAIN-SUFFIX,eszzxxz.com
 DOMAIN-SUFFIX,et-api.com
 DOMAIN-SUFFIX,et-fine.com
+DOMAIN-SUFFIX,et001.com
 DOMAIN-SUFFIX,et363.com
 DOMAIN-SUFFIX,et59.com
 DOMAIN-SUFFIX,et998.com
@@ -41877,6 +41879,7 @@ DOMAIN-SUFFIX,guahaoe.com
 DOMAIN-SUFFIX,guahaowang.com
 DOMAIN-SUFFIX,guaiguai.com
 DOMAIN-SUFFIX,guaihou.com
+DOMAIN-SUFFIX,guaiku.com
 DOMAIN-SUFFIX,guaileicp.com
 DOMAIN-SUFFIX,guaili.org
 DOMAIN-SUFFIX,guailuo.com
@@ -70647,6 +70650,7 @@ DOMAIN-SUFFIX,mingxigu.com
 DOMAIN-SUFFIX,mingxingbobbin.com
 DOMAIN-SUFFIX,mingxingku.com
 DOMAIN-SUFFIX,mingxinglai.com
+DOMAIN-SUFFIX,mingxuan.store
 DOMAIN-SUFFIX,mingxuanxz.com
 DOMAIN-SUFFIX,mingya.mobi
 DOMAIN-SUFFIX,mingyafeng.com

@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 87570
+# 规则统计: 87569
 
 payload:
   - '+.0.myikas.com'
@@ -71802,7 +71802,6 @@ payload:
   - '+.stats.pubfind.io'
   - '+.stats.pusher.com'
   - '+.stats.qdq.com'
-  - '+.stats.qiumibao.com'
   - '+.stats.qovery.com'
   - '+.stats.quicksilvercre.com'
   - '+.stats.qwant.com'

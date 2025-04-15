@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 87570
+# 规则统计: 87569
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -71801,7 +71801,6 @@ HOST-SUFFIX,stats.psychotherapieravensburg.de,AdBlock
 HOST-SUFFIX,stats.pubfind.io,AdBlock
 HOST-SUFFIX,stats.pusher.com,AdBlock
 HOST-SUFFIX,stats.qdq.com,AdBlock
-HOST-SUFFIX,stats.qiumibao.com,AdBlock
 HOST-SUFFIX,stats.qovery.com,AdBlock
 HOST-SUFFIX,stats.quicksilvercre.com,AdBlock
 HOST-SUFFIX,stats.qwant.com,AdBlock
