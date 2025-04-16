@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31528
+# 规则统计: 31529
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -13385,6 +13385,7 @@ DOMAIN-SUFFIX,hetzner.cloud
 DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hetzner.company
 DOMAIN-SUFFIX,hetzner.de
+DOMAIN-SUFFIX,hetzner.social
 DOMAIN-SUFFIX,heungkongdiscuss.com
 DOMAIN-SUFFIX,hew.ac.uk
 DOMAIN-SUFFIX,hewit.ac.uk
