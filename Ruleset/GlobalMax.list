@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31559
+# 规则统计: 31560
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -12985,6 +12985,7 @@ DOMAIN-SUFFIX,hetzner.cloud
 DOMAIN-SUFFIX,hetzner.com
 DOMAIN-SUFFIX,hetzner.company
 DOMAIN-SUFFIX,hetzner.de
+DOMAIN-SUFFIX,hetzner.social
 DOMAIN-SUFFIX,heungkongdiscuss.com
 DOMAIN-SUFFIX,hew.ac.uk
 DOMAIN-SUFFIX,hewit.ac.uk

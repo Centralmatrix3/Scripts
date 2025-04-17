@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31529
+# 规则统计: 31530
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -19045,6 +19045,7 @@ DOMAIN-SUFFIX,msftnet.org
 DOMAIN-SUFFIX,msgamesresearch.com
 DOMAIN-SUFFIX,msguancha.com
 DOMAIN-SUFFIX,msha.gov
+DOMAIN-SUFFIX,mshome.net
 DOMAIN-SUFFIX,msinnovationchallenge.com
 DOMAIN-SUFFIX,msk.ilnk.info
 DOMAIN-SUFFIX,msk.kitazawa.me
