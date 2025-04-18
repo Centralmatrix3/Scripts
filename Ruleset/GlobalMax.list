@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31560
+# 规则统计: 31568
 
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
@@ -271,6 +271,7 @@ DOMAIN-SUFFIX,1lib.education
 DOMAIN-SUFFIX,1lib.eu
 DOMAIN-SUFFIX,1lib.limited
 DOMAIN-SUFFIX,1lib.pl
+DOMAIN-SUFFIX,1lib.sk
 DOMAIN-SUFFIX,1lib.to
 DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,1mobile.com
@@ -11799,6 +11800,7 @@ DOMAIN-SUFFIX,go-lang.com
 DOMAIN-SUFFIX,go-lang.net
 DOMAIN-SUFFIX,go-lang.org
 DOMAIN-SUFFIX,go-pki.com
+DOMAIN-SUFFIX,go-to-library.sk
 DOMAIN-SUFFIX,go-to-zlibrary.se
 DOMAIN-SUFFIX,go.com
 DOMAIN-SUFFIX,go.dev
@@ -15051,6 +15053,7 @@ DOMAIN-SUFFIX,itaboo.info
 DOMAIN-SUFFIX,itaeromanga.com
 DOMAIN-SUFFIX,itaiwan.gov.tw
 DOMAIN-SUFFIX,italiabeatsbydrdre.com
+DOMAIN-SUFFIX,italian-books.sk
 DOMAIN-SUFFIX,italiatibet.org
 DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,itcanwait.com
@@ -18721,6 +18724,7 @@ DOMAIN-SUFFIX,msftnet.org
 DOMAIN-SUFFIX,msgamesresearch.com
 DOMAIN-SUFFIX,msguancha.com
 DOMAIN-SUFFIX,msha.gov
+DOMAIN-SUFFIX,mshome.net
 DOMAIN-SUFFIX,msinnovationchallenge.com
 DOMAIN-SUFFIX,msk.ilnk.info
 DOMAIN-SUFFIX,msk.kitazawa.me
@@ -31184,9 +31188,13 @@ DOMAIN-SUFFIX,yyjlymb.xyz
 DOMAIN-SUFFIX,yysub.net
 DOMAIN-SUFFIX,yzld188.top
 DOMAIN-SUFFIX,yzzk.com
+DOMAIN-SUFFIX,z-lib.gd
+DOMAIN-SUFFIX,z-lib.gs
 DOMAIN-SUFFIX,z-lib.io
 DOMAIN-SUFFIX,z-lib.org
+DOMAIN-SUFFIX,z-lib.ps
 DOMAIN-SUFFIX,z-library.se
+DOMAIN-SUFFIX,z-library.sk
 DOMAIN-SUFFIX,z00.world
 DOMAIN-SUFFIX,z18r.co
 DOMAIN-SUFFIX,z18r.com

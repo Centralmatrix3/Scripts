@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31530
+# 规则统计: 31537
 
 DOMAIN,3dns-1.adobe.com
 DOMAIN,3dns-2.adobe.com
@@ -734,6 +734,7 @@ DOMAIN-SUFFIX,1lib.education
 DOMAIN-SUFFIX,1lib.eu
 DOMAIN-SUFFIX,1lib.limited
 DOMAIN-SUFFIX,1lib.pl
+DOMAIN-SUFFIX,1lib.sk
 DOMAIN-SUFFIX,1lib.to
 DOMAIN-SUFFIX,1lib.tw
 DOMAIN-SUFFIX,1mobile.com
@@ -12209,6 +12210,7 @@ DOMAIN-SUFFIX,go-lang.com
 DOMAIN-SUFFIX,go-lang.net
 DOMAIN-SUFFIX,go-lang.org
 DOMAIN-SUFFIX,go-pki.com
+DOMAIN-SUFFIX,go-to-library.sk
 DOMAIN-SUFFIX,go-to-zlibrary.se
 DOMAIN-SUFFIX,go.com
 DOMAIN-SUFFIX,go.dev
@@ -15465,6 +15467,7 @@ DOMAIN-SUFFIX,ita-do.com
 DOMAIN-SUFFIX,itaboo.info
 DOMAIN-SUFFIX,itaeromanga.com
 DOMAIN-SUFFIX,italiabeatsbydrdre.com
+DOMAIN-SUFFIX,italian-books.sk
 DOMAIN-SUFFIX,italiatibet.org
 DOMAIN-SUFFIX,itasoftware.com
 DOMAIN-SUFFIX,itcanwait.com
@@ -31304,9 +31307,13 @@ DOMAIN-SUFFIX,yyjlymb.xyz
 DOMAIN-SUFFIX,yysub.net
 DOMAIN-SUFFIX,yzld188.top
 DOMAIN-SUFFIX,yzzk.com
+DOMAIN-SUFFIX,z-lib.gd
+DOMAIN-SUFFIX,z-lib.gs
 DOMAIN-SUFFIX,z-lib.io
 DOMAIN-SUFFIX,z-lib.org
+DOMAIN-SUFFIX,z-lib.ps
 DOMAIN-SUFFIX,z-library.se
+DOMAIN-SUFFIX,z-library.sk
 DOMAIN-SUFFIX,z00.world
 DOMAIN-SUFFIX,z18r.co
 DOMAIN-SUFFIX,z18r.com
