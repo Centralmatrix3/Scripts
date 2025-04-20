@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 119713
+# 规则统计: 119674
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -13,7 +13,6 @@ DOMAIN,adcdownload.apple.com
 DOMAIN,adcdownload.apple.com.akadns.net
 DOMAIN,admob-cn.com
 DOMAIN,adservice.google.com
-DOMAIN,ai.ytimg.com
 DOMAIN,ai.zhaomi.cn
 DOMAIN,alibaba.cdn.steampipe.steamcontent.com
 DOMAIN,amp-api-edge-lb-cn.itunes-apple.com.akadns.net
@@ -28,13 +27,13 @@ DOMAIN,api-edge.apps.apple.com
 DOMAIN,api-p-ap-c.smoot.apple.com
 DOMAIN,api-p-ap-d.smoot.apple.com
 DOMAIN,api-p-ap-e.smoot.apple.com
+DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement-cn.com
 DOMAIN,app-measurement.com
 DOMAIN,app-site-association.cdn-apple.com
 DOMAIN,appldnld.apple.com
 DOMAIN,appldnld.g.aaplimg.com
 DOMAIN,appleid.cdn-apple.com
-DOMAIN,applemdm.corp.google.com
 DOMAIN,apps.mzstatic.com
 DOMAIN,apps5.oingo.com
 DOMAIN,apptrailers.itunes.apple.com
@@ -51,7 +50,6 @@ DOMAIN,bg.v4.a.dl.ws.microsoft.com
 DOMAIN,bg4.v4.a.dl.ws.microsoft.com
 DOMAIN,bj1.api.bing.com
 DOMAIN,bookkeeper.itunes.apple.com
-DOMAIN,borgmon.adz.google.com
 DOMAIN,build.microsoft.com
 DOMAIN,c.admob.com
 DOMAIN,c.android.clients.google.com
@@ -126,12 +124,8 @@ DOMAIN,devblogs.microsoft.com
 DOMAIN,developer.microsoft.com
 DOMAIN,dg-meta.video.google.com
 DOMAIN,discussionschinese.apple.com
-DOMAIN,distribution.qatp1.net
-DOMAIN,distribution.qcpp1.net
-DOMAIN,distribution.qpdp1.net
 DOMAIN,dl.google.com
 DOMAIN,dl.l.google.com
-DOMAIN,dns.corp.google.com
 DOMAIN,docs.microsoft.com
 DOMAIN,doubleclick-cn.net
 DOMAIN,doubleclick.net
@@ -139,8 +133,6 @@ DOMAIN,download.developer.apple.com
 DOMAIN,download.microsoft.com
 DOMAIN,download.mlcc.google.com
 DOMAIN,download.qatp1.net
-DOMAIN,download.qcpp1.net
-DOMAIN,download.qpdp1.net
 DOMAIN,download.tensorflow.google.com
 DOMAIN,download.visualstudio.microsoft.com
 DOMAIN,downloaddispatch.itunes.apple.com
@@ -150,9 +142,7 @@ DOMAIN,experiments.apple.com
 DOMAIN,f.c2r.ts.cdn.office.net
 DOMAIN,fides-pol.apple.com
 DOMAIN,firebase-settings.crashlytics.com
-DOMAIN,fontfiles.googleadapis.com
 DOMAIN,fontfiles.googleapis.com
-DOMAIN,fonts.googleadapis.com
 DOMAIN,fonts.googleapis.com
 DOMAIN,fonts.gstatic.com
 DOMAIN,fs.microsoft.com
@@ -160,9 +150,7 @@ DOMAIN,g0.gstatic.com
 DOMAIN,g1.gstatic.com
 DOMAIN,g2.gstatic.com
 DOMAIN,g3.gstatic.com
-DOMAIN,g3doc.corp.google.com
 DOMAIN,geetest.datasink.sensorsdata.cn
-DOMAIN,gmskiosk-ssl.corp.google.com
 DOMAIN,go.corp.google.com
 DOMAIN,gog-cdn-fastly.gog.com
 DOMAIN,gog-cdn.akamaized.net
@@ -180,7 +168,6 @@ DOMAIN,googleapps-cn.com
 DOMAIN,googleflights-cn.net
 DOMAIN,googleoptimize-cn.com
 DOMAIN,googleoptimize.com
-DOMAIN,googleplex.com
 DOMAIN,googlesyndication-cn.com
 DOMAIN,googlesyndication.com
 DOMAIN,googletagmanager-cn.com
@@ -190,9 +177,6 @@ DOMAIN,googletagservices.com
 DOMAIN,googletraveladservices-cn.com
 DOMAIN,googletraveladservices.com
 DOMAIN,googlevads-cn.com
-DOMAIN,gorom.corp.google.com
-DOMAIN,goto.corp.google.com
-DOMAIN,goto.google.com
 DOMAIN,gs-loc-cn.apple.com
 DOMAIN,gs-loc.apple.com
 DOMAIN,gsp10-ssl-cn.ls.apple.com
@@ -281,8 +265,6 @@ DOMAIN,mesu-china.apple.com.akadns.net
 DOMAIN,mesu.apple.com
 DOMAIN,misc-assets.itunes.apple.com
 DOMAIN,ml.cdn-apple.com
-DOMAIN,monitoring.qatp1.net
-DOMAIN,monitoring.qcpp1.net
 DOMAIN,monitoring.qpdp1.net
 DOMAIN,moocs.unipus.cn
 DOMAIN,msgr.dlservice.microsoft.com
@@ -337,7 +319,6 @@ DOMAIN,pd-nk.itunes.apple.com
 DOMAIN,pd.itunes.apple.com
 DOMAIN,performanceparameters.googleapis.com
 DOMAIN,pki-goog.l.google.com
-DOMAIN,play.1ucrs.com
 DOMAIN,play.itunes.apple.com
 DOMAIN,play.music.apple.com
 DOMAIN,probe.siri.apple.com
@@ -349,25 +330,14 @@ DOMAIN,productcard.gog-statics.com
 DOMAIN,proxyconfig.corp.google.com
 DOMAIN,publicassets.cdn-apple.com
 DOMAIN,qagpublic.qatp1.net
-DOMAIN,qagpublic.qcpp1.net
-DOMAIN,qagpublic.qpdp1.net
-DOMAIN,qgadmin.qatp1.net
 DOMAIN,qgadmin.qcpp1.net
-DOMAIN,qgadmin.qpdp1.net
 DOMAIN,qh.dlservice.microsoft.com
 DOMAIN,qiao-cn.com
 DOMAIN,qpx.googleflights.net
 DOMAIN,qualysapi.qatp1.net
-DOMAIN,qualysapi.qcpp1.net
-DOMAIN,qualysapi.qpdp1.net
-DOMAIN,qualysguard.qatp1.net
-DOMAIN,qualysguard.qcpp1.net
 DOMAIN,qualysguard.qpdp1.net
 DOMAIN,r.cert.corp.google.com
-DOMAIN,rapture-autopush.corp.google.com
 DOMAIN,rapture-prod.corp.google.com
-DOMAIN,rapture-test.corp.google.com
-DOMAIN,rapture.corp.google.com
 DOMAIN,recaptcha-cn.net
 DOMAIN,recaptcha.net
 DOMAIN,redirector.bdn.dev
@@ -381,7 +351,6 @@ DOMAIN,redirector.gvt1.com
 DOMAIN,redirector.offline-maps.gvt1.com
 DOMAIN,redirector.snap.gvt1.com
 DOMAIN,redirector.xn--ngstr-lra8j.com
-DOMAIN,regioninfo-pa.googleapis.com
 DOMAIN,res-1.cdn.office.net
 DOMAIN,res.cdn.office.net
 DOMAIN,reserve-prime.apple.com
@@ -393,9 +362,7 @@ DOMAIN,s4.mzstatic.com
 DOMAIN,s5.mzstatic.com
 DOMAIN,safebrowsing-cache.google.com
 DOMAIN,safebrowsing.googleapis.com
-DOMAIN,scanservice1.qatp1.net
 DOMAIN,scanservice1.qcpp1.net
-DOMAIN,scanservice1.qpdp1.net
 DOMAIN,sdx.microsoft.com
 DOMAIN,se-edge.itunes.apple.com
 DOMAIN,se2.itunes.apple.com
@@ -405,7 +372,6 @@ DOMAIN,seed-swallow.siri.apple.com
 DOMAIN,seed.siri.apple.com
 DOMAIN,sequoia.apple.com
 DOMAIN,service.urchin.com
-DOMAIN,settings.xn--9trs65b.com
 DOMAIN,sf-api-token-service.itunes.apple.com
 DOMAIN,sh-pod2-smp-device.apple.com
 DOMAIN,shazam-insights.cdn-apple.com
@@ -416,13 +382,11 @@ DOMAIN,smp-device-content.apple.com
 DOMAIN,software.download.prss.microsoft.com
 DOMAIN,sp.itunes.apple.com
 DOMAIN,ss.bjmu.edu.cn
-DOMAIN,ssh-relay.corp.google.com
 DOMAIN,ssl-google-analytics.l.google.com
 DOMAIN,ssl.gstatic.com
 DOMAIN,sslredirect.corp.google.com
 DOMAIN,staging-controlbe.floonet.goog
 DOMAIN,staging-databe.floonet.goog
-DOMAIN,staging-regioninfo-pa.googleapis.com
 DOMAIN,staging.databe.floonet.goog
 DOMAIN,static-login.gog-statics.com
 DOMAIN,static.gc.apple.com
@@ -445,9 +409,7 @@ DOMAIN,sup-ssh-relay2.corp.google.com
 DOMAIN,sup.corp.google.com
 DOMAIN,sup.l.google.com
 DOMAIN,support-china.apple-support.akadns.net
-DOMAIN,support.1ucrs.com
 DOMAIN,support.apple.com
-DOMAIN,supportcenter.corp.google.com
 DOMAIN,surface.downloads.prss.microsoft.com
 DOMAIN,swallow-apple-com.v.aaplimg.com
 DOMAIN,swallow.apple.com
@@ -462,9 +424,7 @@ DOMAIN,swscan.apple.com
 DOMAIN,sylvan.apple.com
 DOMAIN,sync.itunes.apple.com
 DOMAIN,tac.googleapis.com
-DOMAIN,techstop.corp.google.com
 DOMAIN,tesla-cdn.thron.cn
-DOMAIN,test.bugs-qa.chromium.org
 DOMAIN,test.gbugs-qa.chromium.org
 DOMAIN,tf-feedback.itunes.apple.com
 DOMAIN,time.amazonaws.cn
@@ -473,14 +433,8 @@ DOMAIN,time.xtracloud.net
 DOMAIN,tj-pod1-smp-device.apple.com
 DOMAIN,tools.google.com
 DOMAIN,tools.l.google.com
-DOMAIN,uberproxy-debug.corp.google.com
 DOMAIN,uberproxy-debug4.corp.google.com
-DOMAIN,uberproxy-pen-redirect.corp.google.com
-DOMAIN,uberproxy-with-cn.l.google.com
-DOMAIN,uberproxy-with-cn4.l.google.com
-DOMAIN,uberproxy-with-cn6.l.google.com
 DOMAIN,uberproxy.corp.google.com
-DOMAIN,uberproxy4.corp.google.com
 DOMAIN,uberproxy6.corp.google.com
 DOMAIN,update.crashlytics.com
 DOMAIN,update.googleapis.com
@@ -491,7 +445,6 @@ DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 DOMAIN,upp.itunes.apple.com
 DOMAIN,valid.apple.com
 DOMAIN,valid.origin-apple.com.akadns.net
-DOMAIN,vext.corp.google.com
 DOMAIN,vscode.download.prss.microsoft.com
 DOMAIN,vz.download.prss.microsoft.com
 DOMAIN,wear.googleapis.com
@@ -511,7 +464,6 @@ DOMAIN,www.apple.com.edgekey.net
 DOMAIN,www.apple.com.edgekey.net.globalredir.akadns.net
 DOMAIN,www.destinationurl.com
 DOMAIN,www.entrust.cn
-DOMAIN,www.googleadapis.com
 DOMAIN,www.gstatic.com
 DOMAIN,www.libvideo.com
 DOMAIN,www.microsoft.com
@@ -521,7 +473,6 @@ DOMAIN,www.support.apple.com
 DOMAIN,www.ztedevices.com
 DOMAIN,www4-static.gog-statics.com
 DOMAIN,xb.dlservice.microsoft.com
-DOMAIN,xn--9kr7l.com
 DOMAIN,xn--flw351e.com
 DOMAIN,xp.apple.com
 DOMAIN,xz.pphimalayanrt.com
@@ -10719,6 +10670,7 @@ DOMAIN-SUFFIX,aby.pub
 DOMAIN-SUFFIX,abykt.com
 DOMAIN-SUFFIX,abyssdawn.com
 DOMAIN-SUFFIX,abz-sh.com
+DOMAIN-SUFFIX,ac.fun
 DOMAIN-SUFFIX,ac268.com
 DOMAIN-SUFFIX,ac57.com
 DOMAIN-SUFFIX,acabridge.net
@@ -10767,6 +10719,7 @@ DOMAIN-SUFFIX,acewill.net
 DOMAIN-SUFFIX,acfechina.org
 DOMAIN-SUFFIX,acftu.org
 DOMAIN-SUFFIX,acfun.com
+DOMAIN-SUFFIX,acfun.net
 DOMAIN-SUFFIX,acfunchina.com
 DOMAIN-SUFFIX,acfunchina.net
 DOMAIN-SUFFIX,acg.gd
@@ -22305,6 +22258,8 @@ DOMAIN-SUFFIX,cheshijie.com
 DOMAIN-SUFFIX,cheshipin.com
 DOMAIN-SUFFIX,cheshirex.com
 DOMAIN-SUFFIX,cheshizh.com
+DOMAIN-SUFFIX,chesicc.com
+DOMAIN-SUFFIX,chesicc.net
 DOMAIN-SUFFIX,chesir.com
 DOMAIN-SUFFIX,chesir.net
 DOMAIN-SUFFIX,chestercharles.com
@@ -39833,6 +39788,8 @@ DOMAIN-SUFFIX,gf7979cn.com
 DOMAIN-SUFFIX,gfan.com
 DOMAIN-SUFFIX,gfanstore.com
 DOMAIN-SUFFIX,gfbk.net
+DOMAIN-SUFFIX,gfbzb.com
+DOMAIN-SUFFIX,gfbzb.net
 DOMAIN-SUFFIX,gfcdn.xyz
 DOMAIN-SUFFIX,gfcity.com
 DOMAIN-SUFFIX,gfcname.com
@@ -51018,6 +50975,7 @@ DOMAIN-SUFFIX,huaweicloud-dns.com
 DOMAIN-SUFFIX,huaweicloud-dns.net
 DOMAIN-SUFFIX,huaweicloud-dns.org
 DOMAIN-SUFFIX,huaweicloud-idme.com
+DOMAIN-SUFFIX,huaweicloud-koophone.com
 DOMAIN-SUFFIX,huaweicloud-smn.com
 DOMAIN-SUFFIX,huaweicloud-smn.net
 DOMAIN-SUFFIX,huaweicloud.com
@@ -71135,6 +71093,7 @@ DOMAIN-SUFFIX,modashi.net
 DOMAIN-SUFFIX,modb.cc
 DOMAIN-SUFFIX,modb.pro
 DOMAIN-SUFFIX,modelarts-infer.com
+DOMAIN-SUFFIX,modelarts-maas.com
 DOMAIN-SUFFIX,modelevel.com
 DOMAIN-SUFFIX,modelltd.com
 DOMAIN-SUFFIX,modelones.com
@@ -79716,6 +79675,7 @@ DOMAIN-SUFFIX,qgxl.org
 DOMAIN-SUFFIX,qgyqshz.com
 DOMAIN-SUFFIX,qgysj.org
 DOMAIN-SUFFIX,qgyyzs.net
+DOMAIN-SUFFIX,qgzb.net
 DOMAIN-SUFFIX,qgzxx.com
 DOMAIN-SUFFIX,qgzzz.com
 DOMAIN-SUFFIX,qh-cdn.com
@@ -114654,6 +114614,7 @@ DOMAIN-SUFFIX,zb800.com
 DOMAIN-SUFFIX,zbao.com
 DOMAIN-SUFFIX,zbao56.com
 DOMAIN-SUFFIX,zbbar.net
+DOMAIN-SUFFIX,zbbm.net
 DOMAIN-SUFFIX,zbbus.com
 DOMAIN-SUFFIX,zbc.pub
 DOMAIN-SUFFIX,zbc.wiki
