@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 139409
+# 规则统计: 139397
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -16,7 +16,6 @@ DOMAIN,6.mms.vlog.xuite.net
 DOMAIN,a.xttv.top
 DOMAIN,abclive2-lh.akamaihd.net
 DOMAIN,admob-cn.com
-DOMAIN,ai.ytimg.com
 DOMAIN,aka-amd-njpwworld-hls-enlive.akamaized.net
 DOMAIN,alibaba.cdn.steampipe.steamcontent.com
 DOMAIN,aljazeera-eng-hd-live.hls.adaptive.level3.net
@@ -26,6 +25,7 @@ DOMAIN,amdlive-ch03.ctnd.com.edgesuite.net
 DOMAIN,amdlive.ctnd.com.edgesuite.net
 DOMAIN,analytics.strava.com
 DOMAIN,antvlive.ab5c6921.cdnviet.com
+DOMAIN,app-analytics-services.com
 DOMAIN,app-measurement-cn.com
 DOMAIN,app-measurement.com
 DOMAIN,app.xygdcm.com
@@ -63,15 +63,10 @@ DOMAIN,crl.pki.goog
 DOMAIN,crls.pki.goog
 DOMAIN,d9af5a60.edmonst.net
 DOMAIN,dartsearch-cn.net
-DOMAIN,distribution.qatp1.net
-DOMAIN,distribution.qcpp1.net
-DOMAIN,distribution.qpdp1.net
 DOMAIN,doubleclick-cn.net
 DOMAIN,doubleclick.net
 DOMAIN,download.jetbrains.com
 DOMAIN,download.qatp1.net
-DOMAIN,download.qcpp1.net
-DOMAIN,download.qpdp1.net
 DOMAIN,e1.vdowowza.vip.hk1.tvb.com
 DOMAIN,edge.music-choice-play-chaina1.top.comcast.net
 DOMAIN,emoi-cncdn.bing.com
@@ -146,8 +141,6 @@ DOMAIN,mediaprima.rastream.com
 DOMAIN,menu-static.gog-statics.com
 DOMAIN,mgugaklive.nowcdn.co.kr
 DOMAIN,mobile.ccdntech.com
-DOMAIN,monitoring.qatp1.net
-DOMAIN,monitoring.qcpp1.net
 DOMAIN,monitoring.qpdp1.net
 DOMAIN,movie.mcas.jp
 DOMAIN,msgr.dlservice.microsoft.com
@@ -165,7 +158,6 @@ DOMAIN,ocsp.pki.goog
 DOMAIN,origin-a.akamaihd.ne
 DOMAIN,origin-a.akamaihd.net
 DOMAIN,ott-live.olympicchannel.com
-DOMAIN,play.1ucrs.com
 DOMAIN,play.jinnantv.top
 DOMAIN,play.scrstv.com
 DOMAIN,play.sngdxsn.com
@@ -175,18 +167,10 @@ DOMAIN,prod-databe.floonet.goog
 DOMAIN,prod.databe.floonet.goog
 DOMAIN,productcard.gog-statics.com
 DOMAIN,qagpublic.qatp1.net
-DOMAIN,qagpublic.qcpp1.net
-DOMAIN,qagpublic.qpdp1.net
-DOMAIN,qgadmin.qatp1.net
 DOMAIN,qgadmin.qcpp1.net
-DOMAIN,qgadmin.qpdp1.net
 DOMAIN,qh.dlservice.microsoft.com
 DOMAIN,qqlivepull.seedata.top
 DOMAIN,qualysapi.qatp1.net
-DOMAIN,qualysapi.qcpp1.net
-DOMAIN,qualysapi.qpdp1.net
-DOMAIN,qualysguard.qatp1.net
-DOMAIN,qualysguard.qcpp1.net
 DOMAIN,qualysguard.qpdp1.net
 DOMAIN,recaptcha-cn.net
 DOMAIN,recaptcha.net
@@ -203,13 +187,10 @@ DOMAIN,rmtv24hweblive-lh.akamaihd.net
 DOMAIN,rthklive1-lh.akamaihd.net
 DOMAIN,rthklive2-lh.akamaihd.net
 DOMAIN,rtvcdn.com.au
-DOMAIN,scanservice1.qatp1.net
 DOMAIN,scanservice1.qcpp1.net
-DOMAIN,scanservice1.qpdp1.net
 DOMAIN,sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
 DOMAIN,seb.sason.top
 DOMAIN,service.urchin.com
-DOMAIN,settings.xn--9trs65b.com
 DOMAIN,silverlight.dlservice.microsoft.com
 DOMAIN,slive.ytn.co.kr
 DOMAIN,slupdate.dlservice.microsoft.com
@@ -235,9 +216,7 @@ DOMAIN,stream01.dqtv123.com
 DOMAIN,stream1.shopch.jp
 DOMAIN,stream2.cprnetwork.org
 DOMAIN,streamipcf.akamaized.net
-DOMAIN,support.1ucrs.com
 DOMAIN,surface.downloads.prss.microsoft.com
-DOMAIN,test.bugs-qa.chromium.org
 DOMAIN,test.gbugs-qa.chromium.org
 DOMAIN,time.xtracloud.net
 DOMAIN,trtcanlitv-lh.akamaihd.net
@@ -271,7 +250,6 @@ DOMAIN,www.szmgiptv.com
 DOMAIN,www.yxssp.com
 DOMAIN,www4-static.gog-statics.com
 DOMAIN,xb.dlservice.microsoft.com
-DOMAIN,xn--9kr7l.com
 DOMAIN,xn--flw351e.com
 DOMAIN,youku.cdn2-youku.com
 DOMAIN,zb.dehua.tv
@@ -10165,6 +10143,7 @@ DOMAIN-SUFFIX,aby.pub
 DOMAIN-SUFFIX,abykt.com
 DOMAIN-SUFFIX,abyssdawn.com
 DOMAIN-SUFFIX,abz-sh.com
+DOMAIN-SUFFIX,ac.fun
 DOMAIN-SUFFIX,ac268.com
 DOMAIN-SUFFIX,ac57.com
 DOMAIN-SUFFIX,acabridge.net
@@ -10213,6 +10192,7 @@ DOMAIN-SUFFIX,acewill.net
 DOMAIN-SUFFIX,acfechina.org
 DOMAIN-SUFFIX,acftu.org
 DOMAIN-SUFFIX,acfun.com
+DOMAIN-SUFFIX,acfun.net
 DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,acfunchina.com
 DOMAIN-SUFFIX,acfunchina.net
@@ -21651,6 +21631,8 @@ DOMAIN-SUFFIX,cheshijie.com
 DOMAIN-SUFFIX,cheshipin.com
 DOMAIN-SUFFIX,cheshirex.com
 DOMAIN-SUFFIX,cheshizh.com
+DOMAIN-SUFFIX,chesicc.com
+DOMAIN-SUFFIX,chesicc.net
 DOMAIN-SUFFIX,chesir.com
 DOMAIN-SUFFIX,chesir.net
 DOMAIN-SUFFIX,chestercharles.com
@@ -38954,6 +38936,8 @@ DOMAIN-SUFFIX,gf7979cn.com
 DOMAIN-SUFFIX,gfan.com
 DOMAIN-SUFFIX,gfanstore.com
 DOMAIN-SUFFIX,gfbk.net
+DOMAIN-SUFFIX,gfbzb.com
+DOMAIN-SUFFIX,gfbzb.net
 DOMAIN-SUFFIX,gfcdn.xyz
 DOMAIN-SUFFIX,gfcity.com
 DOMAIN-SUFFIX,gfcname.com
@@ -50362,6 +50346,7 @@ DOMAIN-SUFFIX,huaweicloud-dns.com
 DOMAIN-SUFFIX,huaweicloud-dns.net
 DOMAIN-SUFFIX,huaweicloud-dns.org
 DOMAIN-SUFFIX,huaweicloud-idme.com
+DOMAIN-SUFFIX,huaweicloud-koophone.com
 DOMAIN-SUFFIX,huaweicloud-smn.com
 DOMAIN-SUFFIX,huaweicloud-smn.net
 DOMAIN-SUFFIX,huaweicloud.com
@@ -70292,6 +70277,7 @@ DOMAIN-SUFFIX,modashi.net
 DOMAIN-SUFFIX,modb.cc
 DOMAIN-SUFFIX,modb.pro
 DOMAIN-SUFFIX,modelarts-infer.com
+DOMAIN-SUFFIX,modelarts-maas.com
 DOMAIN-SUFFIX,modelevel.com
 DOMAIN-SUFFIX,modelltd.com
 DOMAIN-SUFFIX,modelones.com
@@ -78799,6 +78785,7 @@ DOMAIN-SUFFIX,qgyksr.com
 DOMAIN-SUFFIX,qgyqshz.com
 DOMAIN-SUFFIX,qgysj.org
 DOMAIN-SUFFIX,qgyyzs.net
+DOMAIN-SUFFIX,qgzb.net
 DOMAIN-SUFFIX,qgzxx.com
 DOMAIN-SUFFIX,qgzzz.com
 DOMAIN-SUFFIX,qh-cdn.com
@@ -113390,6 +113377,7 @@ DOMAIN-SUFFIX,zb800.com
 DOMAIN-SUFFIX,zbao.com
 DOMAIN-SUFFIX,zbao56.com
 DOMAIN-SUFFIX,zbbar.net
+DOMAIN-SUFFIX,zbbm.net
 DOMAIN-SUFFIX,zbbus.com
 DOMAIN-SUFFIX,zbc.pub
 DOMAIN-SUFFIX,zbc.wiki
@@ -122167,7 +122155,6 @@ IP-CIDR,154.213.176.0/23,no-resolve
 IP-CIDR,154.213.178.0/24,no-resolve
 IP-CIDR,154.213.4.0/23,no-resolve
 IP-CIDR,154.220.3.0/24,no-resolve
-IP-CIDR,154.223.168.0/24,no-resolve
 IP-CIDR,154.23.188.0/22,no-resolve
 IP-CIDR,154.36.92.0/23,no-resolve
 IP-CIDR,154.38.104.0/22,no-resolve
@@ -122227,9 +122214,10 @@ IP-CIDR,156.236.96.0/23,no-resolve
 IP-CIDR,156.237.104.0/23,no-resolve
 IP-CIDR,156.242.5.0/24,no-resolve
 IP-CIDR,156.242.6.0/24,no-resolve
+IP-CIDR,156.247.11.0/24,no-resolve
 IP-CIDR,156.247.12.0/24,no-resolve
 IP-CIDR,156.247.14.0/24,no-resolve
-IP-CIDR,156.247.8.0/22,no-resolve
+IP-CIDR,156.247.8.0/23,no-resolve
 IP-CIDR,156.251.144.0/20,no-resolve
 IP-CIDR,156.251.161.0/24,no-resolve
 IP-CIDR,156.251.162.0/23,no-resolve

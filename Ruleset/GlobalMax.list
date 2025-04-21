@@ -1,6 +1,7 @@
 # 规则名称: GlobalMax
-# 规则统计: 31568
+# 规则统计: 31587
 
+DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
 DOMAIN,angle.com.tw
 DOMAIN,anime-rule34-world.b-cdn.net
@@ -262,6 +263,7 @@ DOMAIN-SUFFIX,1dumb.com
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,1eew.com
 DOMAIN-SUFFIX,1inch.io
+DOMAIN-SUFFIX,1infra.net
 DOMAIN-SUFFIX,1jjdg2.vip
 DOMAIN-SUFFIX,1jsa22.vip
 DOMAIN-SUFFIX,1lib.cloud
@@ -278,8 +280,15 @@ DOMAIN-SUFFIX,1mobile.com
 DOMAIN-SUFFIX,1mobile.tw
 DOMAIN-SUFFIX,1monsterbeatsbydreus.com
 DOMAIN-SUFFIX,1password.ca
+DOMAIN-SUFFIX,1password.co
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,1password.community
 DOMAIN-SUFFIX,1password.eu
+DOMAIN-SUFFIX,1password.io
+DOMAIN-SUFFIX,1passwordservices.com
+DOMAIN-SUFFIX,1passwordusercontent.ca
+DOMAIN-SUFFIX,1passwordusercontent.com
+DOMAIN-SUFFIX,1passwordusercontent.eu
 DOMAIN-SUFFIX,1point3acres.com
 DOMAIN-SUFFIX,1pondo.tv
 DOMAIN-SUFFIX,1pornlist.com
@@ -623,6 +632,7 @@ DOMAIN-SUFFIX,89-64.org
 DOMAIN-SUFFIX,89.com
 DOMAIN-SUFFIX,8949.voto
 DOMAIN-SUFFIX,8964museum.com
+DOMAIN-SUFFIX,8chan.moe
 DOMAIN-SUFFIX,8kcosplay.com
 DOMAIN-SUFFIX,8kpornvids.com
 DOMAIN-SUFFIX,8muses.com
@@ -5130,6 +5140,7 @@ DOMAIN-SUFFIX,btt804.com
 DOMAIN-SUFFIX,btt904.com
 DOMAIN-SUFFIX,bttzyw.com
 DOMAIN-SUFFIX,bttzyw.net
+DOMAIN-SUFFIX,btwrdn.co
 DOMAIN-SUFFIX,btwrdn.com
 DOMAIN-SUFFIX,buba.ac.uk
 DOMAIN-SUFFIX,bubbaporn.com
@@ -5954,6 +5965,7 @@ DOMAIN-SUFFIX,cex.io
 DOMAIN-SUFFIX,cf-ipfs.com
 DOMAIN-SUFFIX,cf.ac.uk
 DOMAIN-SUFFIX,cfake.com
+DOMAIN-SUFFIX,cfargotunnel.com
 DOMAIN-SUFFIX,cfas.ac.uk
 DOMAIN-SUFFIX,cfblob.com
 DOMAIN-SUFFIX,cfd-tv.com
@@ -16339,6 +16351,7 @@ DOMAIN-SUFFIX,leisurepro.com
 DOMAIN-SUFFIX,lelavement.com
 DOMAIN-SUFFIX,leliao1.com
 DOMAIN-SUFFIX,lematin.ch
+DOMAIN-SUFFIX,lemmynsfw.com
 DOMAIN-SUFFIX,lemoncams.com
 DOMAIN-SUFFIX,lemonde.fr
 DOMAIN-SUFFIX,lencr.org
@@ -18726,6 +18739,7 @@ DOMAIN-SUFFIX,msgamesresearch.com
 DOMAIN-SUFFIX,msguancha.com
 DOMAIN-SUFFIX,msha.gov
 DOMAIN-SUFFIX,mshome.net
+DOMAIN-SUFFIX,msidentity.com
 DOMAIN-SUFFIX,msinnovationchallenge.com
 DOMAIN-SUFFIX,msk.ilnk.info
 DOMAIN-SUFFIX,msk.kitazawa.me
@@ -21126,6 +21140,7 @@ DOMAIN-SUFFIX,pase.ac.uk
 DOMAIN-SUFFIX,pashtovoa.com
 DOMAIN-SUFFIX,pasionmujeres.com
 DOMAIN-SUFFIX,paskoocheh.com
+DOMAIN-SUFFIX,passage.id
 DOMAIN-SUFFIX,passion-hd.com
 DOMAIN-SUFFIX,passion.com
 DOMAIN-SUFFIX,passiontimes.hk
@@ -23600,6 +23615,7 @@ DOMAIN-SUFFIX,rvc.ac.uk
 DOMAIN-SUFFIX,rwcmd.ac.uk
 DOMAIN-SUFFIX,rxhj.net
 DOMAIN-SUFFIX,ryokoyomiuri.co.jp
+DOMAIN-SUFFIX,rzr.to
 DOMAIN-SUFFIX,s-bluemix.net
 DOMAIN-SUFFIX,s-books.com
 DOMAIN-SUFFIX,s-cashonmobile.com
@@ -25215,6 +25231,8 @@ DOMAIN-SUFFIX,sovec.net
 DOMAIN-SUFFIX,sowers.org.hk
 DOMAIN-SUFFIX,sowiki.net
 DOMAIN-SUFFIX,soyinyj.top
+DOMAIN-SUFFIX,soyjak.party
+DOMAIN-SUFFIX,soyjak.st
 DOMAIN-SUFFIX,soylent.com
 DOMAIN-SUFFIX,soylentnews.org
 DOMAIN-SUFFIX,sp.cool
@@ -29079,6 +29097,7 @@ DOMAIN-SUFFIX,vpnpronet.com
 DOMAIN-SUFFIX,vpnproxymaster.com
 DOMAIN-SUFFIX,vpnreactor.com
 DOMAIN-SUFFIX,vpnreviewz.com
+DOMAIN-SUFFIX,vpnrouter.homes
 DOMAIN-SUFFIX,vpnsecure.me
 DOMAIN-SUFFIX,vpnshazam.com
 DOMAIN-SUFFIX,vpnshieldapp.com
