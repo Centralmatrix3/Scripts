@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 87868
+# 规则统计: 87867
 
 payload:
   - '+.0.myikas.com'
@@ -60036,7 +60036,6 @@ payload:
   - '+.r.presspadnews.com'
   - '+.r.rover.com'
   - '+.r.sportsie.com'
-  - '+.r.stripe.com'
   - '+.r.wz.de'
   - '+.r01.g1c5.com'
   - '+.r023m83skv5v.com'
