@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 139442
+# 规则统计: 139453
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -45873,7 +45873,10 @@ DOMAIN-SUFFIX,hapco-cn.com
 DOMAIN-SUFFIX,hapg-hitachi.com
 DOMAIN-SUFFIX,hapi123.net
 DOMAIN-SUFFIX,hapids.com
+DOMAIN-SUFFIX,hapierxia.com
 DOMAIN-SUFFIX,hapingapp.com
+DOMAIN-SUFFIX,hapipixia.com
+DOMAIN-SUFFIX,hapiyixia.com
 DOMAIN-SUFFIX,hapjs.org
 DOMAIN-SUFFIX,haplat.net
 DOMAIN-SUFFIX,happi123.com
@@ -60303,6 +60306,8 @@ DOMAIN-SUFFIX,kaimen360.com
 DOMAIN-SUFFIX,kaimg.com
 DOMAIN-SUFFIX,kaimitech.com
 DOMAIN-SUFFIX,kaipanla.com
+DOMAIN-SUFFIX,kaipuyun.com
+DOMAIN-SUFFIX,kaipuyun.net
 DOMAIN-SUFFIX,kaiqiancq.com
 DOMAIN-SUFFIX,kaiqiu.cc
 DOMAIN-SUFFIX,kaiqsz.com
@@ -62183,6 +62188,7 @@ DOMAIN-SUFFIX,kuailebz.com
 DOMAIN-SUFFIX,kuailedo.com
 DOMAIN-SUFFIX,kuailekaishi.com
 DOMAIN-SUFFIX,kuailelunwen.com
+DOMAIN-SUFFIX,kuailepipixia.com
 DOMAIN-SUFFIX,kuailetongyao.com
 DOMAIN-SUFFIX,kuailexs.com
 DOMAIN-SUFFIX,kuailexue.com
@@ -77207,6 +77213,7 @@ DOMAIN-SUFFIX,pipipifa.com
 DOMAIN-SUFFIX,pipishu.com
 DOMAIN-SUFFIX,pipiti.com
 DOMAIN-SUFFIX,pipix.com
+DOMAIN-SUFFIX,pipixiaha.com
 DOMAIN-SUFFIX,pipiyo.com
 DOMAIN-SUFFIX,pipsemi.com
 DOMAIN-SUFFIX,pipuda.com
@@ -77838,10 +77845,13 @@ DOMAIN-SUFFIX,ppwow.cc
 DOMAIN-SUFFIX,ppwwyyxx.com
 DOMAIN-SUFFIX,ppx520.com
 DOMAIN-SUFFIX,ppxclub.com
+DOMAIN-SUFFIX,ppxhhh.com
 DOMAIN-SUFFIX,ppxiaoshuowang.com
+DOMAIN-SUFFIX,ppximg.com
 DOMAIN-SUFFIX,ppxm.com
 DOMAIN-SUFFIX,ppxmw.com
 DOMAIN-SUFFIX,ppxs.net
+DOMAIN-SUFFIX,ppxstatic.com
 DOMAIN-SUFFIX,ppxsw.co
 DOMAIN-SUFFIX,ppxvod.com
 DOMAIN-SUFFIX,ppxwo.com
@@ -118813,7 +118823,6 @@ IP-CIDR,103.120.76.0/24,no-resolve
 IP-CIDR,103.120.88.0/22,no-resolve
 IP-CIDR,103.120.96.0/21,no-resolve
 IP-CIDR,103.121.160.0/21,no-resolve
-IP-CIDR,103.121.228.0/24,no-resolve
 IP-CIDR,103.121.250.0/24,no-resolve
 IP-CIDR,103.121.252.0/22,no-resolve
 IP-CIDR,103.121.52.0/22,no-resolve
@@ -121459,7 +121468,6 @@ IP-CIDR,118.107.11.0/24,no-resolve
 IP-CIDR,118.107.12.0/22,no-resolve
 IP-CIDR,118.107.32.0/24,no-resolve
 IP-CIDR,118.107.41.0/24,no-resolve
-IP-CIDR,118.107.43.0/24,no-resolve
 IP-CIDR,118.107.56.0/23,no-resolve
 IP-CIDR,118.107.60.0/24,no-resolve
 IP-CIDR,118.107.63.0/24,no-resolve
@@ -126157,6 +126165,7 @@ IP-CIDR,44.31.216.0/24,no-resolve
 IP-CIDR,44.31.28.0/24,no-resolve
 IP-CIDR,44.31.42.0/24,no-resolve
 IP-CIDR,44.31.81.0/24,no-resolve
+IP-CIDR,44.31.96.0/24,no-resolve
 IP-CIDR,44.32.143.0/24,no-resolve
 IP-CIDR,44.32.188.0/24,no-resolve
 IP-CIDR,44.32.191.0/24,no-resolve
@@ -139366,11 +139375,13 @@ IP-CIDR6,2a14:67c1:73::/48,no-resolve
 IP-CIDR6,2a14:67c1:800::/48,no-resolve
 IP-CIDR6,2a14:67c1:a010::/44,no-resolve
 IP-CIDR6,2a14:67c1:a020::/48,no-resolve
+IP-CIDR6,2a14:67c1:a023::/48,no-resolve
 IP-CIDR6,2a14:67c1:a024::/48,no-resolve
 IP-CIDR6,2a14:67c1:a02a::/48,no-resolve
 IP-CIDR6,2a14:67c1:a02f::/48,no-resolve
 IP-CIDR6,2a14:67c1:a061::/48,no-resolve
 IP-CIDR6,2a14:67c1:a090::/47,no-resolve
+IP-CIDR6,2a14:67c1:b065::/48,no-resolve
 IP-CIDR6,2a14:67c1:b066::/47,no-resolve
 IP-CIDR6,2a14:67c1:b068::/47,no-resolve
 IP-CIDR6,2a14:67c1:b100::/46,no-resolve
