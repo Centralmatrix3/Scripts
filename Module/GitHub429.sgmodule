@@ -1,0 +1,9 @@
+#!name = GitHub429
+#!desc = GitHub429限制解除
+#!author = Centralmatrix3
+
+[Header Rewrite]
+http-request ^https:\/\/(github\.com|(raw|gist)\.githubusercontent\.com)\/ header-replace Accept-Language en-us
+
+[MITM]
+hostname = %APPEND% github.com, raw.githubusercontent.com, gist.githubusercontent.com
