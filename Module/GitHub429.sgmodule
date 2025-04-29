@@ -5,7 +5,7 @@
 [Header Rewrite]
 # http-request ^https:\/\/(github\.com|(raw|gist)\.githubusercontent\.com)\/ header-replace Accept-Language en-us
 
-http-request ^https:\/\/(raw|gist)\.githubusercontent\.com)\/ header-replace Accept-Language en-us
+http-request ^https:\/\/(raw|gist)\.githubusercontent\.com\/ header-replace Accept-Language en-us
 
 [MITM]
 # hostname = %APPEND% github.com, raw.githubusercontent.com, gist.githubusercontent.com
