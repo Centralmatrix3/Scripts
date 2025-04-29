@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31562
+# 规则统计: 31563
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -26955,6 +26955,7 @@ DOMAIN-SUFFIX,thotsbay.tv
 DOMAIN-SUFFIX,thottok.com
 DOMAIN-SUFFIX,thotvids.com
 DOMAIN-SUFFIX,threadreaderapp.com
+DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,threatchaos.com
 DOMAIN-SUFFIX,thri.xxx
