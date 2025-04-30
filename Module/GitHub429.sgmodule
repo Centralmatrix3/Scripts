@@ -1,9 +1,0 @@
-#!name = GitHub429
-#!desc = GitHub429限制解除
-#!author = Centralmatrix3
-
-[Header Rewrite]
-http-request ^https:\/\/(github\.com|(avatars|gist|raw)\.githubusercontent\.com)\/ header-replace Accept-Language en-us
-
-[MITM]
-hostname = %APPEND% gist.githubusercontent.com, raw.githubusercontent.com // github.com, avatars.githubusercontent.com
