@@ -1,5 +1,5 @@
 # 规则名称: ChinaIPMax
-# 规则统计: 31173
+# 规则统计: 31168
 
 IP-CIDR,1.0.1.0/24,no-resolve
 IP-CIDR,1.0.2.0/23,no-resolve
@@ -6931,8 +6931,6 @@ IP-CIDR,117.104.168.0/21,no-resolve
 IP-CIDR,117.106.0.0/15,no-resolve
 IP-CIDR,117.112.0.0/13,no-resolve
 IP-CIDR,117.120.128.0/17,no-resolve
-IP-CIDR,117.120.128.0/21,no-resolve
-IP-CIDR,117.120.136.0/22,no-resolve
 IP-CIDR,117.120.160.0/19,no-resolve
 IP-CIDR,117.120.192.0/18,no-resolve
 IP-CIDR,117.120.64.0/18,no-resolve
@@ -13908,11 +13906,7 @@ IP-CIDR,220.181.128.0/20,no-resolve
 IP-CIDR,220.181.144.0/24,no-resolve
 IP-CIDR,220.181.148.0/22,no-resolve
 IP-CIDR,220.181.152.0/21,no-resolve
-IP-CIDR,220.181.160.0/20,no-resolve
-IP-CIDR,220.181.176.0/21,no-resolve
-IP-CIDR,220.181.184.0/22,no-resolve
-IP-CIDR,220.181.188.0/23,no-resolve
-IP-CIDR,220.181.190.0/24,no-resolve
+IP-CIDR,220.181.160.0/19,no-resolve
 IP-CIDR,220.182.0.0/18,no-resolve
 IP-CIDR,220.184.0.0/13,no-resolve
 IP-CIDR,220.192.0.0/12,no-resolve
@@ -17868,7 +17862,8 @@ IP-CIDR,8.148.32.0/21,no-resolve
 IP-CIDR,8.148.32.0/22,no-resolve
 IP-CIDR,8.148.36.0/23,no-resolve
 IP-CIDR,8.148.38.0/24,no-resolve
-IP-CIDR,8.148.40.0/22,no-resolve
+IP-CIDR,8.148.41.0/24,no-resolve
+IP-CIDR,8.148.42.0/23,no-resolve
 IP-CIDR,8.148.42.0/24,no-resolve
 IP-CIDR,8.148.44.0/22,no-resolve
 IP-CIDR,8.148.48.0/20,no-resolve

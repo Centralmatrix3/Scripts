@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31593
+# 规则统计: 31594
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -26769,6 +26769,7 @@ DOMAIN-SUFFIX,thotsbay.tv
 DOMAIN-SUFFIX,thottok.com
 DOMAIN-SUFFIX,thotvids.com
 DOMAIN-SUFFIX,threadreaderapp.com
+DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,threatchaos.com
 DOMAIN-SUFFIX,thri.xxx
