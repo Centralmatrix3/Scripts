@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31563
+# 规则统计: 31567
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -5552,6 +5552,7 @@ DOMAIN-SUFFIX,brnc.ac.uk
 DOMAIN-SUFFIX,brni.com
 DOMAIN-SUFFIX,broadbandreports.com
 DOMAIN-SUFFIX,broadbook.com
+DOMAIN-SUFFIX,broadcom.com
 DOMAIN-SUFFIX,broadpressinc.com
 DOMAIN-SUFFIX,broadstairscollege.ac.uk
 DOMAIN-SUFFIX,brocaproject.com
@@ -18103,6 +18104,7 @@ DOMAIN-SUFFIX,metabrainz.org
 DOMAIN-SUFFIX,metacafe.com
 DOMAIN-SUFFIX,metacloud.com
 DOMAIN-SUFFIX,metacpan.org
+DOMAIN-SUFFIX,metacubex.one
 DOMAIN-SUFFIX,metadac.ac.uk
 DOMAIN-SUFFIX,metafilter.com
 DOMAIN-SUFFIX,metalpha.finance
@@ -19066,6 +19068,8 @@ DOMAIN-SUFFIX,msgamesresearch.com
 DOMAIN-SUFFIX,msguancha.com
 DOMAIN-SUFFIX,msha.gov
 DOMAIN-SUFFIX,mshome.net
+DOMAIN-SUFFIX,msi.cn
+DOMAIN-SUFFIX,msi.com
 DOMAIN-SUFFIX,msidentity.com
 DOMAIN-SUFFIX,msinnovationchallenge.com
 DOMAIN-SUFFIX,msk.ilnk.info
@@ -24893,6 +24897,7 @@ DOMAIN-SUFFIX,sinapse.ac.uk
 DOMAIN-SUFFIX,sinchew.com.my
 DOMAIN-SUFFIX,sinchew.my
 DOMAIN-SUFFIX,sinet.ac.uk
+DOMAIN-SUFFIX,sing-box.app
 DOMAIN-SUFFIX,sing4.lat
 DOMAIN-SUFFIX,sing68.com
 DOMAIN-SUFFIX,singaporepools.com.sg
@@ -29750,7 +29755,6 @@ DOMAIN-SUFFIX,wikawika.xyz
 DOMAIN-SUFFIX,wiki.cnitter.com
 DOMAIN-SUFFIX,wiki.gamerp.jp
 DOMAIN-SUFFIX,wiki.keso.cn
-DOMAIN-SUFFIX,wiki.metacubex.one
 DOMAIN-SUFFIX,wiki.oauth.net
 DOMAIN-SUFFIX,wiki.phonegap.com
 DOMAIN-SUFFIX,wikia.com
