@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 139324
+# 规则统计: 139327
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -30296,6 +30296,7 @@ DOMAIN-SUFFIX,dji.net
 DOMAIN-SUFFIX,djiang.net
 DOMAIN-SUFFIX,djiavip.com
 DOMAIN-SUFFIX,djicdn.com
+DOMAIN-SUFFIX,djiits.com
 DOMAIN-SUFFIX,djiops.com
 DOMAIN-SUFFIX,djiservice.org
 DOMAIN-SUFFIX,djjgj.com
@@ -70481,6 +70482,7 @@ DOMAIN-SUFFIX,moreck.com
 DOMAIN-SUFFIX,mored.com
 DOMAIN-SUFFIX,moredian.com
 DOMAIN-SUFFIX,morefood.com
+DOMAIN-SUFFIX,morefreegame.com
 DOMAIN-SUFFIX,morefun-philippines.com
 DOMAIN-SUFFIX,moregy.com
 DOMAIN-SUFFIX,moreless.io
@@ -136004,6 +136006,7 @@ IP-CIDR6,2404:2280:1f8::/46,no-resolve
 IP-CIDR6,2404:2280:202::/47,no-resolve
 IP-CIDR6,2404:2280:204::/47,no-resolve
 IP-CIDR6,2404:2280:209::/48,no-resolve
+IP-CIDR6,2404:2280:20a::/48,no-resolve
 IP-CIDR6,2404:240::/32,no-resolve
 IP-CIDR6,2404:280::/32,no-resolve
 IP-CIDR6,2404:30c0::/32,no-resolve
