@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31597
+# 规则统计: 31595
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -12225,6 +12225,7 @@ DOMAIN-SUFFIX,gotgayporn.com
 DOMAIN-SUFFIX,gotgeeks.com
 DOMAIN-SUFFIX,gothdporn.com
 DOMAIN-SUFFIX,gotporn.com
+DOMAIN-SUFFIX,gotquestions.org
 DOMAIN-SUFFIX,gotraffic.net
 DOMAIN-SUFFIX,gotrusted.com
 DOMAIN-SUFFIX,gotw.ca
@@ -14030,6 +14031,7 @@ DOMAIN-SUFFIX,idiomconnection.com
 DOMAIN-SUFFIX,idlcoyote.com
 DOMAIN-SUFFIX,idnike.com
 DOMAIN-SUFFIX,idol-sagasukun.com
+DOMAIN-SUFFIX,idope.se
 DOMAIN-SUFFIX,idouga.com
 DOMAIN-SUFFIX,idras.ac.uk
 DOMAIN-SUFFIX,idreamx.com
@@ -16084,7 +16086,6 @@ DOMAIN-SUFFIX,kukuku.uk
 DOMAIN-SUFFIX,kum.com
 DOMAIN-SUFFIX,kumo.com
 DOMAIN-SUFFIX,kun.im
-DOMAIN-SUFFIX,kun66.xyz
 DOMAIN-SUFFIX,kundun1069.com
 DOMAIN-SUFFIX,kurashsultan.com
 DOMAIN-SUFFIX,kurtmunger.com
@@ -20028,6 +20029,7 @@ DOMAIN-SUFFIX,noc.ac.uk
 DOMAIN-SUFFIX,nocn.ac.uk
 DOMAIN-SUFFIX,nocs.ac.uk
 DOMAIN-SUFFIX,nodejs.org
+DOMAIN-SUFFIX,nodeloc.com
 DOMAIN-SUFFIX,nodes.ac.uk
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nodesnoop.com
@@ -22687,7 +22689,6 @@ DOMAIN-SUFFIX,qbittorrent.org
 DOMAIN-SUFFIX,qbmengmei6.mom
 DOMAIN-SUFFIX,qbsc.ac.uk
 DOMAIN-SUFFIX,qckprn.com
-DOMAIN-SUFFIX,qcmod.xyz
 DOMAIN-SUFFIX,qctconnect.com
 DOMAIN-SUFFIX,qdiehzz7.me
 DOMAIN-SUFFIX,qdmomentum.com
@@ -23349,7 +23350,6 @@ DOMAIN-SUFFIX,right-2.ac.uk
 DOMAIN-SUFFIX,rightbtc.com
 DOMAIN-SUFFIX,rightster.com
 DOMAIN-SUFFIX,rigpa.org
-DOMAIN-SUFFIX,rigums.xyz
 DOMAIN-SUFFIX,riku.me
 DOMAIN-SUFFIX,rileyguide.com
 DOMAIN-SUFFIX,rime.im
@@ -24394,7 +24394,6 @@ DOMAIN-SUFFIX,sgul.ac.uk
 DOMAIN-SUFFIX,sgwritings.com
 DOMAIN-SUFFIX,sgzhan.com
 DOMAIN-SUFFIX,sh-xuxingda.com
-DOMAIN-SUFFIX,sh83.xyz
 DOMAIN-SUFFIX,shadbase.com
 DOMAIN-SUFFIX,shadeyouvpn.com
 DOMAIN-SUFFIX,shadow.ma
@@ -25832,6 +25831,7 @@ DOMAIN-SUFFIX,stxmosquitoproject.com
 DOMAIN-SUFFIX,stxmosquitoproject.net
 DOMAIN-SUFFIX,stxmosquitoproject.org
 DOMAIN-SUFFIX,sub147.com
+DOMAIN-SUFFIX,subhd.tv
 DOMAIN-SUFFIX,sublimedirectory.com
 DOMAIN-SUFFIX,sublimetext.com
 DOMAIN-SUFFIX,submarin.online
@@ -30131,7 +30131,6 @@ DOMAIN-SUFFIX,xiaoyaoge.xyz
 DOMAIN-SUFFIX,xiaxiaoqiang.net
 DOMAIN-SUFFIX,xiezhua.com
 DOMAIN-SUFFIX,xihua.es
-DOMAIN-SUFFIX,xin21.xyz
 DOMAIN-SUFFIX,xinaia-av.buzz
 DOMAIN-SUFFIX,xinbao.de
 DOMAIN-SUFFIX,xindelu.com
@@ -31168,7 +31167,6 @@ DOMAIN-SUFFIX,ysmany.com
 DOMAIN-SUFFIX,ysmass.com
 DOMAIN-SUFFIX,ysmeal.com
 DOMAIN-SUFFIX,ysmeat.com
-DOMAIN-SUFFIX,ysmeet.com
 DOMAIN-SUFFIX,ysmelf.com
 DOMAIN-SUFFIX,ysmere.com
 DOMAIN-SUFFIX,ysmuch.com

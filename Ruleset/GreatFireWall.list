@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6486
+# 规则统计: 6496
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -1007,7 +1007,6 @@ DOMAIN-SUFFIX,chaos.social
 DOMAIN-SUFFIX,chapm25.com
 DOMAIN-SUFFIX,character.ai
 DOMAIN-SUFFIX,chat.lmsys.org
-DOMAIN-SUFFIX,chat.openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatnook.com
 DOMAIN-SUFFIX,chaturbate.com
@@ -1452,6 +1451,7 @@ DOMAIN-SUFFIX,discuss4u.com
 DOMAIN-SUFFIX,dish.com
 DOMAIN-SUFFIX,disk.yandex.com
 DOMAIN-SUFFIX,disk.yandex.ru
+DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disp.cc
 DOMAIN-SUFFIX,disqus.com
 DOMAIN-SUFFIX,dit-inc.us
@@ -1829,6 +1829,7 @@ DOMAIN-SUFFIX,faproxy.com
 DOMAIN-SUFFIX,faqserv.com
 DOMAIN-SUFFIX,fartit.com
 DOMAIN-SUFFIX,farwestchina.com
+DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fast.wistia.com
 DOMAIN-SUFFIX,fastestvpn.com
 DOMAIN-SUFFIX,fastpic.ru
@@ -2587,6 +2588,7 @@ DOMAIN-SUFFIX,hakkatv.org.tw
 DOMAIN-SUFFIX,halktv.com.tr
 DOMAIN-SUFFIX,handcraftedsoftware.org
 DOMAIN-SUFFIX,hanime.tv
+DOMAIN-SUFFIX,hanime1.me
 DOMAIN-SUFFIX,hanunyi.com
 DOMAIN-SUFFIX,hao.news
 DOMAIN-SUFFIX,happy-vpn.com
@@ -3623,6 +3625,7 @@ DOMAIN-SUFFIX,mirror.xyz
 DOMAIN-SUFFIX,mirrorbooks.com
 DOMAIN-SUFFIX,mirrormedia.mg
 DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,mist.vip
 DOMAIN-SUFFIX,mitao.com.tw
 DOMAIN-SUFFIX,mitbbs.com
@@ -4095,7 +4098,7 @@ DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,open.firstory.me
-DOMAIN-SUFFIX,open.spotify.com
+DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,opendemocracy.net
 DOMAIN-SUFFIX,opendn.xyz
@@ -4809,6 +4812,7 @@ DOMAIN-SUFFIX,simplecd.me
 DOMAIN-SUFFIX,simplecd.org
 DOMAIN-SUFFIX,simpleproductivityblog.com
 DOMAIN-SUFFIX,simpleswap.io
+DOMAIN-SUFFIX,simplex.chat
 DOMAIN-SUFFIX,sinchew.com.my
 DOMAIN-SUFFIX,singaporepools.com.sg
 DOMAIN-SUFFIX,singfortibet.com
@@ -4958,6 +4962,7 @@ DOMAIN-SUFFIX,spiderpool.com
 DOMAIN-SUFFIX,spike.com
 DOMAIN-SUFFIX,sports.williamhill.com
 DOMAIN-SUFFIX,spotflux.com
+DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spreadsheet.new
 DOMAIN-SUFFIX,spreadshirt.es
 DOMAIN-SUFFIX,spreaker.com
@@ -5199,6 +5204,7 @@ DOMAIN-SUFFIX,teeniefuck.net
 DOMAIN-SUFFIX,teensinasia.com
 DOMAIN-SUFFIX,tehrantimes.com
 DOMAIN-SUFFIX,telecomspace.com
+DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegram-cdn.org
 DOMAIN-SUFFIX,telegram.dog
@@ -5208,6 +5214,7 @@ DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tellapart.com
 DOMAIN-SUFFIX,tellme.pw
 DOMAIN-SUFFIX,tenacy.com
 DOMAIN-SUFFIX,tenor.com
@@ -5221,6 +5228,7 @@ DOMAIN-SUFFIX,tfc-taiwan.org.tw
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,tfiflve.com
 DOMAIN-SUFFIX,tg-me.com
+DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,th.hao123.com
 DOMAIN-SUFFIX,thaicn.com
 DOMAIN-SUFFIX,thb.gov.tw
@@ -5652,6 +5660,7 @@ DOMAIN-SUFFIX,twtrland.com
 DOMAIN-SUFFIX,twttr.com
 DOMAIN-SUFFIX,twurl.nl
 DOMAIN-SUFFIX,twyac.org
+DOMAIN-SUFFIX,tx.me
 DOMAIN-SUFFIX,txxx.com
 DOMAIN-SUFFIX,tycool.com
 DOMAIN-SUFFIX,typepad.com
@@ -6460,6 +6469,7 @@ DOMAIN-SUFFIX,zkaip.com
 DOMAIN-SUFFIX,zmedia.com.tw
 DOMAIN-SUFFIX,zmw.cn
 DOMAIN-SUFFIX,zodgame.us
+DOMAIN-SUFFIX,zodgame.xyz
 DOMAIN-SUFFIX,zomobo.net
 DOMAIN-SUFFIX,zonaeuropa.com
 DOMAIN-SUFFIX,zonghexinwen.com
