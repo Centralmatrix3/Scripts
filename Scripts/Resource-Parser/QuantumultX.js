@@ -1,4 +1,4 @@
-/*
+/**
  * @name = Resource-Parser
  * @tool = QuantumultX
  * @author = KOP-XIAO
