@@ -1,7 +1,7 @@
 /**
- * @name = Resource-Parser
- * @tool = QuantumultX
- * @author = KOP-XIAO
+name = Resource-Parser
+tool = QuantumultX
+author = KOP-XIAO
 ----------------------------------------
 [general]
 resource_parser_url = https://github.com/Centralmatrix3/Scripts/raw/master/Scripts/Resource-Parser/QuantumultX.js
