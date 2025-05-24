@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31620
+# 规则统计: 31627
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -1330,6 +1330,9 @@ DOMAIN-SUFFIX,ajplus.net
 DOMAIN-SUFFIX,ajsands.com
 DOMAIN-SUFFIX,ajsjx.com
 DOMAIN-SUFFIX,ajtalk.com
+DOMAIN-SUFFIX,ak-p.tripcdn.com
+DOMAIN-SUFFIX,ak-s-cw.tripcdn.com
+DOMAIN-SUFFIX,ak-s.tripcdn.com
 DOMAIN-SUFFIX,ak1.net
 DOMAIN-SUFFIX,aka-ai.com
 DOMAIN-SUFFIX,aka-ai.net
@@ -1394,6 +1397,7 @@ DOMAIN-SUFFIX,akamqi.com
 DOMAIN-SUFFIX,akasha.world
 DOMAIN-SUFFIX,akastream.com
 DOMAIN-SUFFIX,akastream.net
+DOMAIN-SUFFIX,akatest.tripcdn.com
 DOMAIN-SUFFIX,akatns.net
 DOMAIN-SUFFIX,akiba-online.com
 DOMAIN-SUFFIX,akiba-web.com
@@ -2939,6 +2943,9 @@ DOMAIN-SUFFIX,avxhm.se
 DOMAIN-SUFFIX,avxlive.icu
 DOMAIN-SUFFIX,avxxc.com
 DOMAIN-SUFFIX,avyahoo.com
+DOMAIN-SUFFIX,aw-d.tripcdn.com
+DOMAIN-SUFFIX,aw-p.tripcdn.com
+DOMAIN-SUFFIX,aw-s.tripcdn.com
 DOMAIN-SUFFIX,awayoutgame.com
 DOMAIN-SUFFIX,aweencore.com
 DOMAIN-SUFFIX,awesomeent.co.kr
