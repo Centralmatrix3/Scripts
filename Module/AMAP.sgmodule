@@ -39,6 +39,8 @@ http-response-jq ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail
 ^https:\/\/sns\.amap\.com\/ws\/msgbox\/pull_mp\? data-type=text data="{}" status-code=200
 
 [Script]
+高德地图 = type=http-response,pattern=^https:\/\/(?:info|m5)\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js,requires-body=true,timeout=30
+
 高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/aos\/perception\/publicTravel\/beforeNavi\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js,requires-body=true,timeout=30
 
 高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/bus\/plan\/integrate\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js,requires-body=true,timeout=30
@@ -52,8 +54,6 @@ http-response-jq ^https:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail
 高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js,requires-body=true,timeout=30
 
 高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/frogserver\/aocs\/updatable\/1\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js,requires-body=true,timeout=30
-
-高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/(?:common\/coupon\/info|poi\/detail),script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js,requires-body=true,timeout=30
 
 高德地图 = type=http-response,pattern=^https:\/\/m5\.amap\.com\/ws\/shield\/search\/nearbyrec_smart\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/AMAP/AMAP.js,requires-body=true,timeout=30
 
