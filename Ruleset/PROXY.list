@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31130
+# 规则统计: 31131
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -2207,6 +2207,7 @@ DOMAIN-SUFFIX,ams02.space
 DOMAIN-SUFFIX,amsterdamhotescort.com
 DOMAIN-SUFFIX,amsterdamluxescort.com
 DOMAIN-SUFFIX,amtb-taipei.org
+DOMAIN-SUFFIX,amuletmc.com
 DOMAIN-SUFFIX,amytele.com
 DOMAIN-SUFFIX,amzn.asia
 DOMAIN-SUFFIX,amzn.com
