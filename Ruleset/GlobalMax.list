@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31793
+# 规则统计: 31795
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -1772,6 +1772,7 @@ DOMAIN-SUFFIX,ams02.space
 DOMAIN-SUFFIX,amsterdamhotescort.com
 DOMAIN-SUFFIX,amsterdamluxescort.com
 DOMAIN-SUFFIX,amtb-taipei.org
+DOMAIN-SUFFIX,amuletmc.com
 DOMAIN-SUFFIX,amytele.com
 DOMAIN-SUFFIX,amzn.asia
 DOMAIN-SUFFIX,amzn.com
@@ -21716,6 +21717,7 @@ DOMAIN-SUFFIX,piaotian.net
 DOMAIN-SUFFIX,piapp.com.tw
 DOMAIN-SUFFIX,piapro.net
 DOMAIN-SUFFIX,picacg2022.com
+DOMAIN-SUFFIX,picacgy.com
 DOMAIN-SUFFIX,picacn.xyz
 DOMAIN-SUFFIX,picacomic.com
 DOMAIN-SUFFIX,picacomic.xyz
