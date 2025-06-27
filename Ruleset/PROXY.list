@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31136
+# 规则统计: 31134
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -6591,7 +6591,6 @@ DOMAIN-SUFFIX,chianxv.buzz
 DOMAIN-SUFFIX,chibabank.co.jp
 DOMAIN-SUFFIX,chibakogyo-bank.co.jp
 DOMAIN-SUFFIX,chicagolandbmw.com
-DOMAIN-SUFFIX,chicagoncmtv.com
 DOMAIN-SUFFIX,chichester.ac.uk
 DOMAIN-SUFFIX,chichestercollegegroup.ac.uk
 DOMAIN-SUFFIX,chickstagram.com
@@ -11253,8 +11252,6 @@ DOMAIN-SUFFIX,freefacebookads.net
 DOMAIN-SUFFIX,freefblikes.com
 DOMAIN-SUFFIX,freefbx.com
 DOMAIN-SUFFIX,freeforums.org
-DOMAIN-SUFFIX,freefq.com
-DOMAIN-SUFFIX,freefuckvids.com
 DOMAIN-SUFFIX,freegao.com
 DOMAIN-SUFFIX,freegaypornhdtube.com
 DOMAIN-SUFFIX,freegaysexgames.com
@@ -22847,6 +22844,7 @@ DOMAIN-SUFFIX,radiotavisupleba.ge
 DOMAIN-SUFFIX,radiovaticana.org
 DOMAIN-SUFFIX,radiovncr.com
 DOMAIN-SUFFIX,radiyoyacuvoa.com
+DOMAIN-SUFFIX,radmin-vpn.com
 DOMAIN-SUFFIX,rae.ac.uk
 DOMAIN-SUFFIX,rael.org
 DOMAIN-SUFFIX,raft.ac.uk

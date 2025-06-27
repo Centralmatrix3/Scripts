@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5865
+# 规则统计: 5863
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -924,7 +924,6 @@ DOMAIN-SUFFIX,chenpokongvip.com
 DOMAIN-SUFFIX,chenshan20042005.wordpress.com
 DOMAIN-SUFFIX,cherrysave.com
 DOMAIN-SUFFIX,chhongbi.org
-DOMAIN-SUFFIX,chicagoncmtv.com
 DOMAIN-SUFFIX,china-mmm.jp.net
 DOMAIN-SUFFIX,china-mmm.net
 DOMAIN-SUFFIX,china-review.com.ua
@@ -1790,8 +1789,6 @@ DOMAIN-SUFFIX,freedomhouse.org
 DOMAIN-SUFFIX,freedominfonetweb.wordpress.com
 DOMAIN-SUFFIX,freedomsherald.org
 DOMAIN-SUFFIX,freeforums.org
-DOMAIN-SUFFIX,freefq.com
-DOMAIN-SUFFIX,freefuckvids.com
 DOMAIN-SUFFIX,freegao.com
 DOMAIN-SUFFIX,freehongkong.org
 DOMAIN-SUFFIX,freeilhamtohti.org
@@ -4053,6 +4050,7 @@ DOMAIN-SUFFIX,radiohilight.net
 DOMAIN-SUFFIX,radioline.co
 DOMAIN-SUFFIX,radiovaticana.org
 DOMAIN-SUFFIX,radiovncr.com
+DOMAIN-SUFFIX,radmin-vpn.com
 DOMAIN-SUFFIX,rael.org
 DOMAIN-SUFFIX,raggedbanner.com
 DOMAIN-SUFFIX,raidcall.com.tw
