@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31800
+# 规则统计: 31801
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -23030,6 +23030,7 @@ DOMAIN-SUFFIX,radiotime.com
 DOMAIN-SUFFIX,radiovaticana.org
 DOMAIN-SUFFIX,radiovncr.com
 DOMAIN-SUFFIX,radiyoyacuvoa.com
+DOMAIN-SUFFIX,radmin-vpn.com
 DOMAIN-SUFFIX,rae.ac.uk
 DOMAIN-SUFFIX,rael.org
 DOMAIN-SUFFIX,raft.ac.uk

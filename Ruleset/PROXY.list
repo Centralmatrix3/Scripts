@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 31134
+# 规则统计: 31153
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -192,9 +192,11 @@ DOMAIN,hl2rcv.adobe.com
 DOMAIN,hlrcv.stage.adobe.com
 DOMAIN,hls-amt.itunes.apple.com
 DOMAIN,hls.itunes.apple.com
+DOMAIN,holoxx.f5.si
 DOMAIN,homebrew.bintray.com
 DOMAIN,hpefonts.s3.amazonaws.com
 DOMAIN,hpstore.corpmerchandise.com
+DOMAIN,hub.slarker.me
 DOMAIN,hulu.playback.edge.bamgrid.com
 DOMAIN,i.jeded.com
 DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net
@@ -286,6 +288,22 @@ DOMAIN,push-apple.com.akadns.net
 DOMAIN,pvr-hamivideo.cdn.hinet.net
 DOMAIN,qualcomm.sc.omtrdc.net
 DOMAIN,rink.hockeyapp.net
+DOMAIN,rss.4040940.xyz
+DOMAIN,rss.datuan.dev
+DOMAIN,rss.littlebaby.life
+DOMAIN,rss.owo.nz
+DOMAIN,rss.wudifeixue.com
+DOMAIN,rsshub.asailor.org
+DOMAIN,rsshub.email-once.com
+DOMAIN,rsshub.henry.wang
+DOMAIN,rsshub.isrss.com
+DOMAIN,rsshub.ktachibana.party
+DOMAIN,rsshub.pseudoyu.com
+DOMAIN,rsshub.rss.tips
+DOMAIN,rsshub.rssforever.com
+DOMAIN,rsshub.umzzz.com
+DOMAIN,rsshub.woodland.cafe
+DOMAIN,rsshub2.asailor.org
 DOMAIN,rtm.tnt-ea.com
 DOMAIN,sa78gs.wpc.edgecastcdn.net
 DOMAIN,scc.ott.hinet.net
@@ -566,6 +584,7 @@ DOMAIN,wwis-dubc1-vip97.adobe.com
 DOMAIN,wwis-dubc1-vip98.adobe.com
 DOMAIN,wwis-dubc1-vip99.adobe.com
 DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN,yangzhi.app
 DOMAIN,zeenews-fonts.s3.amazonaws.com
 DOMAIN,ztedevices.com
 DOMAIN-SUFFIX,000webhost.com
