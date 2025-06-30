@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31801
+# 规则统计: 31821
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -45,7 +45,9 @@ DOMAIN,espndotcom.tt.omtrdc.net
 DOMAIN,faronics.kayako.com
 DOMAIN,firstsearch.oclc.org
 DOMAIN,gog.qtlglb.com
+DOMAIN,holoxx.f5.si
 DOMAIN,hpstore.corpmerchandise.com
+DOMAIN,hub.slarker.me
 DOMAIN,i.jeded.com
 DOMAIN,imperial.insendi.com
 DOMAIN,ingest.apple-studies.com
@@ -75,6 +77,22 @@ DOMAIN,practivate.adobe.ntp
 DOMAIN,public-us-pingsx.api.clonoth.com
 DOMAIN,push-apple.com.akadns.net
 DOMAIN,qualcomm.sc.omtrdc.net
+DOMAIN,rss.4040940.xyz
+DOMAIN,rss.datuan.dev
+DOMAIN,rss.littlebaby.life
+DOMAIN,rss.owo.nz
+DOMAIN,rss.wudifeixue.com
+DOMAIN,rsshub.asailor.org
+DOMAIN,rsshub.email-once.com
+DOMAIN,rsshub.henry.wang
+DOMAIN,rsshub.isrss.com
+DOMAIN,rsshub.ktachibana.party
+DOMAIN,rsshub.pseudoyu.com
+DOMAIN,rsshub.rss.tips
+DOMAIN,rsshub.rssforever.com
+DOMAIN,rsshub.umzzz.com
+DOMAIN,rsshub.woodland.cafe
+DOMAIN,rsshub2.asailor.org
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,tesla-cdn.thron.com
 DOMAIN,time.windows.com
@@ -91,6 +109,7 @@ DOMAIN,wetv.qq.com
 DOMAIN,widgets.stripst.com
 DOMAIN,wrds-www.wharton.upenn.edu
 DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN,yangzhi.app
 DOMAIN,ztedevices.com
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,01.org
@@ -14425,6 +14444,7 @@ DOMAIN-SUFFIX,imems.ac.uk
 DOMAIN-SUFFIX,imessage.tv
 DOMAIN-SUFFIX,imet.ac.uk
 DOMAIN-SUFFIX,img.ly
+DOMAIN-SUFFIX,img.picgo.net
 DOMAIN-SUFFIX,imgasd.com
 DOMAIN-SUFFIX,imgbb.com
 DOMAIN-SUFFIX,imgchili.net
