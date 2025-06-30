@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 91062
+# 规则统计: 91061
 
 payload:
   - '+.0.myikas.com'
@@ -8562,7 +8562,6 @@ payload:
   - '+.analytics.maxroll.gg'
   - '+.analytics.mc500.info'
   - '+.analytics.media-proweb.de'
-  - '+.analytics.meituan.net'
   - '+.analytics.mercadolibre.com'
   - '+.analytics.metro-cc.ru'
   - '+.analytics.metro.be'
