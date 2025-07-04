@@ -392,6 +392,7 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         # [Python]="Python.list"
         # [QQ]="QQ.list"
         [QQMusic]="QQMusic.list"
+        # [QQSpace]="QQSpace.list"
         # [Qcloud]="Qcloud.list"
         [Qobuz]="Qobuz.list"
         # [Qualcomm]="Qualcomm.list"
