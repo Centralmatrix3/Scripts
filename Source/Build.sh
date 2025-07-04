@@ -450,6 +450,7 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         [TVB]="TVB.list"
         [TVer]="TVer.list"
         [TaiwanGood]="TaiwanGood.list"
+        # [TaoBao]="TaoBao.list"
         [TapTap]="TapTap.list"
         [TeamViewer]="TeamViewer.list"
         [Telegram]="Telegram.list"
