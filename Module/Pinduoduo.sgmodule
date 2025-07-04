@@ -3,6 +3,12 @@
 #!author = RuCu6、lodepuly
 
 [Body Rewrite]
+http-response-jq ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? '.result.bottom_tabs? |= map(select(.link | IN("index.html", "chat_list.html", "personal.html"))) | .result.buffer_bottom_tabs? |= map(select(.link | IN("index.html", "chat_list.html", "personal.html")))'
+
+http-response-jq ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? 'delpaths([["result","dy_module","irregular_banner_dy"]])'
+
+http-response-jq ^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\? 'delpaths([["result","search_bar_hot_query"]])'
+
 http-response-jq ^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render 'delpaths([["bottom_section_list"]])'
 
 http-response-jq ^https:\/\/api\.pinduoduo\.com\/api\/oak\/integration\/render 'delpaths([["ui","bottom_section"]])'
@@ -39,9 +45,6 @@ http-response-jq ^https:\/\/api\.pinduoduo\.com\/search 'delpaths([["expansion"]
 ^https:\/\/api\.pinduoduo\.com\/api\/zaire_biz\/chat\/resource\/get_list_data data-type=text data="{}" status-code=200
 
 ^https:\/\/api\.pinduoduo\.com\/search_hotquery\? data-type=text data="{}" status-code=200
-
-[Script]
-拼多多 = type=http-response,pattern=^https:\/\/api\.pinduoduo\.com\/api\/alexa\/homepage\/hub\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Pinduoduo/Pinduoduo.js,requires-body=true,timeout=30
 
 [MITM]
 hostname = %APPEND% api.pinduoduo.com, api.yangkeduo.com
