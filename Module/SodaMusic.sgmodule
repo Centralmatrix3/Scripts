@@ -1,0 +1,39 @@
+#!name = 汽水音乐
+#!desc = 汽水音乐去广告
+#!author = lodepuly
+
+[Body Rewrite]
+http-response-jq ^https:\/\/beta-luna\.douyin\.com\/luna\/card\? 'del(.card_items[] | select(has("priority_display")))'
+
+http-response-jq ^https:\/\/beta-luna\.douyin\.com\/luna\/card\? 'delpaths([["preview_guide"]])'
+
+http-response-jq ^https:\/\/beta-luna\.douyin\.com\/luna\/feed\/song-tab\? 'del(.items[] | select(.type == "video_track_mix"))'
+
+http-response-jq ^https:\/\/beta-luna\.douyin\.com\/luna\/me\? 'delpaths([["reward_ad_banner"]])'
+
+http-response-jq ^https:\/\/beta-luna\.douyin\.com\/luna\/more-panel\? '.blocks |= map(select(.type != "related_video"))'
+
+[Map Local]
+^https:\/\/api\.qishui\.com\/luna\/ads\/ data-type=text data="{}" status-code=200
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/activities\? data-type=text data="{}" status-code=200
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/ads\/ data-type=text data="{}" status-code=200
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/upsells\? data-type=text data="{}" status-code=200
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/upsells_config\? data-type=text data="{}" status-code=200
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/commerce\/v2\/commerce_info\? data-type=text data="{}" status-code=200
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/media_ads\? data-type=text data="{}" status-code=200
+
+^https:\/\/beta-luna\.douyin\.com\/luna\/treasure\/entrance\/config\? data-type=text data="{}" status-code=200
+
+^https:\/\/webcast-open\.douyin\.com\/webcast\/openapi\/feed\/\? data-type=text data="{}" status-code=200
+
+[Script]
+汽水音乐 = type=http-response,pattern=^https:\/\/beta-luna\.douyin\.com\/luna\/me\/recently-played-media\?,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/SodaMusic/SodaMusic.js,requires-body=true,timeout=30
+
+[MITM]
+hostname = %APPEND% webcast-open.douyin.com, beta-luna.douyin.com, api.qishui.com
