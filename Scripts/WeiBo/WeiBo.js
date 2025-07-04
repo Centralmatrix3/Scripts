@@ -155,7 +155,7 @@ if (url.includes("/interface/sdk/sdkad.php")) {
             if ([6, 15, 41]?.includes(item?.type)) {
               continue;
             }
-            if (["荐读", "推荐", "相关内容", "相关评论"]?.includes(item?.adType)) {
+            if (["荐读", "评论总结", "推荐", "相关内容", "相关评论"]?.includes(item?.adType)) {
               continue;
             }
             newItems.push(item);
