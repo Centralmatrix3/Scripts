@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 31821
+# 规则统计: 31822
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -2925,6 +2925,7 @@ DOMAIN-SUFFIX,avinetworks.com
 DOMAIN-SUFFIX,avinin.com
 DOMAIN-SUFFIX,avizoon.site
 DOMAIN-SUFFIX,avizoone.com
+DOMAIN-SUFFIX,avjb.com
 DOMAIN-SUFFIX,avjiasu.com
 DOMAIN-SUFFIX,avjoy.me
 DOMAIN-SUFFIX,avjzy67.xyz
