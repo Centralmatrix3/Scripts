@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 90296
+# 规则统计: 90300
 
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com
@@ -6156,7 +6156,6 @@ DOMAIN-SUFFIX,ads.globo.com
 DOMAIN-SUFFIX,ads.gmodules.com
 DOMAIN-SUFFIX,ads.google.cn
 DOMAIN-SUFFIX,ads.google.com
-DOMAIN-SUFFIX,ads.heytapmobi.com
 DOMAIN-SUFFIX,ads.house365.com
 DOMAIN-SUFFIX,ads.huan.tv
 DOMAIN-SUFFIX,ads.huantest.com
@@ -6785,6 +6784,7 @@ DOMAIN-SUFFIX,adx-open-service.youku.com
 DOMAIN-SUFFIX,adx-os.anythinktech.com
 DOMAIN-SUFFIX,adx-static.ksosoft.com
 DOMAIN-SUFFIX,adx.36kr.com
+DOMAIN-SUFFIX,adx.ads.heytapmobi.com
 DOMAIN-SUFFIX,adx.adxglobal.com
 DOMAIN-SUFFIX,adx.apiok.net
 DOMAIN-SUFFIX,adx.appsdk.com.cn
@@ -11906,6 +11906,7 @@ DOMAIN-SUFFIX,b0.yahoo.co.jp
 DOMAIN-SUFFIX,b02byun5xc3s.com
 DOMAIN-SUFFIX,b0e8.com
 DOMAIN-SUFFIX,b0f2f18e.xyz
+DOMAIN-SUFFIX,b1-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,b1.0430.com
 DOMAIN-SUFFIX,b1.51scw.net
 DOMAIN-SUFFIX,b1.b2b168.com
@@ -11928,6 +11929,7 @@ DOMAIN-SUFFIX,b1img.com
 DOMAIN-SUFFIX,b1js.com
 DOMAIN-SUFFIX,b1n.carabins.umontreal.ca
 DOMAIN-SUFFIX,b1tow9h4erpw.anur.polymerdev.com
+DOMAIN-SUFFIX,b2-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,b2.0430.com
 DOMAIN-SUFFIX,b20p6lt350nt.app.polymersearch.com
 DOMAIN-SUFFIX,b21379380e.com
@@ -74451,6 +74453,7 @@ DOMAIN-SUFFIX,stfeukufunden.org
 DOMAIN-SUFFIX,stfynw.esprit.be
 DOMAIN-SUFFIX,stg-bnc-papago.naver.com
 DOMAIN-SUFFIX,stg-data-collector.playbuzz.com
+DOMAIN-SUFFIX,stg-data.ads.heytapmobi.com
 DOMAIN-SUFFIX,stg-deeplink.ring.md
 DOMAIN-SUFFIX,stg8.com
 DOMAIN-SUFFIX,stgcdn.com
@@ -82297,6 +82300,7 @@ DOMAIN-SUFFIX,uakarisigneur.com
 DOMAIN-SUFFIX,ualkzq.moobel1.ee
 DOMAIN-SUFFIX,uaoaig.xyz
 DOMAIN-SUFFIX,uapi-ads.vivo.com.cn
+DOMAIN-SUFFIX,uapi.ads.heytapmobi.com
 DOMAIN-SUFFIX,uaqcui.tennis-point.fr
 DOMAIN-SUFFIX,uaqdgrfr.icu
 DOMAIN-SUFFIX,uaqe.cn

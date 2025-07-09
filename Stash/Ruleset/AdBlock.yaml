@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 90296
+# 规则统计: 90300
 
 payload:
   - '+.0.myikas.com'
@@ -6157,7 +6157,6 @@ payload:
   - '+.ads.gmodules.com'
   - '+.ads.google.cn'
   - '+.ads.google.com'
-  - '+.ads.heytapmobi.com'
   - '+.ads.house365.com'
   - '+.ads.huan.tv'
   - '+.ads.huantest.com'
@@ -6786,6 +6785,7 @@ payload:
   - '+.adx-os.anythinktech.com'
   - '+.adx-static.ksosoft.com'
   - '+.adx.36kr.com'
+  - '+.adx.ads.heytapmobi.com'
   - '+.adx.adxglobal.com'
   - '+.adx.apiok.net'
   - '+.adx.appsdk.com.cn'
@@ -11907,6 +11907,7 @@ payload:
   - '+.b02byun5xc3s.com'
   - '+.b0e8.com'
   - '+.b0f2f18e.xyz'
+  - '+.b1-data.ads.heytapmobi.com'
   - '+.b1.0430.com'
   - '+.b1.51scw.net'
   - '+.b1.b2b168.com'
@@ -11929,6 +11930,7 @@ payload:
   - '+.b1js.com'
   - '+.b1n.carabins.umontreal.ca'
   - '+.b1tow9h4erpw.anur.polymerdev.com'
+  - '+.b2-data.ads.heytapmobi.com'
   - '+.b2.0430.com'
   - '+.b20p6lt350nt.app.polymersearch.com'
   - '+.b21379380e.com'
@@ -74452,6 +74454,7 @@ payload:
   - '+.stfynw.esprit.be'
   - '+.stg-bnc-papago.naver.com'
   - '+.stg-data-collector.playbuzz.com'
+  - '+.stg-data.ads.heytapmobi.com'
   - '+.stg-deeplink.ring.md'
   - '+.stg8.com'
   - '+.stgcdn.com'
@@ -82298,6 +82301,7 @@ payload:
   - '+.ualkzq.moobel1.ee'
   - '+.uaoaig.xyz'
   - '+.uapi-ads.vivo.com.cn'
+  - '+.uapi.ads.heytapmobi.com'
   - '+.uaqcui.tennis-point.fr'
   - '+.uaqdgrfr.icu'
   - '+.uaqe.cn'

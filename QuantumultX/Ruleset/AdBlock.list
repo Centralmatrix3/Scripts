@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 90296
+# 规则统计: 90300
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -6156,7 +6156,6 @@ HOST-SUFFIX,ads.globo.com,AdBlock
 HOST-SUFFIX,ads.gmodules.com,AdBlock
 HOST-SUFFIX,ads.google.cn,AdBlock
 HOST-SUFFIX,ads.google.com,AdBlock
-HOST-SUFFIX,ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,ads.house365.com,AdBlock
 HOST-SUFFIX,ads.huan.tv,AdBlock
 HOST-SUFFIX,ads.huantest.com,AdBlock
@@ -6785,6 +6784,7 @@ HOST-SUFFIX,adx-open-service.youku.com,AdBlock
 HOST-SUFFIX,adx-os.anythinktech.com,AdBlock
 HOST-SUFFIX,adx-static.ksosoft.com,AdBlock
 HOST-SUFFIX,adx.36kr.com,AdBlock
+HOST-SUFFIX,adx.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,adx.adxglobal.com,AdBlock
 HOST-SUFFIX,adx.apiok.net,AdBlock
 HOST-SUFFIX,adx.appsdk.com.cn,AdBlock
@@ -11906,6 +11906,7 @@ HOST-SUFFIX,b0.yahoo.co.jp,AdBlock
 HOST-SUFFIX,b02byun5xc3s.com,AdBlock
 HOST-SUFFIX,b0e8.com,AdBlock
 HOST-SUFFIX,b0f2f18e.xyz,AdBlock
+HOST-SUFFIX,b1-data.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,b1.0430.com,AdBlock
 HOST-SUFFIX,b1.51scw.net,AdBlock
 HOST-SUFFIX,b1.b2b168.com,AdBlock
@@ -11928,6 +11929,7 @@ HOST-SUFFIX,b1img.com,AdBlock
 HOST-SUFFIX,b1js.com,AdBlock
 HOST-SUFFIX,b1n.carabins.umontreal.ca,AdBlock
 HOST-SUFFIX,b1tow9h4erpw.anur.polymerdev.com,AdBlock
+HOST-SUFFIX,b2-data.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,b2.0430.com,AdBlock
 HOST-SUFFIX,b20p6lt350nt.app.polymersearch.com,AdBlock
 HOST-SUFFIX,b21379380e.com,AdBlock
@@ -74451,6 +74453,7 @@ HOST-SUFFIX,stfeukufunden.org,AdBlock
 HOST-SUFFIX,stfynw.esprit.be,AdBlock
 HOST-SUFFIX,stg-bnc-papago.naver.com,AdBlock
 HOST-SUFFIX,stg-data-collector.playbuzz.com,AdBlock
+HOST-SUFFIX,stg-data.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,stg-deeplink.ring.md,AdBlock
 HOST-SUFFIX,stg8.com,AdBlock
 HOST-SUFFIX,stgcdn.com,AdBlock
@@ -82297,6 +82300,7 @@ HOST-SUFFIX,uakarisigneur.com,AdBlock
 HOST-SUFFIX,ualkzq.moobel1.ee,AdBlock
 HOST-SUFFIX,uaoaig.xyz,AdBlock
 HOST-SUFFIX,uapi-ads.vivo.com.cn,AdBlock
+HOST-SUFFIX,uapi.ads.heytapmobi.com,AdBlock
 HOST-SUFFIX,uaqcui.tennis-point.fr,AdBlock
 HOST-SUFFIX,uaqdgrfr.icu,AdBlock
 HOST-SUFFIX,uaqe.cn,AdBlock
