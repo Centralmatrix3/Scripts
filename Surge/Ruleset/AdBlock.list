@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 90300
+# 规则统计: 90301
 
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com
@@ -58375,6 +58375,7 @@ DOMAIN-SUFFIX,pic1.59wd.com
 DOMAIN-SUFFIX,pic1.dianshu119.com
 DOMAIN-SUFFIX,pic2016.5442.com
 DOMAIN-SUFFIX,pic50.pingguolv.com
+DOMAIN-SUFFIX,pica-ad-api.diwodiwo.xyz
 DOMAIN-SUFFIX,pica-juicy.picacomic.com
 DOMAIN-SUFFIX,picarasgalax.com
 DOMAIN-SUFFIX,picarosfurry.top

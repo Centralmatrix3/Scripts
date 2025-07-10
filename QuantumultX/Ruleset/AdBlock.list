@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 90300
+# 规则统计: 90301
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -58375,6 +58375,7 @@ HOST-SUFFIX,pic1.59wd.com,AdBlock
 HOST-SUFFIX,pic1.dianshu119.com,AdBlock
 HOST-SUFFIX,pic2016.5442.com,AdBlock
 HOST-SUFFIX,pic50.pingguolv.com,AdBlock
+HOST-SUFFIX,pica-ad-api.diwodiwo.xyz,AdBlock
 HOST-SUFFIX,pica-juicy.picacomic.com,AdBlock
 HOST-SUFFIX,picarasgalax.com,AdBlock
 HOST-SUFFIX,picarosfurry.top,AdBlock
