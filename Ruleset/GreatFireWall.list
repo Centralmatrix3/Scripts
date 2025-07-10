@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 5865
+# 规则统计: 5866
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -1432,6 +1432,7 @@ DOMAIN-SUFFIX,e-hentaidb.com
 DOMAIN-SUFFIX,e-info.org.tw
 DOMAIN-SUFFIX,e-zone.com.hk
 DOMAIN-SUFFIX,e123.hk
+DOMAIN-SUFFIX,e621.net
 DOMAIN-SUFFIX,earlytibet.com
 DOMAIN-SUFFIX,earthcam.com
 DOMAIN-SUFFIX,earthvpn.com
