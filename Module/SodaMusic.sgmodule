@@ -1,6 +1,6 @@
 #!name = 汽水音乐
 #!desc = 汽水音乐去广告
-#!author = lodepuly
+#!author = Kelee
 
 [Body Rewrite]
 http-response-jq ^https:\/\/beta-luna\.douyin\.com\/luna\/card\? 'del(.card_items[] | select(has("priority_display")))'
