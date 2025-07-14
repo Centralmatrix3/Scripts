@@ -1,6 +1,6 @@
 #!name = 爱奇艺
 #!desc = 爱奇艺去广告
-#!author = KeLee
+#!author = Kelee
 
 [Body Rewrite]
 http-response-jq ^https:\/\/cards\.iqiyi\.com\/views_category\/3\.0\/category_home\? 'del(.base.statistics | select(.ad_str)) | del(.cards[] | select(.alias_name == "entrence_focus" or .alias_name == "ad_trueview"))'
