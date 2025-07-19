@@ -99,14 +99,14 @@ if [[ "$repo_name" == "Scripts" ]]; then
     )
     # 合并下载处理
     for out_file in "${!merged_downloads[@]}"; do
-        mapfile -t urls < <(echo "${merged_downloads[$out_file]}" | sed '/^\s*$/d')
+        mapfile -t urls < <(echo "${merged_downloads[$out_file]}" | sed '/^\s*$/d' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
         download_and_append_multiple "$out_file" "${urls[@]}"
     done
     # 单独下载处理
     for out_file in "${!single_downloads[@]}"; do
         download_single_file "$out_file" "${single_downloads[$out_file]}"
     done
-    # 其他下载处理
+    # 其他规则下载
     for out_file in "${!special_dir_downloads[@]}"; do
         download_single_file "$out_file" "${special_dir_downloads[$out_file]}"
     done
