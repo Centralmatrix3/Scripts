@@ -1,5 +1,5 @@
-#!name = UA-Replace
-#!desc = UA-Replace显示内容
+#!name = Replace-UA
+#!desc = Replace-UA显示内容
 #!author = Matrix
 
 [Header Rewrite]
