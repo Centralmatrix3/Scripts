@@ -1,5 +1,5 @@
 # 规则名称: China
-# 规则统计: 629
+# 规则统计: 630
 
 DOMAIN,auth.wosms.cn
 DOMAIN,config.cmpassport.com
@@ -423,6 +423,7 @@ DOMAIN-SUFFIX,quanmin.tv
 DOMAIN-SUFFIX,qunar.com
 DOMAIN-SUFFIX,qunarzz.com
 DOMAIN-SUFFIX,qupu123.com
+DOMAIN-SUFFIX,qwen.ai
 DOMAIN-SUFFIX,qy.net
 DOMAIN-SUFFIX,realme.com
 DOMAIN-SUFFIX,repaik.com
