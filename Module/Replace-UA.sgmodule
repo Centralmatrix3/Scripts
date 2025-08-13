@@ -1,0 +1,13 @@
+#!name = Replace-UA
+#!desc = Replace-UA显示内容
+#!author = Matrix
+
+[Header Rewrite]
+http-request ^https:\/\/kelee\.one(\/.*)? header-replace User-Agent "Surge iOS/3535"
+
+http-response ^https:\/\/kelee\.one(\/.*)? header-add content-disposition inline
+
+http-response ^https:\/\/kelee\.one(\/.*)? header-replace content-type "text/plain; charset=utf-8"
+
+[MITM]
+hostname = %APPEND% kelee.one
