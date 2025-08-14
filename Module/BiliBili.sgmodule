@@ -10,6 +10,9 @@ DOMAIN,app.biliapi.com,REJECT,pre-matching,extended-matching
 DOMAIN,app.biliapi.net,REJECT,pre-matching,extended-matching
 DOMAIN-SUFFIX,chat.bilibili.com,REJECT,pre-matching,extended-matching
 
+[URL Rewrite]
+^(https:\/\/api\.bilibili\.com\/pgc\/page\/channel\?.*)(&mobi_app=iphone)(&.*)$ $1$2_i$3 header
+
 [Map Local]
 ^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.interface\.v1\.Search\/DefaultWords$ header="content-type: application/grpc" data-type=base64 data="AAAAACkaHeaQnOe0ouinhumikeOAgeeVquWJp+aIlnVw5Li7IgAoAToAQgBKAA=="
 
@@ -24,9 +27,6 @@ DOMAIN-SUFFIX,chat.bilibili.com,REJECT,pre-matching,extended-matching
 ^https:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? header="content-type: application/json" data-type=text data="{}"
 
 ^https:\/\/line3-h5-mobile-api\.biligame\.com\/game\/live\/large_card_material\? header="content-type: application/json" data-type=text data="{"code":0,"message":"success"}"
-
-[URL Rewrite]
-^(https:\/\/api\.bilibili\.com\/pgc\/page\/channel\?.*)(&mobi_app=iphone)(&.*)$ $1$2_i$3 307
 
 [Body Rewrite]
 http-response-jq ^https:\/\/api\.bilibili\.com\/pgc\/view\/v2\/app\/season\? 'del(.data.payment)'
