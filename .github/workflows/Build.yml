@@ -1,0 +1,130 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,12 * * *"
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5.0.0
+        with:
+          repository: Centralmatrix3/Scripts
+          path: Scripts-repo
+
+      - name: Scripts
+        run: |
+          curl -Ls https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/BuildAction.sh | bash
+          for file in Scripts-repo/Ruleset/*.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            sed -i -e '/^#/d' -e '/^$/d' -e 's| #.*||' -e 's| //.*||' -e '/PROCESS-NAME\|URL-REGEX\|USER-AGENT/d' "$file"
+          done
+
+      - name: Ruleset
+        run: |
+          cd Scripts-repo/Ruleset
+          for file in *.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.list}"
+            sed -i -e '/^IP-CIDR,/!{/^\([0-9]\{1,3\}\.\)\{3\}[0-9]\{1,3\}\/[0-9]\{1,2\}/s/^/IP-CIDR,/}' \
+                   -e '/^IP-CIDR6,/!{/^[0-9a-fA-F:]\+\/[0-9]\{1,3\}/s/^/IP-CIDR6,/}' "$file"
+            awk '
+              /^DOMAIN,/         { key="0" }
+              /^DOMAIN-SUFFIX,/  { key="1" }
+              /^DOMAIN-KEYWORD,/ { key="2" }
+              /^DOMAIN-WILDCARD,/{ key="3" }
+              /^IP-CIDR,/        { key="4" }
+              /^IP-CIDR6,/       { key="5" }
+              /^IP-ASN,/         { key="6" }
+              /^GEOIP,/          { key="7" }
+                                 { key=(key=="")?"8":key }
+                                 { l=tolower($0); if (!seen[l]++) print key, $0; key="" }
+            ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > temp && mv temp "$file"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: QuantumultX
+        run: |
+          cd Scripts-repo/QuantumultX/Ruleset
+          for file in {AdBlock,Advertising}.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.list}"
+            sed -i -e '/^#/d' -e '/^$/d' "$file"
+            sort -f "$file" | awk '!seen[tolower($0)]++' > tmpfile && mv tmpfile "$file"
+            sed -i -e 's/^DOMAIN,/HOST,/' -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/' "$file"
+            awk -v policy="$file_names" '{ print $0 "," policy }' "$file" > tmpfile && mv tmpfile "$file"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Stash
+        run: |
+          cd Scripts-repo/Stash/Ruleset
+          for file in {AdBlock,Advertising}.yaml; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.yaml}"
+            sed -i -e '/^#/d' -e '/^$/d' "$file"
+            sort -f "$file" | awk '!seen[tolower($0)]++' > tmpfile && mv tmpfile "$file"
+            sed -i -e 's/^DOMAIN,//' -e 's/^DOMAIN-SUFFIX,/+./' "$file"
+            awk '{print "  - \x27" $0 "\x27"}' "$file" > tmpfile && mv tmpfile "$file"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              echo "payload:"
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Surge
+        run: |
+          cd Scripts-repo/Surge/Ruleset
+          for file in {AdBlock,Advertising}.list; do
+            [ ! -f "$file" ] && echo "$file not found." && continue
+            file_names="${file%.list}"
+            sed -i -e '/^#/d' -e '/^$/d' "$file"
+            sort -f "$file" | awk '!seen[tolower($0)]++' > tmpfile && mv tmpfile "$file"
+            rule_count=$(wc -l < "$file")
+            {
+              echo "# 规则名称: $file_names"
+              echo "# 规则统计: $rule_count"
+              echo
+              cat "$file"
+            } > tmpfile && mv tmpfile "$file"
+          done
+
+      - name: Push Update
+        run: |
+          cd Scripts-repo
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git push origin master
+          else
+            echo "No changes to commit."
+          fi
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2
