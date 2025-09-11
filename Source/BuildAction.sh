@@ -89,7 +89,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Surge/Ruleset/Advertising.list]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
     )
     for out_file in "${!merged_downloads[@]}"; do
-        mapfile -t urls < <(echo "${merged_downloads[$out_file]}" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//; /^\s*$/d')
+        mapfile -t urls < <(echo "${merged_downloads[$out_file]}" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//; /^[[:space:]]*$/d')
         download_and_append_multiple "$out_file" "${urls[@]}"
     done
     for out_file in "${!single_downloads[@]}"; do
