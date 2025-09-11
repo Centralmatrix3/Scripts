@@ -39,15 +39,14 @@ if [[ "$repo_name" == "Scripts" ]]; then
             https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list
             https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
             https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
-            https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list
-        "
+            https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
         [Scripts-repo/Ruleset/Global.list]="
             https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-            https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt
-        "
+            https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
     )
     declare -A single_downloads=(
         [Scripts-repo/Ruleset/AdBlock.list]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+        [Scripts-repo/Ruleset/AdGuardDNS.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
         [Scripts-repo/Ruleset/Advertising.list]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
         [Scripts-repo/Ruleset/Alibaba.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list"
         [Scripts-repo/Ruleset/AmazonIP.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
@@ -90,7 +89,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Surge/Ruleset/Advertising.list]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
     )
     for out_file in "${!merged_downloads[@]}"; do
-        mapfile -t urls < <(echo "${merged_downloads[$out_file]}" | sed '/^\s*$/d' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+        mapfile -t urls < <(echo "${merged_downloads[$out_file]}" | sed -E 's/^[[:space:]]+//; s/[[:space:]]+$//')
         download_and_append_multiple "$out_file" "${urls[@]}"
     done
     for out_file in "${!single_downloads[@]}"; do
@@ -124,6 +123,7 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         [AdBlock]="AdBlock.list"
         # [AdBlockLite]="AdBlockLite.list"
         # [AdGuard]="AdGuard.list"
+        # [AdGuardDNS]="AdGuardDNS.list"
         # [Adobe]="Adobe.list"
         [Advertising]="Advertising.list"
         # [Aixcoder]="Aixcoder.list"
@@ -153,7 +153,7 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         [Baidu]="Baidu.list"
         # [BaiduCloud]="BaiduCloud.list"
         # [BaiduTieba]="BaiduTieba.list"
-        # [Beats]="Beats.list"
+        # [BeStore]="BeStore.list"
         [BiliBili]="BiliBili.list"
         # [BiliBiliIntl]="BiliBiliIntl.list"
         # [Binance]="Binance.list"
