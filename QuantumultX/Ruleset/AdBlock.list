@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 94963
+# 规则统计: 94965
 
 HOST-SUFFIX,0.myikas.com,AdBlock
 HOST-SUFFIX,0.net.easyjet.com,AdBlock
@@ -37875,6 +37875,7 @@ HOST-SUFFIX,iepfcy.farmandfleet.com,AdBlock
 HOST-SUFFIX,ieryt111.fun,AdBlock
 HOST-SUFFIX,iesbpm.novasol.dk,AdBlock
 HOST-SUFFIX,iesnare.com,AdBlock
+HOST-SUFFIX,ietheivaicai.com,AdBlock
 HOST-SUFFIX,ietyofedinj89yewtburgh.com,AdBlock
 HOST-SUFFIX,ievdpg.humanscale.com,AdBlock
 HOST-SUFFIX,iewixvvsbfkwd.world,AdBlock
@@ -55803,6 +55804,7 @@ HOST-SUFFIX,nextpsh.top,AdBlock
 HOST-SUFFIX,nextstat.com,AdBlock
 HOST-SUFFIX,nexus.officeapps.live.com,AdBlock
 HOST-SUFFIX,nexusbloom.xyz,AdBlock
+HOST-SUFFIX,nexusedgeio.com,AdBlock
 HOST-SUFFIX,nexusrules.officeapps.live.com,AdBlock
 HOST-SUFFIX,nexustwinkly.click,AdBlock
 HOST-SUFFIX,nexx360-static.io,AdBlock
