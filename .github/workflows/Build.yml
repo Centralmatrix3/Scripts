@@ -42,8 +42,9 @@ jobs:
               /^IP-CIDR6,/       {k=5}
               /^IP-ASN,/         {k=6}
               /^GEOIP,/          {k=7}
-              { if(k==""&&keep_unmatched)k=8; if(k!=""){l=tolower($0); if(!s[l]++)print k,$0}; k="" }
-            ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > temp && mv temp "$file"
+            { if (k=="" && keep_unmatched) k=8
+              if (k!="") { line_lower=tolower($0); if(!seen[line_lower]++) print k,$0 }; k=""
+            } ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > temp && mv temp "$file"
             rule_count=$(wc -l < "$file")
             {
               echo "# 规则名称: $file_names"
