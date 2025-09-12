@@ -19,7 +19,7 @@ jobs:
 
       - name: Scripts
         run: |
-          curl -Ls https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/BuildAction.sh | bash
+          curl -fsSL https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/BuildAction.sh | bash
           for file in Scripts-repo/Ruleset/*.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             sed -i -E '/^[[:space:]]*(#|$)/d' "$file"
@@ -31,8 +31,8 @@ jobs:
           for file in *.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             file_names="${file%.list}"
-            sed -E -i '/^IP-CIDR,/!{/^([0-9]{1,3}\.){3}[0-9]{1,3}\/[0-9]{1,2}/s/^/IP-CIDR,/}' "$file"
-            sed -E -i '/^IP-CIDR6,/!{/^[0-9a-fA-F:]+\/[0-9]{1,3}/s/^/IP-CIDR6,/}' "$file"
+            sed -i -E '/^IP-CIDR,/!{/^([0-9]{1,3}\.){3}[0-9]{1,3}\/[0-9]{1,2}/s/^/IP-CIDR,/}' "$file"
+            sed -i -E '/^IP-CIDR6,/!{/^[0-9a-fA-F:]+\/[0-9]{1,3}/s/^/IP-CIDR6,/}' "$file"
             awk -v keep_unmatched=0 '
               /^DOMAIN,/         {k=0}
               /^DOMAIN-SUFFIX,/  {k=1}
