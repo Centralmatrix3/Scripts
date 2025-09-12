@@ -42,7 +42,7 @@ jobs:
               /^IP-CIDR6,/       {k=5}
               /^IP-ASN,/         {k=6}
               /^GEOIP,/          {k=7}
-            { if (k=="" && keep_unmatched) k=8
+            { if (k==""){ if (keep_unmatched) k=8 }
               if (k!=""){ rule_lc=tolower($0); if(!seen[rule_lc]++) print k,$0 }; k=""
             } ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > temp && mv temp "$file"
             rule_count=$(wc -l < "$file")
