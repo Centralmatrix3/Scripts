@@ -22,7 +22,7 @@ jobs:
           curl -Ls https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/BuildAction.sh | bash
           for file in Scripts-repo/Ruleset/*.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            sed -i -e '/^#/d' -e '/^$/d' -e 's| #.*||' -e 's| //.*||' "$file"
+            sed -i -E '/^[[:space:]]*(#|$)/d' "$file"
           done
 
       - name: Ruleset
