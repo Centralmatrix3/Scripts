@@ -50,7 +50,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Ruleset/AmazonIP.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
         [Scripts-repo/Ruleset/Apple.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list"
         [Scripts-repo/Ruleset/BiliBili.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
-        [Scripts-repo/Ruleset/CNCIDR.list]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt"
+        [Scripts-repo/Ruleset/CNCIDR.list]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt"
         [Scripts-repo/Ruleset/CNCIDR4.list]="https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
         [Scripts-repo/Ruleset/CNCIDR6.list]="https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/CN-ip-cidr.txt"
         [Scripts-repo/Ruleset/China.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
@@ -77,6 +77,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Ruleset/PrivateTracker.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
         [Scripts-repo/Ruleset/REJECT.list]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
         [Scripts-repo/Ruleset/Tld-Not-CN.list]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
+        [Scripts-repo/Ruleset/USCIDR.list]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
     )
     declare -A ruleC_download=(
         [Scripts-repo/QuantumultX/Ruleset/AdBlock.list]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
@@ -485,6 +486,7 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         [Twitch]="Twitch.list"
         [Twitter]="Twitter.list"
         # [UCBrowser]="UCBrowser.list"
+        # [USCIDR]="USCIDR.list"
         # [UUChat]="UUChat.list"
         # [Ubuntu]="Ubuntu.list"
         # [Ucloud]="Ucloud.list"
