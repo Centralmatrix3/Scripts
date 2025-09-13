@@ -88,24 +88,14 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Surge/Ruleset/Advertising.list]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
     )
     for out_file in "${!ruleA_download[@]}"; do
-        urls=()
-        while IFS= read -r line; do
-            line="${line//$'\r'/}"
-            line="${line#"${line%%[![:space:]]*}"}"
-            line="${line%"${line##*[![:space:]]}"}"
-            [[ -n "$line" ]] && urls+=("$line")
-        done <<< "${ruleA_download[$out_file]}"
-        download_merges "$out_file" "${urls[@]}"
+        mapfile -t urls < <(echo "${ruleA_download[$out_file]}" | sed '/^\s*$/d' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+        download_and_append_multiple "$out_file" "${urls[@]}"
     done
-    for assoc in ruleB_download ruleC_download; do
-        declare -n rules="$assoc"
-        for out_file in "${!rules[@]}"; do
-            url="${rules[$out_file]}"
-            url="${url//$'\r'/}"
-            url="${url#"${url%%[![:space:]]*}"}"
-            url="${url%"${url##*[![:space:]]}"}"
-            [[ -n "$url" ]] && download_single "$out_file" "$url"
-        done
+    for out_file in "${!ruleB_download[@]}"; do
+        download_single_file "$out_file" "${ruleB_download[$out_file]}"
+    done
+    for out_file in "${!ruleC_download[@]}"; do
+        download_single_file "$out_file" "${ruleC_download[$out_file]}"
     done
     echo "Scripts Repository: All Rules Downloaded!"
 
