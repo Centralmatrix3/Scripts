@@ -3,21 +3,19 @@
 set -euo pipefail
 repo_name=$(basename "$GITHUB_REPOSITORY")
 
-download_single_file() {
+download_single() {
     local output_path=$1
     local url=$2
-    echo "Downloading: $url -> $output_path"
+    echo "Downloading_Single: $url -> $output_path"
     curl -fsSL --retry 3 --retry-delay 2 -o "$output_path" "$url" || {
         echo "Download failed: $url"
         exit 1
     }
 }
-download_and_append_multiple() {
-    local output_path=$1
-    shift
-    > "$output_path"
+download_merges() {
+    local output_path=$1; shift; : >"$output_path"
     for url in "$@"; do
-        echo "Downloading and appending: $url -> $output_path"
+        echo "Downloading_Merges: $url -> $output_path"
         curl -fsSL --retry 3 --retry-delay 2 "$url" >> "$output_path" || {
             echo "Download failed: $url"
             exit 1
@@ -27,12 +25,12 @@ download_and_append_multiple() {
 }
 
 if [[ "$repo_name" == "Scripts" ]]; then
-    echo "Running in Scripts repository"
+    echo "Running in Scripts Repository"
     scripts_dirs=(Ruleset QuantumultX/Ruleset Stash/Ruleset Surge/Ruleset)
     for dir in "${scripts_dirs[@]}"; do
         mkdir -p "Scripts-repo/$dir"
     done
-    declare -A merged_downloads=(
+    declare -A ruleA_download=(
         [Scripts-repo/Ruleset/AdBlockLite.list]="
             https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list
             https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list
@@ -44,7 +42,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
             https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
             https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
     )
-    declare -A single_downloads=(
+    declare -A ruleB_download=(
         [Scripts-repo/Ruleset/AdBlock.list]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
         [Scripts-repo/Ruleset/AdGuardDNS.list]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
         [Scripts-repo/Ruleset/Advertising.list]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
@@ -80,7 +78,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Ruleset/REJECT.list]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
         [Scripts-repo/Ruleset/Tld-Not-CN.list]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
     )
-    declare -A special_dir_downloads=(
+    declare -A ruleC_download=(
         [Scripts-repo/QuantumultX/Ruleset/AdBlock.list]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
         [Scripts-repo/Stash/Ruleset/AdBlock.yaml]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
         [Scripts-repo/Surge/Ruleset/AdBlock.list]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
@@ -88,23 +86,23 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Stash/Ruleset/Advertising.yaml]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
         [Scripts-repo/Surge/Ruleset/Advertising.list]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
     )
-    for out_file in "${!merged_downloads[@]}"; do
-        mapfile -t urls < <(echo "${merged_downloads[$out_file]}" | sed -E 's/[[:space:]]+//g; /^[[:space:]]*$/d')
-        download_and_append_multiple "$out_file" "${urls[@]}"
+    for out_file in "${!ruleA_download[@]}"; do
+        mapfile -t urls < <(echo "${ruleA_download[$out_file]}" | sed -E 's/[[:space:]]+//g; /^[[:space:]]*$/d')
+        download_merges "$out_file" "${urls[@]}"
     done
-    for out_file in "${!single_downloads[@]}"; do
-        download_single_file "$out_file" "${single_downloads[$out_file]}"
+    for out_file in "${!ruleB_download[@]}"; do
+        download_single "$out_file" "${ruleB_download[$out_file]}"
     done
-    for out_file in "${!special_dir_downloads[@]}"; do
-        download_single_file "$out_file" "${special_dir_downloads[$out_file]}"
+    for out_file in "${!ruleC_download[@]}"; do
+        download_single "$out_file" "${ruleC_download[$out_file]}"
     done
-    echo "Scripts repository: All files downloaded!"
+    echo "Scripts Repository: All Rules Downloaded!"
 
 elif [[ "$repo_name" == "Matrix-io" ]]; then
-    echo "Running in Matrix-io repository"
-    matrix_platforms=(Clash Egern Loon QuantumultX Shadowrocket Sing-box Stash Surge)
-    for platform in "${matrix_platforms[@]}"; do
-        mkdir -p "Matrix-io-repo/$platform/Ruleset"
+    echo "Running in Matrix-io Repository"
+    matrix_io_dirs=(Clash Egern Loon QuantumultX Shadowrocket Sing-box Stash Surge)
+    for dir in "${matrix_io_dirs[@]}"; do
+        mkdir -p "Matrix-io-repo/$dir/Ruleset"
     done
     declare -A ruleset=(
         # [0x0]="0x0.list"
@@ -550,21 +548,20 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
     )
     for rule in "${!ruleset[@]}"; do
         for platform in "${!formats[@]}"; do
-            if [[ "$platform" == "Sing-box" && ( "$rule" == "ChinaASN" || "$rule" == "GEOIPCN" ) ]]; then
-                continue
-            fi
+            [[ "$platform" == "Sing-box" && ( "$rule" == "ChinaASN" || "$rule" == "GEOIPCN" ) ]] && continue
             extension="${formats[$platform]}"
             output_dir="Matrix-io-repo/$platform/Ruleset"
+            output_file="$output_dir/$rule.$extension"
             url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${ruleset[$rule]}"
-            echo "Downloading $url for $platform to $output_dir/$rule.$extension"
-            if ! curl -fsSL --retry 3 --retry-delay 2 -o "$output_dir/$rule.$extension" "$url"; then
+            echo "Downloading $url -> $output_file"
+            if ! curl -fsSL --retry 3 --retry-delay 2 -o "$output_file" "$url"; then
                 echo "Failed to download $url for $platform"
             fi
         done
     done
-    echo "Matrix-io repository: All rules downloaded!"
+    echo "Matrix-io Repository: All Rules Downloaded!"
 else
-    echo "Unknown repository: $repo_name"
-    echo "Please run this script in either Scripts or Matrix-io repository."
+    echo "Unknown Repository: $repo_name"
+    echo "Please Execute Scripts in Scripts or Matrix-io Repository."
     exit 1
 fi
