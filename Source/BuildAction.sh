@@ -88,7 +88,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Surge/Ruleset/Advertising.list]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
     )
     for out_file in "${!ruleA_download[@]}"; do
-        urls=(); while IFS= read -r line; do [[ -n "$line" ]] && urls+=("${line//$'\r'/}"); done <<< "${ruleA_download[$out_file]}"
+        urls=(); while IFS= read -r line; do line="${line//$'\r'/}"; line="${line#"${line%%[![:space:]]*}"}"; line="${line%"${line##*[![:space:]]}"}"; [[ -n "$line" ]] && urls+=("$line"); done <<< "${ruleA_download[$out_file]}"
         download_merges "$out_file" "${urls[@]}"
     done
     for out_file in "${!ruleB_download[@]}"; do
