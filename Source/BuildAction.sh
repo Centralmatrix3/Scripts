@@ -97,19 +97,15 @@ if [[ "$repo_name" == "Scripts" ]]; then
         done <<< "${ruleA_download[$out_file]}"
         download_merges "$out_file" "${urls[@]}"
     done
-    for out_file in "${!ruleB_download[@]}"; do
-        url="${ruleB_download[$out_file]}"
-        url="${url//$'\r'/}"
-        url="${url#"${url%%[![:space:]]*}"}"
-        url="${url%"${url##*[![:space:]]}"}"
-        [[ -n "$url" ]] && download_single "$out_file" "$url"
-    done
-    for out_file in "${!ruleC_download[@]}"; do
-        url="${ruleC_download[$out_file]}"
-        url="${url//$'\r'/}"
-        url="${url#"${url%%[![:space:]]*}"}"
-        url="${url%"${url##*[![:space:]]}"}"
-        [[ -n "$url" ]] && download_single "$out_file" "$url"
+    for assoc in ruleB_download ruleC_download; do
+        declare -n rules="$assoc"
+        for out_file in "${!rules[@]}"; do
+            url="${rules[$out_file]}"
+            url="${url//$'\r'/}"
+            url="${url#"${url%%[![:space:]]*}"}"
+            url="${url%"${url##*[![:space:]]}"}"
+            [[ -n "$url" ]] && download_single "$out_file" "$url"
+        done
     done
     echo "Scripts Repository: All Rules Downloaded!"
 
