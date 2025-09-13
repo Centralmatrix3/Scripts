@@ -60,8 +60,13 @@ jobs:
           for file in {AdBlock,Advertising}.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             file_names="${file%.list}"
-            sed -i -e '/^#/d' -e '/^$/d' "$file"
-            sort -f "$file" | awk '!seen[tolower($0)]++' > tmpfile && mv tmpfile "$file"
+            sed -i -E '/^[[:space:]]*(#|$)/d' "$file"
+            awk -v keep_unmatched=0 '
+              /^DOMAIN,/         {k=0}
+              /^DOMAIN-SUFFIX,/  {k=1}
+            { if (k==""){ if (keep_unmatched) k=3 }
+              if (k!=""){ rule_lc=tolower($0); if(!seen[rule_lc]++) print k,$0 }; k=""
+            } ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > temp && mv temp "$file"
             sed -i -e 's/^DOMAIN,/HOST,/' -e 's/^DOMAIN-SUFFIX,/HOST-SUFFIX,/' "$file"
             awk -v policy="$file_names" '{ print $0 "," policy }' "$file" > tmpfile && mv tmpfile "$file"
             rule_count=$(wc -l < "$file")
@@ -79,8 +84,13 @@ jobs:
           for file in {AdBlock,Advertising}.yaml; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             file_names="${file%.yaml}"
-            sed -i -e '/^#/d' -e '/^$/d' "$file"
-            sort -f "$file" | awk '!seen[tolower($0)]++' > tmpfile && mv tmpfile "$file"
+            sed -i -E '/^[[:space:]]*(#|$)/d' "$file"
+            awk -v keep_unmatched=0 '
+              /^DOMAIN,/         {k=0}
+              /^DOMAIN-SUFFIX,/  {k=1}
+            { if (k==""){ if (keep_unmatched) k=3 }
+              if (k!=""){ rule_lc=tolower($0); if(!seen[rule_lc]++) print k,$0 }; k=""
+            } ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > temp && mv temp "$file"
             sed -i -e 's/^DOMAIN,//' -e 's/^DOMAIN-SUFFIX,/+./' "$file"
             awk '{print "  - \x27" $0 "\x27"}' "$file" > tmpfile && mv tmpfile "$file"
             rule_count=$(wc -l < "$file")
@@ -99,8 +109,13 @@ jobs:
           for file in {AdBlock,Advertising}.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             file_names="${file%.list}"
-            sed -i -e '/^#/d' -e '/^$/d' "$file"
-            sort -f "$file" | awk '!seen[tolower($0)]++' > tmpfile && mv tmpfile "$file"
+            sed -i -E '/^[[:space:]]*(#|$)/d' "$file"
+            awk -v keep_unmatched=0 '
+              /^DOMAIN,/         {k=0}
+              /^DOMAIN-SUFFIX,/  {k=1}
+            { if (k==""){ if (keep_unmatched) k=3 }
+              if (k!=""){ rule_lc=tolower($0); if(!seen[rule_lc]++) print k,$0 }; k=""
+            } ' "$file" | sort -k1,1n -k2,2 | cut -d' ' -f2- > temp && mv temp "$file"
             rule_count=$(wc -l < "$file")
             {
               echo "# 规则名称: $file_names"
