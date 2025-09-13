@@ -77,6 +77,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
         [Scripts-repo/Ruleset/PrivateTracker.list]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
         [Scripts-repo/Ruleset/REJECT.list]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
         [Scripts-repo/Ruleset/Tld-Not-CN.list]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
+        [Scripts-repo/Ruleset/USCIDR.list]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
     )
     declare -A ruleC_download=(
         [Scripts-repo/QuantumultX/Ruleset/AdBlock.list]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
