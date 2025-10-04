@@ -20,13 +20,13 @@ jobs:
 
       - name: Scripts
         run: |
-          curl -fsSL https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.sh | bash
+          curl -fsSL "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.sh" | bash
           for file in Scripts-repo/Ruleset/*.list Scripts-repo/*/Ruleset/*.{list,yaml}; do
             [ ! -f "$file" ] && echo "$file not found." && continue
             sed -i -E '/^[[:space:]]*(#|$)/d; s|[[:space:]]*//.*||' "$file"
             sed -i -E '/^IP-CIDR,/!{/^([0-9]{1,3}\.){3}[0-9]{1,3}\/(3[0-2]|[12]?[0-9])$/s/^/IP-CIDR,/}' "$file"
             sed -i -E '/^IP-CIDR6,/!{/^[0-9a-fA-F:]+\/(12[0-8]|1[01][0-9]|[0-9]{1,2})$/s/^/IP-CIDR6,/}' "$file"
-            tmpfile=$(mktemp)
+            tmpfile="$(mktemp)"
             awk -v keep_unmatched=0 '
               /^DOMAIN,/         {k=0}
               /^DOMAIN-SUFFIX,/  {k=1}
@@ -45,13 +45,12 @@ jobs:
         run: |
           for file in Scripts-repo/QuantumultX/Ruleset/*.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.list}"
-            sed -i -E 's/^DOMAIN(-SUFFIX|-KEYWORD|-WILDCARD)?,/HOST\1,/g' "$file"
-            sed -i -E 's/^IP-CIDR6,/IP6-CIDR,/g; s/,no-resolve//g' "$file"
+            rule_names="$(basename "$file" .list)"
+            sed -i -E 's/^DOMAIN(-SUFFIX|-KEYWORD|-WILDCARD)?,/HOST\1,/' "$file"
+            sed -i -E 's/^IP-CIDR6,/IP6-CIDR,/; s/,no-resolve//' "$file"
             sed -i -e "s/$/,$rule_names/" "$file"
-            rule_count=$(wc -l < "$file")
-            tmpfile=$(mktemp)
+            rule_count="$(wc -l < "$file")"
+            tmpfile="$(mktemp)"
             {
               echo "# 规则名称: $rule_names"
               echo "# 规则统计: $rule_count"
@@ -64,16 +63,18 @@ jobs:
         run: |
           for file in Scripts-repo/Stash/Ruleset/*.yaml; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.yaml}"
-            if [[ "$rule_names" == "AdBlock" || "$rule_names" == "Advertising" ]]; then
+            rule_names="$(basename "$file" .yaml)"
+            if [[ "$rule_names" =~ ^(AdBlock|Advertising)$ ]]; then
               sed -i -e 's/^DOMAIN,//' -e 's/^DOMAIN-SUFFIX,/+./' "$file"
+              sed -i -e "s/^/  - '/" -e "s/$/'/" "$file"
+            elif [[ "$rule_names" == *CIDR* ]]; then
+              sed -i -e 's/^IP-CIDR,//' -e 's/^IP-CIDR6,//' "$file"
               sed -i -e "s/^/  - '/" -e "s/$/'/" "$file"
             else
               sed -i -e "s/^/  - /" "$file"
             fi
-            rule_count=$(wc -l < "$file")
-            tmpfile=$(mktemp)
+            rule_count="$(wc -l < "$file")"
+            tmpfile="$(mktemp)"
             {
               echo "# 规则名称: $rule_names"
               echo "# 规则统计: $rule_count"
@@ -87,10 +88,9 @@ jobs:
         run: |
           for file in Scripts-repo/{Ruleset,Surge/Ruleset}/*.list; do
             [ ! -f "$file" ] && echo "$file not found." && continue
-            file_names="$(basename "$file")"
-            rule_names="${file_names%.list}"
-            rule_count=$(wc -l < "$file")
-            tmpfile=$(mktemp)
+            rule_names="$(basename "$file" .list)"
+            rule_count="$(wc -l < "$file")"
+            tmpfile="$(mktemp)"
             {
               echo "# 规则名称: $rule_names"
               echo "# 规则统计: $rule_count"
