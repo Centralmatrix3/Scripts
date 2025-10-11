@@ -12,6 +12,7 @@ download_single() {
         exit 1
     }
 }
+
 download_merges() {
     local output_path="$1"; shift; : > "$output_path"
     for url in "$@"; do
@@ -588,7 +589,6 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
             output_dir="Matrix-io-repo/$platform/Ruleset"
             output_file="$output_dir/$rule.$extension"
             url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${ruleset[$rule]}"
-            echo "Downloading $url -> $output_file"
             download_single "$output_file" "$url"
         done
     done
