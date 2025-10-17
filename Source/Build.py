@@ -24,7 +24,7 @@ def process_class(lines):
     for line in lines:
         try:
             net = ipaddress.ip_network(line, strict=False)
-            line = f"IP-CIDR,{net}" if isinstance(net, ipaddress.IPv4Network) else f"IP-CIDR6,{net}"
+            line = f"IP-CIDR,{net}" if net.version == 4 else f"IP-CIDR6,{net}"
         except ValueError:
             pass
         result.append(line)
@@ -33,25 +33,17 @@ def process_class(lines):
 #    RuleOrder    #
 #=================#
 def process_order(lines, keep_unknown=False):
-    rule_order = [
-        "DOMAIN",
-        "DOMAIN-SUFFIX",
-        "DOMAIN-KEYWORD",
-        "DOMAIN-WILDCARD",
-        "IP-CIDR",
-        "IP-CIDR6",
-        "IP-ASN",
-        "GEOIP"
-    ]
+    rule_order = ["DOMAIN","DOMAIN-SUFFIX","DOMAIN-KEYWORD","DOMAIN-WILDCARD",
+                  "IP-CIDR","IP-CIDR6","IP-ASN","GEOIP"]
     seen, known, unknown = set(), [], []
     for line in lines:
         key = line.lower()
         if key in seen:
             continue
         seen.add(key)
-        rule_index = next((i for i, p in enumerate(rule_order) if line.startswith(p + ",")), None)
-        if rule_index is not None:
-            known.append((rule_index, line))
+        index = next((i for i, p in enumerate(rule_order) if line.startswith(p + ",")), None)
+        if index is not None:
+            known.append((index, line))
         elif keep_unknown:
             unknown.append(line)
     known.sort(key=lambda x: (x[0], x[1]))
@@ -60,7 +52,7 @@ def process_order(lines, keep_unknown=False):
 #=================#
 #     General     #
 #=================#
-def preprocess(lines, setup_clean=True, setup_class=True, setup_order=True, keep_unknown=False):
+def preprocess(lines, setup_clean=True, setup_class=True, setup_order=True, setup_extra=False):
     if setup_clean:
         lines = list(process_clean(lines))
     else:
@@ -68,49 +60,74 @@ def preprocess(lines, setup_clean=True, setup_class=True, setup_order=True, keep
     if setup_class:
         lines = process_class(lines)
     if setup_order:
-        lines = process_order(lines, keep_unknown=keep_unknown)
+        lines = process_order(lines, keep_unknown=setup_extra)
     return lines
-DEFAULT_CONFIG = {
-    "Egern":       {"setup_clean": False, "setup_class": False, "setup_order": False},
-    "QuantumultX": {"setup_clean": False, "setup_class": False, "setup_order": False},
-    "Singbox":     {"setup_clean": False, "setup_class": False, "setup_order": False},
-    "Stash":       {"setup_clean": False, "setup_class": False, "setup_order": False},
-    "Surge":       {"setup_clean": True,  "setup_class": True,  "setup_order": True}
+#=================#
+#     Control     #
+#=================#
+CONTROL = {
+    "Egern": {
+        "setup_clean": False,
+        "setup_class": False,
+        "setup_order": False,
+        "setup_extra": False
+    },
+    "QuantumultX": {
+        "setup_clean": False,
+        "setup_class": False,
+        "setup_order": False,
+        "setup_extra": False
+    },
+    "Singbox": {
+        "setup_clean": False,
+        "setup_class": False,
+        "setup_order": False,
+        "setup_extra": False
+    },
+    "Stash": {
+        "setup_clean": False,
+        "setup_class": False,
+        "setup_order": False,
+        "setup_extra": False
+    },
+    "Surge": {
+        "setup_clean": True,
+        "setup_class": True,
+        "setup_order": True,
+        "setup_extra": False
+    }
 }
 #=================#
 #      Egern      #
 #=================#
 def process_egern(file_path: Path):
-    cfg = DEFAULT_CONFIG["Egern"]
+    setup = CONTROL["Egern"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **cfg)
-    cidr_map = ("IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP")
+    lines = preprocess(lines, **setup)
     rule_map = {
-        "domain_set": ["DOMAIN"],
-        "domain_suffix_set": ["DOMAIN-SUFFIX"],
-        "domain_keyword_set": ["DOMAIN-KEYWORD"],
+        "domain_set":          ["DOMAIN"],
+        "domain_suffix_set":   ["DOMAIN-SUFFIX"],
+        "domain_keyword_set":  ["DOMAIN-KEYWORD"],
         "domain_wildcard_set": ["DOMAIN-WILDCARD"],
-        "ip_cidr_set": ["IP-CIDR"],
-        "ip_cidr6_set": ["IP-CIDR6"],
-        "asn_set": ["IP-ASN"],
-        "geoip_set": ["GEOIP"]
+        "ip_cidr_set":         ["IP-CIDR"],
+        "ip_cidr6_set":        ["IP-CIDR6"],
+        "asn_set":             ["IP-ASN"],
+        "geoip_set":           ["GEOIP"]
     }
     rules_dict = {key: [] for key in rule_map}
-    add_no_resolve = False
+    no_resolve = any("no-resolve" in line for line in lines)
     for line in lines:
         prefix, value = map(str.strip, line.split(",", 1))
-        if prefix in cidr_map and "no-resolve" in value:
-            add_no_resolve = True
         for key, prefixes in rule_map.items():
             if prefix in prefixes:
-                if key == "domain_wildcard_set":
+                if key in ("domain_wildcard_set",):
                     value = f'"{value}"'
                 elif key in ("ip_cidr_set", "ip_cidr6_set", "asn_set", "geoip_set"):
                     value = value.split(",")[0].strip()
                 rules_dict[key].append(value)
                 break
     with file_path.open("w", encoding="utf-8") as f:
-        if add_no_resolve:
+        if no_resolve:
             f.write("no_resolve: true\n")
         for key, values in rules_dict.items():
             if values:
@@ -121,9 +138,9 @@ def process_egern(file_path: Path):
 #   QuantumultX   #
 #=================#
 def process_quantumultx(file_path: Path):
-    cfg = DEFAULT_CONFIG["QuantumultX"]
+    setup = CONTROL["QuantumultX"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **cfg)
+    lines = preprocess(lines, **setup)
     domain_re = re.compile(r"^DOMAIN(-SUFFIX|-KEYWORD|-WILDCARD)?,")
     ipcidr_re = re.compile(r"^IP-CIDR6,")
     rule_name = file_path.stem
@@ -139,15 +156,14 @@ def process_quantumultx(file_path: Path):
 #     Singbox     #
 #=================#
 def process_singbox(file_path: Path):
-    cfg = DEFAULT_CONFIG["Singbox"]
+    setup = CONTROL["Singbox"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **cfg)
+    lines = preprocess(lines, **setup)
     rule_map = {
-        "domain": ["DOMAIN"],
-        "domain_suffix": ["DOMAIN-SUFFIX"],
+        "domain":         ["DOMAIN"],
+        "domain_suffix":  ["DOMAIN-SUFFIX"],
         "domain_keyword": ["DOMAIN-KEYWORD"],
-        "domain_regex": ["DOMAIN-REGEX"],
-        "ip_cidr": ["IP-CIDR", "IP-CIDR6"]
+        "ip_cidr":        ["IP-CIDR", "IP-CIDR6"]
     }
     rules_dict = defaultdict(list)
     for line in lines:
@@ -160,16 +176,15 @@ def process_singbox(file_path: Path):
                 break
     output = {"version": 3, "rules": [{key: v} for key, v in rules_dict.items() if v]}
     with file_path.open("w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+        print(json.dumps(output, indent=2, ensure_ascii=False), file=f)
     print(f"Processed (Sing-box) {file_path}")
 #=================#
 #      Stash      #
 #=================#
 def process_stash(file_path: Path):
-    cfg = DEFAULT_CONFIG["Stash"]
+    setup = CONTROL["Stash"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **cfg)
+    lines = preprocess(lines, **setup)
     domain_re = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
     ipcidr_re = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
     rule_name = file_path.stem
@@ -192,9 +207,9 @@ def process_stash(file_path: Path):
 #      Surge      #
 #=================#
 def process_surge(file_path: Path):
-    cfg = DEFAULT_CONFIG["Surge"]
+    setup = CONTROL["Surge"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **cfg)
+    lines = preprocess(lines, **setup)
     file_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Processed (Surge) {file_path}")
 #=================#
