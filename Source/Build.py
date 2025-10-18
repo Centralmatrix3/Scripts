@@ -7,17 +7,19 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 #=================#
-#    RuleClean    #
+#      Clean      #
 #=================#
 def process_clean(lines):
+    result = []
     for line in lines:
         line = line.strip()
         line = re.sub(r'(?<!:)//.*$', '', line).strip()
         if not line or line.startswith("#"):
             continue
-        yield line
+        result.append(line)
+    return result
 #=================#
-#    RuleClass    #
+#      Class      #
 #=================#
 def process_class(lines):
     result = []
@@ -30,7 +32,7 @@ def process_class(lines):
         result.append(line)
     return result
 #=================#
-#    RuleOrder    #
+#      Order      #
 #=================#
 def process_order(lines, keep_unknown=False):
     rule_order = ["DOMAIN","DOMAIN-SUFFIX","DOMAIN-KEYWORD","DOMAIN-WILDCARD",
@@ -50,60 +52,13 @@ def process_order(lines, keep_unknown=False):
     unknown.sort()
     return [line for _, line in known] + unknown
 #=================#
-#     General     #
-#=================#
-def preprocess(lines, setup_clean=True, setup_class=True, setup_order=True, setup_extra=False):
-    if setup_clean:
-        lines = list(process_clean(lines))
-    else:
-        lines = [line.strip() for line in lines]
-    if setup_class:
-        lines = process_class(lines)
-    if setup_order:
-        lines = process_order(lines, keep_unknown=setup_extra)
-    return lines
-#=================#
-#     Control     #
-#=================#
-CONTROL = {
-    "Egern": {
-        "setup_clean": False,
-        "setup_class": False,
-        "setup_order": False,
-        "setup_extra": False
-    },
-    "QuantumultX": {
-        "setup_clean": False,
-        "setup_class": False,
-        "setup_order": False,
-        "setup_extra": False
-    },
-    "Singbox": {
-        "setup_clean": False,
-        "setup_class": False,
-        "setup_order": False,
-        "setup_extra": False
-    },
-    "Stash": {
-        "setup_clean": False,
-        "setup_class": False,
-        "setup_order": False,
-        "setup_extra": False
-    },
-    "Surge": {
-        "setup_clean": True,
-        "setup_class": True,
-        "setup_order": True,
-        "setup_extra": False
-    }
-}
-#=================#
 #      Egern      #
 #=================#
 def process_egern(file_path: Path):
-    setup = CONTROL["Egern"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **setup)
+  # lines = process_clean(lines)
+  # lines = process_class(lines)
+  # lines = process_order(lines, keep_unknown=False)
     rule_map = {
         "domain_set":          ["DOMAIN"],
         "domain_suffix_set":   ["DOMAIN-SUFFIX"],
@@ -138,9 +93,10 @@ def process_egern(file_path: Path):
 #   QuantumultX   #
 #=================#
 def process_quantumultx(file_path: Path):
-    setup = CONTROL["QuantumultX"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **setup)
+  # lines = process_clean(lines)
+  # lines = process_class(lines)
+  # lines = process_order(lines, keep_unknown=False)
     domain_re = re.compile(r"^DOMAIN(-SUFFIX|-KEYWORD|-WILDCARD)?,")
     ipcidr_re = re.compile(r"^IP-CIDR6,")
     rule_name = file_path.stem
@@ -156,13 +112,15 @@ def process_quantumultx(file_path: Path):
 #     Singbox     #
 #=================#
 def process_singbox(file_path: Path):
-    setup = CONTROL["Singbox"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **setup)
+  # lines = process_clean(lines)
+  # lines = process_class(lines)
+  # lines = process_order(lines, keep_unknown=False)
     rule_map = {
         "domain":         ["DOMAIN"],
         "domain_suffix":  ["DOMAIN-SUFFIX"],
         "domain_keyword": ["DOMAIN-KEYWORD"],
+        "domain_regex":   ["DOMAIN-REGEX"],
         "ip_cidr":        ["IP-CIDR", "IP-CIDR6"]
     }
     rules_dict = defaultdict(list)
@@ -182,9 +140,10 @@ def process_singbox(file_path: Path):
 #      Stash      #
 #=================#
 def process_stash(file_path: Path):
-    setup = CONTROL["Stash"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **setup)
+  # lines = process_clean(lines)
+  # lines = process_class(lines)
+  # lines = process_order(lines, keep_unknown=False)
     domain_re = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
     ipcidr_re = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
     rule_name = file_path.stem
@@ -207,9 +166,10 @@ def process_stash(file_path: Path):
 #      Surge      #
 #=================#
 def process_surge(file_path: Path):
-    setup = CONTROL["Surge"]
     lines = file_path.read_text(encoding="utf-8").splitlines()
-    lines = preprocess(lines, **setup)
+    lines = process_clean(lines)
+    lines = process_class(lines)
+    lines = process_order(lines, keep_unknown=False)
     file_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     print(f"Processed (Surge) {file_path}")
 #=================#
