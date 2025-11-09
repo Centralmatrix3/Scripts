@@ -1,0 +1,72 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,12 * * *"
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      SING_BOX_VERSION: "1.12.12"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v5.0.0
+        with:
+          repository: Centralmatrix3/Scripts
+          path: Scripts-repo
+
+      - name: Build
+        run: |
+          curl -fsSL -o "Build.py" "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.py"
+          curl -fsSL -o "Build.sh" "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.sh"
+          bash "Build.sh"
+
+      - name: Extra
+        run: |
+          for dir in Scripts-repo/{Ruleset,*/Ruleset}; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python "Build.py" Extra "$dir"
+          done
+
+      - name: QuantumultX
+        run: |
+          for dir in Scripts-repo/QuantumultX/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python "Build.py" QuantumultX "$dir"
+          done
+
+      - name: Stash
+        run: |
+          for dir in Scripts-repo/Stash/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python "Build.py" Stash "$dir"
+          done
+
+      - name: Surge
+        run: |
+          for dir in Scripts-repo/Surge/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python "Build.py" Surge "$dir"
+          done
+
+      - name: Push Update
+        run: |
+          cd Scripts-repo
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git push origin master
+          else
+            echo "No Repository Update Detected."
+          fi
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2
