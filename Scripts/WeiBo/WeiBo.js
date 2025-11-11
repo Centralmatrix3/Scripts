@@ -708,7 +708,7 @@ if (url.includes("/interface/sdk/sdkad.php")) {
             newItems.push(item);
           } else if (item?.category === "group") {
             if (item?.item_category === "insert_item") {
-              // 信息流内部嵌入的“微博热搜”
+              // 信息流内部嵌入的"微博热搜"
               continue;
             } else {
               if (item?.items?.length > 0) {
