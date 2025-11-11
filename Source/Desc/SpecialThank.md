@@ -18,6 +18,7 @@
  * [I-am-R-E](https://github.com/I-am-R-E)
  * [KOP-XIAO](https://github.com/KOP-XIAO)
  * [Kelee](https://t.me/ibilibili)
+ * [kelv1n1n](https://github.com/kelv1n1n)
  * [keywos](https://github.com/keywos)
  * [kokoryh](https://github.com/kokoryh)
  * [Koolson](https://github.com/Koolson)
