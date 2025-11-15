@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# [Standard Library]
 import json
 import ipaddress
 import re
@@ -7,21 +8,23 @@ import sys
 from pathlib import Path
 from collections import defaultdict
 
-# [读取文件]
-def read_lines(file_path):
+# [Read]
+def rules_read(file_path):
+    remark_re = re.compile(r'(?<!:)//.*$')
     with file_path.open("r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
-            line = re.sub(r'(?<!:)//.*$', '', line).strip()
+            line = remark_re.sub("", line).strip()
             if not line:
                 continue
             yield line
 
-# [添加类型]
-def process_class(lines):
+# [Type]
+def rules_type(lines):
     for line in lines:
+        line = line.strip()
         try:
             network = ipaddress.ip_network(line, strict=False)
             if network.version == 4:
@@ -31,55 +34,51 @@ def process_class(lines):
         except ValueError:
             yield line
 
-# [排序去重]
-def process_order(lines, keep_unknown=False):
-    rule_order = [
+# [Order]
+def rules_order(lines, unknown_rule=False):
+    order_type = [
         "DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD", "DOMAIN-WILDCARD",
         "IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"
     ]
-    rulebox = {key: [] for key in rule_order}
-    unknown = []
-    seenkey = set()
-    def sortkey(line):
-        return line.partition(",")[2]
+    order_key = lambda line: line.partition(",")[2]
+    rules_all = []
+    rules_map = {rule: index for index, rule in enumerate(order_type)}
     for line in lines:
-        linekey = line.lower()
-        if linekey in seenkey:
+        type_key = line.split(",", 1)[0]
+        type_index = rules_map.get(type_key, len(order_type))
+        rules_all.append((type_index, line))
+    rules_all.sort(key=lambda x: (x[0], order_key(x[1])))
+    rules_seen = set()
+    for type_index, rule in rules_all:
+        rule_lower = rule.lower()
+        if rule_lower in rules_seen:
             continue
-        seenkey.add(linekey)
-        key = line.split(",", 1)[0]
-        if key in rulebox:
-            rulebox[key].append(line)
-        elif keep_unknown:
-            unknown.append(line)
-    for key in rule_order:
-        for line in sorted(rulebox[key], key=sortkey):
-            yield line
-    if keep_unknown:
-        for line in unknown:
-            yield line
+        rules_seen.add(rule_lower)
+        if type_index == len(order_type) and not unknown_rule:
+            continue
+        yield rule
 
-# [规则解析]
-def process_parse(lines):
+# [Parse]
+def rules_parse(lines):
     for line in lines:
-        parts = line.strip().split(",")
+        parts = line.strip().split(",", 2)
         style = parts[0] if len(parts) > 0 else ""
         value = parts[1] if len(parts) > 1 else ""
         field = parts[2] if len(parts) > 2 else ""
         yield style, value, field
 
-# [写回文件]
-def write_lines(file_path, lines, rule_name, rule_count):
+# [Write]
+def rules_write(file_path, rule_name, rule_count, rules):
     with file_path.open("w", encoding="utf-8") as f:
         f.write(f"# 规则名称: {rule_name}\n")
         f.write(f"# 规则统计: {rule_count}\n\n")
-        for line in lines:
+        for line in rules:
             f.write(line + "\n")
 
 # [Singbox]
 def process_singbox(file_path):
     rule_name = file_path.stem
-    lines = process_order(process_class(read_lines(file_path)))
+    lines = rules_order(rules_type(rules_read(file_path)))
     rule_dict = {
         "DOMAIN":          "domain",
         "DOMAIN-SUFFIX":   "domain_suffix",
@@ -88,7 +87,7 @@ def process_singbox(file_path):
         "IP-CIDR6":        "ip_cidr"
     }
     rule_data = defaultdict(list)
-    for style, value, field in process_parse(lines):
+    for style, value, field in rules_parse(lines):
         if not style or style not in rule_dict:
             continue
         key = rule_dict[style]
