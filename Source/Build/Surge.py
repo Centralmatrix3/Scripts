@@ -73,39 +73,23 @@ def rules_write(file_path, rule_name, rule_count, rules):
         for line in rules:
             f.write(line + "\n")
 
+# [Surge]
 def process_surge(file_path):
-    rule_name = file_path.stem
-    lines = rules_read(file_path)
-    output = list(lines)
-    rule_count = len(output)
-    rules_write(file_path, rule_name, rule_count, output)
-    print(f"Processed (Surge) {file_path}")
-
-# [Extra]
-def process_extra(file_path):
     rule_name = file_path.stem
     lines = rules_order(rules_type(rules_read(file_path)))
     output = list(lines)
     rule_count = len(output)
     rules_write(file_path, rule_name, rule_count, output)
-    print(f"Processed (Extra) {file_path}")
+    print(f"Processed (Surge) {file_path}")
 
 # [Entry Point]
 def main():
     def error_exit(message):
         print(message)
         sys.exit(1)
-    if len(sys.argv) < 3:
-        error_exit("USAGE: Python Build.py <mode> <file_or_dir>")
-    mode = sys.argv[1].lower()
-    file_path = Path(sys.argv[2])
-    mode_map = {
-        "surge": process_surge,
-        "extra": process_extra
-    }
-    process_func = mode_map.get(mode)
-    if not process_func:
-        error_exit(f"Unknown mode: {mode}")
+    if len(sys.argv) < 2:
+        error_exit("USAGE: Python Surge.py <file_or_dir>")
+    file_path = Path(sys.argv[1])
     if file_path.is_file():
         files_to_process = [file_path]
     elif file_path.is_dir():
@@ -115,11 +99,11 @@ def main():
     if not files_to_process:
         print(f"No supported files found in: {file_path}")
         return
-    print(f"Platform: surge/extra ({mode})")
+    print(f"Platform: surge")
     print(f"Found {len(files_to_process)} file(s) in: {file_path}")
     for f in files_to_process:
         try:
-            process_func(f)
+            process_surge(f)
         except Exception as e:
             print(f"Failed to process {f}: {e}")
     print("Processing completed.")
