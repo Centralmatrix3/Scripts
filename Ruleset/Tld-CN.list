@@ -1,5 +1,5 @@
 # 规则名称: Tld-CN
-# 规则统计: 36
+# 规则统计: 37
 
 DOMAIN-SUFFIX,baidu
 DOMAIN-SUFFIX,citic
@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,unicom
 DOMAIN-SUFFIX,xn--1qqw23a
 DOMAIN-SUFFIX,xn--3bst00m
 DOMAIN-SUFFIX,xn--3ds443g
+DOMAIN-SUFFIX,xn--55qw42g
 DOMAIN-SUFFIX,xn--55qx5d
 DOMAIN-SUFFIX,xn--5tzm5g
 DOMAIN-SUFFIX,xn--6frz82g
