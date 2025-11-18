@@ -204,10 +204,10 @@ def main():
         print(message)
         sys.exit(1)
     if len(sys.argv) < 3:
-        error_exit("USAGE: Python Build.py <mode> <file_or_dir>")
+        error_exit("USAGE: Python Build.py <platform> <file_or_dir>")
     platform = sys.argv[1].lower()
     file_path = Path(sys.argv[2])
-    mode_map = {
+    platform_map = {
         "egern":       process_egern,
         "quantumultx": process_quantumultx,
         "singbox":     process_singbox,
@@ -215,7 +215,7 @@ def main():
         "surge":       process_surge,
         "extra":       process_extra
     }
-    process_func = mode_map.get(platform)
+    process_func = platform_map.get(platform)
     if not process_func:
         error_exit(f"Unknown platform: {platform}")
     if file_path.is_file():
