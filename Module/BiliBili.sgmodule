@@ -1,7 +1,7 @@
 #!name = 哔哩哔哩
 #!desc = 哔哩哔哩去广告
 #!author = kokoryh
-#!arguments = 动态最常访问:auto,创作中心:0,置顶评论广告:1,空降助手:bilibili.airborne,日志等级:info
+#!arguments = 动态最常访问:auto,创作中心:0,空降助手:bilibili.airborne,日志等级:info,置顶评论广告:1
 
 [Rule]
 DOMAIN,api.biliapi.com,REJECT,extended-matching,pre-matching
