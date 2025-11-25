@@ -52,8 +52,8 @@
       <td align="center"><a href="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Surge/matrix.conf"><strong>配置</strong></a></td>
     </tr>
     <tr>
-      <td align=”center“ colspan=”2“><strong><a href=”https://github.com/Centralmatrix3/Scripts/blob/master/Scripts/Docs/DISCLAIMER.md“>免责声明</a></strong></td>
-      <td align=”center“ colspan=”2“><strong><a href=”https://github.com/Centralmatrix3/Scripts/blob/master/Scripts/Docs/ACKNOWLEDGEMENTS.md“>特别感谢</a></strong></td>
+      <td align="center" colspan="2"><strong><a href="https://github.com/Centralmatrix3/Scripts/blob/master/Scripts/Docs/DISCLAIMER.md">免责声明</a></strong></td>
+      <td align="center" colspan="2"><strong><a href="https://github.com/Centralmatrix3/Scripts/blob/master/Scripts/Docs/ACKNOWLEDGEMENTS.md">特别感谢</a></strong></td>
     </tr>
   </table>
 </div>
