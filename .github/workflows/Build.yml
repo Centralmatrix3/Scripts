@@ -20,36 +20,36 @@ jobs:
 
       - name: Build
         run: |
-          curl -fsSL -o "Build.py" "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.py"
-          curl -fsSL -o "Build.sh" "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Source/Build.sh"
-          bash "Build.sh"
+          curl -fsSL -o Build.py https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Build.py
+          curl -fsSL -o Build.sh https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Build.sh
+          bash Build.sh
 
       - name: Extra
         run: |
           for dir in Scripts-repo/{Ruleset,*/Ruleset}; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python "Build.py" Extra "$dir"
+            python Build.py Extra "$dir"
           done
 
       - name: QuantumultX
         run: |
           for dir in Scripts-repo/QuantumultX/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python "Build.py" QuantumultX "$dir"
+            python Build.py QuantumultX "$dir"
           done
 
       - name: Stash
         run: |
           for dir in Scripts-repo/Stash/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python "Build.py" Stash "$dir"
+            python Build.py Stash "$dir"
           done
 
       - name: Surge
         run: |
           for dir in Scripts-repo/Surge/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python "Build.py" Surge "$dir"
+            python Build.py Surge "$dir"
           done
 
       - name: Push Update
