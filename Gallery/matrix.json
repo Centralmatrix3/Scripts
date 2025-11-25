@@ -4,259 +4,259 @@
   "icons": [
     {
       "name": "Clash",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Clash.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Clash.png"
     },
     {
       "name": "Egern",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Egern.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Egern.png"
     },
     {
       "name": "Loon",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Loon.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Loon.png"
     },
     {
       "name": "QuantumultX",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/QuantumultX.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/QuantumultX.png"
     },
     {
       "name": "Shadowrocket",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Shadowrocket.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Shadowrocket.png"
     },
     {
       "name": "Sing-box",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Sing-box.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Sing-box.png"
     },
     {
       "name": "Stash",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Stash.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Stash.png"
     },
     {
       "name": "Surge",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Surge.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Surge.png"
     },
     {
-      "name": "OpenAI-1",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OpenAI-1.png"
+      "name": "OpenAI-v1",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/OpenAI-v1.png"
     },
     {
-      "name": "OpenAI-2",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OpenAI-2.png"
+      "name": "OpenAI-v2",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/OpenAI-v2.png"
     },
     {
-      "name": "OpenAI-3",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OpenAI-3.png"
+      "name": "OpenAI-v3",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/OpenAI-v3.png"
     },
     {
       "name": "GoogleVoice",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/GoogleVoice.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/GoogleVoice.png"
     },
     {
-      "name": "Copilot-1",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Copilot-1.png"
+      "name": "Copilot-v1",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Copilot-v1.png"
     },
     {
-      "name": "Copilot-2",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Copilot-2.png"
+      "name": "Copilot-v2",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Copilot-v2.png"
     },
     {
-      "name": "Copilot-3",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Copilot-3.png"
+      "name": "Copilot-v3",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Copilot-v3.png"
     },
     {
       "name": "Emoji",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Emoji.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Emoji.png"
     },
     {
-      "name": "Apple-1",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-1.png"
+      "name": "Apple-v1",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Apple-v1.png"
     },
     {
-      "name": "Apple-2",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Apple-2.png"
+      "name": "Apple-v2",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Apple-v2.png"
     },
     {
       "name": "StreamingSE",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingSE.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/StreamingSE.png"
     },
     {
       "name": "StreamingCN",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/StreamingCN.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/StreamingCN.png"
     },
     {
       "name": "Streaming",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Streaming.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Streaming.png"
     },
     {
       "name": "Global",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Global.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Global.png"
     },
     {
       "name": "Final",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Final.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Final.png"
     },
     {
       "name": "Static",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Static.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Static.png"
     },
     {
       "name": "Available",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Available.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Available.png"
     },
     {
       "name": "Rocket",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Rocket.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Rocket.png"
     },
     {
-      "name": "IQiYi-2",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/IQiYi-2.png"
+      "name": "IQiYi-v2",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/IQiYi-v2.png"
     },
     {
       "name": "Telegram",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Telegram.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Telegram.png"
     },
     {
-      "name": "Instagram-2",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Instagram-2.png"
+      "name": "Instagram",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Instagram.png"
     },
     {
-      "name": "BiliBili-1",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/BiliBili-1.png"
+      "name": "BiliBili",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/BiliBili.png"
     },
     {
       "name": "NeteaseMusic",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/NeteaseMusic.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/NeteaseMusic.png"
     },
     {
       "name": "Panda",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Panda.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Panda.png"
     },
     {
       "name": "Airport",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Airport.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Airport.png"
     },
     {
       "name": "Lab",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Lab.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Lab.png"
     },
     {
       "name": "CN",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/CN.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/CN.png"
     },
     {
       "name": "HK",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/HK.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/HK.png"
     },
     {
       "name": "MO",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/MO.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/MO.png"
     },
     {
       "name": "TW",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TW.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/TW.png"
     },
     {
       "name": "JP",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/JP.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/JP.png"
     },
     {
       "name": "KR",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/KR.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/KR.png"
     },
     {
       "name": "SG",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/SG.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/SG.png"
     },
     {
       "name": "VN",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/VN.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/VN.png"
     },
     {
       "name": "TH",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TH.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/TH.png"
     },
     {
       "name": "RU",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/RU.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/RU.png"
     },
     {
       "name": "UK",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/UK.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/UK.png"
     },
     {
       "name": "FR",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/FR.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/FR.png"
     },
     {
       "name": "DE",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/DE.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/DE.png"
     },
     {
       "name": "TR",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TR.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/TR.png"
     },
     {
       "name": "US",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/US.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/US.png"
     },
     {
       "name": "CA",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/CA.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/CA.png"
     },
     {
       "name": "AU",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/AU.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/AU.png"
     },
     {
       "name": "Nintendo",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Nintendo.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Nintendo.png"
     },
     {
       "name": "Gmail",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Gmail.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Gmail.png"
     },
     {
       "name": "Adblock",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Adblock.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Adblock.png"
     },
     {
       "name": "WeTV",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/WeTV.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/WeTV.png"
     },
     {
       "name": "DIRECT",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/DIRECT.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/DIRECT.png"
     },
     {
       "name": "PROXY",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/PROXY.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/PROXY.png"
     },
     {
       "name": "REJECT",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/REJECT.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/REJECT.png"
     },
     {
       "name": "Pornhub",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Pornhub.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Pornhub.png"
     },
     {
-      "name": "TikTok-2",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/TikTok-2.png"
+      "name": "TikTok",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/TikTok.png"
     },
     {
       "name": "Notion",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Notion.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Notion.png"
     },
     {
-      "name": "Cydia",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Cydia.png"
+      "name": "Steam",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Steam.png"
     },
     {
-      "name": "Emby",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/Emby.png"
+      "name": "Enet",
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/Enet.png"
     },
     {
       "name": "OneDrive",
-      "url": "https://raw.githubusercontent.com/Centralmatrix3/Matrix-io/master/Gallery/Color/OneDrive.png"
+      "url": "https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Gallery/Color/OneDrive.png"
     }
   ]
 }
