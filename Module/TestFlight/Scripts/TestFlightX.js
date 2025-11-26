@@ -1,6 +1,6 @@
 /*
  * @name = TestFlight 
- * @desc = TestFlight下载修正
+ * @desc = TestFlight强制安装
  * @author = Skyxim
 */
 
