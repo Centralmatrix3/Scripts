@@ -6,7 +6,7 @@
 http:
   script:
     - match: ^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$
-      name: TestFlight
+      name: TF下载修正
       type: request
       require-body: true
       timeout: 120
@@ -15,7 +15,7 @@ http:
     - "testflight.apple.com"
 
 script-providers:
-  TestFlight:
+  TF下载修正:
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Stash/Scripts/TestFlightD.js
     interval: 86400
 ----------------------------------------

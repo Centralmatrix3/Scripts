@@ -6,7 +6,7 @@
 http:
   script:
     - match: ^https:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/
-      name: TestFlight
+      name: TF账户管理
       type: request
       require-body: true
       timeout: 120
@@ -15,7 +15,7 @@ http:
     - "testflight.apple.com"
 
 script-providers:
-  TestFlight:
+  TF账户管理:
     url: https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Stash/Scripts/TestFlightA.js
     interval: 86400
 ----------------------------------------

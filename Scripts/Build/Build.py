@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 import json
 import ipaddress
 import re
@@ -9,20 +8,16 @@ from pathlib import Path
 from collections import defaultdict
 from typing import Iterable, Iterator, Tuple, Callable, List
 
-
 RE_INLINE_COMMENT = re.compile(r'(?<!:)//.*$')
-
 
 STASH_DOMAIN_NAME = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
 STASH_IPCIDR_NAME = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
-
 
 ORDER_TYPE = [
     "DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD", "DOMAIN-WILDCARD",
     "IP-CIDR", "IP-CIDR6", "IP-ASN", "GEOIP"
 ]
 ORDER_MAP = {rule: index for index, rule in enumerate(ORDER_TYPE)}
-
 
 EGERN_TYPE_MAP = {
     "DOMAIN": "domain_set",
@@ -35,12 +30,10 @@ EGERN_TYPE_MAP = {
     "GEOIP": "geoip_set"
 }
 
-
 QUANTUMULTX_TYPE_MAP = {
     "DOMAIN": "HOST",
     "IP-CIDR6": "IP6-CIDR"
 }
-
 
 SINGBOX_TYPE_MAP = {
     "DOMAIN": "domain",
@@ -50,11 +43,9 @@ SINGBOX_TYPE_MAP = {
     "IP-CIDR6": "ip_cidr"
 }
 
-
 def error_exit(message: str) -> None:
     print(f"[ERROR] {message}")
     sys.exit(1)
-
 
 def rules_read(file_path: Path) -> Iterator[str]:
     sub = RE_INLINE_COMMENT.sub
@@ -69,7 +60,6 @@ def rules_read(file_path: Path) -> Iterator[str]:
                     continue
             yield line
 
-
 def rules_type(lines: Iterable[str]) -> Iterator[str]:
     ip_network = ipaddress.ip_network
     prefix_map = {4: "IP-CIDR", 6: "IP-CIDR6"}
@@ -80,7 +70,6 @@ def rules_type(lines: Iterable[str]) -> Iterator[str]:
             yield f"{prefix_map[network.version]},{network}"
         except ValueError:
             yield line
-
 
 def _get_order_key(line: str) -> str:
     return line.partition(",")[2]
@@ -100,20 +89,17 @@ def rules_order(lines: Iterable[str], unknown_rule: bool = False) -> Iterator[st
         seen.add(rule_lower)
         yield rule
 
-
 def rules_parse(lines: Iterator[str]) -> Iterator[Tuple[str, str, str]]:
     for line in lines:
         parts = line.strip().split(",", 2)
         style, value, field = (parts + [""] * 3)[:3]
         yield style, value, field
 
-
 def rules_write(file_path: Path, rule_name: str, rule_count: int, rules: Iterable[str]) -> None:
     with file_path.open("w", encoding="utf-8", newline="") as f:
         f.write(f"# 规则名称: {rule_name}\n")
         f.write(f"# 规则统计: {rule_count}\n\n")
         f.writelines(f"{line}\n" for line in rules)
-
 
 def process_egern(file_path: Path) -> None:
     rule_name = file_path.stem
@@ -143,7 +129,6 @@ def process_egern(file_path: Path) -> None:
     rules_write(file_path, rule_name, rule_count, output)
     print(f"[INFO] Processed (Egern) {file_path}")
 
-
 def process_quantumultx(file_path: Path) -> None:
     rule_name = file_path.stem
     lines: Iterable[str] = rules_order(rules_type(rules_read(file_path)))
@@ -158,7 +143,6 @@ def process_quantumultx(file_path: Path) -> None:
         output.append(f"{style},{value},{rule_name}")
     rules_write(file_path, rule_name, len(output), output)
     print(f"[INFO] Processed (QuantumultX) {file_path}")
-
 
 def process_singbox(file_path: Path) -> None:
     rule_name = file_path.stem
@@ -177,7 +161,6 @@ def process_singbox(file_path: Path) -> None:
         json.dump(output, f, indent=2, ensure_ascii=False)
         f.write("\n")
     print(f"[INFO] Processed (Singbox) {file_path}")
-
 
 def process_stash(file_path: Path) -> None:
     rule_name = file_path.stem
@@ -200,14 +183,12 @@ def process_stash(file_path: Path) -> None:
     rules_write(file_path, rule_name, sum(line.startswith("  - ") for line in output), output)
     print(f"[INFO] Processed (Stash) {file_path}")
 
-
 def process_surge(file_path: Path) -> None:
     rule_name = file_path.stem
     lines: Iterable[str] = rules_order(rules_type(rules_read(file_path)))
     output: List[str] = list(lines)
     rules_write(file_path, rule_name, len(output), output)
     print(f"[INFO] Processed (Surge) {file_path}")
-
 
 def main() -> None:
     if len(sys.argv) < 3:
@@ -247,7 +228,6 @@ def main() -> None:
         except Exception as e:
             print(f"[ERROR] Failed to process {f}: {e}")
     print("[INFO] Processing completed.")
-
 
 if __name__ == "__main__":
     main()

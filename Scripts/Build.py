@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
 
-
 import json
 import ipaddress
 import re
 import sys
 from pathlib import Path
 from collections import defaultdict
-
 
 def rules_read(file_path):
     remark_re = re.compile(r'(?<!:)//.*$')
@@ -21,7 +19,6 @@ def rules_read(file_path):
                 continue
             yield line
 
-
 def rules_type(lines):
     for line in lines:
         line = line.strip()
@@ -33,7 +30,6 @@ def rules_type(lines):
                 yield f"IP-CIDR6,{network}"
         except ValueError:
             yield line
-
 
 def rules_order(lines, unknown_rule=False):
     order_type = [
@@ -58,7 +54,6 @@ def rules_order(lines, unknown_rule=False):
             continue
         yield rule
 
-
 def rules_parse(lines):
     for line in lines:
         parts = line.strip().split(",", 2)
@@ -67,14 +62,12 @@ def rules_parse(lines):
         field = parts[2] if len(parts) > 2 else ""
         yield style, value, field
 
-
 def rules_write(file_path, rule_name, rule_count, rules):
     with file_path.open("w", encoding="utf-8") as f:
         f.write(f"# 规则名称: {rule_name}\n")
         f.write(f"# 规则统计: {rule_count}\n\n")
         for line in rules:
             f.write(line + "\n")
-
 
 def process_egern(file_path):
     rule_name = file_path.stem
@@ -112,7 +105,6 @@ def process_egern(file_path):
     rules_write(file_path, rule_name, rule_count, output)
     print(f"Processed (Egern) {file_path}")
 
-
 def process_quantumultx(file_path):
     rule_name = file_path.stem
     lines = rules_read(file_path)
@@ -128,7 +120,6 @@ def process_quantumultx(file_path):
     rule_count = len(output)
     rules_write(file_path, rule_name, rule_count, output)
     print(f"Processed (QuantumultX) {file_path}")
-
 
 def process_singbox(file_path):
     rule_name = file_path.stem
@@ -155,7 +146,6 @@ def process_singbox(file_path):
         f.write("\n")
     print(f"Processed (Singbox) {file_path}")
 
-
 def process_stash(file_path):
     rule_name = file_path.stem
     lines = rules_read(file_path)
@@ -178,7 +168,6 @@ def process_stash(file_path):
     rules_write(file_path, rule_name, rule_count, output)
     print(f"Processed (Stash) {file_path}")
 
-
 def process_surge(file_path):
     rule_name = file_path.stem
     lines = rules_read(file_path)
@@ -187,7 +176,6 @@ def process_surge(file_path):
     rules_write(file_path, rule_name, rule_count, output)
     print(f"Processed (Surge) {file_path}")
 
-
 def process_extra(file_path):
     rule_name = file_path.stem
     lines = rules_order(rules_type(rules_read(file_path)))
@@ -195,7 +183,6 @@ def process_extra(file_path):
     rule_count = len(output)
     rules_write(file_path, rule_name, rule_count, output)
     print(f"Processed (Extra) {file_path}")
-
 
 def main():
     def error_exit(message):
@@ -238,7 +225,6 @@ def main():
         except Exception as e:
             print(f"Failed to process {f}: {e}")
     print("Processing completed.")
-
 
 if __name__ == "__main__":
     main()

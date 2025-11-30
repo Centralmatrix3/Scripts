@@ -4,7 +4,7 @@
  * @author = NobyDa
 ----------------------------------------
 [Script]
-TestFlight = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Surge/Scripts/TestFlightD.js,requires-body=true,timeout=120
+TF下载修正 = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Surge/Scripts/TestFlightD.js,requires-body=true,timeout=120
 
 [MITM]
 hostname = %APPEND% testflight.apple.com

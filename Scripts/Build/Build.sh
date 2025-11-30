@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-
 set -euo pipefail
 repo_name="$(basename "$GITHUB_REPOSITORY")"
 download() {
@@ -14,7 +13,6 @@ download() {
         echo >> "$output"
     done
 }
-
 
 if [[ "$repo_name" == "Scripts" ]]; then
     echo "Running in Scripts Repository"
@@ -44,7 +42,7 @@ if [[ "$repo_name" == "Scripts" ]]; then
     done
     declare -A load_ruleB=(
         ["Scripts-repo/Ruleset/AdBlock.list"]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
-        ["Scripts-repo/Ruleset/AdGuardDNS.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
+        ["Scripts-repo/Ruleset/AdGuardBlock.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
         ["Scripts-repo/Ruleset/Advertising.list"]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
         ["Scripts-repo/Ruleset/Alibaba.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list"
         ["Scripts-repo/Ruleset/Amazon.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list"
@@ -123,7 +121,6 @@ if [[ "$repo_name" == "Scripts" ]]; then
         echo "Processed: $file"
     done
     echo "Scripts Repository: All Ruleset Processed!"
-
 
 elif [[ "$repo_name" == "Matrix-io" ]]; then
     echo "Running in Matrix-io Repository"
@@ -271,7 +268,6 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         done
     done
     echo "Matrix-io Repository: All Ruleset Processed!"
-
 
 else
     echo "Unknown Repository: $repo_name"
