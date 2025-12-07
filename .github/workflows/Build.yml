@@ -28,7 +28,7 @@ jobs:
         run: |
           for dir in Scripts-repo/{Ruleset,*/Ruleset}; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Extra "$dir"
+            python Build.py Surge --type --order "$dir"
           done
 
       - name: QuantumultX
