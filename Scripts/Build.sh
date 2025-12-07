@@ -15,7 +15,7 @@ download() {
 }
 
 if [[ "$repo_name" == "Scripts" ]]; then
-    echo "Running in Scripts Repository"
+    echo "Execute in Scripts Repository"
     rule_path=("Ruleset" "QuantumultX/Ruleset" "Stash/Ruleset" "Surge/Ruleset")
     for dir in "${rule_path[@]}"; do
         mkdir -p "Scripts-repo/$dir"
@@ -116,14 +116,15 @@ if [[ "$repo_name" == "Scripts" ]]; then
         file="Scripts-repo/Ruleset/${load_ruleC[$key]}"
         base="$(basename "${load_ruleC[$key]}" .list)"
         for platform in "${!formats[@]}"; do
-            cp "$file" "Scripts-repo/$platform/Ruleset/$base.${formats[$platform]}"
+            dirs="Scripts-repo/$platform/Ruleset/$base.${formats[$platform]}"
+            cp "$file" "$dirs"
+            echo "Processed: $file -> $dirs"
         done
-        echo "Processed: $file"
     done
     echo "Scripts Repository: All Ruleset Processed!"
 
 elif [[ "$repo_name" == "Matrix-io" ]]; then
-    echo "Running in Matrix-io Repository"
+    echo "Execute in Matrix-io Repository"
     rule_path=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
     for dir in "${rule_path[@]}"; do
         mkdir -p "Matrix-io-repo/$dir/Ruleset"
@@ -271,6 +272,6 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
 
 else
     echo "Unknown Repository: $repo_name"
-    echo "Please Execute Scripts in Scripts or Matrix-io Repository."
+    echo "Please Execute in Scripts Repository or Matrix-io Repository."
     exit 1
 fi
