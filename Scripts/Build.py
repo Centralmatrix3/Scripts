@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
-import sys
-import inspect
-from pathlib import Path
 import json
+import sys
 import re
 import ipaddress
+import inspect
+from pathlib import Path
 from collections import defaultdict
 
 INLINE_COMMENT_RE = re.compile(r"(?<!:)//.*$")
@@ -13,7 +13,7 @@ INLINE_COMMENT_RE = re.compile(r"(?<!:)//.*$")
 STASH_DOMAIN_FILE = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
 STASH_IPCIDR_FILE = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
 
-RULE_ORDER = [
+RULE_TYPE_ORDER = [
     "DOMAIN",
     "DOMAIN-SUFFIX",
     "DOMAIN-KEYWORD",
@@ -23,7 +23,7 @@ RULE_ORDER = [
     "IP-ASN",
     "GEOIP"
 ]
-RULE_ORDER_MAP = {rule: index for index, rule in enumerate(RULE_ORDER)}
+RULE_TO_INDEX = {rule: index for index, rule in enumerate(RULE_TYPE_ORDER)}
 
 EGERN_RULE_MAP = {
     "DOMAIN": "domain_set",
@@ -56,50 +56,36 @@ SINGBOX_RULE_MAP = {
 def rules_type(line):
     try:
         network = ipaddress.ip_network(line, strict=False)
-        if network.version == 4:
-            return f"IP-CIDR,{network}"
-        else:
-            return f"IP-CIDR6,{network}"
+        return f"IP-CIDR,{network}" if network.version == 4 else f"IP-CIDR6,{network}"
     except ValueError:
         return line
 
 def rules_order(lines, unknown_rule=False):
-    def _extract_type(line):
-        return line.split(",", 1)[0]
-    def _extract_value(line):
-        return line.partition(",")[2]
-    def _sort_type_value(entry):
-        return entry[0], _extract_value(entry[1])
-    rules_all = []
-    for line in lines:
-        extract_type = _extract_type(line)
-        type_index = RULE_ORDER_MAP.get(extract_type, len(RULE_ORDER))
-        rules_all.append((type_index, line))
-    rules_all.sort(key=_sort_type_value)
-    rules_seen = set()
-    for type_index, rule in rules_all:
-        rule_lower = rule.lower()
-        if rule_lower in rules_seen:
+    def sort_rule(line):
+        rule_type, rule_value = line.split(",", 1)[0], line.partition(",")[2]
+        type_index = RULE_TO_INDEX.get(rule_type, len(RULE_TYPE_ORDER))
+        return type_index, rule_value
+    seen = set()
+    for line in sorted(lines, key=sort_rule):
+        lower = line.lower()
+        rule_type = line.split(",", 1)[0]
+        if lower in seen or (rule_type not in RULE_TO_INDEX and not unknown_rule):
             continue
-        rules_seen.add(rule_lower)
-        if type_index == len(RULE_ORDER) and not unknown_rule:
-            continue
-        yield rule
+        seen.add(lower)
+        yield line
 
-def rules_load(file_path: Path, enable_type=False, enable_order=False):
+def rules_load(file_path, enable_type=False, enable_order=False):
     source = [
         INLINE_COMMENT_RE.sub("", line).strip()
         for line in file_path.read_text(encoding="utf-8").splitlines()
         if line.strip() and not line.lstrip().startswith("#")
     ]
     if enable_type:
-        source = [rules_type(rule) for rule in source]
+        source = [rules_type(line) for line in source]
     if enable_order:
         source = list(rules_order(source))
     parsed = [
-        (parts[0] if len(parts) > 0 else "",
-         parts[1] if len(parts) > 1 else "",
-         parts[2] if len(parts) > 2 else "")
+        tuple(parts[index] if index < len(parts) else "" for index in range(3))
         for parts in (line.split(",", 2) for line in source)
     ]
     return source, parsed
