@@ -4,12 +4,12 @@ import json
 import sys
 import re
 import ipaddress
+import argparse
 import inspect
 from pathlib import Path
 from collections import defaultdict
 
 INLINE_COMMENT_RE = re.compile(r"(?<!:)//.*$")
-
 STASH_DOMAIN_FILE = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
 STASH_IPCIDR_FILE = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
 
@@ -61,12 +61,12 @@ def rules_type(line):
         return line
 
 def rules_order(lines, unknown_rule=False):
-    def sort_rule(line):
+    def rule_sort(line):
         rule_type, rule_value = line.split(",", 1)[0], line.partition(",")[2]
-        type_index = RULE_TO_INDEX.get(rule_type, len(RULE_TYPE_ORDER))
-        return type_index, rule_value
+        rule_index = RULE_TO_INDEX.get(rule_type, len(RULE_TYPE_ORDER))
+        return rule_index, rule_value
     seen = set()
-    for line in sorted(lines, key=sort_rule):
+    for line in sorted(lines, key=rule_sort):
         lower = line.lower()
         rule_type = line.split(",", 1)[0]
         if lower in seen or (rule_type not in RULE_TO_INDEX and not unknown_rule):
@@ -90,11 +90,18 @@ def rules_load(file_path, enable_type=False, enable_order=False):
     ]
     return source, parsed
 
-def rules_write(file_path, rule_name, rule_count, rules):
-    with file_path.open("w", encoding="utf-8") as f:
-        f.write(f"# 规则名称: {rule_name}\n")
-        f.write(f"# 规则统计: {rule_count}\n\n")
-        f.writelines(f"{line}\n" for line in rules)
+def rules_write(file_path, rule_name, rule_count, rule_data, platform):
+    if platform == "Singbox":
+        with file_path.open("w", encoding="utf-8") as f:
+            json.dump(rule_data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+    else:
+        with file_path.open("w", encoding="utf-8") as f:
+            f.write(f"# 规则名称: {rule_name}\n")
+            f.write(f"# 规则统计: {rule_count}\n\n")
+            f.writelines(f"{line}\n" for line in rule_data)
+    if platform:
+        print(f"Processed ({platform}) {file_path}")
 
 def process_egern(file_path, enable_type=False, enable_order=False):
     rule_name = file_path.stem
@@ -109,18 +116,12 @@ def process_egern(file_path, enable_type=False, enable_order=False):
         rule_type = EGERN_RULE_MAP[style]
         rule_value = f'"{value}"' if rule_type in EGERN_RULE_QUOTE else value
         rule_data[rule_type].append(rule_value)
-    output_data = []
-    for rule_type, rule_list in rule_data.items():
-        if not rule_list:
-            continue
-        output_data.append((rule_type, rule_list))
     output = ["no_resolve: true"] if no_resolve else []
-    for rule_type, rule_list in output_data:
+    for rule_type, rule_list in rule_data.items():
         output.append(f"{rule_type}:")
         output.extend(f"  - {value}" for value in rule_list)
     rule_count = sum(line.startswith("  - ") for line in output)
-    rules_write(file_path, rule_name, rule_count, output)
-    print(f"Processed (Egern) {file_path}")
+    rules_write(file_path, rule_name, rule_count, output, "Egern")
 
 def process_quantumultx(file_path, enable_type=False, enable_order=False):
     rule_name = file_path.stem
@@ -132,8 +133,7 @@ def process_quantumultx(file_path, enable_type=False, enable_order=False):
         rule_type = QUANTUMULTX_RULE_MAP.get(style, style)
         output.append(f"{rule_type},{value},{rule_name}")
     rule_count = len(output)
-    rules_write(file_path, rule_name, rule_count, output)
-    print(f"Processed (QuantumultX) {file_path}")
+    rules_write(file_path, rule_name, rule_count, output, "QuantumultX")
 
 def process_singbox(file_path, enable_type=False, enable_order=False):
     rule_name = file_path.stem
@@ -144,16 +144,9 @@ def process_singbox(file_path, enable_type=False, enable_order=False):
             continue
         rule_type = SINGBOX_RULE_MAP[style]
         rule_data[rule_type].append(value)
-    output_data = []
-    for rule_type, rule_list in rule_data.items():
-        if not rule_list:
-            continue
-        output_data.append({rule_type: rule_list})
-    output = {"version": 3, "rules": output_data}
-    with file_path.open("w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
-        f.write("\n")
-    print(f"Processed (Singbox) {file_path}")
+    rule_list = [{rule_type: value} for rule_type, value in rule_data.items()]
+    output = {"version": 3, "rules": rule_list}
+    rules_write(file_path, None, None, output, platform="Singbox")
 
 def process_stash(file_path, enable_type=False, enable_order=False):
     rule_name = file_path.stem
@@ -172,30 +165,26 @@ def process_stash(file_path, enable_type=False, enable_order=False):
             formatted = f"  - {style},{value}" + (f",{field}" if field else "")
         output.append(formatted)
     rule_count = sum(line.startswith("  - ") for line in output)
-    rules_write(file_path, rule_name, rule_count, output)
-    print(f"Processed (Stash) {file_path}")
+    rules_write(file_path, rule_name, rule_count, output, "Stash")
 
 def process_surge(file_path, enable_type=False, enable_order=False):
     rule_name = file_path.stem
     source, _ = rules_load(file_path, enable_type=enable_type, enable_order=enable_order)
     output = list(source)
     rule_count = len(output)
-    rules_write(file_path, rule_name, rule_count, output)
-    print(f"Processed (Surge) {file_path}")
+    rules_write(file_path, rule_name, rule_count, output, "Surge")
 
 def main():
-    def error_exit(message):
-        print(message)
-        sys.exit(1)
-    if len(sys.argv) < 3:
-        error_exit("USAGE: Python Build.py <platform> [--type] [--order] <file_or_dir>")
-    arguments_type = "--type" in sys.argv
-    arguments_order = "--order" in sys.argv
-    arguments = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
-    if len(arguments) < 2:
-        error_exit("USAGE: Python Build.py <platform> [--type] [--order] <file_or_dir>")
-    platform = arguments[0]
-    file_path = Path(arguments[1])
+    parser = argparse.ArgumentParser(description="规则构建工具")
+    parser.add_argument("platform", choices=["Egern", "QuantumultX", "Singbox", "Stash", "Surge"])
+    parser.add_argument("file_path", type=Path, help="规则文件或者路径")
+    parser.add_argument("--type", action="store_true", help="启用添加规则类型")
+    parser.add_argument("--order", action="store_true", help="启用规则排序去重")
+    args = parser.parse_args()
+    print("============== Build.py ==============")
+    print(f"规则添加类型: {'已启用' if args.type else '未启用'} (--type)")
+    print(f"规则排序去重: {'已启用' if args.order else '未启用'} (--order)")
+    print("======================================")
     platform_map = {
         "Egern": process_egern,
         "QuantumultX": process_quantumultx,
@@ -203,44 +192,26 @@ def main():
         "Stash": process_stash,
         "Surge": process_surge
     }
-    process_func = platform_map.get(platform)
-    if not process_func:
-        error_exit(f"Unknown platform: {platform}")
-    signature = inspect.signature(process_func)
-    default_enable_type = signature.parameters["enable_type"].default
-    default_enable_order = signature.parameters["enable_order"].default
-    if arguments_type or arguments_order:
-        print("========== Build.py 参数状态 ==========")
-        print(f"规则添加类型: {'已启用' if arguments_type else '未启用'} (--type) ")
-        print(f"规则排序去重: {'已启用' if arguments_order else '未启用'} (--order) ")
-        print("======================================")
-    else:
-        print("========== Build.py 默认行为 ==========")
-        print(f"规则添加类型: {'已启用' if default_enable_type else '未启用'}（默认）")
-        print(f"规则排序去重: {'已启用' if default_enable_order else '未启用'}（默认）")
-        print("======================================")
-    if file_path.is_file():
-        if platform == "Singbox" and file_path.suffix != ".json":
-            error_exit(f"Singbox only supports JSON files: {file_path.suffix}")
-        files_to_process = [file_path]
-    elif file_path.is_dir():
-        if platform == "Singbox":
-            files_to_process = sorted(file_path.glob("*.json"))
+    process_func = platform_map[args.platform]
+    if args.file_path.is_file():
+        if args.platform == "Singbox" and args.file_path.suffix != ".json":
+            sys.exit(f"Singbox only supports JSON files: {args.file_path.suffix}")
+        files_to_process = [args.file_path]
+    elif args.file_path.is_dir():
+        if args.platform == "Singbox":
+            files_to_process = sorted(f for f in args.file_path.iterdir() if f.is_file() and f.suffix == ".json")
         else:
-            files_to_process = sorted(f for f in file_path.iterdir() if f.is_file())
+            files_to_process = sorted(f for f in args.file_path.iterdir() if f.is_file())
     else:
-        error_exit(f"{file_path} not found or unsupported type.")
+        sys.exit(f"{args.file_path} not found or unsupported type.")
     if not files_to_process:
-        print(f"No supported files found in: {file_path}")
+        print(f"No supported files found in: {args.file_path}")
         return
-    print(f"Platform: {platform}")
-    print(f"Processed {len(files_to_process)} file(s) in: {file_path}")
+    print(f"Platform: {args.platform}")
+    print(f"Processed {len(files_to_process)} file(s) in: {args.file_path}")
     for f in files_to_process:
         try:
-            if arguments_type or arguments_order:
-                process_func(f, enable_type=arguments_type, enable_order=arguments_order)
-            else:
-                process_func(f)
+            process_func(f, enable_type=args.type, enable_order=args.order)
         except Exception as e:
             print(f"Failed to process {f}: {e}")
     print("Processed Completed.")
