@@ -211,7 +211,10 @@ def main():
     print(f"Processed {len(files_to_process)} file(s) in: {args.file_path}")
     for f in files_to_process:
         try:
-            process_func(f, enable_type=args.type, enable_order=args.order)
+            if args.type or args.order:
+                process_func(f, enable_type=args.type, enable_order=args.order)
+            else:
+                process_func(f)
         except Exception as e:
             print(f"Failed to process {f}: {e}")
     print("Processed Completed.")
