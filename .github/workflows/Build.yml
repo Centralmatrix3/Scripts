@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SING_BOX_VERSION: "1.12.12"
+      SING_BOX_VERSION: "1.12.13"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.1
@@ -26,7 +26,7 @@ jobs:
 
       - name: Extra
         run: |
-          for dir in Scripts-repo/{Ruleset,*/Ruleset}; do
+          for dir in Scripts-repo/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Surge --type --order "$dir"
           done
@@ -35,21 +35,21 @@ jobs:
         run: |
           for dir in Scripts-repo/QuantumultX/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py QuantumultX "$dir"
+            python Build.py QuantumultX --order "$dir"
           done
 
       - name: Stash
         run: |
           for dir in Scripts-repo/Stash/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Stash "$dir"
+            python Build.py Stash --order "$dir"
           done
 
       - name: Surge
         run: |
           for dir in Scripts-repo/Surge/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Surge "$dir"
+            python Build.py Surge --order "$dir"
           done
 
       - name: Push Update
