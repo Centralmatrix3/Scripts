@@ -1,5 +1,5 @@
-#!name = User-Agent
-#!desc = User-Agent
+#!name = UserAgent
+#!desc = UserAgent
 #!author = None
 
 [Header Rewrite]
