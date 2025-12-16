@@ -1,5 +1,5 @@
-#!name = 替换UA
-#!desc = 替换User-Agent
+#!name = User-Agent
+#!desc = User-Agent
 #!author = None
 
 [Header Rewrite]
