@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6.0.1
         with:
           repository: Centralmatrix3/Scripts
-          path: Scripts-repo
+          path: Scripts
 
       - name: Build
         run: |
@@ -26,35 +26,35 @@ jobs:
 
       - name: Extra
         run: |
-          for dir in Scripts-repo/Ruleset; do
+          for dir in Scripts/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Surge --type --order "$dir"
           done
 
       - name: QuantumultX
         run: |
-          for dir in Scripts-repo/QuantumultX/Ruleset; do
+          for dir in Scripts/QuantumultX/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py QuantumultX --order "$dir"
           done
 
       - name: Stash
         run: |
-          for dir in Scripts-repo/Stash/Ruleset; do
+          for dir in Scripts/Stash/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Stash --order "$dir"
           done
 
       - name: Surge
         run: |
-          for dir in Scripts-repo/Surge/Ruleset; do
+          for dir in Scripts/Surge/Ruleset; do
             [ ! -d "$dir" ] && echo "$dir not found." && continue
             python Build.py Surge --order "$dir"
           done
 
       - name: Push Update
         run: |
-          cd Scripts-repo
+          cd Scripts
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
