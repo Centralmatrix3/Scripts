@@ -15,14 +15,14 @@ download() {
 }
 
 if [[ "$repo_name" == "Scripts" ]]; then
-    echo "Execute in Scripts Repository"
+    echo "Execute in $repo_name Repository"
     rule_path=("Ruleset" "QuantumultX/Ruleset" "Stash/Ruleset" "Surge/Ruleset")
     for dir in "${rule_path[@]}"; do
-        mkdir -p "Scripts-repo/$dir"
+        mkdir -p "$repo_name/$dir"
     done
     declare -A load_ruleA=(
-        ["Scripts-repo/Ruleset/AdBlockLite.list"]="AdBlockLite"
-        ["Scripts-repo/Ruleset/Global.list"]="Global"
+        ["$repo_name/Ruleset/AdBlockLite.list"]="AdBlockLite"
+        ["$repo_name/Ruleset/Global.list"]="Global"
     )
     AdBlockLite=(
         "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
@@ -41,46 +41,46 @@ if [[ "$repo_name" == "Scripts" ]]; then
         download "$out_file" "${ref[@]}"
     done
     declare -A load_ruleB=(
-        ["Scripts-repo/Ruleset/AdBlock.list"]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
-        ["Scripts-repo/Ruleset/AdGuardBlock.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
-        ["Scripts-repo/Ruleset/Advertising.list"]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
-        ["Scripts-repo/Ruleset/Alibaba.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list"
-        ["Scripts-repo/Ruleset/Amazon.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list"
-        ["Scripts-repo/Ruleset/AmazonIP.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
-        ["Scripts-repo/Ruleset/Apple.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list"
-        ["Scripts-repo/Ruleset/Baidu.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list"
-        ["Scripts-repo/Ruleset/ByteDance.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list"
-        ["Scripts-repo/Ruleset/BiliBili.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
-        ["Scripts-repo/Ruleset/CNCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt"
-        ["Scripts-repo/Ruleset/CNCIDR4.list"]="https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
-        ["Scripts-repo/Ruleset/CNCIDR6.list"]="https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/CN-ip-cidr.txt"
-        ["Scripts-repo/Ruleset/China.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
-        ["Scripts-repo/Ruleset/ChinaASN.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list"
-        ["Scripts-repo/Ruleset/ChinaIPBGP.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
-        ["Scripts-repo/Ruleset/ChinaIPMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
-        ["Scripts-repo/Ruleset/ChinaIPv4.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
-        ["Scripts-repo/Ruleset/ChinaIPv6.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIpV6.list"
-        ["Scripts-repo/Ruleset/ChinaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
-        ["Scripts-repo/Ruleset/ChinaMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list"
-        ["Scripts-repo/Ruleset/DIRECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt"
-        ["Scripts-repo/Ruleset/Easylist.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
-        ["Scripts-repo/Ruleset/Facebook.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
-        ["Scripts-repo/Ruleset/Game.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
-        ["Scripts-repo/Ruleset/GlobalMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
-        ["Scripts-repo/Ruleset/GlobalMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
-        ["Scripts-repo/Ruleset/Google.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
-        ["Scripts-repo/Ruleset/GreatFire.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt"
-        ["Scripts-repo/Ruleset/GreatFireWall.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
-        ["Scripts-repo/Ruleset/Microsoft.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
-        ["Scripts-repo/Ruleset/Netflix.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
-        ["Scripts-repo/Ruleset/PROXY.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt"
-        ["Scripts-repo/Ruleset/Privacy.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
-        ["Scripts-repo/Ruleset/Private.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt"
-        ["Scripts-repo/Ruleset/PrivateTracker.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
-        ["Scripts-repo/Ruleset/REJECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
-        ["Scripts-repo/Ruleset/Tld-Not-CN.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
-        ["Scripts-repo/Ruleset/USCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
-        ["Scripts-repo/Ruleset/WeChat.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+        ["$repo_name/Ruleset/AdBlock.list"]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+        ["$repo_name/Ruleset/AdGuardBlock.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
+        ["$repo_name/Ruleset/Advertising.list"]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
+        ["$repo_name/Ruleset/Alibaba.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list"
+        ["$repo_name/Ruleset/Amazon.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list"
+        ["$repo_name/Ruleset/AmazonIP.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
+        ["$repo_name/Ruleset/Apple.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list"
+        ["$repo_name/Ruleset/Baidu.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list"
+        ["$repo_name/Ruleset/ByteDance.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list"
+        ["$repo_name/Ruleset/BiliBili.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        ["$repo_name/Ruleset/CNCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt"
+        ["$repo_name/Ruleset/CNCIDR4.list"]="https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
+        ["$repo_name/Ruleset/CNCIDR6.list"]="https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/CN-ip-cidr.txt"
+        ["$repo_name/Ruleset/China.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        ["$repo_name/Ruleset/ChinaASN.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list"
+        ["$repo_name/Ruleset/ChinaIPBGP.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
+        ["$repo_name/Ruleset/ChinaIPMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
+        ["$repo_name/Ruleset/ChinaIPv4.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+        ["$repo_name/Ruleset/ChinaIPv6.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIpV6.list"
+        ["$repo_name/Ruleset/ChinaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+        ["$repo_name/Ruleset/ChinaMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list"
+        ["$repo_name/Ruleset/DIRECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt"
+        ["$repo_name/Ruleset/Easylist.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
+        ["$repo_name/Ruleset/Facebook.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        ["$repo_name/Ruleset/Game.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
+        ["$repo_name/Ruleset/GlobalMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+        ["$repo_name/Ruleset/GlobalMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+        ["$repo_name/Ruleset/Google.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        ["$repo_name/Ruleset/GreatFire.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt"
+        ["$repo_name/Ruleset/GreatFireWall.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
+        ["$repo_name/Ruleset/Microsoft.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        ["$repo_name/Ruleset/Netflix.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+        ["$repo_name/Ruleset/PROXY.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt"
+        ["$repo_name/Ruleset/Privacy.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
+        ["$repo_name/Ruleset/Private.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt"
+        ["$repo_name/Ruleset/PrivateTracker.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
+        ["$repo_name/Ruleset/REJECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
+        ["$repo_name/Ruleset/Tld-Not-CN.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
+        ["$repo_name/Ruleset/USCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
+        ["$repo_name/Ruleset/WeChat.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
     )
     for out_file in "${!load_ruleB[@]}"; do
         download "$out_file" "${load_ruleB[$out_file]}"
@@ -113,21 +113,21 @@ if [[ "$repo_name" == "Scripts" ]]; then
         ["Surge"]="list"
     )
     for key in "${!load_ruleC[@]}"; do
-        file="Scripts-repo/Ruleset/${load_ruleC[$key]}"
+        file="$repo_name/Ruleset/${load_ruleC[$key]}"
         base="$(basename "${load_ruleC[$key]}" .list)"
         for platform in "${!formats[@]}"; do
-            dirs="Scripts-repo/$platform/Ruleset/$base.${formats[$platform]}"
+            dirs="$repo_name/$platform/Ruleset/$base.${formats[$platform]}"
             cp "$file" "$dirs"
             echo "Processed: $file -> $dirs"
         done
     done
-    echo "Scripts Repository: All Ruleset Processed!"
+    echo "$repo_name Repository: All Ruleset Processed!"
 
 elif [[ "$repo_name" == "Matrix-io" ]]; then
-    echo "Execute in Matrix-io Repository"
+    echo "Execute in $repo_name Repository"
     rule_path=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
     for dir in "${rule_path[@]}"; do
-        mkdir -p "Matrix-io-repo/$dir/Ruleset"
+        mkdir -p "$repo_name/$dir/Ruleset"
     done
     declare -A load_ruleA=(
         ["ABC"]="ABC.list"
@@ -262,13 +262,13 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         for platform in "${!formats[@]}"; do
             should_skip_rule "$platform" "$rule" && { echo "Skipped $rule for $platform"; continue; }
             extension="${formats[$platform]}"
-            output_dir="Matrix-io-repo/$platform/Ruleset"
+            output_dir="$repo_name/$platform/Ruleset"
             output_file="$output_dir/$rule.$extension"
             url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${load_ruleA[$rule]}"
             download "$output_file" "$url"
         done
     done
-    echo "Matrix-io Repository: All Ruleset Processed!"
+    echo "$repo_name Repository: All Ruleset Processed!"
 
 else
     echo "Unknown Repository: $repo_name"
