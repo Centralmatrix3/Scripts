@@ -10,6 +10,7 @@ from pathlib import Path
 from collections import defaultdict
 
 INLINE_COMMENT_RE = re.compile(r"(?<!:)//.*$")
+
 STASH_DOMAIN_FILE = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
 STASH_IPCIDR_FILE = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
 
