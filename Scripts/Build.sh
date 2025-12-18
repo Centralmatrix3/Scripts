@@ -262,7 +262,7 @@ elif [[ "$repository" == "Matrix-io" ]]; then
     }
     for target_rule in "${!rule_file[@]}"; do
         for platform in "${!formats[@]}"; do
-            skip_rule "$platform" "$target_rule" && { echo "Skipped $target_rule for $platform"; continue; }
+            skip_rule "$platform" "$target_rule" && { echo "Exclude $target_rule for $platform"; continue; }
             output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
             source_url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${rule_file[$target_rule]}"
             download "$output_file" "$source_url"
