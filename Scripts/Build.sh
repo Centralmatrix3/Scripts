@@ -1,28 +1,29 @@
 #!/usr/bin/env bash
 
 set -euo pipefail
-repo_name="$(basename "$GITHUB_REPOSITORY")"
+
+repository="$(basename "$GITHUB_REPOSITORY")"
 download() {
-    local output="$1"
+    local output_file="$1"
     shift
-    : > "$output"
-    for url in "$@"; do
-        echo "Processed: $url -> $output"
-        curl -fsSL --retry 3 --retry-delay 2 "$url" >> "$output" ||
-        { echo "Download Failed: $url"; exit 1; }
-        echo >> "$output"
+    : > "$output_file"
+    for source_url in "$@"; do
+        echo "Processed: $source_url -> $output_file"
+        curl -fsSL --retry 3 --retry-delay 2 "$source_url" >> "$output_file" ||
+        { echo "Download Failed: $source_url"; exit 1; }
+        echo >> "$output_file"
     done
 }
 
-if [[ "$repo_name" == "Scripts" ]]; then
-    echo "Execute in $repo_name Repository"
-    rule_path=("Ruleset" "QuantumultX/Ruleset" "Stash/Ruleset" "Surge/Ruleset")
-    for dir in "${rule_path[@]}"; do
-        mkdir -p "$repo_name/$dir"
+if [[ "$repository" == "Scripts" ]]; then
+    echo "Execute in $repository Repository"
+    rule_dirs=("Ruleset" "QuantumultX/Ruleset" "Stash/Ruleset" "Surge/Ruleset")
+    for rule_path in "${rule_dirs[@]}"; do
+        mkdir -p "$repository/$rule_path"
     done
-    declare -A load_ruleA=(
-        ["$repo_name/Ruleset/AdBlockLite.list"]="AdBlockLite"
-        ["$repo_name/Ruleset/Global.list"]="Global"
+    declare -A merge_rule=(
+        ["$repository/Ruleset/AdBlockLite.list"]="AdBlockLite"
+        ["$repository/Ruleset/Global.list"]="Global"
     )
     AdBlockLite=(
         "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
@@ -36,56 +37,56 @@ if [[ "$repo_name" == "Scripts" ]]; then
         "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
         "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
     )
-    for out_file in "${!load_ruleA[@]}"; do
-        declare -n ref="${load_ruleA[$out_file]}"
-        download "$out_file" "${ref[@]}"
+    for output_file in "${!merge_rule[@]}"; do
+        declare -n ref="${merge_rule[$output_file]}"
+        download "$output_file" "${ref[@]}"
     done
-    declare -A load_ruleB=(
-        ["$repo_name/Ruleset/AdBlock.list"]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
-        ["$repo_name/Ruleset/AdGuardBlock.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
-        ["$repo_name/Ruleset/Advertising.list"]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
-        ["$repo_name/Ruleset/Alibaba.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list"
-        ["$repo_name/Ruleset/Amazon.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list"
-        ["$repo_name/Ruleset/AmazonIP.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
-        ["$repo_name/Ruleset/Apple.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list"
-        ["$repo_name/Ruleset/Baidu.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list"
-        ["$repo_name/Ruleset/ByteDance.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list"
-        ["$repo_name/Ruleset/BiliBili.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
-        ["$repo_name/Ruleset/CNCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt"
-        ["$repo_name/Ruleset/CNCIDR4.list"]="https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
-        ["$repo_name/Ruleset/CNCIDR6.list"]="https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/CN-ip-cidr.txt"
-        ["$repo_name/Ruleset/China.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
-        ["$repo_name/Ruleset/ChinaASN.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list"
-        ["$repo_name/Ruleset/ChinaIPBGP.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
-        ["$repo_name/Ruleset/ChinaIPMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
-        ["$repo_name/Ruleset/ChinaIPv4.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
-        ["$repo_name/Ruleset/ChinaIPv6.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIpV6.list"
-        ["$repo_name/Ruleset/ChinaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
-        ["$repo_name/Ruleset/ChinaMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list"
-        ["$repo_name/Ruleset/DIRECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt"
-        ["$repo_name/Ruleset/Easylist.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
-        ["$repo_name/Ruleset/Facebook.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
-        ["$repo_name/Ruleset/Game.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
-        ["$repo_name/Ruleset/GlobalMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
-        ["$repo_name/Ruleset/GlobalMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
-        ["$repo_name/Ruleset/Google.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
-        ["$repo_name/Ruleset/GreatFire.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt"
-        ["$repo_name/Ruleset/GreatFireWall.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
-        ["$repo_name/Ruleset/Microsoft.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
-        ["$repo_name/Ruleset/Netflix.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
-        ["$repo_name/Ruleset/PROXY.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt"
-        ["$repo_name/Ruleset/Privacy.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
-        ["$repo_name/Ruleset/Private.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt"
-        ["$repo_name/Ruleset/PrivateTracker.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
-        ["$repo_name/Ruleset/REJECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
-        ["$repo_name/Ruleset/Tld-Not-CN.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
-        ["$repo_name/Ruleset/USCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
-        ["$repo_name/Ruleset/WeChat.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
+    declare -A alone_rule=(
+        ["$repository/Ruleset/AdBlock.list"]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
+        ["$repository/Ruleset/AdGuardBlock.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
+        ["$repository/Ruleset/Advertising.list"]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
+        ["$repository/Ruleset/Alibaba.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Alibaba.list"
+        ["$repository/Ruleset/Amazon.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Amazon.list"
+        ["$repository/Ruleset/AmazonIP.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/AmazonIp.list"
+        ["$repository/Ruleset/Apple.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list"
+        ["$repository/Ruleset/Baidu.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Baidu.list"
+        ["$repository/Ruleset/ByteDance.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/ByteDance.list"
+        ["$repository/Ruleset/BiliBili.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bilibili.list"
+        ["$repository/Ruleset/CNCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/cn.txt"
+        ["$repository/Ruleset/CNCIDR4.list"]="https://raw.githubusercontent.com/Hackl0us/GeoIP2-CN/release/CN-ip-cidr.txt"
+        ["$repository/Ruleset/CNCIDR6.list"]="https://raw.githubusercontent.com/Masaiki/GeoIP2-CN/release/CN-ip-cidr.txt"
+        ["$repository/Ruleset/China.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list"
+        ["$repository/Ruleset/ChinaASN.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaASN/ChinaASN_Resolve.list"
+        ["$repository/Ruleset/ChinaIPBGP.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
+        ["$repository/Ruleset/ChinaIPMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaIPs/ChinaIPs.list"
+        ["$repository/Ruleset/ChinaIPv4.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIp.list"
+        ["$repository/Ruleset/ChinaIPv6.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaIpV6.list"
+        ["$repository/Ruleset/ChinaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list"
+        ["$repository/Ruleset/ChinaMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia/ChinaMedia.list"
+        ["$repository/Ruleset/DIRECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt"
+        ["$repository/Ruleset/Easylist.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyList.list"
+        ["$repository/Ruleset/Facebook.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Facebook.list"
+        ["$repository/Ruleset/Game.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list"
+        ["$repository/Ruleset/GlobalMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global/Global.list"
+        ["$repository/Ruleset/GlobalMediaMax.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia/GlobalMedia.list"
+        ["$repository/Ruleset/Google.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Google.list"
+        ["$repository/Ruleset/GreatFire.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/greatfire.txt"
+        ["$repository/Ruleset/GreatFireWall.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
+        ["$repository/Ruleset/Microsoft.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Microsoft.list"
+        ["$repository/Ruleset/Netflix.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list"
+        ["$repository/Ruleset/PROXY.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt"
+        ["$repository/Ruleset/Privacy.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyPrivacy.list"
+        ["$repository/Ruleset/Private.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/private.txt"
+        ["$repository/Ruleset/PrivateTracker.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/PrivateTracker.list"
+        ["$repository/Ruleset/REJECT.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/reject.txt"
+        ["$repository/Ruleset/Tld-Not-CN.list"]="https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/tld-not-cn.txt"
+        ["$repository/Ruleset/USCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
+        ["$repository/Ruleset/WeChat.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
     )
-    for out_file in "${!load_ruleB[@]}"; do
-        download "$out_file" "${load_ruleB[$out_file]}"
+    for output_file in "${!alone_rule[@]}"; do
+        download "$output_file" "${alone_rule[$output_file]}"
     done
-    declare -A load_ruleC=(
+    declare -A copy_rule=(
         ["AdBlock"]="AdBlock.list"
         ["Advertising"]="Advertising.list"
         ["AppStore"]="AppStore.list"
@@ -112,24 +113,23 @@ if [[ "$repo_name" == "Scripts" ]]; then
         ["Stash"]="yaml"
         ["Surge"]="list"
     )
-    for key in "${!load_ruleC[@]}"; do
-        file="$repo_name/Ruleset/${load_ruleC[$key]}"
-        base="$(basename "${load_ruleC[$key]}" .list)"
+    for target_rule in "${!copy_rule[@]}"; do
+        source_file="$repository/Ruleset/${copy_rule[$target_rule]}"
         for platform in "${!formats[@]}"; do
-            dirs="$repo_name/$platform/Ruleset/$base.${formats[$platform]}"
-            cp "$file" "$dirs"
-            echo "Processed: $file -> $dirs"
+            output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
+            cp "$source_file" "$output_file"
+            echo "Processed: $source_file -> $output_file"
         done
     done
-    echo "$repo_name Repository: All Ruleset Processed!"
+    echo "$repository Repository: All Ruleset Processed!"
 
-elif [[ "$repo_name" == "Matrix-io" ]]; then
-    echo "Execute in $repo_name Repository"
-    rule_path=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
-    for dir in "${rule_path[@]}"; do
-        mkdir -p "$repo_name/$dir/Ruleset"
+elif [[ "$repository" == "Matrix-io" ]]; then
+    echo "Execute in $repository Repository"
+    rule_dirs=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
+    for rule_path in "${rule_dirs[@]}"; do
+        mkdir -p "$repository/$rule_path/Ruleset"
     done
-    declare -A load_ruleA=(
+    declare -A rule_file=(
         ["ABC"]="ABC.list"
         ["AMAP"]="AMAP.list"
         ["AcFun"]="AcFun.list"
@@ -251,27 +251,27 @@ elif [[ "$repo_name" == "Matrix-io" ]]; then
         ["Stash"]=""
         ["Surge"]=""
     )
-    should_skip_rule() {
+    skip_rule() {
         local platform="$1" rule="$2"
-        for r in ${exclude[$platform]}; do
-            [[ "$rule" == "$r" ]] && return 0
-        done
+        if [[ -n "${exclude[$platform]}" ]]; then
+            for skip in ${exclude[$platform]}; do
+                [[ "$rule" == "$skip" ]] && return 0
+            done
+        fi
         return 1
     }
-    for rule in "${!load_ruleA[@]}"; do
+    for target_rule in "${!rule_file[@]}"; do
         for platform in "${!formats[@]}"; do
-            should_skip_rule "$platform" "$rule" && { echo "Skipped $rule for $platform"; continue; }
-            extension="${formats[$platform]}"
-            output_dir="$repo_name/$platform/Ruleset"
-            output_file="$output_dir/$rule.$extension"
-            url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${load_ruleA[$rule]}"
-            download "$output_file" "$url"
+            skip_rule "$platform" "$target_rule" && { echo "Skipped $target_rule for $platform"; continue; }
+            output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
+            source_url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${rule_file[$target_rule]}"
+            download "$output_file" "$source_url"
         done
     done
-    echo "$repo_name Repository: All Ruleset Processed!"
+    echo "$repository Repository: All Ruleset Processed!"
 
 else
-    echo "Unknown Repository: $repo_name"
+    echo "Execute Repository: $repository"
     echo "Please Execute in Scripts Repository or Matrix-io Repository."
     exit 1
 fi
