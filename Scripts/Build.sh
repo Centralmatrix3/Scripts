@@ -253,11 +253,9 @@ elif [[ "$repository" == "Matrix-io" ]]; then
     )
     skip_rule() {
         local platform="$1" rule="$2"
-        if [[ -n "${exclude[$platform]}" ]]; then
-            for skip in ${exclude[$platform]}; do
-                [[ "$rule" == "$skip" ]] && return 0
-            done
-        fi
+        for skip in ${exclude[$platform]:-}; do
+            [[ "$rule" == "$skip" ]] && return 0
+        done
         return 1
     }
     for target_rule in "${!rule_file[@]}"; do
