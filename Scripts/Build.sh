@@ -8,11 +8,16 @@ download() {
     shift
     : > "$output_file"
     for source_url in "$@"; do
-        echo "Processed: $source_url -> $output_file"
-        curl -fsSL --retry 3 --retry-delay 2 "$source_url" >> "$output_file" ||
-        { echo "Download Failed: $source_url"; exit 1; }
+        curl -fsSL --retry 3 --retry-delay 2 "$source_url" >> "$output_file" || { echo "Download Failed: $source_url"; exit 1; }
+        echo "Processed (Download): $source_url -> $output_file"
         echo >> "$output_file"
     done
+}
+copyfile() {
+    local source_file="$1"
+    local output_file="$2"
+    cp "$source_file" "$output_file" || { echo "Copy Failed: $source_file"; exit 1; }
+    echo "Processed (Copy): $source_file -> $output_file"
 }
 
 if [[ "$repository" == "Scripts" ]]; then
@@ -115,21 +120,24 @@ if [[ "$repository" == "Scripts" ]]; then
     )
     for target_rule in "${!copy_rule[@]}"; do
         source_file="$repository/Ruleset/${copy_rule[$target_rule]}"
+        source_url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${copy_rule[$target_rule]}"
         for platform in "${!formats[@]}"; do
             output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
-            cp "$source_file" "$output_file"
-            echo "Processed: $source_file -> $output_file"
+            copyfile "$source_file" "$output_file"
+          # download "$output_file" "$source_url"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
 
 elif [[ "$repository" == "Matrix-io" ]]; then
+    rm -rf Scripts # Delete local Scripts directory
+    git clone -q https://github.com/Centralmatrix3/Scripts.git Scripts
     echo "Execute in $repository Repository"
     rule_dirs=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
     for rule_path in "${rule_dirs[@]}"; do
         mkdir -p "$repository/$rule_path/Ruleset"
     done
-    declare -A rule_file=(
+    declare -A copy_rule=(
         ["ABC"]="ABC.list"
         ["AMAP"]="AMAP.list"
         ["AcFun"]="AcFun.list"
@@ -258,12 +266,14 @@ elif [[ "$repository" == "Matrix-io" ]]; then
         done
         return 1
     }
-    for target_rule in "${!rule_file[@]}"; do
+    for target_rule in "${!copy_rule[@]}"; do
+        source_file="Scripts/Ruleset/${copy_rule[$target_rule]}"
+        source_url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${copy_rule[$target_rule]}"
         for platform in "${!formats[@]}"; do
             skip_rule "$platform" "$target_rule" && { echo "Exclude $target_rule for $platform"; continue; }
             output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
-            source_url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${rule_file[$target_rule]}"
-            download "$output_file" "$source_url"
+            copyfile "$source_file" "$output_file"
+          # download "$output_file" "$source_url"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
