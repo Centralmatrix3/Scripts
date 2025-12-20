@@ -102,7 +102,7 @@ def rules_write(file_path, rule_name, rule_count, rule_data, platform):
             f.write(f"# 规则统计: {rule_count}\n\n")
             f.writelines(f"{line}\n" for line in rule_data)
     if platform:
-        print(f"Processed ({platform}) {file_path}")
+        print(f"Processed ({platform}): {file_path}")
 
 def process_egern(file_path, enable_type=False, enable_order=False):
     rule_name = file_path.stem
