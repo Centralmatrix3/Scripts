@@ -8,16 +8,20 @@ download() {
     shift
     : > "$output_file"
     for source_url in "$@"; do
-        curl -fsSL --retry 3 --retry-delay 2 "$source_url" >> "$output_file" || { echo "Download Failed: $source_url"; exit 1; }
+        curl -fsSL "$source_url" >> "$output_file" || { echo "Download Failed: $source_url"; exit 1; }
         echo "Processed (Download): $source_url -> $output_file"
         echo >> "$output_file"
     done
 }
 copyfile() {
-    local source_file="$1"
-    local output_file="$2"
-    cp "$source_file" "$output_file" || { echo "Copy Failed: $source_file"; exit 1; }
-    echo "Processed (Copy): $source_file -> $output_file"
+    local output_file="$1"
+    shift
+    : > "$output_file"
+    for source_file in "$@"; do
+        cat "$source_file" >> "$output_file" || { echo "Copy Failed: $source_file"; exit 1; }
+        echo "Processed (Copy): $source_file -> $output_file"
+        echo >> "$output_file"
+    done
 }
 
 if [[ "$repository" == "Scripts" ]]; then
@@ -26,27 +30,17 @@ if [[ "$repository" == "Scripts" ]]; then
     for rule_path in "${rule_dirs[@]}"; do
         mkdir -p "$repository/$rule_path"
     done
-    declare -A merge_rule=(
-        ["$repository/Ruleset/AdBlockLite.list"]="AdBlockLite"
-        ["$repository/Ruleset/Global.list"]="Global"
-    )
-    AdBlockLite=(
-        "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list"
-        "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list"
-        "https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list"
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list"
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list"
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
-    )
-    Global=(
-        "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
-        "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
-    )
-    for output_file in "${!merge_rule[@]}"; do
-        declare -n ref="${merge_rule[$output_file]}"
-        download "$output_file" "${ref[@]}"
-    done
-    declare -A alone_rule=(
+    declare -A download_rule=(
+        ["$repository/Ruleset/AdBlockLite.list"]="
+            https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list
+            https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list
+            https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Tracking.list
+            https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+            https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+            https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanEasyListChina.list"
+        ["$repository/Ruleset/Global.list"]="
+            https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+            https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/gfw.txt"
         ["$repository/Ruleset/AdBlock.list"]="https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt"
         ["$repository/Ruleset/AdGuardBlock.list"]="https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/AdGuardSDNSFilter.list"
         ["$repository/Ruleset/Advertising.list"]="https://raw.githubusercontent.com/Cats-Team/AdRules/main/adrules.list"
@@ -88,8 +82,9 @@ if [[ "$repository" == "Scripts" ]]; then
         ["$repository/Ruleset/USCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
         ["$repository/Ruleset/WeChat.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
     )
-    for output_file in "${!alone_rule[@]}"; do
-        download "$output_file" "${alone_rule[$output_file]}"
+    for output_file in "${!download_rule[@]}"; do
+        mapfile -t source_urls < <(xargs -n1 <<< "${download_rule[$output_file]}")
+        download "$output_file" "${source_urls[@]}"
     done
     declare -A copy_rule=(
         ["AdBlock"]="AdBlock.list"
@@ -119,19 +114,21 @@ if [[ "$repository" == "Scripts" ]]; then
         ["Surge"]="list"
     )
     for target_rule in "${!copy_rule[@]}"; do
-        source_file="$repository/Ruleset/${copy_rule[$target_rule]}"
-        source_url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${copy_rule[$target_rule]}"
         for platform in "${!formats[@]}"; do
             output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
-            copyfile "$source_file" "$output_file"
-          # download "$output_file" "$source_url"
+            source_urls=(); source_file=()
+            for file in ${copy_rule[$target_rule]}; do
+                source_urls+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
+                source_file+=("$repository/Ruleset/$file")
+            done
+          # download "$output_file" "${source_urls[@]}"
+            copyfile "$output_file" "${source_file[@]}"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
 
 elif [[ "$repository" == "Matrix-io" ]]; then
-    rm -rf Scripts # Delete local Scripts directory
-    git clone -q https://github.com/Centralmatrix3/Scripts.git Scripts
+    rm -rf Scripts && git clone -q https://github.com/Centralmatrix3/Scripts.git Scripts
     echo "Execute in $repository Repository"
     rule_dirs=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
     for rule_path in "${rule_dirs[@]}"; do
@@ -267,13 +264,16 @@ elif [[ "$repository" == "Matrix-io" ]]; then
         return 1
     }
     for target_rule in "${!copy_rule[@]}"; do
-        source_file="Scripts/Ruleset/${copy_rule[$target_rule]}"
-        source_url="https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/${copy_rule[$target_rule]}"
         for platform in "${!formats[@]}"; do
             skip_rule "$platform" "$target_rule" && { echo "Exclude $target_rule for $platform"; continue; }
             output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
-            copyfile "$source_file" "$output_file"
-          # download "$output_file" "$source_url"
+            source_urls=(); source_file=()
+            for file in ${copy_rule[$target_rule]}; do
+                source_urls+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
+                source_file+=("Scripts/Ruleset/$file")
+            done
+          # download "$output_file" "${source_urls[@]}"
+            copyfile "$output_file" "${source_file[@]}"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
