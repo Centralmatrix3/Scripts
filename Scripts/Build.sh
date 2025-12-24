@@ -13,7 +13,7 @@ download() {
         echo >> "$output_file"
     done
 }
-copyfile() {
+copy() {
     local output_file="$1"
     shift
     : > "$output_file"
@@ -30,7 +30,7 @@ if [[ "$repository" == "Scripts" ]]; then
     for rule_path in "${rule_dirs[@]}"; do
         mkdir -p "$repository/$rule_path"
     done
-    declare -A download_rule=(
+    declare -A rule_extra_source=(
         ["$repository/Ruleset/AdBlockLite.list"]="
             https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Advertising.list
             https://raw.githubusercontent.com/ConnersHua/RuleGo/master/Surge/Ruleset/Extra/Reject/Malicious.list
@@ -82,11 +82,11 @@ if [[ "$repository" == "Scripts" ]]; then
         ["$repository/Ruleset/USCIDR.list"]="https://raw.githubusercontent.com/Loyalsoldier/geoip/release/text/us.txt"
         ["$repository/Ruleset/WeChat.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
     )
-    for output_file in "${!download_rule[@]}"; do
-        mapfile -t source_urls < <(xargs -n1 <<< "${download_rule[$output_file]}")
+    for output_file in "${!rule_extra_source[@]}"; do
+        mapfile -t source_urls < <(xargs -n1 <<< "${rule_extra_source[$output_file]}")
         download "$output_file" "${source_urls[@]}"
     done
-    declare -A copy_rule=(
+    declare -A rule_local_source=(
         ["AdBlock"]="AdBlock.list"
         ["Advertising"]="Advertising.list"
         ["AppStore"]="AppStore.list"
@@ -113,16 +113,16 @@ if [[ "$repository" == "Scripts" ]]; then
         ["Stash"]="yaml"
         ["Surge"]="list"
     )
-    for target_rule in "${!copy_rule[@]}"; do
+    for target_rule in "${!rule_local_source[@]}"; do
         for platform in "${!formats[@]}"; do
             output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
             source_urls=(); source_file=()
-            for file in ${copy_rule[$target_rule]}; do
+            for file in ${rule_local_source[$target_rule]}; do
                 source_urls+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
                 source_file+=("$repository/Ruleset/$file")
             done
           # download "$output_file" "${source_urls[@]}"
-            copyfile "$output_file" "${source_file[@]}"
+            copy "$output_file" "${source_file[@]}"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
@@ -134,7 +134,7 @@ elif [[ "$repository" == "Matrix-io" ]]; then
     for rule_path in "${rule_dirs[@]}"; do
         mkdir -p "$repository/$rule_path/Ruleset"
     done
-    declare -A copy_rule=(
+    declare -A rule_local_source=(
         ["ABC"]="ABC.list"
         ["AMAP"]="AMAP.list"
         ["AcFun"]="AcFun.list"
@@ -263,17 +263,17 @@ elif [[ "$repository" == "Matrix-io" ]]; then
         done
         return 1
     }
-    for target_rule in "${!copy_rule[@]}"; do
+    for target_rule in "${!rule_local_source[@]}"; do
         for platform in "${!formats[@]}"; do
             skip_rule "$platform" "$target_rule" && { echo "Exclude $target_rule for $platform"; continue; }
             output_file="$repository/$platform/Ruleset/$target_rule.${formats[$platform]}"
             source_urls=(); source_file=()
-            for file in ${copy_rule[$target_rule]}; do
+            for file in ${rule_local_source[$target_rule]}; do
                 source_urls+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
                 source_file+=("Scripts/Ruleset/$file")
             done
           # download "$output_file" "${source_urls[@]}"
-            copyfile "$output_file" "${source_file[@]}"
+            copy "$output_file" "${source_file[@]}"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"

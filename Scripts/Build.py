@@ -24,7 +24,7 @@ RULE_TYPE_ORDER = [
     "IP-ASN",
     "GEOIP"
 ]
-RULE_TO_INDEX = {rule: index for index, rule in enumerate(RULE_TYPE_ORDER)}
+RULE_TYPE_INDEX = {rule: index for index, rule in enumerate(RULE_TYPE_ORDER)}
 
 EGERN_RULE_MAP = {
     "DOMAIN": "domain_set",
@@ -64,13 +64,13 @@ def rules_type(line):
 def rules_order(lines, unknown_rule=False):
     def rule_sort(line):
         rule_type, rule_value = line.split(",", 1)[0], line.partition(",")[2]
-        rule_index = RULE_TO_INDEX.get(rule_type, len(RULE_TYPE_ORDER))
+        rule_index = RULE_TYPE_INDEX.get(rule_type, len(RULE_TYPE_ORDER))
         return rule_index, rule_value
     seen = set()
     for line in sorted(lines, key=rule_sort):
         lower = line.lower()
         rule_type = line.split(",", 1)[0]
-        if lower in seen or (rule_type not in RULE_TO_INDEX and not unknown_rule):
+        if lower in seen or (rule_type not in RULE_TYPE_INDEX and not unknown_rule):
             continue
         seen.add(lower)
         yield line
