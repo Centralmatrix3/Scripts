@@ -37,7 +37,10 @@ EGERN_RULE_MAP = {
     "IP-ASN": "asn_set",
     "GEOIP": "geoip_set"
 }
-EGERN_RULE_QUOTE = {"domain_wildcard_set"}
+EGERN_RULE_QUOTE = {
+    "domain_wildcard_set",
+    "domain_regex_set"
+}
 
 QUANTUMULTX_RULE_MAP = {
     "DOMAIN": "HOST",
@@ -56,15 +59,18 @@ SINGBOX_RULE_MAP = {
 }
 
 def rules_type(line):
-    first_part = line.split(",", 1)[0]
+    first_part, sep, rest = line.partition(",")
+    rule_field = sep + rest if sep else ""
     if first_part.upper() in RULE_TYPE_EXIST:
         return line
     try:
         rule_value = ipaddress.ip_network(first_part, strict=False)
         rule_type = "IP-CIDR6" if rule_value.version == 6 else "IP-CIDR"
-        return f"{rule_type},{rule_value}"
     except ValueError:
-        return line
+        if sep: return line
+        rule_type = "DOMAIN-SUFFIX" if first_part.startswith(".") else "DOMAIN"
+        rule_value = first_part[1:] if first_part.startswith(".") else first_part
+    return f"{rule_type},{rule_value}{rule_field}"
 
 def rules_order(lines, unknown_rule=False):
     def rule_sort(line):
