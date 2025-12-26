@@ -117,7 +117,7 @@ if [[ "$repository" == "Scripts" ]]; then
                 source_file+=("$repository/Ruleset/$file")
             done
           # download "$output_file" "${source_urls[@]}"
-            copyfile "$output_file" "${source_file[@]}"
+            copy "$output_file" "${source_file[@]}"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
@@ -268,7 +268,7 @@ elif [[ "$repository" == "Matrix-io" ]]; then
                 source_file+=("Scripts/Ruleset/$file")
             done
           # download "$output_file" "${source_urls[@]}"
-            copyfile "$output_file" "${source_file[@]}"
+            copy "$output_file" "${source_file[@]}"
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
