@@ -12,7 +12,6 @@ from collections import defaultdict
 INLINE_COMMENT_RE = re.compile(r"(?<!:)//.*$")
 
 STASH_DOMAIN_FILE = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
-
 STASH_IPCIDR_FILE = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
 
 RULE_TYPE_ORDER = [
@@ -66,6 +65,22 @@ def rules_type(line):
         return f"{rule_type},{rule_value}"
     except ValueError:
         return line
+
+"""
+def rules_type(line):
+    first_part, sep, rest = line.partition(",")
+    rule_field = sep + rest if sep else ""
+    if first_part.upper() in RULE_TYPE_EXIST:
+        return line
+    try:
+        rule_value = ipaddress.ip_network(first_part, strict=False)
+        rule_type = "IP-CIDR6" if rule_value.version == 6 else "IP-CIDR"
+    except ValueError:
+        if sep: return line
+        rule_type = "DOMAIN-SUFFIX" if first_part.startswith(".") else "DOMAIN"
+        rule_value = first_part[1:] if first_part.startswith(".") else first_part
+    return f"{rule_type},{rule_value}{rule_field}"
+"""
 
 def rules_order(lines, unknown_rule=False):
     def rule_sort(line):
