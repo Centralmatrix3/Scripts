@@ -272,7 +272,7 @@ elif [[ "$repository" == "Matrix-io" ]]; then
         done
     done
     echo "$repository Repository: All Ruleset Processed!"
- 
+
 else
     echo "Execute Repository: $repository"
     echo "Please Execute in Scripts Repository or Matrix-io Repository."
