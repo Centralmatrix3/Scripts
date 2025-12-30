@@ -10,51 +10,24 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SING_BOX_VERSION: "1.12.13"
+      SING_BOX_VERSION: "1.12.14"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.1
-        with:
-          repository: Centralmatrix3/Scripts
-          path: Scripts
 
-      - name: Build
+      - name: Prepare Rule
         run: |
-          curl -fsSL -o Build.py https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Build.py
-          curl -fsSL -o Build.sh https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Build.sh
-          bash Build.sh
+          bash Scripts/Build.sh
 
-      - name: Extra
+      - name: Process Rule
         run: |
-          for dir in Scripts/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Surge --type --order "$dir"
-          done
-
-      - name: QuantumultX
-        run: |
-          for dir in Scripts/QuantumultX/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py QuantumultX --order "$dir"
-          done
-
-      - name: Stash
-        run: |
-          for dir in Scripts/Stash/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Stash --order "$dir"
-          done
-
-      - name: Surge
-        run: |
-          for dir in Scripts/Surge/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Build.py Surge --order "$dir"
-          done
+          python Scripts/Build.py Surge --type --order Ruleset
+          python Scripts/Build.py QuantumultX --order QuantumultX/Ruleset
+          python Scripts/Build.py Stash --order Stash/Ruleset
+          python Scripts/Build.py Surge --order Surge/Ruleset
 
       - name: Push Update
         run: |
-          cd Scripts
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
