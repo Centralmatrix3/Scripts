@@ -109,7 +109,6 @@ if [[ "$repository" == "Scripts" ]]; then
         ["WeChat"]="WeChat.list"
     )
     declare -A formats=(
-      # ["Egern"]="yaml"
         ["QuantumultX"]="list"
         ["Stash"]="yaml"
         ["Surge"]="list"
@@ -132,7 +131,7 @@ elif [[ "$repository" == "Matrix-io" ]]; then
     echo "Execute in $repository Repository"
     rule_dirs=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
     for rule_path in "${rule_dirs[@]}"; do
-        mkdir -p "$repository/$rule_path/Ruleset"
+        mkdir -p "$rule_path/Ruleset"
     done
     declare -A rule_local_source=(
         ["ABC"]="ABC.list"
@@ -280,6 +279,7 @@ elif [[ "$repository" == "Matrix-io" ]]; then
 
 else
     echo "Execute Repository: $repository"
-    echo "Please Execute in Scripts Repository or Matrix-io Repository."
+    echo "Please Execute in Scripts Repository."
+    echo "Please Execute in Matrix-io Repository."
     exit 1
 fi
