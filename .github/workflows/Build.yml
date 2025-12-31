@@ -15,11 +15,11 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.1
 
-      - name: Prepare Rule
+      - name: Prepare Rules
         run: |
           bash Scripts/Build.sh
 
-      - name: Process Rule
+      - name: Process Rules
         run: |
           python Scripts/Build.py Surge --type --order Ruleset
           python Scripts/Build.py QuantumultX --order QuantumultX/Ruleset
