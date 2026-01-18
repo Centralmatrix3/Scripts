@@ -26,7 +26,7 @@ jobs:
           python Scripts/Build.py Stash --order Stash/Ruleset
           python Scripts/Build.py Surge --order Surge/Ruleset
 
-      - name: Process Push
+      - name: Commits Push
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
