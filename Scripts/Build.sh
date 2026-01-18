@@ -7,9 +7,9 @@ download() {
     local output_file="$1"
     shift
     : > "$output_file"
-    for source_url in "$@"; do
-        curl -fsSL "$source_url" >> "$output_file" || { echo "Download Failed: $source_url"; exit 1; }
-        echo "Processed (Download): $source_url -> $output_file"
+    for source_link in "$@"; do
+        curl -fsSL "$source_link" >> "$output_file" || { echo "Download Failed: $source_link"; exit 1; }
+        echo "Processed (Download): $source_link -> $output_file"
         echo >> "$output_file"
     done
 }
@@ -26,8 +26,8 @@ copy() {
 
 if [[ "$repository" == "Scripts" ]]; then
     echo "Execute in $repository Repository"
-    rule_dirs=("Ruleset" "QuantumultX/Ruleset" "Stash/Ruleset" "Surge/Ruleset")
-    for rule_path in "${rule_dirs[@]}"; do
+    rule_dir=("Ruleset" "QuantumultX/Ruleset" "Stash/Ruleset" "Surge/Ruleset")
+    for rule_path in "${rule_dir[@]}"; do
         mkdir -p "$rule_path"
     done
     declare -A rule_extra_source=(
@@ -83,8 +83,8 @@ if [[ "$repository" == "Scripts" ]]; then
         ["Ruleset/WeChat.list"]="https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Wechat.list"
     )
     for output_file in "${!rule_extra_source[@]}"; do
-        mapfile -t source_urls < <(xargs -n1 <<< "${rule_extra_source[$output_file]}")
-        download "$output_file" "${source_urls[@]}"
+        mapfile -t source_link < <(xargs -n1 <<< "${rule_extra_source[$output_file]}")
+        download "$output_file" "${source_link[@]}"
     done
     declare -A rule_local_source=(
         ["AdBlock"]="AdBlock.list"
@@ -109,19 +109,34 @@ if [[ "$repository" == "Scripts" ]]; then
         ["WeChat"]="WeChat.list"
     )
     declare -A formats=(
+      # ["Egern"]="yaml"
         ["QuantumultX"]="list"
         ["Stash"]="yaml"
         ["Surge"]="list"
     )
+    declare -A exclude=(
+      # ["Egern"]=""
+        ["QuantumultX"]=""
+        ["Stash"]=""
+        ["Surge"]=""
+    )
+    skip_rule() {
+        local platform="$1" rule="$2"
+        for skip in ${exclude[$platform]:-}; do
+            [[ "$rule" == "$skip" ]] && return 0
+        done
+        return 1
+    }
     for target_rule in "${!rule_local_source[@]}"; do
         for platform in "${!formats[@]}"; do
+            skip_rule "$platform" "$target_rule" && { echo "Exclude $target_rule for $platform"; continue; }
             output_file="$platform/Ruleset/$target_rule.${formats[$platform]}"
-            source_urls=(); source_file=()
+            source_link=(); source_file=()
             for file in ${rule_local_source[$target_rule]}; do
-                source_urls+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
+                source_link+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
                 source_file+=("Ruleset/$file")
             done
-          # download "$output_file" "${source_urls[@]}"
+          # download "$output_file" "${source_link[@]}"
             copy "$output_file" "${source_file[@]}"
         done
     done
@@ -129,9 +144,9 @@ if [[ "$repository" == "Scripts" ]]; then
 
 elif [[ "$repository" == "Matrix-io" ]]; then
     echo "Execute in $repository Repository"
-    rule_dirs=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
-    for rule_path in "${rule_dirs[@]}"; do
-        mkdir -p "$rule_path/Ruleset"
+    rule_dir=("Clash" "Egern" "Loon" "QuantumultX" "Shadowrocket" "Sing-box" "Stash" "Surge")
+    for rule_path in "${rule_dir[@]}"; do
+        mkdir -p "$repository/$rule_path/Ruleset"
     done
     declare -A rule_local_source=(
         ["ABC"]="ABC.list"
@@ -266,12 +281,12 @@ elif [[ "$repository" == "Matrix-io" ]]; then
         for platform in "${!formats[@]}"; do
             skip_rule "$platform" "$target_rule" && { echo "Exclude $target_rule for $platform"; continue; }
             output_file="$platform/Ruleset/$target_rule.${formats[$platform]}"
-            source_urls=(); source_file=()
+            source_link=(); source_file=()
             for file in ${rule_local_source[$target_rule]}; do
-                source_urls+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
+                source_link+=("https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Ruleset/$file")
                 source_file+=("Scripts/Ruleset/$file")
             done
-          # download "$output_file" "${source_urls[@]}"
+          # download "$output_file" "${source_link[@]}"
             copy "$output_file" "${source_file[@]}"
         done
     done
