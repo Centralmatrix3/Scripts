@@ -15,18 +15,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.1
 
-      - name: Process Rule
+      - name: Loading Rule
         run: |
           bash Scripts/Build.sh
 
-      - name: Convert Rule
+      - name: Process Rule
         run: |
           python Scripts/Build.py Surge --type --order Ruleset
           python Scripts/Build.py QuantumultX --order QuantumultX/Ruleset
           python Scripts/Build.py Stash --order Stash/Ruleset
           python Scripts/Build.py Surge --order Surge/Ruleset
 
-      - name: Commits Push
+      - name: Process Push
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
