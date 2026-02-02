@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7420
+# 规则统计: 7421
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -5800,6 +5800,7 @@ HOST-SUFFIX,tafm.org,Global
 HOST-SUFFIX,tagwa.org.au,Global
 HOST-SUFFIX,tagwalk.com,Global
 HOST-SUFFIX,tahr.org.tw,Global
+HOST-SUFFIX,tails.net,Global
 HOST-SUFFIX,taipei.gov.tw,Global
 HOST-SUFFIX,taipeisociety.org,Global
 HOST-SUFFIX,taipeitimes.com,Global
