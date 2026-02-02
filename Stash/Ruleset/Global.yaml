@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7420
+# 规则统计: 7421
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -5801,6 +5801,7 @@ payload:
   - DOMAIN-SUFFIX,tagwa.org.au
   - DOMAIN-SUFFIX,tagwalk.com
   - DOMAIN-SUFFIX,tahr.org.tw
+  - DOMAIN-SUFFIX,tails.net
   - DOMAIN-SUFFIX,taipei.gov.tw
   - DOMAIN-SUFFIX,taipeisociety.org
   - DOMAIN-SUFFIX,taipeitimes.com

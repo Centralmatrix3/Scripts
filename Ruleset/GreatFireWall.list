@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6007
+# 规则统计: 6008
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -4746,6 +4746,7 @@ DOMAIN-SUFFIX,taedp.org.tw
 DOMAIN-SUFFIX,tafm.org
 DOMAIN-SUFFIX,tagwalk.com
 DOMAIN-SUFFIX,tahr.org.tw
+DOMAIN-SUFFIX,tails.net
 DOMAIN-SUFFIX,taipei.gov.tw
 DOMAIN-SUFFIX,taipeisociety.org
 DOMAIN-SUFFIX,taipeitimes.com
