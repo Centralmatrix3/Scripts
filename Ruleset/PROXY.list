@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26472
+# 规则统计: 26473
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -20175,6 +20175,7 @@ DOMAIN-SUFFIX,sale-nikeshoes.com
 DOMAIN-SUFFIX,salebeatslasteststyle4you.com
 DOMAIN-SUFFIX,saleblackfridaydrebeats.com
 DOMAIN-SUFFIX,salecheaphandbags.com
+DOMAIN-SUFFIX,salesforce-setup.com
 DOMAIN-SUFFIX,salesforce.com
 DOMAIN-SUFFIX,salesforce.org
 DOMAIN-SUFFIX,salesforceiq.com
