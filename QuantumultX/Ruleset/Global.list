@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7421
+# 规则统计: 7423
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -5324,6 +5324,7 @@ HOST-SUFFIX,seehua.com,Global
 HOST-SUFFIX,seesmic.com,Global
 HOST-SUFFIX,seevpn.com,Global
 HOST-SUFFIX,seezone.net,Global
+HOST-SUFFIX,sef.org.tw,Global
 HOST-SUFFIX,sehuatang.net,Global
 HOST-SUFFIX,sehuatang.org,Global
 HOST-SUFFIX,sejie.com,Global
@@ -6956,6 +6957,7 @@ HOST-SUFFIX,www.dwheeler.com,Global
 HOST-SUFFIX,www.eastturkistan.net,Global
 HOST-SUFFIX,www.gmiddle.com,Global
 HOST-SUFFIX,www.gmiddle.net,Global
+HOST-SUFFIX,www.hoyolab.com,Global
 HOST-SUFFIX,www.hustlercash.com,Global
 HOST-SUFFIX,www.idlcoyote.com,Global
 HOST-SUFFIX,www.imdb.com,Global
