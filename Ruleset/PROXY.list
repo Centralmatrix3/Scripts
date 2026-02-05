@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26473
+# 规则统计: 26475
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -17930,6 +17930,7 @@ DOMAIN-SUFFIX,osfoora.com
 DOMAIN-SUFFIX,osiri-suki-club.com
 DOMAIN-SUFFIX,osl.com
 DOMAIN-SUFFIX,osm.org
+DOMAIN-SUFFIX,osmand.net
 DOMAIN-SUFFIX,osmfoundation.org
 DOMAIN-SUFFIX,ospray.net
 DOMAIN-SUFFIX,ospray.org
@@ -20420,6 +20421,7 @@ DOMAIN-SUFFIX,seesmic.com
 DOMAIN-SUFFIX,seeurlpcl.com
 DOMAIN-SUFFIX,seevpn.com
 DOMAIN-SUFFIX,seezone.net
+DOMAIN-SUFFIX,sef.org.tw
 DOMAIN-SUFFIX,sego8.cc
 DOMAIN-SUFFIX,sego8.co
 DOMAIN-SUFFIX,sego8.xyz
