@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 26475
+# 规则统计: 26478
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -11025,6 +11025,7 @@ DOMAIN-SUFFIX,greginhollywood.com
 DOMAIN-SUFFIX,gridaware.app
 DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grooby.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,ground.news
@@ -19590,6 +19591,7 @@ DOMAIN-SUFFIX,radeon.com
 DOMAIN-SUFFIX,radgametools.com
 DOMAIN-SUFFIX,radian6.com
 DOMAIN-SUFFIX,radicalparty.org
+DOMAIN-SUFFIX,radiko-cf.com
 DOMAIN-SUFFIX,radiko.jp
 DOMAIN-SUFFIX,radio-canada.ca
 DOMAIN-SUFFIX,radio-en-ligne.fr
@@ -21100,6 +21102,7 @@ DOMAIN-SUFFIX,smartoneholdings.com
 DOMAIN-SUFFIX,smartonerobotics.com
 DOMAIN-SUFFIX,smartonesolutions.com.hk
 DOMAIN-SUFFIX,smartonesolutions.hk
+DOMAIN-SUFFIX,smartstream.ne.jp
 DOMAIN-SUFFIX,smashed.xxx
 DOMAIN-SUFFIX,smbc.co.jp
 DOMAIN-SUFFIX,smbctb.co.jp

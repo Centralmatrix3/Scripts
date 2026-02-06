@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7423
+# 规则统计: 7424
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -2823,6 +2823,7 @@ HOST-SUFFIX,greenvpn.net,Global
 HOST-SUFFIX,greenvpn.org,Global
 HOST-SUFFIX,grindr.com,Global
 HOST-SUFFIX,grok.com,Global
+HOST-SUFFIX,grokipedia.com,Global
 HOST-SUFFIX,grotty-monday.com,Global
 HOST-SUFFIX,ground.news,Global
 HOST-SUFFIX,grow.google,Global

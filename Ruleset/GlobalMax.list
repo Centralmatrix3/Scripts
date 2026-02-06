@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32878
+# 规则统计: 32880
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -21842,6 +21842,7 @@ DOMAIN-SUFFIX,osier.ac.uk
 DOMAIN-SUFFIX,osiri-suki-club.com
 DOMAIN-SUFFIX,osl.com
 DOMAIN-SUFFIX,osm.org
+DOMAIN-SUFFIX,osmand.net
 DOMAIN-SUFFIX,osmfoundation.org
 DOMAIN-SUFFIX,osmosis.ac.uk
 DOMAIN-SUFFIX,ospray.net
@@ -25161,6 +25162,7 @@ DOMAIN-SUFFIX,seevic-college.ac.uk
 DOMAIN-SUFFIX,seevic.ac.uk
 DOMAIN-SUFFIX,seevpn.com
 DOMAIN-SUFFIX,seezone.net
+DOMAIN-SUFFIX,sef.org.tw
 DOMAIN-SUFFIX,sefton-acl.ac.uk
 DOMAIN-SUFFIX,sefton.ac.uk
 DOMAIN-SUFFIX,sego8.cc
