@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 6012
+# 规则统计: 6015
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,030buy.com
@@ -577,6 +577,7 @@ DOMAIN-SUFFIX,bitmex.com
 DOMAIN-SUFFIX,bitshare.com
 DOMAIN-SUFFIX,bitsnoop.com
 DOMAIN-SUFFIX,bitterwinter.org
+DOMAIN-SUFFIX,bittorrent.com
 DOMAIN-SUFFIX,bitvise.com
 DOMAIN-SUFFIX,bitz.ai
 DOMAIN-SUFFIX,bizhat.com
@@ -2411,6 +2412,7 @@ DOMAIN-SUFFIX,help.byspotify.com
 DOMAIN-SUFFIX,helpeachpeople.com
 DOMAIN-SUFFIX,helpster.de
 DOMAIN-SUFFIX,helpzhuling.org
+DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,hentai.to
 DOMAIN-SUFFIX,hentaitube.tv
 DOMAIN-SUFFIX,hentaivideoworld.com
@@ -5355,6 +5357,7 @@ DOMAIN-SUFFIX,uygur.fc2web.com
 DOMAIN-SUFFIX,uygur.org
 DOMAIN-SUFFIX,uymaarip.com
 DOMAIN-SUFFIX,v2.help
+DOMAIN-SUFFIX,v2.hysteria.network
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2fly.org
 DOMAIN-SUFFIX,v2ray.com

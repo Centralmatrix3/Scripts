@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7424
+# 规则统计: 7427
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -702,6 +702,7 @@ HOST-SUFFIX,bitmex.com,Global
 HOST-SUFFIX,bitshare.com,Global
 HOST-SUFFIX,bitsnoop.com,Global
 HOST-SUFFIX,bitterwinter.org,Global
+HOST-SUFFIX,bittorrent.com,Global
 HOST-SUFFIX,bitvise.com,Global
 HOST-SUFFIX,bitz.ai,Global
 HOST-SUFFIX,bizhat.com,Global
@@ -2930,6 +2931,7 @@ HOST-SUFFIX,helpeachpeople.com,Global
 HOST-SUFFIX,helplinfen.com,Global
 HOST-SUFFIX,helpster.de,Global
 HOST-SUFFIX,helpzhuling.org,Global
+HOST-SUFFIX,hembed.com,Global
 HOST-SUFFIX,hentai.to,Global
 HOST-SUFFIX,hentaitube.tv,Global
 HOST-SUFFIX,hentaivideoworld.com,Global
@@ -6536,6 +6538,7 @@ HOST-SUFFIX,uygur.org,Global
 HOST-SUFFIX,uymaarip.com,Global
 HOST-SUFFIX,v.roucdn,Global
 HOST-SUFFIX,v2.help,Global
+HOST-SUFFIX,v2.hysteria.network,Global
 HOST-SUFFIX,v2ex.com,Global
 HOST-SUFFIX,v2fly.org,Global
 HOST-SUFFIX,v2mm.tech,Global
