@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 102282
+# 规则统计: 102281
 
 payload:
   - '+.0.myikas.com'
@@ -92052,7 +92052,6 @@ payload:
   - '+.umyyjgqyajxzu.online'
   - '+.umzkjponcxpvn.online'
   - '+.umzwmufdxrcrf.site'
-  - '+.un-acs.youku.com'
   - '+.un.52rkl.cn'
   - '+.un.xz6.com'
   - '+.un1.lawyernet.cn'
