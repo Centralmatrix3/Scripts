@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32880
+# 规则统计: 32889
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -4289,6 +4289,7 @@ DOMAIN-SUFFIX,bitsquare.io
 DOMAIN-SUFFIX,bitstamp.net
 DOMAIN-SUFFIX,bitstream.com
 DOMAIN-SUFFIX,bitterwinter.org
+DOMAIN-SUFFIX,bittorrent.com
 DOMAIN-SUFFIX,bittrex.com
 DOMAIN-SUFFIX,bitvise.com
 DOMAIN-SUFFIX,bitwarden.com
@@ -12950,6 +12951,7 @@ DOMAIN-SUFFIX,grimsby.ac.uk
 DOMAIN-SUFFIX,grimsbytec.ac.uk
 DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grooby.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,grotty-monday.com
@@ -13438,6 +13440,7 @@ DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,helpster.de
 DOMAIN-SUFFIX,helpuyghursnow.org
 DOMAIN-SUFFIX,helpzhuling.org
+DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,hendon.ac.uk
 DOMAIN-SUFFIX,henley-cov.ac.uk
 DOMAIN-SUFFIX,henley.ac.uk
@@ -18096,6 +18099,8 @@ DOMAIN-SUFFIX,mantan-web.jp
 DOMAIN-SUFFIX,mantochichi.com
 DOMAIN-SUFFIX,manufacturingedc.ac.uk
 DOMAIN-SUFFIX,manurefetish.com
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manuscdn.com
 DOMAIN-SUFFIX,manytoon.com
 DOMAIN-SUFFIX,manyvids.com
 DOMAIN-SUFFIX,manyvoices.news
@@ -23865,6 +23870,7 @@ DOMAIN-SUFFIX,radeon.com
 DOMAIN-SUFFIX,radgametools.com
 DOMAIN-SUFFIX,radian6.com
 DOMAIN-SUFFIX,radicalparty.org
+DOMAIN-SUFFIX,radiko-cf.com
 DOMAIN-SUFFIX,radiko.jp
 DOMAIN-SUFFIX,radio-canada.ca
 DOMAIN-SUFFIX,radio-en-ligne.fr
@@ -25885,6 +25891,7 @@ DOMAIN-SUFFIX,sketchbookmobile.com
 DOMAIN-SUFFIX,sketchbooknews.com
 DOMAIN-SUFFIX,sketchbookpro.com
 DOMAIN-SUFFIX,sketchfab.com
+DOMAIN-SUFFIX,skills.sh
 DOMAIN-SUFFIX,skillsbridge.ac.uk
 DOMAIN-SUFFIX,skillscompetitionwales.ac.uk
 DOMAIN-SUFFIX,skillsgroupuk.ac.uk
@@ -26006,6 +26013,7 @@ DOMAIN-SUFFIX,smartoneholdings.com
 DOMAIN-SUFFIX,smartonerobotics.com
 DOMAIN-SUFFIX,smartonesolutions.com.hk
 DOMAIN-SUFFIX,smartonesolutions.hk
+DOMAIN-SUFFIX,smartstream.ne.jp
 DOMAIN-SUFFIX,smashed.xxx
 DOMAIN-SUFFIX,smbc.co.jp
 DOMAIN-SUFFIX,smbctb.co.jp
@@ -29379,6 +29387,7 @@ DOMAIN-SUFFIX,v-resort.ac.uk
 DOMAIN-SUFFIX,v.gd
 DOMAIN-SUFFIX,v.roucdn
 DOMAIN-SUFFIX,v2.help
+DOMAIN-SUFFIX,v2.hysteria.network
 DOMAIN-SUFFIX,v2ex.co
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2fly.org

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7427
+# 规则统计: 7418
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -176,7 +176,6 @@ HOST-SUFFIX,abchinese.com,Global
 HOST-SUFFIX,abebooks.co.uk,Global
 HOST-SUFFIX,abebooks.com,Global
 HOST-SUFFIX,abematv.akamaized.net,Global
-HOST-SUFFIX,abitno.linpie.com,Global
 HOST-SUFFIX,ablwang.com,Global
 HOST-SUFFIX,aboluowang.com,Global
 HOST-SUFFIX,about.gitlab.com,Global
@@ -588,7 +587,6 @@ HOST-SUFFIX,bbs.huasing.org,Global
 HOST-SUFFIX,bbs.junglobal.net,Global
 HOST-SUFFIX,bbs.kimy.com.tw,Global
 HOST-SUFFIX,bbs.mikocon.com,Global
-HOST-SUFFIX,bbs.morbell.com,Global
 HOST-SUFFIX,bbs.mychat.to,Global
 HOST-SUFFIX,bbs.naixi.net,Global
 HOST-SUFFIX,bbs.nyinfor.com,Global
@@ -738,7 +736,6 @@ HOST-SUFFIX,blog.google,Global
 HOST-SUFFIX,blog.jackjia.com,Global
 HOST-SUFFIX,blog.jp,Global
 HOST-SUFFIX,blog.kangye.org,Global
-HOST-SUFFIX,blog.lester850.info,Global
 HOST-SUFFIX,blog.martinoei.com,Global
 HOST-SUFFIX,blog.pathtosharepoint.com,Global
 HOST-SUFFIX,blog.pentalogic.net,Global
@@ -1063,8 +1060,6 @@ HOST-SUFFIX,cdjp.org,Global
 HOST-SUFFIX,cdn-images.mailchimp.com,Global
 HOST-SUFFIX,cdn-telegram.org,Global
 HOST-SUFFIX,cdn.arstechnica.net,Global
-HOST-SUFFIX,cdn.assets.lfpcontent.com,Global
-HOST-SUFFIX,cdn.helixstudios.net,Global
 HOST-SUFFIX,cdn.jwplayer.com,Global
 HOST-SUFFIX,cdn.printfriendly.com,Global
 HOST-SUFFIX,cdn.registerdisney.go.com,Global
@@ -2148,7 +2143,6 @@ HOST-SUFFIX,form.new,Global
 HOST-SUFFIX,forms.new,Global
 HOST-SUFFIX,forum.baby-kingdom.com,Global
 HOST-SUFFIX,forum.cyberctm.com,Global
-HOST-SUFFIX,forum.mymaji.com,Global
 HOST-SUFFIX,forum.omy.sg,Global
 HOST-SUFFIX,forum.palmislife.com,Global
 HOST-SUFFIX,forum.slime.com.tw,Global
@@ -3039,7 +3033,6 @@ HOST-SUFFIX,hkopentv.com,Global
 HOST-SUFFIX,hkpeanut.com,Global
 HOST-SUFFIX,hkptu.org,Global
 HOST-SUFFIX,hkreporter.com,Global
-HOST-SUFFIX,hkreporter.loved.hk,Global
 HOST-SUFFIX,hku.hk,Global
 HOST-SUFFIX,hkusu.net,Global
 HOST-SUFFIX,hkvwet.com,Global
@@ -3480,7 +3473,6 @@ HOST-SUFFIX,jifangge.com,Global
 HOST-SUFFIX,jigglegifs.com,Global
 HOST-SUFFIX,jigong1024.com,Global
 HOST-SUFFIX,jigsy.com,Global
-HOST-SUFFIX,jihadintel.meforum.org,Global
 HOST-SUFFIX,jihadology.net,Global
 HOST-SUFFIX,jiji.com,Global
 HOST-SUFFIX,jims.net,Global
@@ -4181,7 +4173,6 @@ HOST-SUFFIX,mx981.com,Global
 HOST-SUFFIX,my-formosa.com,Global
 HOST-SUFFIX,my-private-network.co.uk,Global
 HOST-SUFFIX,my-proxy.com,Global
-HOST-SUFFIX,my.mail.ru,Global
 HOST-SUFFIX,my.opera.com,Global
 HOST-SUFFIX,my.pcloud.com,Global
 HOST-SUFFIX,my03.com,Global
@@ -4413,7 +4404,6 @@ HOST-SUFFIX,niu.moe,Global
 HOST-SUFFIX,niusnews.com,Global
 HOST-SUFFIX,njactb.org,Global
 HOST-SUFFIX,njuice.com,Global
-HOST-SUFFIX,nko.navy.mil,Global
 HOST-SUFFIX,nlfreevpn.com,Global
 HOST-SUFFIX,nmsl.website,Global
 HOST-SUFFIX,nnews.eu,Global
@@ -6858,6 +6848,7 @@ HOST-SUFFIX,wikinews.org,Global
 HOST-SUFFIX,wikipedia.com,Global
 HOST-SUFFIX,wikipedia.org,Global
 HOST-SUFFIX,wikiquote.org,Global
+HOST-SUFFIX,wikis.tw,Global
 HOST-SUFFIX,wikisource.org,Global
 HOST-SUFFIX,wikiunblocked.org,Global
 HOST-SUFFIX,wikiversity.org,Global
