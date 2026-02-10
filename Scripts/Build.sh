@@ -3,6 +3,7 @@
 set -euo pipefail
 
 repository="$(basename "$GITHUB_REPOSITORY")"
+
 download() {
     local output_file="$1"
     shift
@@ -13,6 +14,7 @@ download() {
         echo >> "$output_file"
     done
 }
+
 copy() {
     local output_file="$1"
     shift
@@ -109,13 +111,11 @@ if [[ "$repository" == "Scripts" ]]; then
         ["WeChat"]="WeChat.list"
     )
     declare -A formats=(
-      # ["Egern"]="yaml"
         ["QuantumultX"]="list"
         ["Stash"]="yaml"
         ["Surge"]="list"
     )
     declare -A exclude=(
-      # ["Egern"]=""
         ["QuantumultX"]=""
         ["Stash"]=""
         ["Surge"]=""
