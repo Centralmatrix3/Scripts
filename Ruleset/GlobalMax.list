@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32889
+# 规则统计: 32915
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -115,6 +115,7 @@ DOMAIN,wetv.qq.com
 DOMAIN,widgets.stripst.com
 DOMAIN,wrds-www.wharton.upenn.edu
 DOMAIN,www-cdn.icloud.com.akadns.net
+DOMAIN,yandex-pogoda.static-storage.net
 DOMAIN,yangzhi.app
 DOMAIN,ztedevices.com
 DOMAIN-SUFFIX,000webhost.com
@@ -398,7 +399,10 @@ DOMAIN-SUFFIX,2du5.com
 DOMAIN-SUFFIX,2gayboys.com
 DOMAIN-SUFFIX,2k.com
 DOMAIN-SUFFIX,2kcoretech.online
+DOMAIN-SUFFIX,2kct.onl
 DOMAIN-SUFFIX,2kgames.com
+DOMAIN-SUFFIX,2ksports.com
+DOMAIN-SUFFIX,2kweb.online
 DOMAIN-SUFFIX,2lib.org
 DOMAIN-SUFFIX,2lipstube.com
 DOMAIN-SUFFIX,2mdn-cn.net
@@ -928,6 +932,7 @@ DOMAIN-SUFFIX,acer.ac.uk
 DOMAIN-SUFFIX,acer.com
 DOMAIN-SUFFIX,aceros-de-hispania.com
 DOMAIN-SUFFIX,aces.ac.uk
+DOMAIN-SUFFIX,acesofthunder.net
 DOMAIN-SUFFIX,acets.ac.uk
 DOMAIN-SUFFIX,acevpn.com
 DOMAIN-SUFFIX,acg.rip
@@ -972,6 +977,7 @@ DOMAIN-SUFFIX,actimes.com.au
 DOMAIN-SUFFIX,activatelearning.ac.uk
 DOMAIN-SUFFIX,activelearnprimary.co.uk
 DOMAIN-SUFFIX,activelearnprimary.com.au
+DOMAIN-SUFFIX,activematter.game
 DOMAIN-SUFFIX,activeteachonline.com
 DOMAIN-SUFFIX,activpn.com
 DOMAIN-SUFFIX,actofunion.ac.uk
@@ -2648,6 +2654,7 @@ DOMAIN-SUFFIX,artsresearchatnorthampton.ac.uk
 DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,artstationmedia.com
 DOMAIN-SUFFIX,artstor.org
+DOMAIN-SUFFIX,artstorm.com
 DOMAIN-SUFFIX,artsy.net
 DOMAIN-SUFFIX,aru.ac.uk
 DOMAIN-SUFFIX,arukas.io
@@ -6949,6 +6956,8 @@ DOMAIN-SUFFIX,codeforces.com
 DOMAIN-SUFFIX,codei.sh
 DOMAIN-SUFFIX,codeish.co
 DOMAIN-SUFFIX,codeish.io
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,codeplex.com
 DOMAIN-SUFFIX,coderabbit.ai
 DOMAIN-SUFFIX,codeshare.io
@@ -7376,6 +7385,7 @@ DOMAIN-SUFFIX,crossborderexpansion.com
 DOMAIN-SUFFIX,crossfire.co.kr
 DOMAIN-SUFFIX,crossfitfirestone.com
 DOMAIN-SUFFIX,crossmediapanel.com
+DOMAIN-SUFFIX,crossout.net
 DOMAIN-SUFFIX,crossthewall.net
 DOMAIN-SUFFIX,crossvpn.net
 DOMAIN-SUFFIX,crosswalk-project.com
@@ -7391,6 +7401,7 @@ DOMAIN-SUFFIX,croydonsec.ac.uk
 DOMAIN-SUFFIX,crr.com
 DOMAIN-SUFFIX,crrev.com
 DOMAIN-SUFFIX,crsbi.ac.uk
+DOMAIN-SUFFIX,crsed.net
 DOMAIN-SUFFIX,crsp.ac.uk
 DOMAIN-SUFFIX,crtsgfb1.top
 DOMAIN-SUFFIX,crucial.com
@@ -7468,6 +7479,7 @@ DOMAIN-SUFFIX,cttoolkit.ac.uk
 DOMAIN-SUFFIX,ctv.com.tw
 DOMAIN-SUFFIX,ctwant.com
 DOMAIN-SUFFIX,cubicmotion.com
+DOMAIN-SUFFIX,cubicodyssey.game
 DOMAIN-SUFFIX,cubo.ac.uk
 DOMAIN-SUFFIX,cuc.ac.uk
 DOMAIN-SUFFIX,cuckfilmswifefuck.com
@@ -9761,6 +9773,7 @@ DOMAIN-SUFFIX,enhancementthemes.ac.uk
 DOMAIN-SUFFIX,enjoyasianporn.com
 DOMAIN-SUFFIX,enjoyfuck.com
 DOMAIN-SUFFIX,enlighten.org.tw
+DOMAIN-SUFFIX,enlisted.net
 DOMAIN-SUFFIX,enmat.ac.uk
 DOMAIN-SUFFIX,enorf.ac.uk
 DOMAIN-SUFFIX,enos.ac.uk
@@ -11799,6 +11812,8 @@ DOMAIN-SUFFIX,gaeproxy.com
 DOMAIN-SUFFIX,gaforum.org
 DOMAIN-SUFFIX,gagaoolala.com
 DOMAIN-SUFFIX,gaia.ac.uk
+DOMAIN-SUFFIX,gaijin.net
+DOMAIN-SUFFIX,gaijinent.com
 DOMAIN-SUFFIX,gainsborough.ac.uk
 DOMAIN-SUFFIX,gaito.xyz
 DOMAIN-SUFFIX,galaxyappstore.com
@@ -19290,6 +19305,7 @@ DOMAIN-SUFFIX,modelsfreecams.com
 DOMAIN-SUFFIX,modelsofauthority.ac.uk
 DOMAIN-SUFFIX,modeltv.com
 DOMAIN-SUFFIX,modernchinastudies.org
+DOMAIN-SUFFIX,modernwarships.com
 DOMAIN-SUFFIX,modip.ac.uk
 DOMAIN-SUFFIX,modmedmicro.ac.uk
 DOMAIN-SUFFIX,modmyi.com
@@ -24490,6 +24506,7 @@ DOMAIN-SUFFIX,rocksdb.net
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,rocksextube.com
 DOMAIN-SUFFIX,rockstargames.com
+DOMAIN-SUFFIX,rockstarnorth.com
 DOMAIN-SUFFIX,roco.qq.com
 DOMAIN-SUFFIX,rodbaston.ac.uk
 DOMAIN-SUFFIX,roe.ac.uk
@@ -26636,6 +26653,7 @@ DOMAIN-SUFFIX,stanford.edu
 DOMAIN-SUFFIX,stanmore.ac.uk
 DOMAIN-SUFFIX,stanstedairportcollege.ac.uk
 DOMAIN-SUFFIX,star-brasil.com
+DOMAIN-SUFFIX,star-conflict.com
 DOMAIN-SUFFIX,star-latam.com
 DOMAIN-SUFFIX,star.ac.uk
 DOMAIN-SUFFIX,starbucks-stars.com
@@ -30487,6 +30505,7 @@ DOMAIN-SUFFIX,warp.plus
 DOMAIN-SUFFIX,warr.ac.uk
 DOMAIN-SUFFIX,warrington.ac.uk
 DOMAIN-SUFFIX,warroom.org
+DOMAIN-SUFFIX,warthunder.com
 DOMAIN-SUFFIX,warwick.ac.uk
 DOMAIN-SUFFIX,warwickequine.ac.uk
 DOMAIN-SUFFIX,warwickhri.ac.uk
@@ -30882,6 +30901,7 @@ DOMAIN-SUFFIX,wikipedia.com
 DOMAIN-SUFFIX,wikipedia.org
 DOMAIN-SUFFIX,wikiporn.tv
 DOMAIN-SUFFIX,wikiquote.org
+DOMAIN-SUFFIX,wikis.tw
 DOMAIN-SUFFIX,wikisexguide.com
 DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiunblocked.org
@@ -30923,6 +30943,8 @@ DOMAIN-SUFFIX,windowssearch.com
 DOMAIN-SUFFIX,windowsuem.com
 DOMAIN-SUFFIX,windscribe.com
 DOMAIN-SUFFIX,windsor-forest.ac.uk
+DOMAIN-SUFFIX,windsurf.build
+DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,windy.com
 DOMAIN-SUFFIX,wingamestore.com
 DOMAIN-SUFFIX,wingy.site
@@ -31156,6 +31178,7 @@ DOMAIN-SUFFIX,wspcr.ac.uk
 DOMAIN-SUFFIX,wtbn.org
 DOMAIN-SUFFIX,wtc.ac.uk
 DOMAIN-SUFFIX,wtfpeople.com
+DOMAIN-SUFFIX,wtmobile.com
 DOMAIN-SUFFIX,wto.org
 DOMAIN-SUFFIX,wton-acl.ac.uk
 DOMAIN-SUFFIX,wton-adulteducation.ac.uk
@@ -32721,6 +32744,9 @@ DOMAIN-SUFFIX,zweiporn.com
 DOMAIN-SUFFIX,zwtvusa.com
 DOMAIN-SUFFIX,zynaima.com
 DOMAIN-SUFFIX,zynamics.com
+DOMAIN-SUFFIX,zynga.com
+DOMAIN-SUFFIX,zyngaplayersupport.com
+DOMAIN-SUFFIX,zyngapoker.com
 DOMAIN-SUFFIX,zyns.com
 DOMAIN-SUFFIX,zyxel.com
 DOMAIN-SUFFIX,zyzc9.com

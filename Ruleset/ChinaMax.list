@@ -1,5 +1,5 @@
 # 规则名称: ChinaMax
-# 规则统计: 129042
+# 规则统计: 129040
 
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -7551,7 +7551,6 @@ DOMAIN-SUFFIX,6x.studio
 DOMAIN-SUFFIX,6x69f31vso.com
 DOMAIN-SUFFIX,6xcdn.com
 DOMAIN-SUFFIX,6xd.com
-DOMAIN-SUFFIX,6xigema.com
 DOMAIN-SUFFIX,6xiu.com
 DOMAIN-SUFFIX,6xw.com
 DOMAIN-SUFFIX,6yoo.com
@@ -10101,7 +10100,6 @@ DOMAIN-SUFFIX,adeskpro.com
 DOMAIN-SUFFIX,adexplain.com
 DOMAIN-SUFFIX,adfaith.com
 DOMAIN-SUFFIX,adfortest.com
-DOMAIN-SUFFIX,adfunlink.com
 DOMAIN-SUFFIX,adfuns.com
 DOMAIN-SUFFIX,adfyt.com
 DOMAIN-SUFFIX,adg-dental.com
@@ -12786,7 +12784,6 @@ DOMAIN-SUFFIX,aqumon.com
 DOMAIN-SUFFIX,aqviwv.com
 DOMAIN-SUFFIX,aqvx8mcr392mv7.com
 DOMAIN-SUFFIX,aqxx.org
-DOMAIN-SUFFIX,aqyad.com
 DOMAIN-SUFFIX,aqyqqy.com
 DOMAIN-SUFFIX,aqyun.com
 DOMAIN-SUFFIX,aqyzm.com
@@ -15323,6 +15320,7 @@ DOMAIN-SUFFIX,benma.com
 DOMAIN-SUFFIX,benmi.com
 DOMAIN-SUFFIX,benmu-health.com
 DOMAIN-SUFFIX,bennybu.fun
+DOMAIN-SUFFIX,benpsbp.com
 DOMAIN-SUFFIX,benqhospital.com
 DOMAIN-SUFFIX,benqmedicalcenter.com
 DOMAIN-SUFFIX,benqmedicalcentersz.com
@@ -15803,7 +15801,6 @@ DOMAIN-SUFFIX,bidianer.com
 DOMAIN-SUFFIX,bidingxing.com
 DOMAIN-SUFFIX,bidizhaobiao.com
 DOMAIN-SUFFIX,bidns.net
-DOMAIN-SUFFIX,bidtoolads.com
 DOMAIN-SUFFIX,biduo.cc
 DOMAIN-SUFFIX,biduobao.com
 DOMAIN-SUFFIX,biduoxs.com
@@ -23441,7 +23438,6 @@ DOMAIN-SUFFIX,cllk.net
 DOMAIN-SUFFIX,clloz.com
 DOMAIN-SUFFIX,clmpg.com
 DOMAIN-SUFFIX,clngaa.com
-DOMAIN-SUFFIX,cloooud.com
 DOMAIN-SUFFIX,cloopen.com
 DOMAIN-SUFFIX,cloopen.net
 DOMAIN-SUFFIX,cloopm.com
@@ -29904,6 +29900,7 @@ DOMAIN-SUFFIX,dknsankf.com
 DOMAIN-SUFFIX,dkntgc.com
 DOMAIN-SUFFIX,dksgames.com
 DOMAIN-SUFFIX,dkskcloud.com
+DOMAIN-SUFFIX,dktad.com
 DOMAIN-SUFFIX,dktzjt.com
 DOMAIN-SUFFIX,dku51.com
 DOMAIN-SUFFIX,dky.cc
@@ -31910,6 +31907,7 @@ DOMAIN-SUFFIX,e3861.com
 DOMAIN-SUFFIX,e3j.co
 DOMAIN-SUFFIX,e3ol.com
 DOMAIN-SUFFIX,e4008.com
+DOMAIN-SUFFIX,e4l4.com
 DOMAIN-SUFFIX,e4xk2cvh.work
 DOMAIN-SUFFIX,e53w.com
 DOMAIN-SUFFIX,e5413.com
@@ -51974,7 +51972,6 @@ DOMAIN-SUFFIX,ieshuoshan.com
 DOMAIN-SUFFIX,ieshuoshan.net
 DOMAIN-SUFFIX,iessay100.com
 DOMAIN-SUFFIX,ietdata.com
-DOMAIN-SUFFIX,ietheivaicai.com
 DOMAIN-SUFFIX,ietheme.com
 DOMAIN-SUFFIX,ietrcd.com
 DOMAIN-SUFFIX,ievision.com
@@ -67136,7 +67133,6 @@ DOMAIN-SUFFIX,medlinker.net
 DOMAIN-SUFFIX,medme.net
 DOMAIN-SUFFIX,medmeeting.org
 DOMAIN-SUFFIX,mednovogroup.com
-DOMAIN-SUFFIX,medproad.com
 DOMAIN-SUFFIX,medrc.net
 DOMAIN-SUFFIX,medreading.com
 DOMAIN-SUFFIX,medris-china.com
@@ -71151,7 +71147,6 @@ DOMAIN-SUFFIX,nextworkshop.net
 DOMAIN-SUFFIX,nextyu.com
 DOMAIN-SUFFIX,nexus-holding.com
 DOMAIN-SUFFIX,nexus.dell.com
-DOMAIN-SUFFIX,nexusedgeio.com
 DOMAIN-SUFFIX,nexushd.org
 DOMAIN-SUFFIX,neyetwatcher.com
 DOMAIN-SUFFIX,neytap.com
@@ -76431,7 +76426,6 @@ DOMAIN-SUFFIX,puaas.com
 DOMAIN-SUFFIX,puai999.com
 DOMAIN-SUFFIX,puaihospital.net
 DOMAIN-SUFFIX,puamap.com
-DOMAIN-SUFFIX,puata.info
 DOMAIN-SUFFIX,pubbcsapp.com
 DOMAIN-SUFFIX,pubchn.com
 DOMAIN-SUFFIX,pubg.plus
@@ -84308,7 +84302,6 @@ DOMAIN-SUFFIX,shenruan.org
 DOMAIN-SUFFIX,shenruapp.com
 DOMAIN-SUFFIX,shenshang.org
 DOMAIN-SUFFIX,shenshi777.com
-DOMAIN-SUFFIX,shenshiads.com
 DOMAIN-SUFFIX,shenshijituan.com
 DOMAIN-SUFFIX,shenshitech.org
 DOMAIN-SUFFIX,shenshoucdn.com
@@ -91431,7 +91424,6 @@ DOMAIN-SUFFIX,tecochina.net
 DOMAIN-SUFFIX,tecolighting.com
 DOMAIN-SUFFIX,tecompharma.com
 DOMAIN-SUFFIX,tecreal.com
-DOMAIN-SUFFIX,tecunonline.com
 DOMAIN-SUFFIX,tecyle.com
 DOMAIN-SUFFIX,teda-veolia.com
 DOMAIN-SUFFIX,tedagas.com
@@ -91472,6 +91464,7 @@ DOMAIN-SUFFIX,telecomhb.com
 DOMAIN-SUFFIX,telecomhr.com
 DOMAIN-SUFFIX,telecomjs.com
 DOMAIN-SUFFIX,telefen.com
+DOMAIN-SUFFIX,telegramcn.co
 DOMAIN-SUFFIX,telegramyug.cc
 DOMAIN-SUFFIX,telehr.com
 DOMAIN-SUFFIX,teleinfoo.com
@@ -91763,6 +91756,7 @@ DOMAIN-SUFFIX,tengdazuche.com
 DOMAIN-SUFFIX,tengen.com
 DOMAIN-SUFFIX,tengfang.net
 DOMAIN-SUFFIX,tengfangyun.com
+DOMAIN-SUFFIX,tengfeidn.com
 DOMAIN-SUFFIX,tengfeijob.com
 DOMAIN-SUFFIX,tengfeizhida.com
 DOMAIN-SUFFIX,tengfun.com
@@ -95970,6 +95964,7 @@ DOMAIN-SUFFIX,uustv.com
 DOMAIN-SUFFIX,uutils.com
 DOMAIN-SUFFIX,uutop.com
 DOMAIN-SUFFIX,uutrip.net
+DOMAIN-SUFFIX,uutytp.com
 DOMAIN-SUFFIX,uuu.ovh
 DOMAIN-SUFFIX,uuu9.com
 DOMAIN-SUFFIX,uuujjj.com
@@ -102599,6 +102594,7 @@ DOMAIN-SUFFIX,xiangshi.cc
 DOMAIN-SUFFIX,xiangshi.video
 DOMAIN-SUFFIX,xiangshitan.com
 DOMAIN-SUFFIX,xiangshuheika.com
+DOMAIN-SUFFIX,xiangshunjy.com
 DOMAIN-SUFFIX,xiangsidi.com
 DOMAIN-SUFFIX,xiangsw.com
 DOMAIN-SUFFIX,xiangtaole.com
@@ -105929,6 +105925,7 @@ DOMAIN-SUFFIX,xykmovie.com
 DOMAIN-SUFFIX,xyktjt.com
 DOMAIN-SUFFIX,xyl2002.com
 DOMAIN-SUFFIX,xylh888.com
+DOMAIN-SUFFIX,xylhwdu.com
 DOMAIN-SUFFIX,xylink.com
 DOMAIN-SUFFIX,xylive.tv
 DOMAIN-SUFFIX,xylll.com
@@ -113752,8 +113749,6 @@ DOMAIN-SUFFIX,zhufangdianping.com
 DOMAIN-SUFFIX,zhufengpeixun.com
 DOMAIN-SUFFIX,zhuge.com
 DOMAIN-SUFFIX,zhuge888.com
-DOMAIN-SUFFIX,zhugeapi.com
-DOMAIN-SUFFIX,zhugeapi.net
 DOMAIN-SUFFIX,zhugeculture.com
 DOMAIN-SUFFIX,zhugefang.com
 DOMAIN-SUFFIX,zhugejianzhi.com
@@ -120025,6 +120020,7 @@ IP-CIDR,140.250.0.0/16,no-resolve
 IP-CIDR,140.255.0.0/16,no-resolve
 IP-CIDR,140.75.0.0/16,no-resolve
 IP-CIDR,141.11.141.0/24,no-resolve
+IP-CIDR,141.11.219.0/24,no-resolve
 IP-CIDR,142.70.0.0/16,no-resolve
 IP-CIDR,142.86.0.0/16,no-resolve
 IP-CIDR,143.14.49.0/24,no-resolve
@@ -124749,7 +124745,6 @@ IP-CIDR,82.152.105.0/24,no-resolve
 IP-CIDR,82.156.0.0/15,no-resolve
 IP-CIDR,82.39.249.0/24,no-resolve
 IP-CIDR,85.12.7.192/28,no-resolve
-IP-CIDR,85.149.220.0/24,no-resolve
 IP-CIDR,85.184.245.0/24,no-resolve
 IP-CIDR,85.209.40.0/22,no-resolve
 IP-CIDR,85.237.205.0/24,no-resolve
@@ -128699,6 +128694,8 @@ IP-CIDR6,2a0e:aa07:e0e0::/44,no-resolve
 IP-CIDR6,2a0e:aa07:e151::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e155::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e15f::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e160::/47,no-resolve
+IP-CIDR6,2a0e:aa07:e162::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e16a::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e192::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e1a0::/44,no-resolve
@@ -128747,6 +128744,7 @@ IP-CIDR6,2a0f:1cc5:1400::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:140::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:14::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1c00::/47,no-resolve
+IP-CIDR6,2a0f:1cc5:1c02::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1c20::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1cc0::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1d10::/47,no-resolve
@@ -128760,6 +128758,7 @@ IP-CIDR6,2a0f:1cc5:2e01::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:2e02::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:314::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:600::/47,no-resolve
+IP-CIDR6,2a0f:1cc5:603::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:645::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:64c::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:661::/48,no-resolve
@@ -128997,8 +128996,7 @@ IP-CIDR6,2a14:7583:f744::/48,no-resolve
 IP-CIDR6,2a14:7583:f764::/48,no-resolve
 IP-CIDR6,2a14:7586:6100::/47,no-resolve
 IP-CIDR6,2a14:7586:6103::/48,no-resolve
-IP-CIDR6,2a14:7586:6104::/47,no-resolve
-IP-CIDR6,2a14:7586:6106::/48,no-resolve
+IP-CIDR6,2a14:7586:6104::/46,no-resolve
 IP-CIDR6,2a14:7c0:5103::/48,no-resolve
 IP-CIDR6,2a14:7dc0:510::/48,no-resolve
 IP-CIDR6,2a14:7dc0:517::/48,no-resolve
