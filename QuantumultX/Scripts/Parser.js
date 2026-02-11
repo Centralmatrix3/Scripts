@@ -1,7 +1,7 @@
 /**
 ----------------------------------------------------------
 author = KOP-XIAO
-update = 2026.02.08 00:00
+update = 2026.02.11 00:00
 ----------------------------------------------------------
 [general]
 resource_parser_url = https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/QuantumultX/Scripts/Parser.js
