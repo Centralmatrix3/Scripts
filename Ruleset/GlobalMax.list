@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 32915
+# 规则统计: 32924
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -3483,7 +3483,6 @@ DOMAIN-SUFFIX,bbnradio.org
 DOMAIN-SUFFIX,bbqm1.xyz
 DOMAIN-SUFFIX,bbs-cove.ac.uk
 DOMAIN-SUFFIX,bbs-tw.com
-DOMAIN-SUFFIX,bbs.sina.com
 DOMAIN-SUFFIX,bbs.tuitui.info
 DOMAIN-SUFFIX,bbsdigest.com
 DOMAIN-SUFFIX,bbsfeed.com
@@ -7678,7 +7677,6 @@ DOMAIN-SUFFIX,dailymail.com.au
 DOMAIN-SUFFIX,dailymail.dk
 DOMAIN-SUFFIX,dailymailonline.com
 DOMAIN-SUFFIX,dailymotion.com
-DOMAIN-SUFFIX,dailynews.sina.com
 DOMAIN-SUFFIX,dailyporn.club
 DOMAIN-SUFFIX,dailysabah.com
 DOMAIN-SUFFIX,dailytelegraph.com.au
@@ -12160,6 +12158,7 @@ DOMAIN-SUFFIX,gettyimages.nl
 DOMAIN-SUFFIX,gettyimages.no
 DOMAIN-SUFFIX,gettyimages.pt
 DOMAIN-SUFFIX,gettyimages.se
+DOMAIN-SUFFIX,gettyimages.us
 DOMAIN-SUFFIX,getuploader.com
 DOMAIN-SUFFIX,getws1.com
 DOMAIN-SUFFIX,getwsone.com
@@ -12539,8 +12538,11 @@ DOMAIN-SUFFIX,google-access.net
 DOMAIN-SUFFIX,google-analytics-cn.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,google-syndication.com
+DOMAIN-SUFFIX,google.ac
 DOMAIN-SUFFIX,google.ad
 DOMAIN-SUFFIX,google.ae
+DOMAIN-SUFFIX,google.af
+DOMAIN-SUFFIX,google.ai
 DOMAIN-SUFFIX,google.al
 DOMAIN-SUFFIX,google.am
 DOMAIN-SUFFIX,google.as
@@ -12659,6 +12661,7 @@ DOMAIN-SUFFIX,google.dm
 DOMAIN-SUFFIX,google.dz
 DOMAIN-SUFFIX,google.ee
 DOMAIN-SUFFIX,google.es
+DOMAIN-SUFFIX,google.eu
 DOMAIN-SUFFIX,google.fi
 DOMAIN-SUFFIX,google.fm
 DOMAIN-SUFFIX,google.fr
@@ -12670,6 +12673,7 @@ DOMAIN-SUFFIX,google.gm
 DOMAIN-SUFFIX,google.gp
 DOMAIN-SUFFIX,google.gr
 DOMAIN-SUFFIX,google.gy
+DOMAIN-SUFFIX,google.hk
 DOMAIN-SUFFIX,google.hn
 DOMAIN-SUFFIX,google.hr
 DOMAIN-SUFFIX,google.ht
@@ -12679,6 +12683,7 @@ DOMAIN-SUFFIX,google.im
 DOMAIN-SUFFIX,google.iq
 DOMAIN-SUFFIX,google.is
 DOMAIN-SUFFIX,google.it
+DOMAIN-SUFFIX,google.it.ao
 DOMAIN-SUFFIX,google.je
 DOMAIN-SUFFIX,google.jo
 DOMAIN-SUFFIX,google.kg
@@ -12700,6 +12705,7 @@ DOMAIN-SUFFIX,google.ms
 DOMAIN-SUFFIX,google.mu
 DOMAIN-SUFFIX,google.mv
 DOMAIN-SUFFIX,google.mw
+DOMAIN-SUFFIX,google.mx
 DOMAIN-SUFFIX,google.ne
 DOMAIN-SUFFIX,google.net
 DOMAIN-SUFFIX,google.nl
@@ -12733,8 +12739,10 @@ DOMAIN-SUFFIX,google.tm
 DOMAIN-SUFFIX,google.tn
 DOMAIN-SUFFIX,google.to
 DOMAIN-SUFFIX,google.tt
+DOMAIN-SUFFIX,google.us
 DOMAIN-SUFFIX,google.ventures
 DOMAIN-SUFFIX,google.vg
+DOMAIN-SUFFIX,google.vn
 DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
 DOMAIN-SUFFIX,googleacquisitionmigration.com
@@ -13934,7 +13942,6 @@ DOMAIN-SUFFIX,home-made-videos.com
 DOMAIN-SUFFIX,home-sex-tapes.com
 DOMAIN-SUFFIX,home-song.com
 DOMAIN-SUFFIX,home.saxo
-DOMAIN-SUFFIX,home.sina.com
 DOMAIN-SUFFIX,homealonemilfs.com
 DOMAIN-SUFFIX,homebox.com
 DOMAIN-SUFFIX,homeboxoffice.com
@@ -14270,7 +14277,6 @@ DOMAIN-SUFFIX,hrionline.ac.uk
 DOMAIN-SUFFIX,hrntt.org
 DOMAIN-SUFFIX,hrsaz.com
 DOMAIN-SUFFIX,hrsfc.ac.uk
-DOMAIN-SUFFIX,hrtsea.com
 DOMAIN-SUFFIX,hrw.org
 DOMAIN-SUFFIX,hrweb.org
 DOMAIN-SUFFIX,hsad.ac.uk
@@ -14482,6 +14488,7 @@ DOMAIN-SUFFIX,hunk.ws
 DOMAIN-SUFFIX,huntingdon.ac.uk
 DOMAIN-SUFFIX,huobi.co
 DOMAIN-SUFFIX,huobi.com
+DOMAIN-SUFFIX,huobi.li
 DOMAIN-SUFFIX,huobi.me
 DOMAIN-SUFFIX,huobi.pro
 DOMAIN-SUFFIX,huobi.sc
@@ -23485,6 +23492,7 @@ DOMAIN-SUFFIX,projectvasari.com
 DOMAIN-SUFFIX,projectvoyeur.com
 DOMAIN-SUFFIX,promonsterbeatsbydre.com
 DOMAIN-SUFFIX,promotingpartnership.ac.uk
+DOMAIN-SUFFIX,prompthero.com
 DOMAIN-SUFFIX,proms.ac.uk
 DOMAIN-SUFFIX,pron.guru
 DOMAIN-SUFFIX,propagandastudies.ac.uk
@@ -23594,6 +23602,7 @@ DOMAIN-SUFFIX,pugetsoundmini.com
 DOMAIN-SUFFIX,pugpig-dev.com
 DOMAIN-SUFFIX,pugpig-stage.com
 DOMAIN-SUFFIX,pugpig.com
+DOMAIN-SUFFIX,pullfolio.co
 DOMAIN-SUFFIX,pullfolio.com
 DOMAIN-SUFFIX,pullstring.net
 DOMAIN-SUFFIX,pulsebrowser.app
