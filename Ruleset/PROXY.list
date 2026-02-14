@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 24932
+# 规则统计: 24973
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -494,7 +494,31 @@ DOMAIN,tv.applemusic.com
 DOMAIN,tvcastlive-hamivideo.cdn.hinet.net
 DOMAIN,ubisoft-orbit-savegames.s3.amazonaws.com
 DOMAIN,ubisoft-uplay-savegames.s3.amazonaws.com
+DOMAIN,ubisoft.siteintercept.qualtrics.com
+DOMAIN,ubistatic1-a.akamaihd.net
+DOMAIN,ubistatic10-a.akamaihd.net
+DOMAIN,ubistatic11-a.akamaihd.net
+DOMAIN,ubistatic12-a.akamaihd.net
+DOMAIN,ubistatic13-a.akamaihd.net
+DOMAIN,ubistatic14-a.akamaihd.net
+DOMAIN,ubistatic15-a.akamaihd.net
+DOMAIN,ubistatic16-a.akamaihd.net
+DOMAIN,ubistatic17-a.akamaihd.net
+DOMAIN,ubistatic18-a.akamaihd.net
+DOMAIN,ubistatic19-a.akamaihd.net
+DOMAIN,ubistatic2-a.akamaihd.net
+DOMAIN,ubistatic20-a.akamaihd.net
+DOMAIN,ubistatic21-a.akamaihd.net
+DOMAIN,ubistatic22-a.akamaihd.net
+DOMAIN,ubistatic23-a.akamaihd.net
+DOMAIN,ubistatic24-a.akamaihd.net
 DOMAIN,ubistatic3-a.akamaihd.net
+DOMAIN,ubistatic4-a.akamaihd.net
+DOMAIN,ubistatic5-a.akamaihd.net
+DOMAIN,ubistatic6-a.akamaihd.net
+DOMAIN,ubistatic7-a.akamaihd.net
+DOMAIN,ubistatic8-a.akamaihd.net
+DOMAIN,ubistatic9-a.akamaihd.net
 DOMAIN,ulrichsweb.serialssolutions.com
 DOMAIN,ut1-time.colorado.edu
 DOMAIN,ut1-wwv.nist.gov
@@ -2305,6 +2329,7 @@ DOMAIN-SUFFIX,apkmonk.com
 DOMAIN-SUFFIX,apkplz.com
 DOMAIN-SUFFIX,apkpure.com
 DOMAIN-SUFFIX,apkpure.net
+DOMAIN-SUFFIX,apkpures.xyz
 DOMAIN-SUFFIX,aple.com
 DOMAIN-SUFFIX,aplestore.com
 DOMAIN-SUFFIX,aplleipods.com
@@ -2872,6 +2897,7 @@ DOMAIN-SUFFIX,attcenter.com
 DOMAIN-SUFFIX,attcollaborate.com
 DOMAIN-SUFFIX,attdns.com
 DOMAIN-SUFFIX,attdns.net
+DOMAIN-SUFFIX,attestation.app
 DOMAIN-SUFFIX,attexperts.com
 DOMAIN-SUFFIX,attglobal.net
 DOMAIN-SUFFIX,attic.io
@@ -10448,6 +10474,19 @@ DOMAIN-SUFFIX,grannylovesyoungcock.com
 DOMAIN-SUFFIX,grannytube.net
 DOMAIN-SUFFIX,granulate.io
 DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,grapheneos.app
+DOMAIN-SUFFIX,grapheneos.ca
+DOMAIN-SUFFIX,grapheneos.com
+DOMAIN-SUFFIX,grapheneos.dev
+DOMAIN-SUFFIX,grapheneos.foundation
+DOMAIN-SUFFIX,grapheneos.info
+DOMAIN-SUFFIX,grapheneos.net
+DOMAIN-SUFFIX,grapheneos.network
+DOMAIN-SUFFIX,grapheneos.online
+DOMAIN-SUFFIX,grapheneos.org
+DOMAIN-SUFFIX,grapheneos.ovh
+DOMAIN-SUFFIX,grapheneos.page
+DOMAIN-SUFFIX,grapheneos.social
 DOMAIN-SUFFIX,graphengine.io
 DOMAIN-SUFFIX,graphis.ne.jp
 DOMAIN-SUFFIX,graphql.org
@@ -19276,6 +19315,7 @@ DOMAIN-SUFFIX,sdcountybmw.com
 DOMAIN-SUFFIX,sdnice.one
 DOMAIN-SUFFIX,sdnitube.buzz
 DOMAIN-SUFFIX,seagroup.com
+DOMAIN-SUFFIX,seamlessupdate.app
 DOMAIN-SUFFIX,seamonkey-project.org
 DOMAIN-SUFFIX,seancody.com
 DOMAIN-SUFFIX,seaofsolitude.com
@@ -22141,6 +22181,7 @@ DOMAIN-SUFFIX,valeursactuelles.com
 DOMAIN-SUFFIX,valoryirene.com
 DOMAIN-SUFFIX,valuegb.com
 DOMAIN-SUFFIX,valvesoftware.com
+DOMAIN-SUFFIX,vanadium.app
 DOMAIN-SUFFIX,vancouverbmwretailers.ca
 DOMAIN-SUFFIX,vanish.at
 DOMAIN-SUFFIX,vanish.be

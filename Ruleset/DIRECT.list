@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 116513
+# 规则统计: 116511
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -79989,7 +79989,6 @@ DOMAIN-SUFFIX,redmagic.com
 DOMAIN-SUFFIX,redmart.com
 DOMAIN-SUFFIX,redmou.com
 DOMAIN-SUFFIX,rednetdns.com
-DOMAIN-SUFFIX,rednotecdn.com
 DOMAIN-SUFFIX,redocn.com
 DOMAIN-SUFFIX,redodopower.com
 DOMAIN-SUFFIX,redoop.com
@@ -102400,7 +102399,6 @@ DOMAIN-SUFFIX,xhsf.com
 DOMAIN-SUFFIX,xhslink.com
 DOMAIN-SUFFIX,xhslw.com
 DOMAIN-SUFFIX,xhsmlt.com
-DOMAIN-SUFFIX,xhsrcdn.com
 DOMAIN-SUFFIX,xhsrmyy.com
 DOMAIN-SUFFIX,xhsxmt.com
 DOMAIN-SUFFIX,xhsyqx.com
