@@ -3,24 +3,24 @@
 set -euo pipefail
 
 repository="$(basename "$GITHUB_REPOSITORY")"
-
 download() {
     local output_file="$1"
     shift
     : > "$output_file"
     for source_link in "$@"; do
-        curl -fsSL "$source_link" >> "$output_file" || { echo "Download Failed: $source_link"; exit 1; }
+        curl -fsSL "$source_link" >> "$output_file" || {
+        echo "Download Failed: $source_link"; exit 1; }
         echo "Processed (Download): $source_link -> $output_file"
         echo >> "$output_file"
     done
 }
-
 copy() {
     local output_file="$1"
     shift
     : > "$output_file"
     for source_file in "$@"; do
-        cat "$source_file" >> "$output_file" || { echo "Copy Failed: $source_file"; exit 1; }
+        cat "$source_file" >> "$output_file" || {
+        echo "Copy Failed: $source_file"; exit 1; }
         echo "Processed (Copy): $source_file -> $output_file"
         echo >> "$output_file"
     done
