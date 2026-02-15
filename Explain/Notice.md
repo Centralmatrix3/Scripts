@@ -1,4 +1,6 @@
-<h1 align="center">免责声明</h1>
+<div align="center">
+  <h2>免责声明</h2>
+</div>
 
  * 本项目中的资源文件，禁止用于商业或非法目的、禁止任何公众号或自媒体进行任何形式的转载和发布。否则后果自负。
 
@@ -18,7 +20,9 @@
 
 ----------
 
-<h1 align="center">特别感谢</h1>
+<div align="center">
+  <h2>特别感谢</h2>
+</div>
 
  * [ACL4SSR](https://github.com/ACL4SSR)
  * [anti-AD](https://github.com/privacy-protection-tools)

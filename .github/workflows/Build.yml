@@ -6,11 +6,11 @@ on:
     - cron: "0 0,12 * * *"
 
 jobs:
-  Build:
+  build:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SING_BOX_VERSION: "1.12.14"
+      SING_BOX_VERSION: "1.12.21"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.2
@@ -26,7 +26,7 @@ jobs:
           python Scripts/Build.py Stash --order Stash/Ruleset
           python Scripts/Build.py Surge --order Surge/Ruleset
 
-      - name: Push
+      - name: Push Changes
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
