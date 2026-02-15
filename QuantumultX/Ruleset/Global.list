@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7304
+# 规则统计: 7305
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -6615,6 +6615,7 @@ HOST-SUFFIX,wallornot.org,Global
 HOST-SUFFIX,wallpapercasa.com,Global
 HOST-SUFFIX,wallproxy.com,Global
 HOST-SUFFIX,wallsttv.com,Global
+HOST-SUFFIX,wallzhihu.com,Global
 HOST-SUFFIX,waltermartin.com,Global
 HOST-SUFFIX,waltermartin.org,Global
 HOST-SUFFIX,wan-press.org,Global

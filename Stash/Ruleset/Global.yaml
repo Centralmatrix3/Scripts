@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7304
+# 规则统计: 7305
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -6616,6 +6616,7 @@ payload:
   - DOMAIN-SUFFIX,wallpapercasa.com
   - DOMAIN-SUFFIX,wallproxy.com
   - DOMAIN-SUFFIX,wallsttv.com
+  - DOMAIN-SUFFIX,wallzhihu.com
   - DOMAIN-SUFFIX,waltermartin.com
   - DOMAIN-SUFFIX,waltermartin.org
   - DOMAIN-SUFFIX,wan-press.org

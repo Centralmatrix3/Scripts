@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4209
+# 规则统计: 4210
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,0rz.tw
@@ -3847,6 +3847,7 @@ DOMAIN-SUFFIX,walletconnect.com
 DOMAIN-SUFFIX,wallmama.com
 DOMAIN-SUFFIX,wallpapercasa.com
 DOMAIN-SUFFIX,wallsttv.com
+DOMAIN-SUFFIX,wallzhihu.com
 DOMAIN-SUFFIX,waltermartin.com
 DOMAIN-SUFFIX,waltermartin.org
 DOMAIN-SUFFIX,wanderinghorse.net
