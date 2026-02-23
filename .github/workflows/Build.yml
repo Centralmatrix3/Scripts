@@ -1,0 +1,45 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,12 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      SINGBOX_VERSION: "1.12.22"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6.0.2
+
+      - name: Process Rule
+        run: | # 处理规则来源
+          bash Scripts/Build.sh
+
+      - name: Convert Rule
+        run: | # 转换规则格式
+          python Scripts/Build.py Surge --type --order Ruleset
+          python Scripts/Build.py QuantumultX --order QuantumultX/Ruleset
+          python Scripts/Build.py Stash --order Stash/Ruleset
+          python Scripts/Build.py Surge --order Surge/Ruleset
+
+      - name: Push Changes
+        run: | # 提交推送更新
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git push origin master
+          else
+            echo "No Repository Update Detected."
+          fi
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:  # 清理运行记录
+          retain_days: 0
+          keep_minimum_runs: 2
