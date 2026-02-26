@@ -1,0 +1,57 @@
+name: Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0,12 * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: "Asia/Shanghai"
+      SINGBOX_VERSION: "1.12.22"
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v6.0.2
+
+      - name: Process Rule
+        run: |
+          bash Scripts/Build.sh
+
+      - name: Convert Rule
+        run: |
+          for dir in Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py Surge "$dir" --type --order
+          done
+          for dir in QuantumultX/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py QuantumultX "$dir" --order
+          done
+          for dir in Stash/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py Stash "$dir" --order
+          done
+          for dir in Surge/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py Surge "$dir" --order
+          done
+
+      - name: Push Changes
+        run: |
+          if [[ -n $(git status -s) ]]; then
+            git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+            git config --local user.name "${{ github.actor }}"
+            git add -A
+            git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git push origin master
+          else
+            echo "No Repository Update Detected."
+          fi
+
+      - name: Cleanup Workflow
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+          retain_days: 0
+          keep_minimum_runs: 2
