@@ -21,22 +21,10 @@ jobs:
 
       - name: Convert Rule
         run: |
-          for dir in Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Scripts/Build.py Surge "$dir" --type --order
-          done
-          for dir in QuantumultX/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Scripts/Build.py QuantumultX "$dir" --order
-          done
-          for dir in Stash/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Scripts/Build.py Stash "$dir" --order
-          done
-          for dir in Surge/Ruleset; do
-            [ ! -d "$dir" ] && echo "$dir not found." && continue
-            python Scripts/Build.py Surge "$dir" --order
-          done
+          python Scripts/Build.py Surge Ruleset --type --order
+          python Scripts/Build.py QuantumultX QuantumultX/Ruleset --order
+          python Scripts/Build.py Stash Stash/Ruleset --order
+          python Scripts/Build.py Surge Surge/Ruleset --order
 
       - name: Push Changes
         run: |
