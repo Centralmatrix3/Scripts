@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 117403
+# 规则统计: 117404
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -69817,6 +69817,7 @@ DOMAIN-SUFFIX,monfetch.com
 DOMAIN-SUFFIX,mongac.com
 DOMAIN-SUFFIX,monhun.fun
 DOMAIN-SUFFIX,monidata.com
+DOMAIN-SUFFIX,monika.love
 DOMAIN-SUFFIX,monkeylsp.com
 DOMAIN-SUFFIX,monknow.com
 DOMAIN-SUFFIX,mono.work

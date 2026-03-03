@@ -1,5 +1,5 @@
 # 规则名称: Private
-# 规则统计: 131
+# 规则统计: 129
 
 DOMAIN,asusrouter.com
 DOMAIN,instant.arubanetworks.com
@@ -12,8 +12,6 @@ DOMAIN,tplogin.cn
 DOMAIN,www.asusrouter.com
 DOMAIN,www.miwifi.com
 DOMAIN,www.routerlogin.com
-DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
-DOMAIN-SUFFIX,0.in-addr.arpa
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,10.in-addr.arpa
 DOMAIN-SUFFIX,100.100.in-addr.arpa
