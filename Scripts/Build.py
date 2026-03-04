@@ -20,9 +20,14 @@ RULE_TYPE_ORDER = [
     "IP-ASN",
     "GEOIP"
 ]
+RULE_TYPE_PATCH = {
+    "USER-AGENT",
+    "URL-REGEX",
+    "PROTOCOL",
+    "PROCESS-NAME"
+}
 RULE_TYPE_INDEX = {rule: index for index, rule in enumerate(RULE_TYPE_ORDER)}
-RULE_TYPE_PATCH = {"PROCESS-NAME", "PROTOCOL", "USER-AGENT", "URL-REGEX"}
-RULE_TYPE_KNOWN = set(RULE_TYPE_ORDER) | RULE_TYPE_PATCH
+RULE_TYPE_KNOWN = frozenset(RULE_TYPE_ORDER) | RULE_TYPE_PATCH
 
 EGERN_RULE_MAP = {
     "DOMAIN": "domain_set",
@@ -55,8 +60,19 @@ SINGBOX_RULE_MAP = {
     "IP-CIDR6": "ip_cidr"
 }
 
-STASH_RULE_DOMAIN = re.compile(r"^(AdBlock|Advertising|GreatFireWall|DIRECT|PROXY|REJECT)$")
-STASH_RULE_IPCIDR = re.compile(r"^(CNCIDR|CNCIDR4|CNCIDR6)$")
+STASH_RULE_DOMAIN = {
+    "AdBlock",
+    "Advertising",
+    "DIRECT",
+    "GreatFireWall",
+    "PROXY",
+    "REJECT"
+}
+STASH_RULE_IPCIDR = {
+    "CNCIDR",
+    "CNCIDR4",
+    "CNCIDR6"
+}
 
 def process_type(line):
     rule_part, _, rule_extra = line.partition(",")
@@ -159,11 +175,11 @@ def convert_stash(file_path, enable_type=False, enable_order=False):
     rule_name = file_path.stem
     output = ["payload:"]
     for style, value, param in parsed:
-        if STASH_RULE_DOMAIN.match(rule_name):
+        if rule_name in STASH_RULE_DOMAIN:
             if style == "DOMAIN-SUFFIX":
                 value = f"+.{value}"
             formatted = f"  - '{value}'"
-        elif STASH_RULE_IPCIDR.match(rule_name):
+        elif rule_name in STASH_RULE_IPCIDR:
             formatted = f"  - '{value}'"
         else:
             formatted = f"  - {style},{value}" + (f",{param}" if param else "")
