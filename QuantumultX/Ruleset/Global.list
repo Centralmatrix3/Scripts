@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7284
+# 规则统计: 7287
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -438,6 +438,7 @@ HOST-SUFFIX,archiveofourown.org,Global
 HOST-SUFFIX,archives.gov,Global
 HOST-SUFFIX,arctosia.com,Global
 HOST-SUFFIX,areca-backup.org,Global
+HOST-SUFFIX,arena.ai,Global
 HOST-SUFFIX,arena.taipei,Global
 HOST-SUFFIX,arethusa.su,Global
 HOST-SUFFIX,arlingtoncemetery.mil,Global
@@ -450,6 +451,7 @@ HOST-SUFFIX,artstation.com,Global
 HOST-SUFFIX,artsy.net,Global
 HOST-SUFFIX,arunachalforests.gov.in,Global
 HOST-SUFFIX,arvanstorage.ir,Global
+HOST-SUFFIX,arweave.org,Global
 HOST-SUFFIX,asacp.org,Global
 HOST-SUFFIX,asdfg.jp,Global
 HOST-SUFFIX,asg.to,Global
@@ -6757,6 +6759,7 @@ HOST-SUFFIX,wiredpen.com,Global
 HOST-SUFFIX,wireguard.com,Global
 HOST-SUFFIX,wisdompubs.org,Global
 HOST-SUFFIX,wisevid.com,Global
+HOST-SUFFIX,wispbyte.com,Global
 HOST-SUFFIX,wistia.com,Global
 HOST-SUFFIX,withgoogle.com,Global
 HOST-SUFFIX,withyoutube.com,Global
