@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25150
+# 规则统计: 25151
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -13128,6 +13128,7 @@ DOMAIN-SUFFIX,jerkofftocelebs.com
 DOMAIN-SUFFIX,jessicaturner.co.uk
 DOMAIN-SUFFIX,jessicaturner.com
 DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,jetbrains.cloud
 DOMAIN-SUFFIX,jetbrains.com
 DOMAIN-SUFFIX,jetbrains.net
 DOMAIN-SUFFIX,jetbrains.space
