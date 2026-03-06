@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 104184
+# 规则统计: 104183
 
 payload:
   - '+.0.myikas.com'
@@ -74758,7 +74758,6 @@ payload:
   - '+.sare25.com'
   - '+.sarov.ws'
   - '+.sarrowgrivois.com'
-  - '+.sas.com'
   - '+.sas.nsm-corp.com'
   - '+.sas15k01.com'
   - '+.sasc.solidworks.com'
