@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7288
+# 规则统计: 7290
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -1590,6 +1590,7 @@ HOST-SUFFIX,dmm.co.jp,Global
 HOST-SUFFIX,dmm.com,Global
 HOST-SUFFIX,dns-dns.com,Global
 HOST-SUFFIX,dns-stuff.com,Global
+HOST-SUFFIX,dns.cloudflare.com,Global
 HOST-SUFFIX,dns.google,Global
 HOST-SUFFIX,dns04.com,Global
 HOST-SUFFIX,dns05.com,Global
@@ -3283,6 +3284,7 @@ HOST-SUFFIX,internetpopculture.com,Global
 HOST-SUFFIX,interseclab.org,Global
 HOST-SUFFIX,inthenameofconfuciusmovie.com,Global
 HOST-SUFFIX,investigating.wordpress.com,Global
+HOST-SUFFIX,investing.com,Global
 HOST-SUFFIX,invidio.us,Global
 HOST-SUFFIX,inxian.com,Global
 HOST-SUFFIX,iownyour.biz,Global

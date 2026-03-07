@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25156
+# 规则统计: 25167
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -44,6 +44,7 @@ DOMAIN,antigravity.googleapis.com
 DOMAIN,aod-pod-uk-live.akamaized.net
 DOMAIN,api-p.videomarket.jp
 DOMAIN,api.viu.now.com
+DOMAIN,apkmirror.disqus.com
 DOMAIN,apl-hamivideo.cdn.hinet.net
 DOMAIN,apple-tv-plus-press.apple.com
 DOMAIN,apple.com.akadns.net
@@ -432,6 +433,8 @@ DOMAIN,spotify.com.edgesuite.net
 DOMAIN,spotify.map.fastly.net
 DOMAIN,spotify.map.fastlylb.net
 DOMAIN,ssl-lvlt.cdn.ea.com
+DOMAIN,st-ok-pts.cdn-vk.ru
+DOMAIN,st-ok.cdn-vk.ru
 DOMAIN,standchartbank.sc.omtrdc.net
 DOMAIN,standchartbank.tt.omtrdc.net
 DOMAIN,static-hamivideo.cdn.hinet.net
@@ -657,6 +660,7 @@ DOMAIN,wwis-dubc1-vip99.adobe.com
 DOMAIN,www-cdn.icloud.com.akadns.net
 DOMAIN,yandex-pogoda.static-storage.net
 DOMAIN,yangzhi.app
+DOMAIN,youla-web-static.mrgcdn.ru
 DOMAIN,yt3.googleusercontent.com
 DOMAIN,zeenews-fonts.s3.amazonaws.com
 DOMAIN-SUFFIX,000webhost.com
@@ -12616,6 +12620,7 @@ DOMAIN-SUFFIX,inventor-certified.com
 DOMAIN-SUFFIX,inventorfusion.com
 DOMAIN-SUFFIX,inventorseries.com
 DOMAIN-SUFFIX,inventorship.com.au
+DOMAIN-SUFFIX,investing.com
 DOMAIN-SUFFIX,investorschronicle.co.uk
 DOMAIN-SUFFIX,invidio.us
 DOMAIN-SUFFIX,invity.io
@@ -15691,6 +15696,7 @@ DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,musixmatch.com
 DOMAIN-SUFFIX,mut.ch
 DOMAIN-SUFFIX,muthead.com
+DOMAIN-SUFFIX,muvluv-girls-garden.com
 DOMAIN-SUFFIX,muycerdas.xxx
 DOMAIN-SUFFIX,muyzorras.com
 DOMAIN-SUFFIX,muzi.com
@@ -17001,6 +17007,7 @@ DOMAIN-SUFFIX,only3x.com
 DOMAIN-SUFFIX,onlyams.com
 DOMAIN-SUFFIX,onlycartoonsex.com
 DOMAIN-SUFFIX,onlydudes.com
+DOMAIN-SUFFIX,onlyfans.com
 DOMAIN-SUFFIX,onlyfanspw.com
 DOMAIN-SUFFIX,onlyfreelatinaporn.com
 DOMAIN-SUFFIX,onlygayvideo.com
@@ -19521,6 +19528,7 @@ DOMAIN-SUFFIX,selfloversworld.com
 DOMAIN-SUFFIX,sellercommunity.com
 DOMAIN-SUFFIX,semanticscholar.org
 DOMAIN-SUFFIX,sena.co.kr
+DOMAIN-SUFFIX,sendvid.com
 DOMAIN-SUFFIX,seneporno.com
 DOMAIN-SUFFIX,seniortgp.com
 DOMAIN-SUFFIX,senpaiheat.com
@@ -22266,6 +22274,7 @@ DOMAIN-SUFFIX,ustibetcommittee.org
 DOMAIN-SUFFIX,ustream.tv
 DOMAIN-SUFFIX,usvimosquito.com
 DOMAIN-SUFFIX,usvimosquitoproject.com
+DOMAIN-SUFFIX,utdstc.com
 DOMAIN-SUFFIX,utopianpal.com
 DOMAIN-SUFFIX,uug22.com
 DOMAIN-SUFFIX,uug23.com
@@ -24668,6 +24677,8 @@ DOMAIN-SUFFIX,youflix.is
 DOMAIN-SUFFIX,youjism.com
 DOMAIN-SUFFIX,youjizz.com
 DOMAIN-SUFFIX,youjizz.sex
+DOMAIN-SUFFIX,youla.io
+DOMAIN-SUFFIX,youla.ru
 DOMAIN-SUFFIX,youlucky.com
 DOMAIN-SUFFIX,youmaker.com
 DOMAIN-SUFFIX,youmind.ai
