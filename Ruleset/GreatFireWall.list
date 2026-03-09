@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4197
+# 规则统计: 4198
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,0rz.tw
@@ -3099,6 +3099,7 @@ DOMAIN-SUFFIX,shenyunshop.com
 DOMAIN-SUFFIX,shenzhoufilm.com
 DOMAIN-SUFFIX,shenzhouzhengdao.org
 DOMAIN-SUFFIX,shiksha.com
+DOMAIN-SUFFIX,shitjournal.org
 DOMAIN-SUFFIX,shixiao.org
 DOMAIN-SUFFIX,shizhao.org
 DOMAIN-SUFFIX,shodanhq.com

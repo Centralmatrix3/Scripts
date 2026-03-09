@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 118500
+# 规则统计: 118505
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -7010,6 +7010,7 @@ DOMAIN-SUFFIX,52pkvr.com
 DOMAIN-SUFFIX,52playgame.com
 DOMAIN-SUFFIX,52pojie.com
 DOMAIN-SUFFIX,52post.com
+DOMAIN-SUFFIX,52ppt.com
 DOMAIN-SUFFIX,52qixiang.com
 DOMAIN-SUFFIX,52qmct.com
 DOMAIN-SUFFIX,52qqba.com
@@ -15291,6 +15292,7 @@ DOMAIN-SUFFIX,bademeiji.com
 DOMAIN-SUFFIX,badmintoncn.com
 DOMAIN-SUFFIX,badmintone.com
 DOMAIN-SUFFIX,badong.net
+DOMAIN-SUFFIX,badou.com
 DOMAIN-SUFFIX,badouxueyuan.com
 DOMAIN-SUFFIX,badu.com
 DOMAIN-SUFFIX,badudns.cc
@@ -46326,6 +46328,7 @@ DOMAIN-SUFFIX,haohanjx.com
 DOMAIN-SUFFIX,haohanpower.tech
 DOMAIN-SUFFIX,haohanstar.com
 DOMAIN-SUFFIX,haohao8888.com
+DOMAIN-SUFFIX,haohaodoc.com
 DOMAIN-SUFFIX,haohaotuan.com
 DOMAIN-SUFFIX,haohaowan.com
 DOMAIN-SUFFIX,haohaowan.net
@@ -63764,6 +63767,7 @@ DOMAIN-SUFFIX,lazycat.cloud
 DOMAIN-SUFFIX,lazycatmicroserver.com
 DOMAIN-SUFFIX,lazycomposer.com
 DOMAIN-SUFFIX,lazydim.com
+DOMAIN-SUFFIX,lazyer.net
 DOMAIN-SUFFIX,lazymap.com
 DOMAIN-SUFFIX,lazyren.com
 DOMAIN-SUFFIX,lazystones.com
@@ -100735,6 +100739,7 @@ DOMAIN-SUFFIX,wenjuanbang.com
 DOMAIN-SUFFIX,wenjuanshow.com
 DOMAIN-SUFFIX,wenjuntech.com
 DOMAIN-SUFFIX,wenkaoba.com
+DOMAIN-SUFFIX,wenkeju.com
 DOMAIN-SUFFIX,wenku.in
 DOMAIN-SUFFIX,wenku.net
 DOMAIN-SUFFIX,wenku365.com

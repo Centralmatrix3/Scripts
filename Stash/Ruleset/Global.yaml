@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7290
+# 规则统计: 7291
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -5322,6 +5322,7 @@ payload:
   - DOMAIN-SUFFIX,shipcamouflage.com
   - DOMAIN-SUFFIX,shireyishunjian.com
   - DOMAIN-SUFFIX,shitaotv.org
+  - DOMAIN-SUFFIX,shitjournal.org
   - DOMAIN-SUFFIX,shixiao.org
   - DOMAIN-SUFFIX,shizhao.org
   - DOMAIN-SUFFIX,shkspr.mobi
