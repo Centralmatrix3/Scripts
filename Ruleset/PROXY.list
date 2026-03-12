@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25173
+# 规则统计: 25174
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -20015,6 +20015,7 @@ DOMAIN-SUFFIX,sinoants.com
 DOMAIN-SUFFIX,sinoca.com
 DOMAIN-SUFFIX,sinocast.com
 DOMAIN-SUFFIX,sinoinsider.com
+DOMAIN-SUFFIX,sinyalee.com
 DOMAIN-SUFFIX,sipml5.org
 DOMAIN-SUFFIX,siport.com
 DOMAIN-SUFFIX,sipriyearbook.org

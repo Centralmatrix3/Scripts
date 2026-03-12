@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33176
+# 规则统计: 33177
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -7710,6 +7710,7 @@ DOMAIN-SUFFIX,cutt.ly
 DOMAIN-SUFFIX,cuv.ac.uk
 DOMAIN-SUFFIX,cuwm.ac.uk
 DOMAIN-SUFFIX,cvcp.ac.uk
+DOMAIN-SUFFIX,cve.org
 DOMAIN-SUFFIX,cvma.ac.uk
 DOMAIN-SUFFIX,cvr.ac.uk
 DOMAIN-SUFFIX,cvs.ac.uk

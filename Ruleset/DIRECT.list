@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 118505
+# 规则统计: 118504
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -116128,7 +116128,6 @@ DOMAIN-SUFFIX,zimufy.com
 DOMAIN-SUFFIX,zimuism.com
 DOMAIN-SUFFIX,zimujiang.com
 DOMAIN-SUFFIX,zimuzu.com
-DOMAIN-SUFFIX,zimuzu.io
 DOMAIN-SUFFIX,zindall.com
 DOMAIN-SUFFIX,zine.la
 DOMAIN-SUFFIX,zinffer.com
