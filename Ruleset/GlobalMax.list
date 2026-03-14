@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33177
+# 规则统计: 33182
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -6880,10 +6880,12 @@ DOMAIN-SUFFIX,classicalguitarblog.net
 DOMAIN-SUFFIX,classicnike.com
 DOMAIN-SUFFIX,classics.ac.uk
 DOMAIN-SUFFIX,classymomsex.com
+DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,clawhub.ai
 DOMAIN-SUFFIX,clb.org.hk
 DOMAIN-SUFFIX,clc-london.ac.uk
 DOMAIN-SUFFIX,clco.cc
@@ -13243,6 +13245,7 @@ DOMAIN-SUFFIX,h-webtoon.com
 DOMAIN-SUFFIX,h0930.com
 DOMAIN-SUFFIX,h18ani1.vip
 DOMAIN-SUFFIX,h1n1china.org
+DOMAIN-SUFFIX,h2o.ai
 DOMAIN-SUFFIX,h2porn.com
 DOMAIN-SUFFIX,h528.com
 DOMAIN-SUFFIX,h5dm.com
@@ -21920,6 +21923,7 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openbase.com
 DOMAIN-SUFFIX,openbook.org.tw
 DOMAIN-SUFFIX,opencas.io
+DOMAIN-SUFFIX,openclaw.ai
 DOMAIN-SUFFIX,opencollective.com
 DOMAIN-SUFFIX,opencreate.org
 DOMAIN-SUFFIX,opencritic.com
@@ -26060,6 +26064,7 @@ DOMAIN-SUFFIX,sinonet.ca
 DOMAIN-SUFFIX,sinopitt.info
 DOMAIN-SUFFIX,sinoquebec.com
 DOMAIN-SUFFIX,sinto.ac.uk
+DOMAIN-SUFFIX,sinyalee.com
 DOMAIN-SUFFIX,sip.ac.uk
 DOMAIN-SUFFIX,sipher.ac.uk
 DOMAIN-SUFFIX,sipml5.org
