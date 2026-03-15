@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4198
+# 规则统计: 4199
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,0rz.tw
@@ -4024,6 +4024,7 @@ DOMAIN-SUFFIX,xbtce.com
 DOMAIN-SUFFIX,xcafe.in
 DOMAIN-SUFFIX,xcancel.com
 DOMAIN-SUFFIX,xcity.jp
+DOMAIN-SUFFIX,xdaforums.com
 DOMAIN-SUFFIX,xerotica.com
 DOMAIN-SUFFIX,xfinity.com
 DOMAIN-SUFFIX,xfxssr.me

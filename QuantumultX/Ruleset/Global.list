@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7291
+# 规则统计: 7292
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -6887,6 +6887,7 @@ HOST-SUFFIX,xcafe.in,Global
 HOST-SUFFIX,xcancel.com,Global
 HOST-SUFFIX,xcity.jp,Global
 HOST-SUFFIX,xcritic.com,Global
+HOST-SUFFIX,xdaforums.com,Global
 HOST-SUFFIX,xerotica.com,Global
 HOST-SUFFIX,xfiles.to,Global
 HOST-SUFFIX,xfinity.com,Global
