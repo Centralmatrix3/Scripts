@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25183
+# 规则统计: 25188
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -21567,6 +21567,11 @@ DOMAIN-SUFFIX,tiktokv.eu
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,tiktokw.eu
 DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-SUFFIX,tilda.cc
+DOMAIN-SUFFIX,tilda.ru
+DOMAIN-SUFFIX,tilda.ws
+DOMAIN-SUFFIX,tildaapi.com
+DOMAIN-SUFFIX,tildacdn.com
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,timdir.com
 DOMAIN-SUFFIX,time.com

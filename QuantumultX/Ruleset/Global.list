@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7292
+# 规则统计: 7293
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -166,6 +166,7 @@ HOST-SUFFIX,a-normal-day.com,Global
 HOST-SUFFIX,a248.e.akamai.net,Global
 HOST-SUFFIX,a5.com.ru,Global
 HOST-SUFFIX,aamacau.com,Global
+HOST-SUFFIX,aave.com,Global
 HOST-SUFFIX,abc.com,Global
 HOST-SUFFIX,abc.net.au,Global
 HOST-SUFFIX,abc.pp.ru,Global
