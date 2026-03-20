@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7293
+# 规则统计: 7295
 
 DOMAIN,cloud.oracle.com
 DOMAIN,steambroadcast.akamaized.net
@@ -4467,8 +4467,10 @@ DOMAIN-SUFFIX,oiktv.com
 DOMAIN-SUFFIX,oizoblog.com
 DOMAIN-SUFFIX,ok.ru
 DOMAIN-SUFFIX,okayfreedom.com
+DOMAIN-SUFFIX,okcoin.com
 DOMAIN-SUFFIX,okex.com
 DOMAIN-SUFFIX,okk.tw
+DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,okpool.me
 DOMAIN-SUFFIX,okx.com
 DOMAIN-SUFFIX,old-cat.net

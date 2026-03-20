@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7293
+# 规则统计: 7295
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -4467,8 +4467,10 @@ HOST-SUFFIX,oiktv.com,Global
 HOST-SUFFIX,oizoblog.com,Global
 HOST-SUFFIX,ok.ru,Global
 HOST-SUFFIX,okayfreedom.com,Global
+HOST-SUFFIX,okcoin.com,Global
 HOST-SUFFIX,okex.com,Global
 HOST-SUFFIX,okk.tw,Global
+HOST-SUFFIX,oklink.com,Global
 HOST-SUFFIX,okpool.me,Global
 HOST-SUFFIX,okx.com,Global
 HOST-SUFFIX,old-cat.net,Global
