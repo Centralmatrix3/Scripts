@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7295
+# 规则统计: 7296
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -1209,6 +1209,7 @@ payload:
   - DOMAIN-SUFFIX,churchinhongkong.org
   - DOMAIN-SUFFIX,chushigangdrug.ch
   - DOMAIN-SUFFIX,ci-en.jp
+  - DOMAIN-SUFFIX,cia.gov
   - DOMAIN-SUFFIX,cici.com
   - DOMAIN-SUFFIX,ciciai.com
   - DOMAIN-SUFFIX,cienen.com
