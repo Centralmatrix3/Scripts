@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 118502
+# 规则统计: 118501
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -104882,7 +104882,6 @@ DOMAIN-SUFFIX,xiaomicp.com
 DOMAIN-SUFFIX,xiaomidns.com
 DOMAIN-SUFFIX,xiaomidns.net
 DOMAIN-SUFFIX,xiaomiev.com
-DOMAIN-SUFFIX,xiaomiflash.com
 DOMAIN-SUFFIX,xiaomiinc.net
 DOMAIN-SUFFIX,xiaomimimo.com
 DOMAIN-SUFFIX,xiaomimobile.com

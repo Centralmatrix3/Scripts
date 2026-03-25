@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25197
+# 规则统计: 25206
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -17219,8 +17219,15 @@ DOMAIN-SUFFIX,oystermercury.top
 DOMAIN-SUFFIX,ozeex.com
 DOMAIN-SUFFIX,ozodi.org
 DOMAIN-SUFFIX,ozodlik.org
+DOMAIN-SUFFIX,ozon.by
+DOMAIN-SUFFIX,ozon.com
+DOMAIN-SUFFIX,ozon.com.by
+DOMAIN-SUFFIX,ozon.com.kz
+DOMAIN-SUFFIX,ozon.kz
 DOMAIN-SUFFIX,ozon.ru
+DOMAIN-SUFFIX,ozon.tm
 DOMAIN-SUFFIX,ozone.ru
+DOMAIN-SUFFIX,ozonru.me
 DOMAIN-SUFFIX,ozonusercontent.com
 DOMAIN-SUFFIX,ozvoice.org
 DOMAIN-SUFFIX,pa9pal.com
@@ -23988,6 +23995,7 @@ DOMAIN-SUFFIX,xiaohexie.com
 DOMAIN-SUFFIX,xiaolan.me
 DOMAIN-SUFFIX,xiaoma.org
 DOMAIN-SUFFIX,xiaomi.eu
+DOMAIN-SUFFIX,xiaomiflash.com
 DOMAIN-SUFFIX,xiaoou.io
 DOMAIN-SUFFIX,xiaoou.tv
 DOMAIN-SUFFIX,xiaoshuobb.life
@@ -24035,6 +24043,7 @@ DOMAIN-SUFFIX,xml-training-guide.com
 DOMAIN-SUFFIX,xmoviesforyou.com
 DOMAIN-SUFFIX,xn--096-4g6em5t.com
 DOMAIN-SUFFIX,xn--11xs86f.icu
+DOMAIN-SUFFIX,xn--1jqvh729avzfcy2d8ummib.com
 DOMAIN-SUFFIX,xn--201-4g6em5t.com
 DOMAIN-SUFFIX,xn--202-4g6em5t.com
 DOMAIN-SUFFIX,xn--203-4g6em5t.com
