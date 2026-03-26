@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 118501
+# 规则统计: 118503
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -121,6 +121,7 @@ DOMAIN,crls.pki.goog
 DOMAIN,csi.gstatic.com
 DOMAIN,cstat.apple.com
 DOMAIN,cstat.cdn-apple.com
+DOMAIN,ctdsb.clouddiffuse.xyz
 DOMAIN,ctldl.windowsupdate.com
 DOMAIN,cueme-api.quark.cn
 DOMAIN,customization-cdn.dell.com
@@ -13424,6 +13425,7 @@ DOMAIN-SUFFIX,anhuiry.com
 DOMAIN-SUFFIX,anhuisjx.com
 DOMAIN-SUFFIX,anhuisuya.com
 DOMAIN-SUFFIX,anhuiwine.com
+DOMAIN-SUFFIX,anhuiyun.com
 DOMAIN-SUFFIX,anhuizk.com
 DOMAIN-SUFFIX,ani-sh.com
 DOMAIN-SUFFIX,aniccw.net
