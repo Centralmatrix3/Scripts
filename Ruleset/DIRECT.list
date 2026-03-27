@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 118503
+# 规则统计: 118504
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -295,6 +295,7 @@ DOMAIN,is5.mzstatic.com
 DOMAIN,itunes-apple.com.akadns.net
 DOMAIN,itunes.apple.com
 DOMAIN,itunesconnect.apple.com
+DOMAIN,izattime.qcomgeo2.com
 DOMAIN,js-cdn.music.apple.com
 DOMAIN,km.support.apple.com
 DOMAIN,ksn-cinfo-geo.kaspersky-labs.com
@@ -590,6 +591,7 @@ DOMAIN,www.support.apple.com
 DOMAIN,www4-static.gog-statics.com
 DOMAIN,xn--flw351e.com
 DOMAIN,xp.apple.com
+DOMAIN,xtratime.qcomgeo2.com
 DOMAIN,xz.pphimalayanrt.com
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
@@ -66409,7 +66411,6 @@ DOMAIN-SUFFIX,loushi.com
 DOMAIN-SUFFIX,lousj.com
 DOMAIN-SUFFIX,lousw.com
 DOMAIN-SUFFIX,louyue.com
-DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,lovcuty.com
 DOMAIN-SUFFIX,love-freedom.com
 DOMAIN-SUFFIX,love-math-edu.com

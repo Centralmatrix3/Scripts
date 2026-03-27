@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25215
+# 规则统计: 25218
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -18611,6 +18611,7 @@ DOMAIN-SUFFIX,qattdh6.top
 DOMAIN-SUFFIX,qbittorrent.org
 DOMAIN-SUFFIX,qbmengmei6.mom
 DOMAIN-SUFFIX,qcmod.xyz
+DOMAIN-SUFFIX,qcomgeo2.com
 DOMAIN-SUFFIX,qctconnect.com
 DOMAIN-SUFFIX,qdiehzz7.me
 DOMAIN-SUFFIX,qgadmin.qcpp1.net
@@ -18655,6 +18656,7 @@ DOMAIN-SUFFIX,qt-project.org
 DOMAIN-SUFFIX,qt.io
 DOMAIN-SUFFIX,qtrac.eu
 DOMAIN-SUFFIX,qualcomm-email.com
+DOMAIN-SUFFIX,qualcomm-inc.com
 DOMAIN-SUFFIX,qualcomm.co.id
 DOMAIN-SUFFIX,qualcomm.co.in
 DOMAIN-SUFFIX,qualcomm.co.jp
@@ -24099,6 +24101,7 @@ DOMAIN-SUFFIX,xn--hhr917d3fecva.xyz
 DOMAIN-SUFFIX,xn--hxtr4rozx.xn--czr694b
 DOMAIN-SUFFIX,xn--i2ru8q2qg.com
 DOMAIN-SUFFIX,xn--jlq480n2rg
+DOMAIN-SUFFIX,xn--kcrv3utim32hx9f6qe.com
 DOMAIN-SUFFIX,xn--kput3imi374g.xn--hxt814e
 DOMAIN-SUFFIX,xn--mts47c3w9b1qr.net
 DOMAIN-SUFFIX,xn--mtswd61ejxq.com
