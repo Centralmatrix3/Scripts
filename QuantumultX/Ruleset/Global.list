@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7299
+# 规则统计: 7298
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -5150,7 +5150,6 @@ HOST-SUFFIX,rxhj.net,Global
 HOST-SUFFIX,s-cute.com,Global
 HOST-SUFFIX,s-dragon.org,Global
 HOST-SUFFIX,s-nbcnews.com,Global
-HOST-SUFFIX,s.rmimg.com,Global
 HOST-SUFFIX,s.yimg.com,Global
 HOST-SUFFIX,s1heng.com,Global
 HOST-SUFFIX,s1s1s1.com,Global
