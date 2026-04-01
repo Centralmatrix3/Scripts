@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 108218
+# 规则统计: 108217
 
 payload:
   - '+.0.myikas.com'
@@ -18251,7 +18251,6 @@ payload:
   - '+.cnt.iceporn.com'
   - '+.cnt.iol.it'
   - '+.cnt.logoslovo.ru'
-  - '+.cnt.mail.netbk.co.jp'
   - '+.cnt.my'
   - '+.cnt.nov.ru'
   - '+.cnt.rate.ru'

@@ -1,5 +1,5 @@
 # 规则名称: AdBlock
-# 规则统计: 108218
+# 规则统计: 108217
 
 DOMAIN-SUFFIX,0.myikas.com
 DOMAIN-SUFFIX,0.net.easyjet.com
@@ -18250,7 +18250,6 @@ DOMAIN-SUFFIX,cnt.hd21.com
 DOMAIN-SUFFIX,cnt.iceporn.com
 DOMAIN-SUFFIX,cnt.iol.it
 DOMAIN-SUFFIX,cnt.logoslovo.ru
-DOMAIN-SUFFIX,cnt.mail.netbk.co.jp
 DOMAIN-SUFFIX,cnt.my
 DOMAIN-SUFFIX,cnt.nov.ru
 DOMAIN-SUFFIX,cnt.rate.ru
