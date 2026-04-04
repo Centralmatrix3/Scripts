@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7298
+# 规则统计: 7299
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -4553,6 +4553,7 @@ HOST-SUFFIX,orientaldaily.com.my,Global
 HOST-SUFFIX,orn.jp,Global
 HOST-SUFFIX,orzistic.org,Global
 HOST-SUFFIX,osfoora.com,Global
+HOST-SUFFIX,osmand.net,Global
 HOST-SUFFIX,otcbtc.com,Global
 HOST-SUFFIX,otnd.org,Global
 HOST-SUFFIX,otto.de,Global
