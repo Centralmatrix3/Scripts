@@ -1,5 +1,5 @@
 # 规则名称: Private
-# 规则统计: 129
+# 规则统计: 128
 
 DOMAIN,asusrouter.com
 DOMAIN,instant.arubanetworks.com
@@ -126,7 +126,6 @@ DOMAIN-SUFFIX,plex.direct
 DOMAIN-SUFFIX,router.ctc
 DOMAIN-SUFFIX,tendawifi.com
 DOMAIN-SUFFIX,test
-DOMAIN-SUFFIX,test.steampowered.com
 DOMAIN-SUFFIX,tplinkwifi.net
 DOMAIN-SUFFIX,ts.net
 DOMAIN-SUFFIX,zte.home
