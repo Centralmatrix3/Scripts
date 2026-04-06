@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7299
+# 规则统计: 7303
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -426,6 +426,7 @@ HOST-SUFFIX,appspot-preview.com,Global
 HOST-SUFFIX,appspot.com,Global
 HOST-SUFFIX,appsto.re,Global
 HOST-SUFFIX,aptoide.com,Global
+HOST-SUFFIX,archive-it.org,Global
 HOST-SUFFIX,archive.fo,Global
 HOST-SUFFIX,archive.is,Global
 HOST-SUFFIX,archive.li,Global
@@ -1594,6 +1595,7 @@ HOST-SUFFIX,dns-dns.com,Global
 HOST-SUFFIX,dns-stuff.com,Global
 HOST-SUFFIX,dns.cloudflare.com,Global
 HOST-SUFFIX,dns.google,Global
+HOST-SUFFIX,dns.sb,Global
 HOST-SUFFIX,dns04.com,Global
 HOST-SUFFIX,dns05.com,Global
 HOST-SUFFIX,dns1.us,Global
@@ -1613,6 +1615,7 @@ HOST-SUFFIX,docs.new,Global
 HOST-SUFFIX,doctorvoice.org,Global
 HOST-SUFFIX,documentingreality.com,Global
 HOST-SUFFIX,dogfartnetwork.com,Global
+HOST-SUFFIX,doh.sb,Global
 HOST-SUFFIX,dojin.com,Global
 HOST-SUFFIX,dok-forum.net,Global
 HOST-SUFFIX,dolc.de,Global
@@ -1632,6 +1635,7 @@ HOST-SUFFIX,doom9.org,Global
 HOST-SUFFIX,doosho.com,Global
 HOST-SUFFIX,doourbest.org,Global
 HOST-SUFFIX,dorjeshugden.com,Global
+HOST-SUFFIX,dot.sb,Global
 HOST-SUFFIX,dotgov.gov,Global
 HOST-SUFFIX,dotplane.com,Global
 HOST-SUFFIX,dotsub.com,Global

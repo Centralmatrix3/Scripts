@@ -1,5 +1,5 @@
 # 规则名称: GlobalMax
-# 规则统计: 33354
+# 规则统计: 33399
 
 DOMAIN,1password.drift.click
 DOMAIN,adobeereg.com
@@ -115,6 +115,7 @@ DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN,wetv.qq.com
 DOMAIN,widgets.stripst.com
 DOMAIN,wrds-www.wharton.upenn.edu
+DOMAIN,ws.audioscrobbler.com
 DOMAIN,www-cdn.icloud.com.akadns.net
 DOMAIN,yandex-pogoda.static-storage.net
 DOMAIN,yangzhi.app
@@ -3157,6 +3158,8 @@ DOMAIN-SUFFIX,autodeskviewer.com
 DOMAIN-SUFFIX,autodeskworkshop.com
 DOMAIN-SUFFIX,autodeskworkshop.net
 DOMAIN-SUFFIX,autodraw.com
+DOMAIN-SUFFIX,autoesporte.com
+DOMAIN-SUFFIX,autoesporte.com.br
 DOMAIN-SUFFIX,automaton-media.com
 DOMAIN-SUFFIX,automobile.fr
 DOMAIN-SUFFIX,automotive-cadcam.com
@@ -4173,6 +4176,7 @@ DOMAIN-SUFFIX,bhamcity.ac.uk
 DOMAIN-SUFFIX,bhamcityuniversity.ac.uk
 DOMAIN-SUFFIX,bhasvic.ac.uk
 DOMAIN-SUFFIX,bhent.co.kr
+DOMAIN-SUFFIX,bhfm.com.br
 DOMAIN-SUFFIX,bhggn.xyz
 DOMAIN-SUFFIX,bhpgms.ac.uk
 DOMAIN-SUFFIX,bhpms.ac.uk
@@ -6050,6 +6054,7 @@ DOMAIN-SUFFIX,carrd.co
 DOMAIN-SUFFIX,carryzhou.com
 DOMAIN-SUFFIX,carshalton.ac.uk
 DOMAIN-SUFFIX,carstagram.com
+DOMAIN-SUFFIX,cartola.com.br
 DOMAIN-SUFFIX,cartoon-sex.tv
 DOMAIN-SUFFIX,cartoon18.com
 DOMAIN-SUFFIX,cartoon3thumbs.com
@@ -6147,6 +6152,7 @@ DOMAIN-SUFFIX,cbc.ca
 DOMAIN-SUFFIX,cbcdc.ac.uk
 DOMAIN-SUFFIX,cbi.ir
 DOMAIN-SUFFIX,cbm.com.mm
+DOMAIN-SUFFIX,cbn.com.br
 DOMAIN-SUFFIX,cbpar.ac.uk
 DOMAIN-SUFFIX,cbrl.ac.uk
 DOMAIN-SUFFIX,cbs.ac.uk
@@ -6280,6 +6286,7 @@ DOMAIN-SUFFIX,cdnpure.com
 DOMAIN-SUFFIX,cdnst.net
 DOMAIN-SUFFIX,cdnuc.vip
 DOMAIN-SUFFIX,cdnvideo.ru
+DOMAIN-SUFFIX,cdnvideohub.com
 DOMAIN-SUFFIX,cdnxxx-proxy.co
 DOMAIN-SUFFIX,cdnxxx-proxy.xyz
 DOMAIN-SUFFIX,cdp1989.org
@@ -9981,6 +9988,8 @@ DOMAIN-SUFFIX,epinions.com
 DOMAIN-SUFFIX,episcopalchurch.org
 DOMAIN-SUFFIX,episodic.com
 DOMAIN-SUFFIX,epne.ac.uk
+DOMAIN-SUFFIX,epoca.com.br
+DOMAIN-SUFFIX,epocanegocios.com.br
 DOMAIN-SUFFIX,epoch.cloud
 DOMAIN-SUFFIX,epoch.org.il
 DOMAIN-SUFFIX,epochbase.com
@@ -10181,6 +10190,7 @@ DOMAIN-SUFFIX,esiss.ac.uk
 DOMAIN-SUFFIX,eskimotube.com
 DOMAIN-SUFFIX,eslite.com
 DOMAIN-SUFFIX,esm.run
+DOMAIN-SUFFIX,esm.sh
 DOMAIN-SUFFIX,esmarthealth.com
 DOMAIN-SUFFIX,esmatube.com
 DOMAIN-SUFFIX,esmtp.biz
@@ -11975,6 +11985,7 @@ DOMAIN-SUFFIX,g.dev
 DOMAIN-SUFFIX,g.kfd.me
 DOMAIN-SUFFIX,g.page
 DOMAIN-SUFFIX,g0v.social
+DOMAIN-SUFFIX,g1.com.br
 DOMAIN-SUFFIX,g1d1goob.xyz
 DOMAIN-SUFFIX,g6hentai.com
 DOMAIN-SUFFIX,gab.com
@@ -12540,7 +12551,14 @@ DOMAIN-SUFFIX,globaltm.org
 DOMAIN-SUFFIX,globalvoices.org
 DOMAIN-SUFFIX,globalvoicesonline.org
 DOMAIN-SUFFIX,globalvpn.net
+DOMAIN-SUFFIX,globo.com
+DOMAIN-SUFFIX,globo.com.br
 DOMAIN-SUFFIX,globolakes.ac.uk
+DOMAIN-SUFFIX,globoplay.com
+DOMAIN-SUFFIX,globoplay.com.br
+DOMAIN-SUFFIX,globoradio.com.br
+DOMAIN-SUFFIX,globoreporter.com.br
+DOMAIN-SUFFIX,globorural.com.br
 DOMAIN-SUFFIX,glock.com
 DOMAIN-SUFFIX,gloknos.ac.uk
 DOMAIN-SUFFIX,gloporn.com
@@ -13217,6 +13235,8 @@ DOMAIN-SUFFIX,gsa.ac.uk
 DOMAIN-SUFFIX,gscanada.info
 DOMAIN-SUFFIX,gsccdn.com
 DOMAIN-SUFFIX,gsearch.media
+DOMAIN-SUFFIX,gshow.com
+DOMAIN-SUFFIX,gshow.com.br
 DOMAIN-SUFFIX,gslink.us
 DOMAIN-SUFFIX,gsmd.ac.uk
 DOMAIN-SUFFIX,gsmlondon.ac.uk
@@ -15386,6 +15406,7 @@ DOMAIN-SUFFIX,influencersgonewild.com
 DOMAIN-SUFFIX,info-graf.fr
 DOMAIN-SUFFIX,infocert.digital
 DOMAIN-SUFFIX,infocert.it
+DOMAIN-SUFFIX,infoglobo.com.br
 DOMAIN-SUFFIX,infogov.ac.uk
 DOMAIN-SUFFIX,infolinker.com.tw
 DOMAIN-SUFFIX,infoq.jp
@@ -21815,6 +21836,8 @@ DOMAIN-SUFFIX,ogameblog.com
 DOMAIN-SUFFIX,ogaoga.org
 DOMAIN-SUFFIX,ogate.org
 DOMAIN-SUFFIX,oge.ac.uk
+DOMAIN-SUFFIX,oghost.com.br
+DOMAIN-SUFFIX,oglobo.com.br
 DOMAIN-SUFFIX,ogp.me
 DOMAIN-SUFFIX,ogsa-dai.ac.uk
 DOMAIN-SUFFIX,ohchr.org
@@ -22207,6 +22230,7 @@ DOMAIN-SUFFIX,oubs.ac.uk
 DOMAIN-SUFFIX,oudoll.com
 DOMAIN-SUFFIX,ouo.io
 DOMAIN-SUFFIX,ouplaw.com
+DOMAIN-SUFFIX,our-notes.jp
 DOMAIN-SUFFIX,ourdearamy.com
 DOMAIN-SUFFIX,ourhobby.com
 DOMAIN-SUFFIX,ourjourney.ac.uk
@@ -22740,6 +22764,8 @@ DOMAIN-SUFFIX,peep.ac.uk
 DOMAIN-SUFFIX,peepholecam.com
 DOMAIN-SUFFIX,peerj.com
 DOMAIN-SUFFIX,peerlearning.ac.uk
+DOMAIN-SUFFIX,pegn.com
+DOMAIN-SUFFIX,pegn.com.br
 DOMAIN-SUFFIX,peing.net
 DOMAIN-SUFFIX,pejyyah.com
 DOMAIN-SUFFIX,pekingduck.org
@@ -23036,6 +23062,7 @@ DOMAIN-SUFFIX,pjful-app.lol
 DOMAIN-SUFFIX,pjgirls.com
 DOMAIN-SUFFIX,pjsekai.sega.jp
 DOMAIN-SUFFIX,pk.com
+DOMAIN-SUFFIX,pkgbuild.com
 DOMAIN-SUFFIX,pki-post.ch
 DOMAIN-SUFFIX,pki-posta.ch
 DOMAIN-SUFFIX,pki-poste.ch
@@ -24221,6 +24248,7 @@ DOMAIN-SUFFIX,radio.co
 DOMAIN-SUFFIX,radio.garden
 DOMAIN-SUFFIX,radioaustralia.net.au
 DOMAIN-SUFFIX,radiofarda.com
+DOMAIN-SUFFIX,radioglobo.com.br
 DOMAIN-SUFFIX,radiohilight.net
 DOMAIN-SUFFIX,radiojar.com
 DOMAIN-SUFFIX,radioline.co
@@ -24671,6 +24699,13 @@ DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reuters.tv
 DOMAIN-SUFFIX,reutersmedia.net
 DOMAIN-SUFFIX,revenue-performance-management.com
+DOMAIN-SUFFIX,revistaepoca.com
+DOMAIN-SUFFIX,revistaepoca.com.br
+DOMAIN-SUFFIX,revistagalileu.com.br
+DOMAIN-SUFFIX,revistapegn.com
+DOMAIN-SUFFIX,revistapegn.com.br
+DOMAIN-SUFFIX,revistaquem.com.br
+DOMAIN-SUFFIX,revistavalor.com.br
 DOMAIN-SUFFIX,revit.com
 DOMAIN-SUFFIX,revitcc.com
 DOMAIN-SUFFIX,revitsucks.net
@@ -25841,6 +25876,7 @@ DOMAIN-SUFFIX,sgp.file.myqcloud.com
 DOMAIN-SUFFIX,sgp1.fun
 DOMAIN-SUFFIX,sgpe.ac.uk
 DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,sgr.com.br
 DOMAIN-SUFFIX,sgsah.ac.uk
 DOMAIN-SUFFIX,sgscol.ac.uk
 DOMAIN-SUFFIX,sgspe.de
@@ -27880,6 +27916,8 @@ DOMAIN-SUFFIX,techsmith.com
 DOMAIN-SUFFIX,techspot.com
 DOMAIN-SUFFIX,techstreet.com
 DOMAIN-SUFFIX,techtimes.com
+DOMAIN-SUFFIX,techtudo.com
+DOMAIN-SUFFIX,techtudo.com.br
 DOMAIN-SUFFIX,techviz.net
 DOMAIN-SUFFIX,techxtra.ac.uk
 DOMAIN-SUFFIX,teck.in
@@ -29499,6 +29537,8 @@ DOMAIN-SUFFIX,umis.ac.uk
 DOMAIN-SUFFIX,umist.ac.uk
 DOMAIN-SUFFIX,ums.ac.uk
 DOMAIN-SUFFIX,umslg.ac.uk
+DOMAIN-SUFFIX,umsoplaneta.com
+DOMAIN-SUFFIX,umsoplaneta.com.br
 DOMAIN-SUFFIX,umtc.ac.uk
 DOMAIN-SUFFIX,unblock-us.com
 DOMAIN-SUFFIX,unblockdmm.com
@@ -29812,6 +29852,10 @@ DOMAIN-SUFFIX,vaginapics.pro
 DOMAIN-SUFFIX,vagrantcloud.com
 DOMAIN-SUFFIX,vagrantup.com
 DOMAIN-SUFFIX,valeursactuelles.com
+DOMAIN-SUFFIX,valor.com.br
+DOMAIN-SUFFIX,valoreconomico.com.br
+DOMAIN-SUFFIX,valorinveste.com
+DOMAIN-SUFFIX,valorinveste.com.br
 DOMAIN-SUFFIX,valoryirene.com
 DOMAIN-SUFFIX,value-domain.com
 DOMAIN-SUFFIX,value-server.com
@@ -32040,6 +32084,7 @@ DOMAIN-SUFFIX,xuchao.org
 DOMAIN-SUFFIX,xuehua.us
 DOMAIN-SUFFIX,xuite.net
 DOMAIN-SUFFIX,xujan.com
+DOMAIN-SUFFIX,xuxaverso.com.br
 DOMAIN-SUFFIX,xuzhiyong.net
 DOMAIN-SUFFIX,xv-ru.com
 DOMAIN-SUFFIX,xv1.monster
