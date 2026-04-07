@@ -3,7 +3,7 @@
 #!author = githubdulong
 
 [Script] 
-京东比价 = type=http-response,pattern=^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Module/JD-Price/Scripts/JD-Price.js,requires-body=true,timeout=120
+京东比价 = type=http-response,pattern=^https:\/\/in\.m\.jd\.com\/product\/graphext\/\d+\.html,script-path=https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/JD-Price/JD-Price.js,requires-body=1,timeout=120
 
 [MITM]
 hostname = %APPEND% in.m.jd.com
