@@ -4,7 +4,7 @@ author = KOP-XIAO
 update = 2026.02.27 13:30
 ----------------------------------------------------------
 [general]
-resource_parser_url = https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Resource-Parser/Resource-Parser.js
+resource_parser_url = https://raw.githubusercontent.com/Centralmatrix3/Scripts/master/Scripts/Parser/Parser.js
 ----------------------------------------------------------
 */
 

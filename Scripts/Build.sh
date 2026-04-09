@@ -3,6 +3,7 @@
 set -euo pipefail
 
 repository="$(basename "$GITHUB_REPOSITORY")"
+
 download() {
     local output_file="$1"
     shift
@@ -14,6 +15,7 @@ download() {
         echo >> "$output_file"
     done
 }
+
 copy() {
     local output_file="$1"
     shift
