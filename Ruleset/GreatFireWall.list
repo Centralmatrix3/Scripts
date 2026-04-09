@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4211
+# 规则统计: 4210
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,0rz.tw
@@ -2315,7 +2315,6 @@ DOMAIN-SUFFIX,mediafreakcity.com
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,meee.com.tw
-DOMAIN-SUFFIX,meetup.com
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.nz
@@ -2383,6 +2382,7 @@ DOMAIN-SUFFIX,mirrorbooks.com
 DOMAIN-SUFFIX,mirrormedia.mg
 DOMAIN-SUFFIX,missav.com
 DOMAIN-SUFFIX,missav.ws
+DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,mitbbs.com
 DOMAIN-SUFFIX,miuipolska.pl
 DOMAIN-SUFFIX,mixero.com
@@ -2889,7 +2889,6 @@ DOMAIN-SUFFIX,pursuestar.com
 DOMAIN-SUFFIX,putty.org
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,python.com.tw
-DOMAIN-SUFFIX,pytorch.org
 DOMAIN-SUFFIX,qbittorrent.org
 DOMAIN-SUFFIX,qgirl.com.tw
 DOMAIN-SUFFIX,qi-gong.me

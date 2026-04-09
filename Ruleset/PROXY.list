@@ -1,5 +1,5 @@
 # 规则名称: PROXY
-# 规则统计: 25460
+# 规则统计: 25458
 
 DOMAIN,1password.drift.click
 DOMAIN,3dns-1.adobe.com
@@ -14839,7 +14839,6 @@ DOMAIN-SUFFIX,meetandfuck.games
 DOMAIN-SUFFIX,meetandfuckgames.com
 DOMAIN-SUFFIX,meetfasttrack.com
 DOMAIN-SUFFIX,meetsmartbook.com
-DOMAIN-SUFFIX,meetup.com
 DOMAIN-SUFFIX,meetyourdevices.com
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.io
@@ -18752,7 +18751,6 @@ DOMAIN-SUFFIX,pyrobot.org
 DOMAIN-SUFFIX,python.com.tw
 DOMAIN-SUFFIX,python.org
 DOMAIN-SUFFIX,pythonhosted.org
-DOMAIN-SUFFIX,pytorch.org
 DOMAIN-SUFFIX,pzforever.skin
 DOMAIN-SUFFIX,pzforever01.homes
 DOMAIN-SUFFIX,pzhanfor.today

@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7304
+# 规则统计: 7305
 
 payload:
   - DOMAIN,cloud.oracle.com
@@ -4010,6 +4010,7 @@ payload:
   - DOMAIN-SUFFIX,missav.com
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,mist.vip
+  - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,mit.edu
   - DOMAIN-SUFFIX,mitao.com.tw
   - DOMAIN-SUFFIX,mitbbs.com

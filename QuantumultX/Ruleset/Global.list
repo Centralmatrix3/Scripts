@@ -1,5 +1,5 @@
 # 规则名称: Global
-# 规则统计: 7304
+# 规则统计: 7305
 
 HOST,cloud.oracle.com,Global
 HOST,steambroadcast.akamaized.net,Global
@@ -4009,6 +4009,7 @@ HOST-SUFFIX,mirrormedia.mg,Global
 HOST-SUFFIX,missav.com,Global
 HOST-SUFFIX,missav.ws,Global
 HOST-SUFFIX,mist.vip,Global
+HOST-SUFFIX,mistral.ai,Global
 HOST-SUFFIX,mit.edu,Global
 HOST-SUFFIX,mitao.com.tw,Global
 HOST-SUFFIX,mitbbs.com,Global
