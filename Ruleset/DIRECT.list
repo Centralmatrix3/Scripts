@@ -1,5 +1,5 @@
 # 规则名称: DIRECT
-# 规则统计: 118590
+# 规则统计: 118599
 
 DOMAIN,265.com
 DOMAIN,2mdn-cn.net
@@ -13714,6 +13714,7 @@ DOMAIN-SUFFIX,anyskygame.com
 DOMAIN-SUFFIX,anysql.net
 DOMAIN-SUFFIX,anystandards.com
 DOMAIN-SUFFIX,anytesting.com
+DOMAIN-SUFFIX,anytocopy.com
 DOMAIN-SUFFIX,anyun100.com
 DOMAIN-SUFFIX,anyunjianzhan.com
 DOMAIN-SUFFIX,anyv.net
@@ -29624,6 +29625,7 @@ DOMAIN-SUFFIX,daoapp.me
 DOMAIN-SUFFIX,daoboime.com
 DOMAIN-SUFFIX,daochen.com
 DOMAIN-SUFFIX,daocloud.io
+DOMAIN-SUFFIX,daocloud.vip
 DOMAIN-SUFFIX,daocloudapp.com
 DOMAIN-SUFFIX,daodao.com
 DOMAIN-SUFFIX,daodaojizhang.com
@@ -39139,6 +39141,7 @@ DOMAIN-SUFFIX,gamemili.com
 DOMAIN-SUFFIX,gamenow.club
 DOMAIN-SUFFIX,gameol.com
 DOMAIN-SUFFIX,gamepingce.com
+DOMAIN-SUFFIX,gamepp.com
 DOMAIN-SUFFIX,gamer520.net
 DOMAIN-SUFFIX,gamerboom.com
 DOMAIN-SUFFIX,gameres.com
@@ -48069,6 +48072,7 @@ DOMAIN-SUFFIX,hezibook.com
 DOMAIN-SUFFIX,hezijia.com
 DOMAIN-SUFFIX,hezimi.com
 DOMAIN-SUFFIX,hezongyy.com
+DOMAIN-SUFFIX,hezuvip.com
 DOMAIN-SUFFIX,hf-alu.com
 DOMAIN-SUFFIX,hf-aw.com
 DOMAIN-SUFFIX,hf-iflysse.com
@@ -75766,6 +75770,7 @@ DOMAIN-SUFFIX,os7blue.com
 DOMAIN-SUFFIX,osaaa.com
 DOMAIN-SUFFIX,osakacopyshop.com
 DOMAIN-SUFFIX,osase.net
+DOMAIN-SUFFIX,osbdf.com
 DOMAIN-SUFFIX,osbean.com
 DOMAIN-SUFFIX,osbkj.com
 DOMAIN-SUFFIX,osbzr.com
@@ -84064,6 +84069,7 @@ DOMAIN-SUFFIX,scqstv.com
 DOMAIN-SUFFIX,scqy100.com
 DOMAIN-SUFFIX,scraij.com
 DOMAIN-SUFFIX,scrape.center
+DOMAIN-SUFFIX,scratch5.com
 DOMAIN-SUFFIX,scratchmirror.com
 DOMAIN-SUFFIX,scratchmirror.net
 DOMAIN-SUFFIX,scrc168.com
@@ -89320,6 +89326,7 @@ DOMAIN-SUFFIX,soukuyou.com
 DOMAIN-SUFFIX,soulapp.me
 DOMAIN-SUFFIX,soulgame.mobi
 DOMAIN-SUFFIX,soulsky.net
+DOMAIN-SUFFIX,soulteary.com
 DOMAIN-SUFFIX,soulu365.com
 DOMAIN-SUFFIX,souluo.net
 DOMAIN-SUFFIX,souluojie.com
@@ -94514,6 +94521,7 @@ DOMAIN-SUFFIX,tileywy.com
 DOMAIN-SUFFIX,tillcn.com
 DOMAIN-SUFFIX,tillglance.com
 DOMAIN-SUFFIX,timanetworks.com
+DOMAIN-SUFFIX,timbrd.com
 DOMAIN-SUFFIX,time-weekly.com
 DOMAIN-SUFFIX,time-year.com
 DOMAIN-SUFFIX,timecoo.com
@@ -101623,6 +101631,7 @@ DOMAIN-SUFFIX,wildcardx.net
 DOMAIN-SUFFIX,wilddog.com
 DOMAIN-SUFFIX,wilddream.net
 DOMAIN-SUFFIX,wildfire.work
+DOMAIN-SUFFIX,wildfirechat.net
 DOMAIN-SUFFIX,wildgun.net
 DOMAIN-SUFFIX,wildhorde.com
 DOMAIN-SUFFIX,wildto.com
