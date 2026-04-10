@@ -289,6 +289,7 @@ def process_source(mode):
         print(f"Execute Repository: {repository}")
         print("Please Execute in Scripts or Matrix-io Repository.")
         sys.exit(1)
+
 """
 def main():
     parser = argparse.ArgumentParser(description="Rule Content")

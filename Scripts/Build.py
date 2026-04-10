@@ -6,7 +6,7 @@ import re
 import json
 import ipaddress
 import dataclasses
-from lib import source # rulesource
+from library import source # source
 from pathlib import Path
 from collections import defaultdict
 
@@ -52,7 +52,6 @@ STASH_RULE_IPCIDR = {"CNCIDR", "CNCIDR4", "CNCIDR6"}
 @dataclasses.dataclass
 class Rule:
     type: str; value: str; param: str = ""
-
 @dataclasses.dataclass
 class RuleSet:
     name: str; rules: list = dataclasses.field(default_factory=list)
@@ -184,8 +183,7 @@ def parse_arguments():
     parser.add_argument("--unknown-rule", action=argparse.BooleanOptionalAction)
     return parser.parse_args()
 """
-
-def parse_arguments(): # rulesource
+def parse_arguments():
     parser = argparse.ArgumentParser(description="Rule Convert")
     parser.add_argument("platform", nargs="?", choices=["Egern", "QuantumultX", "Singbox", "Stash", "Surge"])
     parser.add_argument("file_path", nargs="?", type=Path)
@@ -248,7 +246,7 @@ if __name__ == "__main__":
     main()
 """
 
-def run_content_mode(args): # rulesource
+def run_content_mode(args):
     if any([
         args.platform, args.file_path,
         args.type, args.param,
