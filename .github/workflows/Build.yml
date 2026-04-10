@@ -10,14 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SINGBOX_VERSION: "1.12.22"
+      SINGBOX_VERSION: "1.13.5"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.2
 
       - name: Process Rule
         run: |
-          bash Scripts/Build.sh
+          python Scripts/Build.py --copy
 
       - name: Convert Rule
         run: |
@@ -32,7 +32,7 @@ jobs:
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
             git config --local user.name "${{ github.actor }}"
             git add -A
-            git commit -m "$(TZ='Asia/Shanghai' date +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "$(date +'%Y-%m-%d %H:%M:%S')"
             git push origin master
           else
             echo "No Repository Update Detected."
