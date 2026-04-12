@@ -1,5 +1,5 @@
 # 规则名称: GreatFireWall
-# 规则统计: 4206
+# 规则统计: 4207
 
 DOMAIN-SUFFIX,000webhost.com
 DOMAIN-SUFFIX,0rz.tw
@@ -3047,6 +3047,7 @@ DOMAIN-SUFFIX,savetibet.org
 DOMAIN-SUFFIX,savetibetstore.org
 DOMAIN-SUFFIX,saveuighur.org
 DOMAIN-SUFFIX,sbme.me
+DOMAIN-SUFFIX,sbti.unun.dev
 DOMAIN-SUFFIX,scache.vzw.com
 DOMAIN-SUFFIX,scache1.vzw.com
 DOMAIN-SUFFIX,scache2.vzw.com
