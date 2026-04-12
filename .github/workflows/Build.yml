@@ -10,23 +10,33 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: "Asia/Shanghai"
-      SINGBOX_VERSION: "1.13.5"
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v6.0.2
 
-      - name: Process Rule
-        run: |
-          python Scripts/Build.py --copy
+      - name: Prepare Ruleset
+        run: python Scripts/Build.py --copy
 
-      - name: Convert Rule
+      - name: Convert Ruleset
         run: |
-          python Scripts/Build.py Surge Ruleset --type --order
-          python Scripts/Build.py QuantumultX QuantumultX/Ruleset --order
-          python Scripts/Build.py Stash Stash/Ruleset --order
-          python Scripts/Build.py Surge Surge/Ruleset --order
+          for dir in Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py Surge "$dir" --type --order
+          done
+          for dir in QuantumultX/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py QuantumultX "$dir" --order
+          done
+          for dir in Stash/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py Stash "$dir" --order
+          done
+          for dir in Surge/Ruleset; do
+            [ ! -d "$dir" ] && echo "$dir not found." && continue
+            python Scripts/Build.py Surge "$dir" --order
+          done
 
-      - name: Push Changes
+      - name: Publish Changes
         run: |
           if [[ -n $(git status -s) ]]; then
             git config --local user.email "${{ github.actor }}@users.noreply.github.com"
